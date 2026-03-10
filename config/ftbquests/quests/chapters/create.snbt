@@ -9,7 +9,7 @@
 	images: [{
 		dev: true
 		height: 1.0d
-		hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+		hover: ["ftbquests.chapter.create.image.hovertext1"]
 		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 		rotation: 0.0d
 		width: 1.0d
@@ -23,9 +23,9 @@
 		{
 			dependencies: ["335ECE39B21B3BF0"]
 			description: [
-				"Andesite is a common underground stone that blends well with regular stone, you’ll need plenty for machinery."
+				"{ftbquests.chapter.create.quest414255074772218417.description1}"
 				""
-				"Also in order to make a andesite casing, Right click to a &nstripped&r log with andesite alloy on your hand."
+				"{ftbquests.chapter.create.quest414255074772218417.description2}"
 			]
 			icon: "create:andesite_casing"
 			id: "05BFBACBB2337231"
@@ -44,14 +44,14 @@
 			]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest414255074772218417.subtitle}"
 			tasks: [{
 				count: 10L
 				id: "147C1BF492E5BAFD"
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			title: "Andesite, Starting Of Contraptions!"
+			title: "{ftbquests.chapter.create.quest414255074772218417.title}"
 			x: -3.0d
 			y: -2.0d
 		}
@@ -64,18 +64,19 @@
 				xp: 100
 			}]
 			shape: "pentagon"
-			subtitle: "Moving Onto Advanced Create!"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.create.quest7472545627501212650.subtitle}"
 			tasks: [{
 				id: "5E78EF843E840FEB"
 				item: "create:brass_casing"
 				type: "item"
 			}]
 			x: 9.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1742597D48E37800"]
-			description: ["Nearly every fluid related thing is with this copper casing."]
+			description: ["{ftbquests.chapter.create.quest7381004138842872588.description1}"]
 			id: "666E9828756ADB0C"
 			rewards: [
 				{
@@ -92,7 +93,7 @@
 			]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest7381004138842872588.subtitle}"
 			tasks: [{
 				id: "1086C0B67F6D716F"
 				item: "create:copper_casing"
@@ -126,7 +127,7 @@
 			]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "In order to make a train you're going to need lot."
+			subtitle: "{ftbquests.chapter.create.quest7434424494645263237.subtitle}"
 			tasks: [
 				{
 					id: "232FE43D6046A984"
@@ -144,7 +145,7 @@
 		}
 		{
 			dependencies: ["3DE38636656DD1F6"]
-			description: ["Lets you transfer a redstone signal wirelessly within a range."]
+			description: ["{ftbquests.chapter.create.quest9177822812458357751.description1}"]
 			id: "7F5E2D38C40E93F7"
 			rewards: [
 				{
@@ -159,7 +160,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest9177822812458357751.subtitle}"
 			tasks: [{
 				id: "2B3E6D1D62FDC013"
 				item: "create:redstone_link"
@@ -170,7 +171,7 @@
 		}
 		{
 			dependencies: ["3DE38636656DD1F6"]
-			description: ["A redstone component that outputs a signal when in contact with another redstone contact. Perticularly useful for building contraptions."]
+			description: ["{ftbquests.chapter.create.quest218108617734400017.description1}"]
 			id: "0306E0A1DA82A811"
 			rewards: [
 				{
@@ -185,7 +186,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest218108617734400017.subtitle}"
 			tasks: [{
 				id: "3B876444ABFE78A7"
 				item: "create:redstone_contact"
@@ -196,7 +197,7 @@
 		}
 		{
 			dependencies: ["3D11842DDDE1D396"]
-			description: ["A water-powered kinetic generator that outputs the same SU and RPM as long as one adjacent water block is flowing."]
+			description: ["{ftbquests.chapter.create.quest7215174339569324513.description1}"]
 			id: "642172D58E8B11E1"
 			rewards: [
 				{
@@ -211,18 +212,18 @@
 					type: "item"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest7215174339569324513.subtitle}"
 			tasks: [{
 				id: "09BD5EDC2EB2C9A8"
 				item: "create:water_wheel"
 				type: "item"
 			}]
 			x: -4.0d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["642172D58E8B11E1"]
-			description: ["Produces double the Stress Units but at half the speed."]
+			description: ["{ftbquests.chapter.create.quest7551426026662136001.description1}"]
 			id: "68CC0DF64AD608C1"
 			rewards: [
 				{
@@ -237,18 +238,18 @@
 					type: "item"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest7551426026662136001.subtitle}"
 			tasks: [{
 				id: "3F56128992A66C90"
 				item: "create:large_water_wheel"
 				type: "item"
 			}]
 			x: -4.0d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["0C8D19B106618A91"]
-			description: ["Shows the current stress and stress capacity of your kinetic network."]
+			description: ["{ftbquests.chapter.create.quest6976202962424648724.description1}"]
 			id: "60D073A200595414"
 			rewards: [
 				{
@@ -263,7 +264,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest6976202962424648724.subtitle}"
 			tasks: [{
 				id: "24A191823C524B7F"
 				item: "create:stressometer"
@@ -288,7 +289,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Displays the rotational speed of a kinetic network."
+			subtitle: "{ftbquests.chapter.create.quest819638907695788945.subtitle}"
 			tasks: [{
 				id: "3A89E6C63152D847"
 				item: "create:speedometer"
@@ -319,8 +320,8 @@
 					type: "item"
 				}
 			]
-			shape: "goldtier"
-			subtitle: "It's really confusing but the strongest!"
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.create.quest3225769653312605069.subtitle}"
 			tasks: [
 				{
 					id: "65EFBB616B81C185"
@@ -334,12 +335,12 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -7.0d
+			x: -3.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["3D11842DDDE1D396"]
-			description: ["A windmill uses wind to spin and generate Stress Units (SU) for your machines."]
+			description: ["{ftbquests.chapter.create.quest3558818484235947399.description1}"]
 			icon: "create:white_sail"
 			id: "3163768E54FA4D87"
 			rewards: [
@@ -355,7 +356,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest3558818484235947399.subtitle}"
 			tasks: [
 				{
 					id: "2732DDF036DAE5A8"
@@ -369,13 +370,13 @@
 					type: "item"
 				}
 			]
-			title: "Windmill"
+			title: "{ftbquests.chapter.create.quest3558818484235947399.title}"
 			x: -3.0d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["3D11842DDDE1D396"]
-			description: ["The easiest way to generate kinetic energy use yourself as the power source. Time to flex those arms!"]
+			description: ["{ftbquests.chapter.create.quest668195780500981431.description1}"]
 			id: "0945E885A92D06B7"
 			rewards: [
 				{
@@ -389,7 +390,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest668195780500981431.subtitle}"
 			tasks: [{
 				id: "25B67DFF4D7D133C"
 				item: "create:hand_crank"
@@ -401,9 +402,9 @@
 		{
 			dependencies: ["798CADF6B8930572"]
 			description: [
-				"In order to get brass you're going to need to heat a mechanical mixer that mixes copper and zinc!"
+				"{ftbquests.chapter.create.quest3210777252450259320.description1}"
 				""
-				"&8The Empty Blaze burner can be filled by right-clicking it on either a blaze spawner or a blaze."
+				"{ftbquests.chapter.create.quest3210777252450259320.description2}"
 			]
 			icon: "create:blaze_burner"
 			id: "2C8EF8E65133D178"
@@ -414,7 +415,7 @@
 			}]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest3210777252450259320.subtitle}"
 			tasks: [
 				{
 					id: "56A3A3F749002218"
@@ -427,16 +428,16 @@
 					type: "item"
 				}
 			]
-			title: "Blaze Burner"
+			title: "{ftbquests.chapter.create.quest3210777252450259320.title}"
 			x: 9.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["2C3CD6663D38750A"]
 			description: [
-				"A machine that can autocraft shapeless recipes aswell as mix things like potions."
+				"{ftbquests.chapter.create.quest8758566650498975090.description1}"
 				""
-				"It needs a little high RPM speed."
+				"{ftbquests.chapter.create.quest8758566650498975090.description2}"
 			]
 			icon: "create:mechanical_mixer"
 			id: "798CADF6B8930572"
@@ -447,7 +448,7 @@
 			}]
 			shape: "pentagon"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest8758566650498975090.subtitle}"
 			tasks: [
 				{
 					id: "07FF2BB8A0BD2648"
@@ -471,14 +472,14 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Can be used to place or extract large amounts of liquid."
+			subtitle: "{ftbquests.chapter.create.quest7846529907080231069.subtitle}"
 			tasks: [{
 				id: "607208C6F1478733"
 				item: "create:hose_pulley"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 8.5d
+			x: -5.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["666E9828756ADB0C"]
@@ -488,13 +489,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Allows for the extraction of liquids from items."
+			subtitle: "{ftbquests.chapter.create.quest2483057840968321037.subtitle}"
 			tasks: [{
 				id: "08934572DD5E9F61"
 				item: "create:item_drain"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -10.0d
 			y: 4.5d
 		}
 		{
@@ -505,13 +506,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Used for filling items with fluids and crafting certain items using fluids."
+			subtitle: "{ftbquests.chapter.create.quest6774733411508140133.subtitle}"
 			tasks: [{
 				id: "2B4848DB23F4997E"
 				item: "create:spout"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -10.0d
 			y: 3.5d
 		}
 		{
@@ -522,18 +523,18 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Allows contraptions to transfer fluids to blocks."
+			subtitle: "{ftbquests.chapter.create.quest8332366907945730882.subtitle}"
 			tasks: [{
 				id: "7B83A027D9578FA7"
 				item: "create:portable_fluid_interface"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 3.5d
+			x: -5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["05BFBACBB2337231"]
-			description: ["Copycat blocks let you turn almost any material into steps, panels, and other shapes normally impossible to craft."]
+			description: ["{ftbquests.chapter.create.quest1167296591318283814.description1}"]
 			id: "10331210B10CF626"
 			rewards: [
 				{
@@ -548,7 +549,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest1167296591318283814.subtitle}"
 			tasks: [{
 				id: "3198FC817DAC3708"
 				item: "create:mechanical_drill"
@@ -559,7 +560,7 @@
 		}
 		{
 			dependencies: ["05BFBACBB2337231"]
-			description: ["Auto-cuts trees, plants and much more. Excellent for automating farming!"]
+			description: ["{ftbquests.chapter.create.quest1540011777284852319.description1}"]
 			id: "155F388D56FB4A5F"
 			rewards: [
 				{
@@ -574,13 +575,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest1540011777284852319.subtitle}"
 			tasks: [{
 				id: "7E64DBFEDFEAFFF1"
 				item: "create:mechanical_saw"
 				type: "item"
 			}]
-			title: "Non-Portable Chainsaw"
+			title: "{ftbquests.chapter.create.quest1540011777284852319.title}"
 			x: -2.0d
 			y: 1.5d
 		}
@@ -600,7 +601,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Blocks that allow contraptions to harvest crops."
+			subtitle: "{ftbquests.chapter.create.quest4292590584885147513.subtitle}"
 			tasks: [{
 				id: "20A426E6FB08AD11"
 				item: "create:mechanical_harvester"
@@ -631,7 +632,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Blocks that allow contraptions to create farmland or launch entities."
+			subtitle: "{ftbquests.chapter.create.quest8019513585319359496.subtitle}"
 			tasks: [{
 				id: "170232754395A74B"
 				item: "create:mechanical_plough"
@@ -656,7 +657,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Lets you clear and pave while riding a train."
+			subtitle: "{ftbquests.chapter.create.quest2968319411632776620.subtitle}"
 			tasks: [{
 				id: "665B1AD5FBED88EC"
 				item: "create:mechanical_roller"
@@ -667,7 +668,7 @@
 		}
 		{
 			dependencies: ["67CE399D0A9C0F57"]
-			description: ["Essentially the an upgrade to the millstone, provides some different recipes so it might be worth keeping both around."]
+			description: ["{ftbquests.chapter.create.quest8907327861380188215.description1}"]
 			id: "7B9D2F7F33818837"
 			rewards: [
 				{
@@ -683,21 +684,21 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest8907327861380188215.subtitle}"
 			tasks: [{
 				id: "611BC5F4DE28D4B1"
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
 			x: 11.0d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["67B3D0A82F1BB3EA"]
 			description: [
-				"Some recipes in create are larger than our small crafting table's grid.."
+				"{ftbquests.chapter.create.quest7479979377759620951.description1}"
 				""
-				"That's why mechanical crafter exists!"
+				"{ftbquests.chapter.create.quest7479979377759620951.description2}"
 			]
 			id: "67CE399D0A9C0F57"
 			rewards: [
@@ -715,18 +716,18 @@
 			]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest7479979377759620951.subtitle}"
 			tasks: [{
 				id: "47627BC50C096EE5"
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
 			x: 9.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4206216A5F414642"]
-			description: ["An advanced item distributor that moves items to specific reachable points.It won’t work if the arm can’t reach and requires SUs to operate."]
+			description: ["{ftbquests.chapter.create.quest152612794269156916.description1}"]
 			id: "021E30871E97C634"
 			rewards: [
 				{
@@ -741,15 +742,14 @@
 					type: "random"
 				}
 			]
-			shape: "goldtier"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest152612794269156916.subtitle}"
 			tasks: [{
 				id: "6846ED041DD31AF2"
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
-			x: -19.5d
-			y: -5.0d
+			x: -20.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["408D9361AF8AA499"]
@@ -759,7 +759,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "An item used to craft more advanced mechanical items."
+			subtitle: "{ftbquests.chapter.create.quest3319391783844458998.subtitle}"
 			tasks: [{
 				id: "50E4571A0FEE8DD2"
 				item: "create:precision_mechanism"
@@ -785,7 +785,7 @@
 				}
 			]
 			shape: "goldtier"
-			subtitle: "Lets you fine-tune RPM, adjusting how fast or slow it rotates."
+			subtitle: "{ftbquests.chapter.create.quest8108859828958295838.subtitle}"
 			tasks: [{
 				id: "742DE9F13B641CCF"
 				item: "create:rotation_speed_controller"
@@ -810,14 +810,14 @@
 					type: "random"
 				}
 			]
-			subtitle: "Allows you to control the train."
+			subtitle: "{ftbquests.chapter.create.quest5657440836703449706.subtitle}"
 			tasks: [{
 				id: "590ADCA983BAC485"
 				item: "create:controls"
 				type: "item"
 			}]
 			x: 8.5d
-			y: -10.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["672C61B048CB3B85"]
@@ -835,14 +835,14 @@
 					type: "random"
 				}
 			]
-			subtitle: "Ponder"
+			subtitle: "{ftbquests.chapter.create.quest8879149911187616125.subtitle}"
 			tasks: [{
 				id: "40BB8DC4CB805C3B"
 				item: "create:track_observer"
 				type: "item"
 			}]
 			x: 7.5d
-			y: -10.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["672C61B048CB3B85"]
@@ -860,7 +860,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Used to control the flow of trains across tracks and intersections of tracks."
+			subtitle: "{ftbquests.chapter.create.quest9173088116582163830.subtitle}"
 			tasks: [{
 				id: "3DFE3FCEDDB8DAB1"
 				item: "create:track_signal"
@@ -885,14 +885,14 @@
 					type: "random"
 				}
 			]
-			subtitle: "The block that deals with train assembly and dissasembly."
+			subtitle: "{ftbquests.chapter.create.quest88088384018126625.subtitle}"
 			tasks: [{
 				id: "0997709EA341B377"
 				item: "create:track_station"
 				type: "item"
 			}]
 			x: 10.5d
-			y: -10.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["672C61B048CB3B85"]
@@ -910,7 +910,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "So busy so busy.."
+			subtitle: "{ftbquests.chapter.create.quest449594517794084796.subtitle}"
 			tasks: [{
 				id: "6FCDB526898B9687"
 				item: "create:schedule"
@@ -935,20 +935,20 @@
 					type: "random"
 				}
 			]
-			subtitle: "The thing your train goes on."
+			subtitle: "{ftbquests.chapter.create.quest5252839201436558914.subtitle}"
 			tasks: [{
 				id: "48A879AA84014B3A"
 				item: "create:track"
-				title: "Any Train Track"
+				title: "{ftbquests.chapter.create.quest5252839201436558914.task.5235568340084280122.title}"
 				type: "item"
 			}]
-			title: "Train Tracks"
+			title: "{ftbquests.chapter.create.quest5252839201436558914.title}"
 			x: 12.5d
 			y: -10.0d
 		}
 		{
 			dependencies: ["67CE399D0A9C0F57"]
-			description: ["Potato Cannons are a classic weapon to have, just remember to have suitable ammo in your inventory or this thing is useless."]
+			description: ["{ftbquests.chapter.create.quest3245737440490457309.description1}"]
 			id: "2D0B2D01669E88DD"
 			rewards: [
 				{
@@ -964,7 +964,7 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest3245737440490457309.subtitle}"
 			tasks: [{
 				id: "619FE344BCBDAB36"
 				item: {
@@ -977,11 +977,11 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["67CE399D0A9C0F57"]
-			description: ["Lets you place down a mirror that assists you in building symmetrical things."]
+			description: ["{ftbquests.chapter.create.quest7030106737419796812.description1}"]
 			id: "618FF4D4A0FCC14C"
 			rewards: [
 				{
@@ -997,18 +997,18 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest7030106737419796812.subtitle}"
 			tasks: [{
 				id: "56F361A8A8DFF6FA"
 				item: "create:wand_of_symmetry"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 2.0d
+			x: 10.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["05BFBACBB2337231"]
-			description: ["Grinding it all down to dust. Like wheat to bread."]
+			description: ["{ftbquests.chapter.create.quest4613888758506870110.description1}"]
 			id: "4007D36163F8555E"
 			rewards: [
 				{
@@ -1023,7 +1023,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest4613888758506870110.subtitle}"
 			tasks: [{
 				id: "67576FE45FFD6AAD"
 				item: "create:millstone"
@@ -1042,7 +1042,7 @@
 			}]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "A versatile machine that can pull and push entities, as well as wash, haunt, blast, and smoke items."
+			subtitle: "{ftbquests.chapter.create.quest1808264760329368348.subtitle}"
 			tasks: [{
 				id: "7147221C3EA3496C"
 				item: "create:encased_fan"
@@ -1059,7 +1059,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Stores pressurized air."
+			subtitle: "{ftbquests.chapter.create.quest4061144467409865339.subtitle}"
 			tasks: [{
 				id: "68D17460D2020F20"
 				item: {
@@ -1071,7 +1071,7 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
+			x: -11.0d
 			y: 0.5d
 		}
 		{
@@ -1082,7 +1082,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Upgraded version of a Copper Backtank"
+			subtitle: "{ftbquests.chapter.create.quest2440193416053352093.subtitle}"
 			tasks: [{
 				id: "7832A4786CFEC81A"
 				item: {
@@ -1094,7 +1094,7 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
+			x: -11.0d
 			y: 1.5d
 		}
 		{
@@ -1105,7 +1105,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Breathe underwater"
+			subtitle: "{ftbquests.chapter.create.quest4861552446425623693.subtitle}"
 			tasks: [{
 				id: "17228D5A74B1A33E"
 				item: {
@@ -1128,7 +1128,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Allows walking on water floor easily"
+			subtitle: "{ftbquests.chapter.create.quest9125668166764051489.subtitle}"
 			tasks: [{
 				id: "5242A70758AE33CD"
 				item: {
@@ -1151,7 +1151,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "An upgraded version of Copper Diving Helmet."
+			subtitle: "{ftbquests.chapter.create.quest3076099741044901740.subtitle}"
 			tasks: [{
 				id: "1AF3B77EDDF1673E"
 				item: {
@@ -1174,7 +1174,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "An upgraded version of the Copper Diving Boots."
+			subtitle: "{ftbquests.chapter.create.quest3540709985847598884.subtitle}"
 			tasks: [{
 				id: "78E8394EB1AF6284"
 				item: {
@@ -1191,7 +1191,7 @@
 		}
 		{
 			dependencies: ["3DE38636656DD1F6"]
-			description: ["A repeater that sends a pulse after a configurable amount of time."]
+			description: ["{ftbquests.chapter.create.quest729978154186985235.description1}"]
 			id: "0A2167437E1C4F13"
 			rewards: [
 				{
@@ -1206,7 +1206,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest729978154186985235.subtitle}"
 			tasks: [{
 				id: "6D315695BEDF175D"
 				item: "create:pulse_repeater"
@@ -1217,7 +1217,7 @@
 		}
 		{
 			dependencies: ["3DE38636656DD1F6"]
-			description: ["A redstone component that extends a pulse to a configurable amount."]
+			description: ["{ftbquests.chapter.create.quest6691695168652213627.description1}"]
 			id: "5CDDAD4D40B67D7B"
 			rewards: [
 				{
@@ -1232,7 +1232,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest6691695168652213627.subtitle}"
 			tasks: [{
 				id: "4687120095DF4BAD"
 				item: "create:pulse_extender"
@@ -1243,7 +1243,7 @@
 		}
 		{
 			dependencies: ["0C8D19B106618A91"]
-			description: ["Lets you set up a sequence of rotations that trigger when the block receives a redstone signal."]
+			description: ["{ftbquests.chapter.create.quest6202016087102535466.description1}"]
 			id: "5611FCC58301372A"
 			rewards: [
 				{
@@ -1259,7 +1259,7 @@
 				}
 			]
 			shape: "goldtier"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest6202016087102535466.subtitle}"
 			tasks: [{
 				id: "1C0BF64A4DDB1C74"
 				item: "create:sequenced_gearshift"
@@ -1270,7 +1270,7 @@
 		}
 		{
 			dependencies: ["3DE38636656DD1F6"]
-			description: ["A block that can monitor the fill levels of inventories and tanks."]
+			description: ["{ftbquests.chapter.create.quest5621903091256203760.description1}"]
 			id: "4E0503134BFF19F0"
 			rewards: [
 				{
@@ -1286,7 +1286,7 @@
 				}
 			]
 			shape: "goldtier"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest5621903091256203760.subtitle}"
 			tasks: [{
 				id: "48562A69B4CD0DF9"
 				item: "create:stockpile_switch"
@@ -1297,7 +1297,7 @@
 		}
 		{
 			dependencies: ["3DE38636656DD1F6"]
-			description: ["A block that can look for specific items in the world or in inventories."]
+			description: ["{ftbquests.chapter.create.quest6704037273755297049.description1}"]
 			id: "5D0986618729A519"
 			rewards: [
 				{
@@ -1313,7 +1313,7 @@
 				}
 			]
 			shape: "goldtier"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest6704037273755297049.subtitle}"
 			tasks: [{
 				id: "233CB45D43CF5A83"
 				item: "create:content_observer"
@@ -1324,7 +1324,7 @@
 		}
 		{
 			dependencies: ["3DE38636656DD1F6"]
-			description: ["A redstone component that toggles its state with every redstone pulse."]
+			description: ["{ftbquests.chapter.create.quest6060024344220142550.description1}"]
 			id: "541988089F760BD6"
 			rewards: [
 				{
@@ -1339,7 +1339,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest6060024344220142550.subtitle}"
 			tasks: [{
 				id: "472CE7CD4B9E48CC"
 				item: "create:powered_toggle_latch"
@@ -1350,7 +1350,7 @@
 		}
 		{
 			dependencies: ["3DE38636656DD1F6"]
-			description: ["A redstone component that toggles on when recieving a redstone signal on one side and off when recieviing a signal on anoter side."]
+			description: ["{ftbquests.chapter.create.quest460842848417926646.description1}"]
 			id: "06653E21053ACDF6"
 			rewards: [
 				{
@@ -1365,7 +1365,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest460842848417926646.subtitle}"
 			tasks: [{
 				id: "724B607209AD7235"
 				item: "create:powered_latch"
@@ -1376,7 +1376,7 @@
 		}
 		{
 			dependencies: ["6AFD022E4050ECB5"]
-			description: ["Basically a sign.. that can update the text though."]
+			description: ["{ftbquests.chapter.create.quest1807752361726759125.description1}"]
 			id: "19166D31F298D0D5"
 			rewards: [
 				{
@@ -1391,18 +1391,18 @@
 					type: "random"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest1807752361726759125.subtitle}"
 			tasks: [{
 				id: "456D6FC02DCD10F6"
 				item: "create:display_board"
 				type: "item"
 			}]
-			x: -15.5d
-			y: -5.0d
+			x: -16.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["4206216A5F414642"]
-			description: ["Lets you display real-time information to a connected display board or nixie tube."]
+			description: ["{ftbquests.chapter.create.quest7709320534798953653.description1}"]
 			id: "6AFD022E4050ECB5"
 			rewards: [
 				{
@@ -1417,18 +1417,18 @@
 					type: "random"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest7709320534798953653.subtitle}"
 			tasks: [{
 				id: "2A97B913C570C8CF"
 				item: "create:display_link"
 				type: "item"
 			}]
 			x: -16.5d
-			y: -5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3DE38636656DD1F6"]
-			description: ["A precise lever, can do several levels."]
+			description: ["{ftbquests.chapter.create.quest2982680811923821930.description1}"]
 			id: "29649C654117D56A"
 			rewards: [
 				{
@@ -1443,7 +1443,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest2982680811923821930.subtitle}"
 			tasks: [{
 				id: "6B33295820423762"
 				item: "create:analog_lever"
@@ -1468,14 +1468,14 @@
 					type: "random"
 				}
 			]
-			subtitle: "Can display text or numbers."
+			subtitle: "{ftbquests.chapter.create.quest8606111294856694726.subtitle}"
 			tasks: [{
 				id: "4556367BB6B12C8B"
 				item: "create:nixie_tube"
 				type: "item"
 			}]
-			x: -17.5d
-			y: -5.0d
+			x: -17.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["05BFBACBB2337231"]
@@ -1495,7 +1495,7 @@
 			]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "Processes Items"
+			subtitle: "{ftbquests.chapter.create.quest3187658370873586954.subtitle}"
 			tasks: [{
 				id: "051795CF492B0D08"
 				item: "create:mechanical_press"
@@ -1506,7 +1506,7 @@
 		}
 		{
 			dependencies: ["2C3CD6663D38750A"]
-			description: ["Lets you instantly break most Create blocks by shift + right-clicking. And rotate them by right-clicking."]
+			description: ["{ftbquests.chapter.create.quest3021906205285115947.description1}"]
 			id: "29EFF7AED691682B"
 			rewards: [
 				{
@@ -1522,13 +1522,13 @@
 				}
 			]
 			shape: "goldtier"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest3021906205285115947.subtitle}"
 			tasks: [{
 				id: "4EE90B940F3352BA"
 				item: "create:wrench"
 				type: "item"
 			}]
-			title: "&6The Wrench"
+			title: "{ftbquests.chapter.create.quest3021906205285115947.title}"
 			x: 0.5d
 			y: -3.5d
 		}
@@ -1548,7 +1548,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Elevators??!"
+			subtitle: "{ftbquests.chapter.create.quest4948919236647667836.subtitle}"
 			tasks: [{
 				id: "63BB8C331459E255"
 				item: "create:elevator_pulley"
@@ -1559,7 +1559,7 @@
 		}
 		{
 			dependencies: ["0C8D19B106618A91"]
-			description: ["Stops rotational force from passing through when powered by a redstone signal."]
+			description: ["{ftbquests.chapter.create.quest5818881862056905702.description1}"]
 			id: "50C0D23949DD8BE6"
 			rewards: [
 				{
@@ -1574,7 +1574,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest5818881862056905702.subtitle}"
 			tasks: [{
 				id: "5EE2295BD64F843D"
 				item: "create:clutch"
@@ -1585,7 +1585,7 @@
 		}
 		{
 			dependencies: ["67CE399D0A9C0F57"]
-			description: ["Extends block placing, destroying range. Builders Best Friend!"]
+			description: ["{ftbquests.chapter.create.quest1429047808919244175.description1}"]
 			id: "13D4FF6929AE8D8F"
 			rewards: [
 				{
@@ -1601,7 +1601,7 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest1429047808919244175.subtitle}"
 			tasks: [{
 				id: "3E3A3CDA9C9A330B"
 				item: {
@@ -1613,12 +1613,12 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 2.0d
+			x: 11.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["2C8EF8E65133D178"]
-			description: ["A simple machine with massive potential. Can place blocks but also use items on blocks or entities."]
+			description: ["{ftbquests.chapter.create.quest4651536037909800089.description1}"]
 			id: "408D9361AF8AA499"
 			rewards: [{
 				id: "527D9CED378B1D5E"
@@ -1627,7 +1627,7 @@
 			}]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest4651536037909800089.subtitle}"
 			tasks: [{
 				id: "456C3529E567AEC7"
 				item: "create:deployer"
@@ -1652,7 +1652,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Lets you create your own custom functional clock."
+			subtitle: "{ftbquests.chapter.create.quest4256133777920653708.subtitle}"
 			tasks: [{
 				id: "30B7D161EC8DD97F"
 				item: "create:clockwork_bearing"
@@ -1677,7 +1677,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "When placed in front of the Encased Fan this allows it to \"haunt\" items."
+			subtitle: "{ftbquests.chapter.create.quest62988282244845819.subtitle}"
 			tasks: [{
 				id: "42A84A29F509093C"
 				item: "minecraft:soul_campfire"
@@ -1694,7 +1694,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "When placed in front of the Encased Fan this allows it to smoke items."
+			subtitle: "{ftbquests.chapter.create.quest1353201667234994773.subtitle}"
 			tasks: [{
 				id: "5064F06ABFDF2A62"
 				item: "minecraft:campfire"
@@ -1711,7 +1711,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "When placed in front of the Encased Fan this allows it to blast items. // like a furnace"
+			subtitle: "{ftbquests.chapter.create.quest5327318042581087534.subtitle}"
 			tasks: [{
 				id: "41E261CED3536733"
 				item: "minecraft:lava_bucket"
@@ -1728,7 +1728,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "When placed in front of the Encased Fan this allows it to wash the item."
+			subtitle: "{ftbquests.chapter.create.quest1897176035358917147.subtitle}"
 			tasks: [{
 				id: "7320D17889EF5B9D"
 				item: "minecraft:water_bucket"
@@ -1740,9 +1740,9 @@
 		{
 			dependencies: ["4206216A5F414642"]
 			description: [
-				"A Funnel handles one-item-at-a-time input and output from inventories."
+				"{ftbquests.chapter.create.quest8381941787058178475.description1}"
 				""
-				"It can also drop items on the ground, keeping only one item if it lands near a block."
+				"{ftbquests.chapter.create.quest8381941787058178475.description2}"
 			]
 			id: "7452A3A5599B09AB"
 			rewards: [
@@ -1764,11 +1764,11 @@
 				type: "item"
 			}]
 			x: -19.5d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4206216A5F414642"]
-			description: ["Tunnels are used to control the flow of items on belts."]
+			description: ["{ftbquests.chapter.create.quest5963282069273618223.description1}"]
 			id: "52C1D5727A82A72F"
 			rewards: [
 				{
@@ -1783,18 +1783,18 @@
 					type: "random"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest5963282069273618223.subtitle}"
 			tasks: [{
 				id: "66B5FF3C7E354196"
 				item: "create:andesite_tunnel"
 				type: "item"
 			}]
 			x: -19.5d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["52C1D5727A82A72F"]
-			description: ["An upgrade for the Andesite Tunnel that provides more control over how items are handled."]
+			description: ["{ftbquests.chapter.create.quest4516466053109074518.description1}"]
 			id: "3EADB5F22FAD4A56"
 			rewards: [
 				{
@@ -1809,18 +1809,18 @@
 					type: "random"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest4516466053109074518.subtitle}"
 			tasks: [{
 				id: "6820CFF93651E22C"
 				item: "create:brass_tunnel"
 				type: "item"
 			}]
-			x: -20.5d
-			y: -3.0d
+			x: -21.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7452A3A5599B09AB"]
-			description: ["A more advanced funnel that supports filtering and can handle larger stack sizes."]
+			description: ["{ftbquests.chapter.create.quest8465380423511823189.description1}"]
 			id: "757B12A4C7F7D355"
 			rewards: [
 				{
@@ -1835,18 +1835,18 @@
 					type: "random"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest8465380423511823189.subtitle}"
 			tasks: [{
 				id: "5371D134D29BDBAE"
 				item: "create:brass_funnel"
 				type: "item"
 			}]
-			x: -20.5d
-			y: -4.0d
+			x: -21.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["39E865F0D72CF9B8"]
-			description: ["Mechanical belts transport items straight or diagonally. Attach a shaft to each end to connect them."]
+			description: ["{ftbquests.chapter.create.quest4757526797111871042.description1}"]
 			id: "4206216A5F414642"
 			rewards: [{
 				id: "5521D849FA3C8BB3"
@@ -1855,20 +1855,20 @@
 			}]
 			shape: "octagon"
 			size: 1.4d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest4757526797111871042.subtitle}"
 			tasks: [{
 				count: 6L
 				id: "05795186BC4AEB9F"
 				item: "create:belt_connector"
 				type: "item"
 			}]
-			title: "Item Manipulation / Storage"
+			title: "{ftbquests.chapter.create.quest4757526797111871042.title}"
 			x: -17.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["1742597D48E37800"]
-			description: ["A Shaft is a simple but essential machine part that transfers rotational power. You can extend it to reach multiple contraptions and keep them all moving."]
+			description: ["{ftbquests.chapter.create.quest4172697139835369912.description1}"]
 			id: "39E865F0D72CF9B8"
 			rewards: [
 				{
@@ -1885,13 +1885,13 @@
 			]
 			shape: "octagon"
 			size: 1.4d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest4172697139835369912.subtitle}"
 			tasks: [{
 				id: "3CDFABDD807C1515"
 				item: "create:shaft"
 				type: "item"
 			}]
-			title: "Shaft"
+			title: "{ftbquests.chapter.create.quest4172697139835369912.title}"
 			x: -12.5d
 			y: -2.0d
 		}
@@ -1903,14 +1903,14 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Chutes are used to transfer between inventories vertically."
+			subtitle: "{ftbquests.chapter.create.quest2082593081042174895.subtitle}"
 			tasks: [{
 				id: "73079540419DC7D4"
 				item: "create:chute"
 				type: "item"
 			}]
 			x: -19.5d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1CE6DB5F873483AF"]
@@ -1928,14 +1928,14 @@
 					type: "random"
 				}
 			]
-			subtitle: "A more configurable chute."
+			subtitle: "{ftbquests.chapter.create.quest286719136585570045.subtitle}"
 			tasks: [{
 				id: "7FBAAD8D8C39BC6E"
 				item: "create:smart_chute"
 				type: "item"
 			}]
-			x: -20.5d
-			y: -1.0d
+			x: -21.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4206216A5F414642"]
@@ -1953,14 +1953,14 @@
 					type: "random"
 				}
 			]
-			subtitle: "A basic filter."
+			subtitle: "{ftbquests.chapter.create.quest3030775397764622785.subtitle}"
 			tasks: [{
 				id: "1C5692C6DAD65F0C"
 				item: "create:filter"
 				type: "item"
 			}]
 			x: -19.5d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2A0F7A2AA1C0E9C1"]
@@ -1978,14 +1978,14 @@
 					type: "random"
 				}
 			]
-			subtitle: "A filter that can sort items by attributes."
+			subtitle: "{ftbquests.chapter.create.quest751894009039623461.subtitle}"
 			tasks: [{
 				id: "513E9DDE52888CA5"
 				item: "create:attribute_filter"
 				type: "item"
 			}]
-			x: -20.5d
-			y: -2.0d
+			x: -21.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4206216A5F414642"]
@@ -2003,18 +2003,18 @@
 					type: "random"
 				}
 			]
-			subtitle: "Items stay here."
+			subtitle: "{ftbquests.chapter.create.quest533690941356285269.subtitle}"
 			tasks: [{
 				id: "0C6C3F7245F978D9"
 				item: "create:depot"
 				type: "item"
 			}]
-			x: -16.0d
+			x: -16.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["07680D1563629D55"]
-			description: ["Can launch items away. (accurately)"]
+			description: ["{ftbquests.chapter.create.quest1029382947271640981.description1}"]
 			id: "0E491A562DF88795"
 			rewards: [
 				{
@@ -2029,7 +2029,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest1029382947271640981.subtitle}"
 			tasks: [{
 				id: "52BD9C86E2053161"
 				item: "create:weighted_ejector"
@@ -2040,7 +2040,7 @@
 		}
 		{
 			dependencies: ["4206216A5F414642"]
-			description: ["A multi-block item storage that can't be accessed manually, only with create funnels etc."]
+			description: ["{ftbquests.chapter.create.quest4963210803726013823.description1}"]
 			id: "44E0DDEE0578557F"
 			rewards: [
 				{
@@ -2060,12 +2060,12 @@
 				item: "create:item_vault"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 1.5d
+			x: -17.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1742597D48E37800"]
-			description: ["Redstone is essential in Create, and these blocks let you build more compact contraptions."]
+			description: ["{ftbquests.chapter.create.quest4459555624214974966.description1}"]
 			icon: "minecraft:redstone"
 			id: "3DE38636656DD1F6"
 			rewards: [{
@@ -2075,22 +2075,22 @@
 			}]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest4459555624214974966.subtitle}"
 			tasks: [{
 				id: "7BF8211293C37A5F"
-				title: "I HATE REDSTONE!"
+				title: "{ftbquests.chapter.create.quest4459555624214974966.task.8932926224561568351.title}"
 				type: "checkmark"
 			}]
-			title: "Redstone and create"
+			title: "{ftbquests.chapter.create.quest4459555624214974966.title}"
 			x: -7.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["1742597D48E37800"]
 			description: [
-				"-&eSU (Stress Units)&r Is what powers your contraptions. "
+				"{ftbquests.chapter.create.quest4400443643448644502.description1}"
 				""
-				"-&eRPM (Revolutions per minute)&r is basically working speed of contraptions."
+				"{ftbquests.chapter.create.quest4400443643448644502.description2}"
 			]
 			icon: {
 				Count: 1
@@ -2107,19 +2107,19 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest4400443643448644502.subtitle}"
 			tasks: [{
 				id: "313C85E8DD396B20"
-				title: "Cool!"
+				title: "{ftbquests.chapter.create.quest4400443643448644502.task.3547857841651542816.title}"
 				type: "checkmark"
 			}]
-			title: "SU and RPM"
+			title: "{ftbquests.chapter.create.quest4400443643448644502.title}"
 			x: -3.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["410BEC9893112A43"]
-			description: ["The Gearbox works like an extension hub for shafts, allowing you to change their direction and connect multiple shafts on different sides."]
+			description: ["{ftbquests.chapter.create.quest904407348278299281.description1}"]
 			id: "0C8D19B106618A91"
 			rewards: [
 				{
@@ -2136,7 +2136,7 @@
 			]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest904407348278299281.subtitle}"
 			tasks: [{
 				id: "50ED53EBA397BCA0"
 				item: "create:gearbox"
@@ -2147,7 +2147,7 @@
 		}
 		{
 			dependencies: ["0C8D19B106618A91"]
-			description: ["Can halve or double the rotational speed of connected chaindrives when it receives a redstone signal."]
+			description: ["{ftbquests.chapter.create.quest1643001092818768303.description1}"]
 			id: "16CD1CC9F70A91AF"
 			rewards: [
 				{
@@ -2162,7 +2162,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest1643001092818768303.subtitle}"
 			tasks: [{
 				id: "37822B22A5C1A507"
 				item: "create:adjustable_chain_gearshift"
@@ -2173,7 +2173,7 @@
 		}
 		{
 			dependencies: ["0C8D19B106618A91"]
-			description: ["Reverses the direction of rotation when a redstone signal is applied."]
+			description: ["{ftbquests.chapter.create.quest2422426956644331610.description1}"]
 			id: "219E307B851DB05A"
 			rewards: [
 				{
@@ -2188,7 +2188,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest2422426956644331610.subtitle}"
 			tasks: [{
 				id: "646B576AF1805948"
 				item: "create:gearshift"
@@ -2213,7 +2213,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Allows for multiple parallel rotational outputs."
+			subtitle: "{ftbquests.chapter.create.quest8407621753222925119.subtitle}"
 			tasks: [{
 				id: "5970DCA6D0289D86"
 				item: "create:encased_chain_drive"
@@ -2238,7 +2238,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Lets you turn off parts of contraptions while they are formed."
+			subtitle: "{ftbquests.chapter.create.quest1540158342060676298.subtitle}"
 			tasks: [{
 				id: "5096B4C7D1B10D6A"
 				item: "create:contraption_controls"
@@ -2249,7 +2249,7 @@
 		}
 		{
 			dependencies: ["2C3CD6663D38750A"]
-			description: ["As the name suggests, this item glues blocks together, making it especially useful for contraptions."]
+			description: ["{ftbquests.chapter.create.quest6914739987719694102.description1}"]
 			id: "5FF617620A38A716"
 			rewards: [
 				{
@@ -2266,7 +2266,7 @@
 			]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest6914739987719694102.subtitle}"
 			tasks: [{
 				id: "2C10D674D26CA38B"
 				item: {
@@ -2297,7 +2297,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Allows for the creation of contraptions that move up and down."
+			subtitle: "{ftbquests.chapter.create.quest1337918874292238879.subtitle}"
 			tasks: [{
 				id: "4EA4C5E105C04D33"
 				item: "create:rope_pulley"
@@ -2322,7 +2322,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Allows for contraptions that traverse rails in the same way minecarts do."
+			subtitle: "{ftbquests.chapter.create.quest7024869764884308910.subtitle}"
 			tasks: [{
 				id: "2F75A4EB5C548B05"
 				item: "create:cart_assembler"
@@ -2333,7 +2333,7 @@
 		}
 		{
 			dependencies: ["5FF617620A38A716"]
-			description: ["Allows for contraptions that rotate around a point in space, particularly useful for farms."]
+			description: ["{ftbquests.chapter.create.quest3154037427766059371.description1}"]
 			id: "2BC564546A48616B"
 			rewards: [
 				{
@@ -2348,7 +2348,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest3154037427766059371.subtitle}"
 			tasks: [{
 				id: "18AFCA54B52E2A53"
 				item: "create:mechanical_bearing"
@@ -2376,7 +2376,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Allows for movement of structures linearly using rotational force."
+			subtitle: "{ftbquests.chapter.create.quest4955000151163097180.subtitle}"
 			tasks: [
 				{
 					id: "38C59B87460A5E35"
@@ -2389,7 +2389,7 @@
 					type: "item"
 				}
 			]
-			title: "Mechanical Pistons"
+			title: "{ftbquests.chapter.create.quest4955000151163097180.title}"
 			x: -1.0d
 			y: 4.5d
 		}
@@ -2413,7 +2413,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Allows for contraptions that move across gantries."
+			subtitle: "{ftbquests.chapter.create.quest7323605426430635411.subtitle}"
 			tasks: [
 				{
 					id: "41BB3531186CBFC2"
@@ -2445,7 +2445,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "A useful block for building contraptions."
+			subtitle: "{ftbquests.chapter.create.quest4073465372774808614.subtitle}"
 			tasks: [{
 				id: "362DDDAFDB8BE7AE"
 				item: "create:radial_chassis"
@@ -2470,7 +2470,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Sticks to blocks when powered by redstone."
+			subtitle: "{ftbquests.chapter.create.quest9119331955987281644.subtitle}"
 			tasks: [{
 				id: "09CEF616AFC73210"
 				item: "create:sticker"
@@ -2481,7 +2481,7 @@
 		}
 		{
 			dependencies: ["1742597D48E37800"]
-			description: ["This machine automatically builds structures from your schematic paper. Just load it with gunpowder, materials, and a clipboard to track everything, and it does the rest."]
+			description: ["{ftbquests.chapter.create.quest2469838501068393413.description1}"]
 			icon: "create:schematicannon"
 			id: "2246A107ECC3CBC5"
 			rewards: [{
@@ -2490,7 +2490,7 @@
 				xp: 100
 			}]
 			shape: "octagon"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest2469838501068393413.subtitle}"
 			tasks: [
 				{
 					id: "27C21CCE62A42A97"
@@ -2509,7 +2509,7 @@
 				}
 			]
 			x: -6.5d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4F61B1F3D1E2C6E2"]
@@ -2520,7 +2520,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Carries liquid / pushes liquid"
+			subtitle: "{ftbquests.chapter.create.quest4784997067443486237.subtitle}"
 			tasks: [{
 				id: "636000287FF9300E"
 				item: "create:mechanical_pump"
@@ -2532,9 +2532,9 @@
 		{
 			dependencies: ["666E9828756ADB0C"]
 			description: [
-				"The main block used for fluid storage."
+				"{ftbquests.chapter.create.quest5720048662493710050.description1}"
 				""
-				"The main block to tunnel liquids."
+				"{ftbquests.chapter.create.quest5720048662493710050.description2}"
 			]
 			id: "4F61B1F3D1E2C6E2"
 			rewards: [
@@ -2556,7 +2556,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest5720048662493710050.subtitle}"
 			tasks: [
 				{
 					id: "5B4A68157DA2CC98"
@@ -2565,19 +2565,11 @@
 				}
 				{
 					id: "4349B2F9FEB850B6"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "create:fluid_pipe"
-					}
+					item: "create:fluid_pipe"
 					type: "item"
 				}
 			]
-			title: "Fluid Tank and Fluid Pipe"
+			title: "{ftbquests.chapter.create.quest5720048662493710050.title}"
 			x: -7.5d
 			y: 5.5d
 		}
@@ -2589,20 +2581,20 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Seat.."
+			subtitle: "{ftbquests.chapter.create.quest1131810689720377193.subtitle}"
 			tasks: [{
 				id: "5FB026F193CA182B"
 				item: "create:white_seat"
-				title: "Any Seat"
+				title: "{ftbquests.chapter.create.quest1131810689720377193.task.6895053848512698411.title}"
 				type: "item"
 			}]
-			title: "Seats"
+			title: "{ftbquests.chapter.create.quest1131810689720377193.title}"
 			x: -9.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["39E865F0D72CF9B8"]
-			description: ["Cogwheels are used to adjust rotational speed or extend contraptions."]
+			description: ["{ftbquests.chapter.create.quest4687099977255692867.description1}"]
 			id: "410BEC9893112A43"
 			rewards: [{
 				id: "7F4A068548FFEC84"
@@ -2610,12 +2602,12 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest4687099977255692867.subtitle}"
 			tasks: [
 				{
 					id: "1941DE49FCC4EC20"
 					item: "create:cogwheel"
-					title: "Any Cogwheel"
+					title: "{ftbquests.chapter.create.quest4687099977255692867.task.1819980133789133856.title}"
 					type: "item"
 				}
 				{
@@ -2624,13 +2616,13 @@
 					type: "item"
 				}
 			]
-			title: "Cogwheels"
+			title: "{ftbquests.chapter.create.quest4687099977255692867.title}"
 			x: -12.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["2C3CD6663D38750A"]
-			description: ["Shows essential information about contraptions."]
+			description: ["{ftbquests.chapter.create.quest7792952794985552022.description1}"]
 			id: "6C26214738805896"
 			rewards: [
 				{
@@ -2646,7 +2638,7 @@
 				}
 			]
 			shape: "goldtier"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest7792952794985552022.subtitle}"
 			tasks: [{
 				id: "77BFA7F311B85850"
 				item: "create:goggles"
@@ -2657,21 +2649,21 @@
 		}
 		{
 			dependencies: ["408D9361AF8AA499"]
-			description: ["Conductors allow you to activate redstone whilst looking at them and can also carry your toolbox around."]
+			description: ["{ftbquests.chapter.create.quest2895288385514755314.description1}"]
 			id: "282E21725CEBD4F2"
 			rewards: [{
 				id: "1F15298AA1295453"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest2895288385514755314.subtitle}"
 			tasks: [{
 				id: "4C320CF1DF11D854"
 				item: "railways:white_conductor_cap"
-				title: "Any Conductor's Cap"
+				title: "{ftbquests.chapter.create.quest2895288385514755314.task.5490465128687196244.title}"
 				type: "item"
 			}]
-			title: "Conductors"
+			title: "{ftbquests.chapter.create.quest2895288385514755314.title}"
 			x: 11.0d
 			y: -4.0d
 		}
@@ -2683,7 +2675,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest3466739512633517412.subtitle}"
 			tasks: [{
 				id: "26E526B3ADB65613"
 				item: "railways:conductor_whistle"
@@ -2694,14 +2686,14 @@
 		}
 		{
 			dependencies: ["282E21725CEBD4F2"]
-			description: ["Lets you see through the eyes of a conductor as well as control their movement."]
+			description: ["{ftbquests.chapter.create.quest1851445957315047500.description1}"]
 			id: "19B1A849EE98B04C"
 			rewards: [{
 				id: "1D4930F80452FEC4"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest1851445957315047500.subtitle}"
 			tasks: [{
 				id: "43C050F7FB2AEDAA"
 				item: "railways:remote_lens"
@@ -2726,18 +2718,18 @@
 					type: "random"
 				}
 			]
-			subtitle: "Used to visualise and control which direction trains go in intersections."
+			subtitle: "{ftbquests.chapter.create.quest876231177461245655.subtitle}"
 			tasks: [{
 				id: "12A8B09593EB685E"
 				item: "railways:track_switch_andesite"
 				type: "item"
 			}]
 			x: 11.5d
-			y: -10.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["672C61B048CB3B85"]
-			description: ["Same as the Andesite Track Switch but also allows for switching for scheduled trains."]
+			description: ["{ftbquests.chapter.create.quest2581006099565904643.description1}"]
 			id: "23D1935F6FBE0303"
 			rewards: [
 				{
@@ -2752,7 +2744,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest2581006099565904643.subtitle}"
 			tasks: [{
 				id: "470594A0FBC82476"
 				item: "railways:track_switch_brass"
@@ -2777,14 +2769,14 @@
 					type: "random"
 				}
 			]
-			subtitle: "Lets you couple and decouple trains without dissasembly."
+			subtitle: "{ftbquests.chapter.create.quest5981171932621775392.subtitle}"
 			tasks: [{
 				id: "7EDE06A5392F7A5B"
 				item: "railways:track_coupler"
 				type: "item"
 			}]
 			x: 9.5d
-			y: -10.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["672C61B048CB3B85"]
@@ -2802,7 +2794,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Ponder"
+			subtitle: "{ftbquests.chapter.create.quest5929275155246357713.subtitle}"
 			tasks: [{
 				id: "262ADFC794B3089C"
 				item: "railways:semaphore"
@@ -2813,7 +2805,7 @@
 		}
 		{
 			dependencies: ["05BFBACBB2337231"]
-			description: ["Copycat blocks let you turn almost any material into steps, panels, and other shapes normally impossible to craft."]
+			description: ["{ftbquests.chapter.create.quest8961278431806274828.description1}"]
 			id: "7C5CDB413D2EBD0C"
 			rewards: [
 				{
@@ -2828,7 +2820,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest8961278431806274828.subtitle}"
 			tasks: [
 				{
 					id: "31C77A6DFB98D443"
@@ -2846,9 +2838,9 @@
 		}
 		{
 			description: [
-				"Create is a steampunk mod that lets you build contraptions to do most things you can think of. "
+				"{ftbquests.chapter.create.quest1676000405963896832.description1}"
 				""
-				"Because of this, the chapter is mostly focused on letting you know what exists and giving you a rough outline of the progression of the mod."
+				"{ftbquests.chapter.create.quest1676000405963896832.description2}"
 			]
 			icon: "create:wrench"
 			icon_scale: 1.3d
@@ -2860,13 +2852,13 @@
 			}]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest1676000405963896832.subtitle}"
 			tasks: [{
 				id: "26E205688A2E7D32"
-				title: "create create create"
+				title: "{ftbquests.chapter.create.quest1676000405963896832.task.2801807864730910002.title}"
 				type: "checkmark"
 			}]
-			title: "&6Welcome To Create"
+			title: "{ftbquests.chapter.create.quest1676000405963896832.title}"
 			x: -7.5d
 			y: -2.0d
 		}
@@ -2878,18 +2870,18 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Allows you to copy paste schematics"
+			subtitle: "{ftbquests.chapter.create.quest3996383375623868622.subtitle}"
 			tasks: [{
 				id: "06E54F1415478E48"
 				item: "create_pattern_schematics:empty_pattern_schematic"
 				type: "item"
 			}]
 			x: -5.5d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["410BEC9893112A43"]
-			description: ["A Cog Crank works like a Hand Crank, but it’s used to apply rotational force and direction to cogwheels."]
+			description: ["{ftbquests.chapter.create.quest2982815786437746842.description1}"]
 			id: "29651727750CA09A"
 			rewards: [
 				{
@@ -2904,7 +2896,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest2982815786437746842.subtitle}"
 			tasks: [
 				{
 					id: "43FD093D2FFFDCDF"
@@ -2917,7 +2909,7 @@
 					type: "item"
 				}
 			]
-			title: "Crank more.."
+			title: "{ftbquests.chapter.create.quest2982815786437746842.title}"
 			x: -11.5d
 			y: -5.5d
 		}
@@ -2936,26 +2928,18 @@
 					type: "item"
 				}
 			]
-			subtitle: "For farms :)"
+			subtitle: "{ftbquests.chapter.create.quest5039962040755962105.subtitle}"
 			tasks: [{
 				id: "2194B6D3544D8B37"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "sliceanddice:sprinkler"
-				}
+				item: "sliceanddice:sprinkler"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 5.5d
+			x: -5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["39E865F0D72CF9B8"]
-			description: ["Double Cardan Shaft will allow you to make rotational force between shafts."]
+			description: ["{ftbquests.chapter.create.quest626410235605039621.description1}"]
 			id: "08B174CA58E83A05"
 			rewards: [
 				{
@@ -2970,18 +2954,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest626410235605039621.subtitle}"
 			tasks: [{
 				id: "43BADF2E7DAFA96B"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "petrolsparts:double_cardan_shaft"
-				}
+				item: "petrolsparts:double_cardan_shaft"
 				type: "item"
 			}]
 			x: -13.5d
@@ -2995,18 +2971,10 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Planetary Gearset will output more RPM per spin "
+			subtitle: "{ftbquests.chapter.create.quest247127025580353688.subtitle}"
 			tasks: [{
 				id: "7874CBDCB888D681"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "petrolsparts:planetary_gearset"
-				}
+				item: "petrolsparts:planetary_gearset"
 				type: "item"
 			}]
 			x: -13.5d
@@ -3014,7 +2982,7 @@
 		}
 		{
 			dependencies: ["410BEC9893112A43"]
-			description: ["Adding Speeds Together, Just like 16rpm+16rpm = 32rpm"]
+			description: ["{ftbquests.chapter.create.quest1107232546725404235.description1}"]
 			id: "0F5DAE2287519E4B"
 			rewards: [
 				{
@@ -3029,18 +2997,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest1107232546725404235.subtitle}"
 			tasks: [{
 				id: "443223DCC6AAC0DE"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "petrolsparts:differential"
-				}
+				item: "petrolsparts:differential"
 				type: "item"
 			}]
 			x: -11.5d
@@ -3065,23 +3025,15 @@
 			shape: "netheritetier"
 			tasks: [{
 				id: "5E9CF6F0959DD0AC"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "petrolsparts:colossal_cogwheel"
-				}
+				item: "petrolsparts:colossal_cogwheel"
 				type: "item"
 			}]
 			x: 11.0d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["67CE399D0A9C0F57"]
-			description: ["Cheat Code of create, Hydraulic Transmission allows you to simply make any connection between units N' cogwheels."]
+			description: ["{ftbquests.chapter.create.quest2831320374000795016.description1}"]
 			id: "274ADEE111A4BD88"
 			rewards: [
 				{
@@ -3097,22 +3049,14 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest2831320374000795016.subtitle}"
 			tasks: [{
 				id: "55C58531BC1CCBE2"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "petrolsparts:hydraulic_transmission"
-				}
+				item: "petrolsparts:hydraulic_transmission"
 				type: "item"
 			}]
 			x: 8.0d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["410BEC9893112A43"]
@@ -3136,36 +3080,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "Cogwheels without a shaft."
+			subtitle: "{ftbquests.chapter.create.quest7018590638511921605.subtitle}"
 			tasks: [
 				{
 					id: "32C28755597B9324"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "petrolsparts:coaxial_gear"
-					}
+					item: "petrolsparts:coaxial_gear"
 					type: "item"
 				}
 				{
 					id: "476938F1F6611DEB"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "petrolsparts:large_coaxial_gear"
-					}
+					item: "petrolsparts:large_coaxial_gear"
 					type: "item"
 				}
 			]
-			title: "Coaxial Cogwheels"
+			title: "{ftbquests.chapter.create.quest7018590638511921605.title}"
 			x: -13.5d
 			y: -5.5d
 		}
@@ -3186,26 +3114,18 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "More grinding more more"
+			subtitle: "{ftbquests.chapter.create.quest4256168774063571755.subtitle}"
 			tasks: [{
 				id: "2E27927F95069053"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "create:mechanical_roller"
-				}
+				item: "create:mechanical_roller"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 5.5d
+			x: 12.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1742597D48E37800"]
-			description: ["Andesite alloy is made from some iron nugget and andesite block."]
+			description: ["{ftbquests.chapter.create.quest3701622690941713392.description1}"]
 			id: "335ECE39B21B3BF0"
 			rewards: [
 				{
@@ -3220,18 +3140,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "The starting point of your create questline."
+			subtitle: "{ftbquests.chapter.create.quest3701622690941713392.subtitle}"
 			tasks: [{
 				id: "7B70AB146C561F08"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "create:andesite_alloy"
-				}
+				item: "create:andesite_alloy"
 				type: "item"
 			}]
 			x: -5.097959183673474d
@@ -3240,9 +3152,9 @@
 		{
 			dependencies: ["335ECE39B21B3BF0"]
 			description: [
-				"Postboxes can have packages sent to them via trains! "
+				"{ftbquests.chapter.create.quest8359002570255137832.description1}"
 				""
-				"Check the Ponder for more information."
+				"{ftbquests.chapter.create.quest8359002570255137832.description2}"
 			]
 			icon: "create:white_postbox"
 			id: "7401248CBCA27C28"
@@ -3251,7 +3163,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "You've Got Mail!"
+			subtitle: "{ftbquests.chapter.create.quest8359002570255137832.subtitle}"
 			tasks: [{
 				id: "00EA9D1A40122D1B"
 				item: {
@@ -3261,16 +3173,16 @@
 						value: "create:postboxes"
 					}
 				}
-				title: "Any #create:postboxes"
+				title: "{ftbquests.chapter.create.quest8359002570255137832.task.66037880619937051.title}"
 				type: "item"
 			}]
-			title: "Postboxes"
+			title: "{ftbquests.chapter.create.quest8359002570255137832.title}"
 			x: -4.597959183673474d
 			y: -0.990476190476187d
 		}
 		{
 			dependencies: ["4206216A5F414642"]
-			description: ["The item hatch allows for easy emptying of your inventory into any chest, vault, or other inventory!"]
+			description: ["{ftbquests.chapter.create.quest5364914264276204724.description1}"]
 			id: "4A7401194C9BFCB4"
 			rewards: [
 				{
@@ -3285,23 +3197,23 @@
 					type: "random"
 				}
 			]
-			subtitle: "Easy Emptying"
+			subtitle: "{ftbquests.chapter.create.quest5364914264276204724.subtitle}"
 			tasks: [{
 				id: "13D9A0BB26D0C4B1"
 				item: "create:item_hatch"
 				type: "item"
 			}]
-			x: -19.0d
-			y: 1.5d
+			x: -18.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["44E0DDEE0578557F"]
 			description: [
-				"The Stock Link is the backbone of the Logistics Network, connecting Packagers, Stock Tickers, and other logistics blocks."
+				"{ftbquests.chapter.create.quest3376268248302755223.description1}"
 				""
-				"Placing a Stock Link creates a network; right-clicking another before placing links them into a shared system with no range limit."
+				"{ftbquests.chapter.create.quest3376268248302755223.description2}"
 				""
-				"Attach a Stock Link to a Packager, and its inventory becomes accessible to any Ticker, Requester, or Keeper on the network — no belts, funnels, or tunnels needed."
+				"{ftbquests.chapter.create.quest3376268248302755223.description3}"
 			]
 			id: "2EDAEA1566841D97"
 			rewards: [
@@ -3317,29 +3229,29 @@
 					type: "random"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest3376268248302755223.subtitle}"
 			tasks: [{
 				id: "00FC62D495672471"
 				item: "create:stock_link"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 3.0d
+			x: -17.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["44E0DDEE0578557F"]
 			description: [
-				"The Package Frogport is your automated delivery hub."
+				"{ftbquests.chapter.create.quest1378992201329509702.description1}"
 				""
-				"It works with Chain Conveyors and Packagers to send and receive cardboard packages."
+				"{ftbquests.chapter.create.quest1378992201329509702.description2}"
 				""
-				"To get started, place a Chain Conveyor, right-click the chain, and follow the on-screen guide to position the Frogport correctly."
+				"{ftbquests.chapter.create.quest1378992201329509702.description3}"
 				""
-				"It must be aligned with the chain to enable package transfers."
+				"{ftbquests.chapter.create.quest1378992201329509702.description4}"
 				""
-				"Every package must have a destination Frogport."
+				"{ftbquests.chapter.create.quest1378992201329509702.description5}"
 				""
-				"Without a receiving port at the other end, the package won’t be delivered and the transfer will fail."
+				"{ftbquests.chapter.create.quest1378992201329509702.description6}"
 			]
 			id: "13232A19D4478546"
 			rewards: [
@@ -3355,21 +3267,21 @@
 					type: "random"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest1378992201329509702.subtitle}"
 			tasks: [{
 				id: "41144C026E32C7CB"
 				item: "create:package_frogport"
 				type: "item"
 			}]
-			x: -17.0d
-			y: 1.5d
+			x: -16.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2EDAEA1566841D97"]
 			description: [
-				"The Redstone Requester links redstone to logistics."
+				"{ftbquests.chapter.create.quest2281208895342798240.description1}"
 				""
-				"Connected to a Stock Link or Ticker, it requests up to 9 items (256 each) when powered, delivering them in Cardboard Packages."
+				"{ftbquests.chapter.create.quest2281208895342798240.description2}"
 			]
 			id: "1FA87B67695E65A0"
 			rewards: [
@@ -3385,23 +3297,23 @@
 					type: "random"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest2281208895342798240.subtitle}"
 			tasks: [{
 				id: "5F15937197362F08"
 				item: "create:redstone_requester"
 				type: "item"
 			}]
-			x: -19.5d
-			y: 3.0d
+			x: -19.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2EDAEA1566841D97"]
 			description: [
-				"The Stock Ticker automates redstone based on inventory levels."
+				"{ftbquests.chapter.create.quest4357864160172544272.description1}"
 				""
-				"Connected to a Stock Link, it monitors an item and emits a redstone signal based on total stock."
+				"{ftbquests.chapter.create.quest4357864160172544272.description2}"
 				""
-				"Paired with a Seat or Blaze Burner, the mob becomes a Stock Keeper with full network access."
+				"{ftbquests.chapter.create.quest4357864160172544272.description3}"
 			]
 			id: "3C7A3E5D5E7D9110"
 			rewards: [
@@ -3417,18 +3329,18 @@
 					type: "random"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest4357864160172544272.subtitle}"
 			tasks: [{
 				id: "7180E8D36807740D"
 				item: "create:stock_ticker"
 				type: "item"
 			}]
-			x: -16.5d
-			y: 3.0d
+			x: -16.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4206216A5F414642"]
-			description: ["Chain Conveyors can carry packages, you, your pet i dont know.."]
+			description: ["{ftbquests.chapter.create.quest857904966836928922.description1}"]
 			id: "0BE7E4059F5BC19A"
 			rewards: [
 				{
@@ -3443,14 +3355,14 @@
 					type: "random"
 				}
 			]
-			subtitle: "Hang on!--(not like that)"
+			subtitle: "{ftbquests.chapter.create.quest857904966836928922.subtitle}"
 			tasks: [{
 				id: "7CED2036C011B3C1"
 				item: "create:chain_conveyor"
 				type: "item"
 			}]
-			x: -20.5d
-			y: -5.0d
+			x: -18.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["05BFBACBB2337231"]
@@ -3460,7 +3372,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "When powered, shows the time and plays a tune twice a day."
+			subtitle: "{ftbquests.chapter.create.quest2029534577711494069.subtitle}"
 			tasks: [{
 				id: "603EBD63DA3EE2D2"
 				item: "create:cuckoo_clock"
@@ -3477,7 +3389,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "View the item or just go crazy."
+			subtitle: "{ftbquests.chapter.create.quest4171403400033121189.subtitle}"
 			tasks: [{
 				id: "4CF7E5DC410E9927"
 				item: "create:turntable"
@@ -3494,13 +3406,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Distrubutes air in more directions"
+			subtitle: "{ftbquests.chapter.create.quest3381593584414712430.subtitle}"
 			tasks: [{
 				id: "78CA9FBCAC46111F"
 				item: "create:nozzle"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: -8.0d
 		}
 		{
@@ -3519,14 +3431,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "Again kinetic energy but turns more precisely."
+			subtitle: "{ftbquests.chapter.create.quest102335513309212996.subtitle}"
 			tasks: [{
 				id: "636AB7356404E534"
 				item: "create:copper_valve_handle"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -6.0d
+			x: -2.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1742597D48E37800"]
@@ -3536,7 +3448,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Just Selling Items"
+			subtitle: "{ftbquests.chapter.create.quest2496783268505849768.subtitle}"
 			tasks: [
 				{
 					id: "2B2E21A7F83F191D"
@@ -3554,7 +3466,7 @@
 					type: "item"
 				}
 			]
-			title: "Table Covers"
+			title: "{ftbquests.chapter.create.quest2496783268505849768.title}"
 			x: -9.5d
 			y: -5.5d
 		}
@@ -3574,7 +3486,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Can move Gantry Carriage"
+			subtitle: "{ftbquests.chapter.create.quest5676478644681002449.subtitle}"
 			tasks: [{
 				id: "35BFC58DD783343F"
 				item: "create:gantry_shaft"
@@ -3599,7 +3511,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Extends Piston Range"
+			subtitle: "{ftbquests.chapter.create.quest5760380049141862982.subtitle}"
 			tasks: [{
 				id: "72D93808289F4C1A"
 				item: "create:piston_extension_pole"
@@ -3616,7 +3528,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Decorating Shafts, cogs and pipes!"
+			subtitle: "{ftbquests.chapter.create.quest4472040334154701870.subtitle}"
 			tasks: [
 				{
 					id: "105B71004325433E"
@@ -3648,7 +3560,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "We are gaming i guess."
+			subtitle: "{ftbquests.chapter.create.quest5334827788888941847.subtitle}"
 			tasks: [{
 				id: "1446D06E16670958"
 				item: {
@@ -3671,14 +3583,14 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Controlling fluid flow strength"
+			subtitle: "{ftbquests.chapter.create.quest4399657859383403111.subtitle}"
 			tasks: [{
 				id: "7E8C4BDAED8527F2"
 				item: "create:fluid_valve"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 6.5d
+			x: -6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4F61B1F3D1E2C6E2"]
@@ -3688,13 +3600,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Filtering Fluids"
+			subtitle: "{ftbquests.chapter.create.quest7690093009862173686.subtitle}"
 			tasks: [{
 				id: "2F5181AEC65C6C8E"
 				item: "create:smart_fluid_pipe"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -9.0d
 			y: 7.0d
 		}
 		{
@@ -3713,7 +3625,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "A useful block for building contraptions."
+			subtitle: "{ftbquests.chapter.create.quest3147835859228052226.subtitle}"
 			tasks: [{
 				id: "1FCE957BBBBDCAE7"
 				item: "create:linear_chassis"
@@ -3738,7 +3650,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "A useful block for building contraptions."
+			subtitle: "{ftbquests.chapter.create.quest3446470349303499903.subtitle}"
 			tasks: [{
 				id: "164368992651DF11"
 				item: "create:secondary_linear_chassis"
@@ -3773,14 +3685,14 @@
 		}
 		{
 			dependencies: ["05BFBACBB2337231"]
-			description: ["By putting a knife or something else on this block can automatate processes like slicing."]
+			description: ["{ftbquests.chapter.create.quest1995130827590843246.description1}"]
 			id: "1BB020EAC2FBBB6E"
 			rewards: [{
 				id: "6250F5F07714996C"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest1995130827590843246.subtitle}"
 			tasks: [{
 				id: "18B6BA6F20F525A2"
 				item: "sliceanddice:slicer"
@@ -3797,14 +3709,14 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Allows you to use schematics"
+			subtitle: "{ftbquests.chapter.create.quest8798352989362433647.subtitle}"
 			tasks: [{
 				id: "6761EBCE6EFBC251"
 				item: "create:empty_schematic"
 				type: "item"
 			}]
 			x: -5.5d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["2246A107ECC3CBC5"]
@@ -3814,14 +3726,14 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Allows you to create schematics"
+			subtitle: "{ftbquests.chapter.create.quest1526705471210362206.subtitle}"
 			tasks: [{
 				id: "0EE6A7FDCD657A03"
 				item: "create:schematic_and_quill"
 				type: "item"
 			}]
 			x: -5.5d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["12830AA7C494A4E2"]
@@ -3840,17 +3752,19 @@
 				}
 			]
 			shape: "netheritetier"
+			size: 1.15d
+			subtitle: "{ftbquests.chapter.create.quest5832844284295869384.subtitle}"
 			tasks: [{
 				id: "4AEFF963BC254056"
 				item: "createoreexcavation:extractor"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 3.5d
+			x: 15.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2DFDE04D134E60D3"]
-			description: ["Drilling machine: A device used to extract resources from deep underground."]
+			description: ["{ftbquests.chapter.create.quest1333921630305690850.description1}"]
 			id: "12830AA7C494A4E2"
 			rewards: [
 				{
@@ -3866,18 +3780,19 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "&8[Click to read]"
+			size: 1.15d
+			subtitle: "{ftbquests.chapter.create.quest1333921630305690850.subtitle}"
 			tasks: [{
 				id: "0D1C64870C7CCF7C"
 				item: "createoreexcavation:drilling_machine"
 				type: "item"
 			}]
 			x: 14.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["12830AA7C494A4E2"]
-			description: ["Extractor: A tool designed to process raw resources extracted by the drilling machine."]
+			description: ["{ftbquests.chapter.create.quest3196389559858489397.description1}"]
 			id: "2C5BDB5E9721E835"
 			rewards: [
 				{
@@ -3893,18 +3808,18 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest3196389559858489397.subtitle}"
 			tasks: [{
 				id: "1532FED701EF8B06"
 				item: "createoreexcavation:drill"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 4.5d
+			x: 14.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["2C5BDB5E9721E835"]
-			description: ["Craft a diamond drill to reach deeper ores and more valuable resources."]
+			description: ["{ftbquests.chapter.create.quest3442198869815829190.description1}"]
 			id: "2FC525A2719FA2C6"
 			rewards: [
 				{
@@ -3920,7 +3835,7 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest3442198869815829190.subtitle}"
 			tasks: [{
 				id: "125959D8C8FC2FF8"
 				item: "createoreexcavation:diamond_drill"
@@ -3931,7 +3846,7 @@
 		}
 		{
 			dependencies: ["2FC525A2719FA2C6"]
-			description: ["Craft a netherite drill to mine the most powerful and rare resources."]
+			description: ["{ftbquests.chapter.create.quest109852207307126237.description1}"]
 			id: "01864600225575DD"
 			rewards: [
 				{
@@ -3947,7 +3862,7 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest109852207307126237.subtitle}"
 			tasks: [{
 				id: "42030B888B1F6880"
 				item: "createoreexcavation:netherite_drill"
@@ -3958,7 +3873,7 @@
 		}
 		{
 			dependencies: ["12830AA7C494A4E2"]
-			description: ["Craft a vein finder to locate ore veins and enhance mining efficiency."]
+			description: ["{ftbquests.chapter.create.quest4573284636036940220.description1}"]
 			id: "3F7792256BBBC1BC"
 			rewards: [{
 				id: "06B22A6416BFE34D"
@@ -3966,7 +3881,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest4573284636036940220.subtitle}"
 			tasks: [{
 				id: "5013EC6F299065BB"
 				item: {
@@ -3978,12 +3893,12 @@
 				}
 				type: "item"
 			}]
-			x: 14.0d
+			x: 13.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["12830AA7C494A4E2"]
-			description: ["Collect raw redstone to advance in your mining and crafting progress."]
+			description: ["{ftbquests.chapter.create.quest1921309446832744721.description1}"]
 			id: "1AA9DCC32A116911"
 			rewards: [{
 				id: "49BCD199526B4815"
@@ -3991,18 +3906,18 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest1921309446832744721.subtitle}"
 			tasks: [{
 				id: "3CA6B1D0CBE32479"
 				item: "createoreexcavation:raw_redstone"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 14.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["67CE399D0A9C0F57"]
-			description: ["Craft a sample drill to begin your excavation journey."]
+			description: ["{ftbquests.chapter.create.quest3314051522455560403.description1}"]
 			id: "2DFDE04D134E60D3"
 			rewards: [
 				{
@@ -4018,18 +3933,19 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "&8[Click to read]"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.create.quest3314051522455560403.subtitle}"
 			tasks: [{
 				id: "24C5634C1845EFA6"
 				item: "createoreexcavation:sample_drill"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 3.5d
+			x: 12.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["12830AA7C494A4E2"]
-			description: ["Craft a vein atlas to assist in finding and tracking ore veins in the world."]
+			description: ["{ftbquests.chapter.create.quest7006472992053924812.description1}"]
 			id: "613BFE107BBE13CC"
 			rewards: [{
 				id: "381B9EF4C75AE959"
@@ -4037,18 +3953,18 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest7006472992053924812.subtitle}"
 			tasks: [{
 				id: "1CF187F9882D6434"
 				item: "createoreexcavation:vein_atlas"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 2.0d
+			x: 13.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1AA9DCC32A116911"]
-			description: ["Collect raw diamonds to further progress in mining research."]
+			description: ["{ftbquests.chapter.create.quest7990391651855153290.description1}"]
 			id: "6EE392DF5912B88A"
 			rewards: [{
 				id: "597CD1E21AAD2D20"
@@ -4056,18 +3972,18 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest7990391651855153290.subtitle}"
 			tasks: [{
 				id: "2E413BF8E4138580"
 				item: "createoreexcavation:raw_diamond"
 				type: "item"
 			}]
 			x: 15.5d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6EE392DF5912B88A"]
-			description: ["Collect raw emeralds to gather even more valuable materials."]
+			description: ["{ftbquests.chapter.create.quest5654695615813577982.description1}"]
 			id: "4E7983B3E586ECFE"
 			rewards: [{
 				id: "27B5F46644EC2850"
@@ -4075,18 +3991,18 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest5654695615813577982.subtitle}"
 			tasks: [{
 				id: "2E58D4D1DC85CA74"
 				item: "createoreexcavation:raw_emerald"
 				type: "item"
 			}]
 			x: 15.5d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3D11842DDDE1D396"]
-			description: ["Simply lead them to the horse crank"]
+			description: ["{ftbquests.chapter.create.quest3614855486276225800.description1}"]
 			id: "322A8BE995DDCB08"
 			rewards: [
 				{
@@ -4101,14 +4017,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "Use the animals to generate SU"
+			subtitle: "{ftbquests.chapter.create.quest3614855486276225800.subtitle}"
 			tasks: [{
 				id: "0823F336130B0761"
 				item: "createhorsepower:horse_crank"
 				type: "item"
 			}]
 			x: -2.0d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7414C8BC7AB87449"]
@@ -4126,14 +4042,14 @@
 					type: "random"
 				}
 			]
-			subtitle: "Boosts your speed inside tubes."
+			subtitle: "{ftbquests.chapter.create.quest5028605714571284505.subtitle}"
 			tasks: [{
 				id: "01F569798F908CA1"
 				item: "create_hypertube:hypertube_accelerator"
 				type: "item"
 			}]
-			x: -22.0d
-			y: 1.5d
+			x: -22.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["03FAA1891E7D56FD"]
@@ -4151,14 +4067,14 @@
 					type: "random"
 				}
 			]
-			subtitle: "Allows you to transport in tubes just like satisfactory game!"
+			subtitle: "{ftbquests.chapter.create.quest9102280105447930416.subtitle}"
 			tasks: [{
 				id: "006070D36D77845D"
 				item: "create_hypertube:hypertube_entrance"
 				type: "item"
 			}]
-			x: -20.5d
-			y: 0.0d
+			x: -22.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7E51CB87AB543A30"]
@@ -4176,25 +4092,25 @@
 					type: "random"
 				}
 			]
-			subtitle: "The tunneling block."
+			subtitle: "{ftbquests.chapter.create.quest8364531119772169289.subtitle}"
 			tasks: [{
 				id: "218A6431EE4BC808"
 				item: "create_hypertube:hypertube"
 				type: "item"
 			}]
-			x: -20.5d
-			y: 1.5d
+			x: -22.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1742597D48E37800"]
-			description: ["Right-click with a wrench to change it's pitch more!"]
+			description: ["{ftbquests.chapter.create.quest8423161497957924847.description1}"]
 			id: "74E514C12B877FEF"
 			rewards: [{
 				id: "168CBDD7D114B05C"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Let's hear how good is your musical ear!"
+			subtitle: "{ftbquests.chapter.create.quest8423161497957924847.subtitle}"
 			tasks: [{
 				id: "122ED0358FEE40CD"
 				item: "create:steam_whistle"
@@ -4219,7 +4135,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "More MORE MUSIC"
+			subtitle: "{ftbquests.chapter.create.quest2421784971619835005.subtitle}"
 			tasks: [
 				{
 					id: "7ED6F8CDB8F15F68"
@@ -4272,11 +4188,6 @@
 					type: "item"
 				}
 				{
-					id: "7D5ED0A344D9069C"
-					item: "pipeorgans:stop_master"
-					type: "item"
-				}
-				{
 					id: "52887562A097FC67"
 					item: "pipeorgans:windchest_master"
 					type: "item"
@@ -4287,7 +4198,7 @@
 					type: "item"
 				}
 			]
-			title: "Sound Of Steam Addition!"
+			title: "{ftbquests.chapter.create.quest2421784971619835005.title}"
 			x: -6.0d
 			y: 1.5d
 		}
@@ -4300,7 +4211,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "Cut trees easily with this tool"
+			subtitle: "{ftbquests.chapter.create.quest832228917361904193.subtitle}"
 			tasks: [{
 				id: "750F19506A2CC592"
 				item: {
@@ -4313,12 +4224,12 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["408D9361AF8AA499"]
 			id: "0B890DA653612E4B"
-			subtitle: "Infinite power? Might nerf"
+			subtitle: "{ftbquests.chapter.create.quest831210614241177163.subtitle}"
 			tasks: [{
 				id: "2CDD155C7DEEFE14"
 				item: "create_fantasizing:compact_hydraulic_engine"
@@ -4330,7 +4241,7 @@
 		{
 			dependencies: ["408D9361AF8AA499"]
 			id: "02A0B1D3CF1CD049"
-			subtitle: "Possible Infinite Power"
+			subtitle: "{ftbquests.chapter.create.quest189346707620548681.subtitle}"
 			tasks: [{
 				id: "497BF15D030E5AF5"
 				item: "create_fantasizing:compact_wind_engine"
@@ -4356,7 +4267,7 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "Creative worldshaper is craftable now!"
+			subtitle: "{ftbquests.chapter.create.quest5049881236428251384.subtitle}"
 			tasks: [{
 				id: "1AAAB06098921544"
 				item: {
@@ -4369,8 +4280,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: 7.0d
+			x: 9.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["672C61B048CB3B85"]
@@ -4380,7 +4291,7 @@
 				item: "create:metal_girder"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 12.0d
 			y: -7.0d
 		}
 		{
@@ -4391,20 +4302,20 @@
 				item: "create_fantasizing:sturdy_girder"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["4206216A5F414642"]
 			id: "13FB4E6B074F172A"
-			subtitle: "Transports items / fluids directly"
+			subtitle: "{ftbquests.chapter.create.quest1439830727466096426.subtitle}"
 			tasks: [{
 				id: "7E0668666EACBBAC"
 				item: "create_fantasizing:transporter"
 				type: "item"
 			}]
-			x: -21.5d
-			y: -4.0d
+			x: -19.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1742597D48E37800"]
@@ -4414,7 +4325,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Allows you to sell items on it, just like a table cover."
+			subtitle: "{ftbquests.chapter.create.quest1095943550870243302.subtitle}"
 			tasks: [{
 				id: "24CE12646EF85808"
 				item: "create:red_table_cloth"
@@ -4425,7 +4336,7 @@
 		}
 		{
 			dependencies: ["1742597D48E37800"]
-			description: ["Decorate your factory or home with these beautiful decals!"]
+			description: ["{ftbquests.chapter.create.quest3031637836790184444.description1}"]
 			id: "2A128A8CDD8339FC"
 			rewards: [{
 				id: "247726402E6CFFE8"
@@ -4433,7 +4344,7 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest3031637836790184444.subtitle}"
 			tasks: [{
 				id: "0487347157C36B8C"
 				item: {
@@ -4443,157 +4354,29 @@
 						value: "createdeco"
 					}
 				}
-				title: "&8Create Deco Blocks"
+				title: "{ftbquests.chapter.create.quest3031637836790184444.task.326287159416023948.title}"
 				type: "item"
 			}]
-			title: "Decorative side of Create!"
+			title: "{ftbquests.chapter.create.quest3031637836790184444.title}"
 			x: -9.5d
 			y: -3.5d
 		}
 		{
-			dependencies: ["19183F380B49F31C"]
-			id: "20244F005E4AAA22"
-			rewards: [{
-				id: "3A6ECE37E173B3E4"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Sucks things in, such as fish."
-			tasks: [{
-				id: "420F7616AE7B99EC"
-				item: "createfisheryindustry:trap_nozzle"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -8.0d
-		}
-		{
-			dependencies: ["20244F005E4AAA22"]
-			id: "00EDC645735F6468"
-			rewards: [{
-				id: "148D695C64E3364C"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "goldtier"
-			subtitle: "Smart nozzle with filter capability."
-			tasks: [{
-				id: "28B7CA74381D67AD"
-				item: "createfisheryindustry:smart_nozzle"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -9.5d
-		}
-		{
-			dependencies: ["4206216A5F414642"]
-			description: ["Automatically collects nearby items, if used on specific entity, it collects the loot and xp."]
-			id: "760132FA1094BFB8"
-			rewards: [{
-				id: "1DAA39206B05005D"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "&8[Click to read]"
-			tasks: [{
-				id: "16B83914F0E17665"
-				item: "createfisheryindustry:mesh_trap"
-				type: "item"
-			}]
-			x: -15.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["760132FA1094BFB8"]
-			id: "454DCA434D36F2D3"
-			rewards: [{
-				id: "1D2F169DCA5B2583"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Automatically collects items and stores them."
-			tasks: [{
-				id: "3FCD2F14A832810D"
-				item: "createfisheryindustry:smart_mesh"
-				type: "item"
-			}]
-			x: -15.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["4206216A5F414642"]
-			id: "1BCAC1CBBC057DC4"
-			rewards: [{
-				id: "5C5C7A8A260E6F8B"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Catches fishes!"
-			tasks: [{
-				id: "5940331DD05A558B"
-				item: "createfisheryindustry:frame_trap"
-				type: "item"
-			}]
-			x: -17.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["1742597D48E37800"]
-			id: "09FC5E23A957A704"
-			subtitle: "Swim faster"
-			tasks: [{
-				id: "6E864812905A8952"
-				item: {
-					Count: 1
-					id: "createfisheryindustry:copper_diving_leggings"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -11.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["09FC5E23A957A704"]
-			id: "37B164FC39D4CB61"
-			rewards: [{
-				id: "402751A02D9D4437"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "An upgraded version of the Copper Diving Leggings."
-			tasks: [{
-				id: "118395D03E6BE3C5"
-				item: {
-					Count: 1
-					id: "createfisheryindustry:netherite_diving_leggings"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -11.0d
-			y: 1.5d
-		}
-		{
 			dependencies: ["4206216A5F414642"]
 			id: "64806E7D293220A7"
-			subtitle: "Connects your AE2 system to create vaults!"
+			subtitle: "{ftbquests.chapter.create.quest7241909684652875943.subtitle}"
 			tasks: [{
 				id: "0F84864FA53B3893"
 				item: "createstockbridge:ae_bridge"
 				type: "item"
 			}]
-			x: -19.5d
-			y: 0.0d
+			x: -20.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0C8D19B106618A91"]
 			id: "14FC66EDBA61E791"
-			subtitle: "Just a vertical version"
+			subtitle: "{ftbquests.chapter.create.quest1512196746109904785.subtitle}"
 			tasks: [{
 				id: "377A834948989EC2"
 				item: "create:vertical_gearbox"
@@ -4605,11 +4388,11 @@
 		{
 			dependencies: ["48E5D56C47DF6642"]
 			description: [
-				"Welcome to the world of railways engineering! This chapter will guide you through building and managing your own railway empire using Create's train system."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"From basic tracks to complex automated networks, you'll learn everything needed to become a master railroad engineer."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7Get ready to lay tracks, build locomotives, and watch your trains transport goods and passengers across your world!"
+				"{ftbquests.chapter.create.quest620955282404768871.description1}"
+				"{ftbquests.chapter.create.quest620955282404768871.image0}"
+				"{ftbquests.chapter.create.quest620955282404768871.description2}"
+				"{ftbquests.chapter.create.quest620955282404768871.image2}"
+				"{ftbquests.chapter.create.quest620955282404768871.description3}"
 			]
 			icon: {
 				Count: 1
@@ -4633,10 +4416,10 @@
 			]
 			shape: "gear"
 			size: 1.25d
-			subtitle: "Hey u made it to here!"
+			subtitle: "{ftbquests.chapter.create.quest620955282404768871.subtitle}"
 			tasks: [{
 				id: "2211F877FE4A671D"
-				title: "Locomotive Engineer"
+				title: "{ftbquests.chapter.create.quest620955282404768871.task.2455016466144716573.title}"
 				type: "checkmark"
 			}]
 			x: 14.0d
@@ -4644,7 +4427,7 @@
 		}
 		{
 			dependencies: ["089E138A15237C67"]
-			description: ["Trains are probably the coolest way of transportation in this modpack, so why not make them cooler by adding decorations!"]
+			description: ["{ftbquests.chapter.create.quest6643232477183205577.description1}"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -4660,27 +4443,27 @@
 			}]
 			shape: "octagon"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create.quest6643232477183205577.subtitle}"
 			tasks: [{
 				id: "6B16B41D7C3E2387"
-				title: "Ready to Expand Your Railway?"
+				title: "{ftbquests.chapter.create.quest6643232477183205577.task.7716553050277421959.title}"
 				type: "checkmark"
 			}]
-			title: "Decorating Trains"
+			title: "{ftbquests.chapter.create.quest6643232477183205577.title}"
 			x: 16.5d
 			y: -10.0d
 		}
 		{
 			dependencies: ["5C3180BD9AD7E0C9"]
 			description: [
-				"Steam 'n' Rails adds semaphores - visual indicators for your train signals."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7To use semaphores effectively:"
-				"§71. Place them adjacent to track signals"
-				"§72. Configure their appearance and behavior"
-				"§73. They'll provide clear visual feedback about signal status"
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7Tip: Semaphores make it easier to see signal status from a distance, especially useful for complex networks!"
+				"{ftbquests.chapter.create.quest4026227907408412027.description1}"
+				"{ftbquests.chapter.create.quest4026227907408412027.image0}"
+				"{ftbquests.chapter.create.quest4026227907408412027.description2}"
+				"{ftbquests.chapter.create.quest4026227907408412027.description3}"
+				"{ftbquests.chapter.create.quest4026227907408412027.description4}"
+				"{ftbquests.chapter.create.quest4026227907408412027.description5}"
+				"{ftbquests.chapter.create.quest4026227907408412027.image2}"
+				"{ftbquests.chapter.create.quest4026227907408412027.description6}"
 			]
 			id: "37E008F32DD7BD7B"
 			rewards: [{
@@ -4693,21 +4476,21 @@
 				item: "railways:semaphore"
 				type: "item"
 			}]
-			title: "Visual Signal Indicators"
+			title: "{ftbquests.chapter.create.quest4026227907408412027.title}"
 			x: 17.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["37E008F32DD7BD7B"]
 			description: [
-				"Brass switches allow for changing track directions from a distance."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7To use brass switches effectively:"
-				"§71. Place them at track junctions"
-				"§72. Connect to redstone signals if desired"
-				"§73. They can be activated by approaching trains"
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7Tip: These are essential for automated rail networks with multiple paths. Try combining them with observers for automated routing!"
+				"{ftbquests.chapter.create.quest6368701739847032860.description1}"
+				"{ftbquests.chapter.create.quest6368701739847032860.image0}"
+				"{ftbquests.chapter.create.quest6368701739847032860.description2}"
+				"{ftbquests.chapter.create.quest6368701739847032860.description3}"
+				"{ftbquests.chapter.create.quest6368701739847032860.description4}"
+				"{ftbquests.chapter.create.quest6368701739847032860.description5}"
+				"{ftbquests.chapter.create.quest6368701739847032860.image2}"
+				"{ftbquests.chapter.create.quest6368701739847032860.description6}"
 			]
 			id: "58622C7D53FEA01C"
 			rewards: [{
@@ -4720,7 +4503,7 @@
 				item: "railways:track_switch_brass"
 				type: "item"
 			}]
-			title: "Smart Junction Control"
+			title: "{ftbquests.chapter.create.quest6368701739847032860.title}"
 			x: 19.0d
 			y: -8.5d
 		}
@@ -4732,27 +4515,27 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "calling your train to your location"
+			subtitle: "{ftbquests.chapter.create.quest2211787737408449661.subtitle}"
 			tasks: [{
 				id: "2A8D3D249D72D0AD"
 				item: "railways:conductor_whistle"
 				type: "item"
 			}]
-			title: "Remote Train Summoning"
-			x: 16.566464280752285d
-			y: -11.485056982470248d
+			title: "{ftbquests.chapter.create.quest2211787737408449661.title}"
+			x: 16.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["5C3180BD9AD7E0C9"]
 			description: [
-				"The handcar is a manually powered rail vehicle added by Steam 'n' Rails."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7To use a handcar:"
-				"§71. Craft the handcar components"
-				"§72. Place it on the tracks"
-				"§73. Players can operate it by 'pumping' (sneak + use)"
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7Tip: Handcars are perfect for track inspection or short trips without setting up a full locomotive!"
+				"{ftbquests.chapter.create.quest856036497581039118.description1}"
+				"{ftbquests.chapter.create.quest856036497581039118.image0}"
+				"{ftbquests.chapter.create.quest856036497581039118.description2}"
+				"{ftbquests.chapter.create.quest856036497581039118.description3}"
+				"{ftbquests.chapter.create.quest856036497581039118.description4}"
+				"{ftbquests.chapter.create.quest856036497581039118.description5}"
+				"{ftbquests.chapter.create.quest856036497581039118.image2}"
+				"{ftbquests.chapter.create.quest856036497581039118.description6}"
 			]
 			id: "0BE140A8B9165E0E"
 			rewards: [{
@@ -4760,13 +4543,13 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Simple handcar"
+			subtitle: "{ftbquests.chapter.create.quest856036497581039118.subtitle}"
 			tasks: [{
 				id: "1CE98C5FAF8FEBD9"
 				item: "railways:handcar"
 				type: "item"
 			}]
-			title: "Maintenance Vehicle"
+			title: "{ftbquests.chapter.create.quest856036497581039118.title}"
 			x: 15.5d
 			y: -8.5d
 		}
@@ -4778,28 +4561,28 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "The Track Coupler allows you to connect trains together."
+			subtitle: "{ftbquests.chapter.create.quest4592750562441378653.subtitle}"
 			tasks: [{
 				id: "2B58C7EBBC18E024"
 				item: "railways:track_coupler"
 				type: "item"
 			}]
-			title: "Multi-Car Trains"
+			title: "{ftbquests.chapter.create.quest4592750562441378653.title}"
 			x: 14.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["5C3180BD9AD7E0C9"]
 			description: [
-				"Advanced train interiors make travel more functional and comfortable."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7For a proper passenger car:"
-				"§71. Add seating with chairs or benches"
-				"§72. Place chests for storage"
-				"§73. Add lighting with lanterns"
-				"§74. Consider decorative elements like signs and item frames"
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7Tip: Different wood types and materials can create unique aesthetics for each car!"
+				"{ftbquests.chapter.create.quest8617019736659368479.description1}"
+				"{ftbquests.chapter.create.quest8617019736659368479.image0}"
+				"{ftbquests.chapter.create.quest8617019736659368479.description2}"
+				"{ftbquests.chapter.create.quest8617019736659368479.description3}"
+				"{ftbquests.chapter.create.quest8617019736659368479.description4}"
+				"{ftbquests.chapter.create.quest8617019736659368479.description5}"
+				"{ftbquests.chapter.create.quest8617019736659368479.description6}"
+				"{ftbquests.chapter.create.quest8617019736659368479.image2}"
+				"{ftbquests.chapter.create.quest8617019736659368479.description7}"
 			]
 			id: "7795CDCBAA1C9A1F"
 			rewards: [{
@@ -4817,7 +4600,7 @@
 							value: "minecraft:wooden_slabs"
 						}
 					}
-					title: "Any Wooden Slab"
+					title: "{ftbquests.chapter.create.quest8617019736659368479.task.4234256764127812887.title}"
 					type: "item"
 				}
 				{
@@ -4829,7 +4612,7 @@
 							value: "minecraft:signs"
 						}
 					}
-					title: "Any Sign"
+					title: "{ftbquests.chapter.create.quest8617019736659368479.task.283918099402466150.title}"
 					type: "item"
 				}
 				{
@@ -4838,22 +4621,22 @@
 					type: "item"
 				}
 			]
-			title: "Interior Design"
+			title: "{ftbquests.chapter.create.quest8617019736659368479.title}"
 			x: 16.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["7795CDCBAA1C9A1F"]
 			description: [
-				"Creating themed train cars adds personality to your railway system."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7Ideas for themed train cars:"
-				"§71. Dining car with tables and food displays"
-				"§72. Luxury sleeping car with beds and decorative items"
-				"§73. Mail car with chests and item sorters"
-				"§74. Observation car with glass roof and panoramic views"
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7Tip: Use different wood types, colored glass, and decorative blocks to create distinct themes!"
+				"{ftbquests.chapter.create.quest4815900572463721793.description1}"
+				"{ftbquests.chapter.create.quest4815900572463721793.image0}"
+				"{ftbquests.chapter.create.quest4815900572463721793.description2}"
+				"{ftbquests.chapter.create.quest4815900572463721793.description3}"
+				"{ftbquests.chapter.create.quest4815900572463721793.description4}"
+				"{ftbquests.chapter.create.quest4815900572463721793.description5}"
+				"{ftbquests.chapter.create.quest4815900572463721793.description6}"
+				"{ftbquests.chapter.create.quest4815900572463721793.image2}"
+				"{ftbquests.chapter.create.quest4815900572463721793.description7}"
 			]
 			id: "42D5840E0F4CED41"
 			rewards: [{
@@ -4870,26 +4653,26 @@
 						value: "minecraft:beds"
 					}
 				}
-				title: "Any Bed"
+				title: "{ftbquests.chapter.create.quest4815900572463721793.task.7950615700224926191.title}"
 				type: "item"
 			}]
-			title: "Themed Train Cars"
+			title: "{ftbquests.chapter.create.quest4815900572463721793.title}"
 			x: 16.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["5C3180BD9AD7E0C9"]
 			description: [
-				"A well-designed train platform enhances the aesthetics and functionality of your stations."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7Elements of a great train platform:"
-				"§71. Raised platform at the right height for easy boarding"
-				"§72. Roof to protect from weather"
-				"§73. Seating areas for waiting passengers"
-				"§74. Lighting for nighttime operation"
-				"§75. Decorative elements like flowers or banners"
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7Tip: Use stairs and slabs to create smooth transitions between platform levels!"
+				"{ftbquests.chapter.create.quest8141257155755577113.description1}"
+				"{ftbquests.chapter.create.quest8141257155755577113.image0}"
+				"{ftbquests.chapter.create.quest8141257155755577113.description2}"
+				"{ftbquests.chapter.create.quest8141257155755577113.description3}"
+				"{ftbquests.chapter.create.quest8141257155755577113.description4}"
+				"{ftbquests.chapter.create.quest8141257155755577113.description5}"
+				"{ftbquests.chapter.create.quest8141257155755577113.description6}"
+				"{ftbquests.chapter.create.quest8141257155755577113.description7}"
+				"{ftbquests.chapter.create.quest8141257155755577113.image2}"
+				"{ftbquests.chapter.create.quest8141257155755577113.description8}"
 			]
 			id: "70FB8E3FB9EB0F19"
 			rewards: [{
@@ -4908,7 +4691,7 @@
 							value: "minecraft:stairs"
 						}
 					}
-					title: "Any Stairs"
+					title: "{ftbquests.chapter.create.quest8141257155755577113.task.1425888268504323237.title}"
 					type: "item"
 				}
 				{
@@ -4921,11 +4704,11 @@
 							value: "minecraft:slabs"
 						}
 					}
-					title: "Any Slab"
+					title: "{ftbquests.chapter.create.quest8141257155755577113.task.4665371084127236672.title}"
 					type: "item"
 				}
 			]
-			title: "Platform Design"
+			title: "{ftbquests.chapter.create.quest8141257155755577113.title}"
 			x: 15.5d
 			y: -7.5d
 		}
@@ -4937,30 +4720,30 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "A digital screen.. i wonder what u can do with it"
+			subtitle: "{ftbquests.chapter.create.quest6590431467282057724.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "764B2F4C44D1C53A"
 				item: "create:display_board"
 				type: "item"
 			}]
-			title: "Railway Signage"
+			title: "{ftbquests.chapter.create.quest6590431467282057724.title}"
 			x: 14.0d
 			y: -7.5d
 		}
 		{
 			dependencies: ["5C3180BD9AD7E0C9"]
 			description: [
-				"Add flair to your trains with decorative accessories!"
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7Ideas for train decorations:"
-				"§71. Hanging lanterns for nighttime illumination"
-				"§72. Flowerpots for a touch of nature"
-				"§73. Custom banners with your railway logo"
-				"§74. Item displays showing cargo or destinations"
-				"§75. Trapdoors and fences for detailed exteriors"
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7Tip: Small details make a big difference in the appearance of your trains!"
+				"{ftbquests.chapter.create.quest1290183156352502637.description1}"
+				"{ftbquests.chapter.create.quest1290183156352502637.image0}"
+				"{ftbquests.chapter.create.quest1290183156352502637.description2}"
+				"{ftbquests.chapter.create.quest1290183156352502637.description3}"
+				"{ftbquests.chapter.create.quest1290183156352502637.description4}"
+				"{ftbquests.chapter.create.quest1290183156352502637.description5}"
+				"{ftbquests.chapter.create.quest1290183156352502637.description6}"
+				"{ftbquests.chapter.create.quest1290183156352502637.description7}"
+				"{ftbquests.chapter.create.quest1290183156352502637.image2}"
+				"{ftbquests.chapter.create.quest1290183156352502637.description8}"
 			]
 			id: "11E7A6BEB9954B6D"
 			rewards: [{
@@ -4983,26 +4766,26 @@
 							value: "minecraft:trapdoors"
 						}
 					}
-					title: "Any Trapdoor"
+					title: "{ftbquests.chapter.create.quest1290183156352502637.task.4244282633681950802.title}"
 					type: "item"
 				}
 			]
-			title: "Train Accessories"
+			title: "{ftbquests.chapter.create.quest1290183156352502637.title}"
 			x: 17.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["11E7A6BEB9954B6D"]
 			description: [
-				"Create beautiful vintage train aesthetics with these Steam 'n' Rails components."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7Vintage train elements:"
-				"§71. Steam whistles for authentic sound effects"
-				"§72. Coal-fired bogeys for traditional steam look"
-				"§73. Brass detailing on external components"
-				"§74. Wood paneling for carriage exteriors"
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7Tip: Use a combination of brass, copper, and dark wood to achieve an authentic vintage steam train appearance!"
+				"{ftbquests.chapter.create.quest1954754209208358878.description1}"
+				"{ftbquests.chapter.create.quest1954754209208358878.image0}"
+				"{ftbquests.chapter.create.quest1954754209208358878.description2}"
+				"{ftbquests.chapter.create.quest1954754209208358878.description3}"
+				"{ftbquests.chapter.create.quest1954754209208358878.description4}"
+				"{ftbquests.chapter.create.quest1954754209208358878.description5}"
+				"{ftbquests.chapter.create.quest1954754209208358878.description6}"
+				"{ftbquests.chapter.create.quest1954754209208358878.image2}"
+				"{ftbquests.chapter.create.quest1954754209208358878.description7}"
 			]
 			id: "1B20AE98B71057DE"
 			rewards: [{
@@ -5022,7 +4805,7 @@
 					type: "item"
 				}
 			]
-			title: "Vintage Train Aesthetics"
+			title: "{ftbquests.chapter.create.quest1954754209208358878.title}"
 			x: 20.5d
 			y: -6.5d
 		}
@@ -5034,16 +4817,11 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "or just to ram through everything (u cant)"
+			subtitle: "{ftbquests.chapter.create.quest5790959429623601333.subtitle}"
 			tasks: [{
 				id: "1768D8820878E2DC"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -5232,7 +5010,7 @@
 				}
 				type: "item"
 			}]
-			title: "Pilots"
+			title: "{ftbquests.chapter.create.quest5790959429623601333.title}"
 			x: 19.0d
 			y: -5.0d
 		}
@@ -5248,11 +5026,6 @@
 				id: "458BE2F0AD745443"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -5288,7 +5061,7 @@
 				}
 				type: "item"
 			}]
-			title: "Door steps"
+			title: "{ftbquests.chapter.create.quest2245951835219448781.title}"
 			x: 16.0d
 			y: -5.0d
 		}
@@ -5304,11 +5077,6 @@
 				id: "18A5734BB9D4B9BF"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -5344,7 +5112,7 @@
 				}
 				type: "item"
 			}]
-			title: "Grab bars"
+			title: "{ftbquests.chapter.create.quest3367805322311644312.title}"
 			x: 17.0d
 			y: -5.0d
 		}
@@ -5360,11 +5128,6 @@
 				id: "56D0A6C370D2993B"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -5400,7 +5163,7 @@
 				}
 				type: "item"
 			}]
-			title: "Steps"
+			title: "{ftbquests.chapter.create.quest7934104123733482446.title}"
 			x: 18.0d
 			y: -5.0d
 		}
@@ -5422,15 +5185,7 @@
 			]
 			tasks: [{
 				id: "71CA3F2FC0B1C743"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "bellsandwhistles:station_platform"
-				}
+				item: "bellsandwhistles:station_platform"
 				type: "item"
 			}]
 			x: 15.5d
@@ -5453,15 +5208,7 @@
 			]
 			tasks: [{
 				id: "7D08CF7457253655"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "bellsandwhistles:headlight"
-				}
+				item: "bellsandwhistles:headlight"
 				type: "item"
 			}]
 			x: 22.0d
@@ -5475,18 +5222,10 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Metro system hell yeaahh"
+			subtitle: "{ftbquests.chapter.create.quest8787925543129235192.subtitle}"
 			tasks: [{
 				id: "3D6DC388920243DB"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "bellsandwhistles:metro_casing"
-				}
+				item: "bellsandwhistles:metro_casing"
 				type: "item"
 			}]
 			x: 17.5d
@@ -5502,15 +5241,7 @@
 			}]
 			tasks: [{
 				id: "206CB91F91D0F89C"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "bellsandwhistles:corrugated_metro_casing"
-				}
+				item: "bellsandwhistles:corrugated_metro_casing"
 				type: "item"
 			}]
 			x: 19.0d
@@ -5532,71 +5263,31 @@
 					type: "item"
 				}
 			]
-			subtitle: "make sure to use headlights too"
+			subtitle: "{ftbquests.chapter.create.quest2899800214996910189.subtitle}"
 			tasks: [
 				{
 					id: "13E43E8C572ABAAC"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "bellsandwhistles:metro_panel"
-					}
+					item: "bellsandwhistles:metro_panel"
 					type: "item"
 				}
 				{
 					id: "4BB4E7710DDFE6E0"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "bellsandwhistles:corrugated_metro_panel"
-					}
+					item: "bellsandwhistles:corrugated_metro_panel"
 					type: "item"
 				}
 				{
 					id: "4FAFDD49499CFF35"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "bellsandwhistles:metro_trapdoor"
-					}
+					item: "bellsandwhistles:metro_trapdoor"
 					type: "item"
 				}
 				{
 					id: "1D9CCFFBBA916AF2"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "bellsandwhistles:metro_window"
-					}
+					item: "bellsandwhistles:metro_window"
 					type: "item"
 				}
 				{
 					id: "07DC954C388896CE"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "bellsandwhistles:ornate_iron_trapdoor"
-					}
+					item: "bellsandwhistles:ornate_iron_trapdoor"
 					type: "item"
 				}
 			]
@@ -5605,14 +5296,14 @@
 		}
 		{
 			dependencies: ["58622C7D53FEA01C"]
-			description: ["Fancy way of stopping your train."]
+			description: ["{ftbquests.chapter.create.quest8581986079869329590.description1}"]
 			id: "771956DECDF560B6"
 			rewards: [{
 				id: "48C4E4E34043DAEF"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Stop!"
+			subtitle: "{ftbquests.chapter.create.quest8581986079869329590.subtitle}"
 			tasks: [{
 				id: "7B8B58A913E85961"
 				item: "railways:buffer"
@@ -5622,5 +5313,5 @@
 			y: -8.5d
 		}
 	]
-	title: "Create: Main"
+	title: "{ftbquests.chapter.create.title}"
 }

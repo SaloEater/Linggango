@@ -3,15 +3,16 @@ ServerEvents.recipes(e => {
   e.remove({ id: "enigmaticlegacy:eldritch_pan" });
   e.remove({ id: "enigmaticlegacy:the_cube" });
   e.remove({ id: "enigmaticlegacy:crafting/the_cube" });
+  e.remove({ id: "enigtmaticlegacy:cursed_scroll"})
 
-  e.shaped("enigmaticlegacy:the_cube", ["ABC", "DEG", "CFA"], {
-    A: "cataclysm:witherite_block",
+  e.shaped("enigmaticlegacy:the_cube", ["ABC", "DEF", "CGA"], {
+    A: "armageddon_mod:shadowed_ingot",
     B: "enigmaticaddons:revival_leaf",
-    C: "enigmaticlegacy:evil_ingot",
+    C: "goety:dark_ingot",
     D: "kubejs:broken_cube_piece_1",
     E: "enigmaticaddons:lost_engine",
-    F: "enigmaticaddons:forgotten_ice",
-    G: "kubejs:broken_cube_piece_2"
+    F: "kubejs:broken_cube_piece_2",
+    G: "enigmaticaddons:illusion_lantern"
   });
 
   e.shaped("enigmaticlegacy:cursed_ring", [" A ", "ABA", " C "], {

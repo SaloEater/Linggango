@@ -1,7 +1,7 @@
 {
 	id: "062E0D5C04EF2B38"
 	loot_size: 1
-	order_index: 13
+	order_index: 14
 	rewards: [
 		{ count: 2, item: "ad_astra:steel_nugget" }
 		{ count: 2, item: "ad_astra:steel_rod" }
@@ -25,5 +25,5 @@
 		{ count: 2, item: "ad_astra:iron_plate" }
 		{ count: 12, item: "ad_astra:steel_cable" }
 	]
-	title: "ad astra mid"
+	title: "{ftbquests.loot_table.445308102027193144.title}"
 }

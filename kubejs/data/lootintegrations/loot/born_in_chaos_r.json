@@ -1,0 +1,9 @@
+{
+  "loot_table": "lootintegrations:chests/village",
+  "max_result_itemcount": 10,
+  "integrated_loot_tables": {
+    "minecraft:chests/basic_chest": 1,
+    "minecraft:chests/farm_drop": 1,
+    "minecraft:chests/shater": 1
+  }
+}

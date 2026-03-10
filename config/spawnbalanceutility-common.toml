@@ -4,7 +4,7 @@
 	#Range: 0 ~ 2
 	debugLevel = 0
 	#generateReport
-	generateReport = false
+	generateReport = true
 	#suppressMinecraftMobReporting
 	suppressMinecraftMobReporting = false
 	#fixEmptyNether

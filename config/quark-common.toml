@@ -9,7 +9,7 @@
 	#Blocks that Quark should treat as Shulker Boxes.
 	"Shulker Boxes" = ["minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box"]
 	#Should Quark treat anything with 'shulker_box' in its item identifier as a shulker box?
-	"Interpret Shulker Box Like Blocks" = true
+	"Interpret Shulker Box Like Blocks" = false
 	#Set to true if you need to find the class name for a screen that's causing problems
 	"Print Screen Classnames" = false
 	#A list of screens that can accept quark's buttons. Use "Print Screen Classnames" to find the names of any others you'd want to add.
@@ -79,7 +79,7 @@
 		#e.g. the Shulker Box behavior is optional, because it'll throw out the item if it fails, whereas TNT is not optional.
 		#If true, it'll attempt to use the previous behavior before trying to place the block in the world.
 		#Requires a game restart to re-apply.
-		"Wrap Existing Behaviors" = true
+		"Wrap Existing Behaviors" = false
 
 	[automation.feeding_trough]
 		#How long, in game ticks, between animals being able to eat from the trough
@@ -313,9 +313,9 @@
 
 	[management.expanded_item_interactions]
 		"Enable Armor Interaction" = true
-		"Enable Shulker Box Interaction" = true
+		"Enable Shulker Box Interaction" = false
 		"Enable Lava Interaction" = true
-		"Allow Opening Shulker Boxes" = true
+		"Allow Opening Shulker Boxes" = false
 		"Allow Rotating Bundles" = true
 
 	[management.hotbar_changer]

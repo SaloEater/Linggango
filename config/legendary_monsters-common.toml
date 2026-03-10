@@ -57,7 +57,7 @@
 	["Mob Settings"."Ancient Guardian Settings"]
 		#Multiplies damage dealt by Ancient Guardian
 		#Range: 0.0 ~ 1000.0
-		"Ancient Guardian Damage Multiplier" = 2.0
+		"Ancient Guardian Damage Multiplier" = 2.5
 		#Multiplies health of Ancient Guardian
 		#Range: 0.0 ~ 1000.0
 		"Ancient Guardian Health Multiplier" = 4.0
@@ -89,26 +89,26 @@
 	["Mob Settings"."Posessed Paladin Settings"]
 		#Multiplies damage dealt by Posessed Paladin
 		#Range: 0.0 ~ 1000.0
-		"Posessed Paladin Damage Multiplier" = 3.0
+		"Posessed Paladin Damage Multiplier" = 4.0
 		#Multiplies health of Posessed Paladin. §cNOTE: Disabling This may make the bossfight less fun.
 		#Range: 0.0 ~ 1000.0
 		"Posessed Paladin Health Multiplier" = 5.0
 		#Enables/Disables Stun Ability for Posessed Paladin
 		"Allow Posessed Paladin Stun Ability" = true
 		#Enables/Disables Projectile Immunity for Posessed Paladin
-		"Allow Posessed Paladin Projectile Immunity" = true
+		"Allow Posessed Paladin Projectile Immunity" = false
 
 	["Mob Settings"."Overgrown Colosuss Settings"]
 		#Multiplies damage dealt by Overgrown Colosuss
 		#Range: 0.0 ~ 1000.0
-		"Overgrown Colosuss Damage Multiplier" = 1.0
+		"Overgrown Colosuss Damage Multiplier" = 2.0
 		#Multiplies health of Overgrown Colosuss
 		#Range: 0.0 ~ 1000.0
 		"Overgrown Colosuss Health Multiplier" = 3.0
 		#Enables/Disables Stun Ability for Overgrown Colosuss. §cNOTE: Disabling This may make the bossfight less fun.
 		"Allow Overgrown Colosuss Stun Ability" = true
 		#Enables/Disables Projectile Immunity for Overgrown Colosuss
-		"Allow Overgrown Colosuss Projectile Immunity" = true
+		"Allow Overgrown Colosuss Projectile Immunity" = false
 
 	["Mob Settings"."Mossy Golem Settings"]
 		#Multiplies damage dealt by Mossy Golem
@@ -121,7 +121,7 @@
 	["Mob Settings"."Cloud Golem Settings"]
 		#Multiplies damage dealt by Cloud Golem
 		#Range: 0.0 ~ 1000.0
-		"Cloud Golem Damage Multiplier" = 2.5
+		"Cloud Golem Damage Multiplier" = 3.0
 		#Multiplies health of Cloud Golem
 		#Range: 0.0 ~ 1000.0
 		"Cloud Golem Health Multiplier" = 4.0
@@ -135,12 +135,12 @@
 		"Allow Cloud Golem Invulnerability Time" = true
 		#Maximum damage that can be dealt to Cloud Golem
 		#Range: 0.0 ~ 1000.0
-		"Cloud Golem Damage Cap" = 20.0
+		"Cloud Golem Damage Cap" = 75.0
 
 	["Mob Settings"."Cloud Golem's Falling Cloud Settings"]
 		#Multiplies damage dealt by Falling Cloud
 		#Range: 0.0 ~ 1000.0
-		"Falling Cloud Damage Multiplier" = 3.0
+		"Falling Cloud Damage Multiplier" = 3.5
 
 	["Mob Settings"."Frostbitten Golem Settings"]
 		#Multiplies damage dealt by Frostbitten Golem
@@ -148,9 +148,9 @@
 		"Frostbitten Golem Damage Multiplier" = 2.0
 		#Multiplies health of Frostbitten Golem
 		#Range: 0.0 ~ 1000.0
-		"Frostbitten Golem Health Multiplier" = 2.0
+		"Frostbitten Golem Health Multiplier" = 3.0
 		#Enables/Disables Projectile Immunity for Frostbitten Golem
-		"Allow Frostbitten Golem Projectile Immunity" = true
+		"Allow Frostbitten Golem Projectile Immunity" = false
 
 	["Mob Settings"."Dune Sentinel Settings"]
 		#Multiplies damage dealt by Dune Sentinel
@@ -158,7 +158,7 @@
 		"Dune Sentinel Damage Multiplier" = 1.0
 		#Multiplies health of Dune Sentinel
 		#Range: 0.0 ~ 1000.0
-		"Dune Sentinel Health Multiplier" = 2.0
+		"Dune Sentinel Health Multiplier" = 2.5
 		#Enables/Disables Projectile Immunity for Dune Sentinel
 		"Allow Dune Sentinel Projectile Immunity" = true
 		#Multiplies damage dealt by Bomber

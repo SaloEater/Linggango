@@ -25,6 +25,10 @@ ServerEvents.recipes(e => {
   e.remove({ id: "ancient_elements:steel_drill" });
   e.remove({ id: "ancient_elements:lead_drill" });
   e.remove({ id: "ancient_elements:din_drill" });
+  e.remove({ id: "ancient_elements:titaniumhelmetrecipe" });
+  e.remove({ id: "ancient_elements:titaniumchestplaterecipe" });
+  e.remove({ id: "ancient_elements:titaniumleggingsrecipe" });
+  e.remove({ id: "ancient_elements:titaniumbootsrecipe" });
 
 
   e.shaped("ancient_elements:ominous_bell", ["ABA", "BAB", "   "], {

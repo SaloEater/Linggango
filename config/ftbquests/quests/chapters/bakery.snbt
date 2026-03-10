@@ -8,7 +8,7 @@
 	images: [{
 		dev: true
 		height: 1.0d
-		hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+		hover: ["ftbquests.chapter.bakery.image.hovertext1"]
 		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 		rotation: 0.0d
 		width: 1.0d
@@ -28,13 +28,13 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "Have you ever dreamed of owning a bakery? Now is your chance to make it happen!"
+			subtitle: "{ftbquests.chapter.bakery.quest5675666132077173846.subtitle}"
 			tasks: [{
 				id: "05453BBDE0E524BB"
-				title: "FINALLY!1"
+				title: "{ftbquests.chapter.bakery.quest5675666132077173846.task.379775430290646203.title}"
 				type: "checkmark"
 			}]
-			title: "Owning A Bakery"
+			title: "{ftbquests.chapter.bakery.quest5675666132077173846.title}"
 			x: -0.5d
 			y: -2.0d
 		}
@@ -47,7 +47,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "How else u going to make bread?"
+			subtitle: "{ftbquests.chapter.bakery.quest8371898099867691392.subtitle}"
 			tasks: [{
 				id: "1C55337F13FADD93"
 				item: "bakery:yeast"
@@ -65,7 +65,7 @@
 				item: "minecraft:bucket"
 				type: "item"
 			}]
-			subtitle: "Can be filled with water"
+			subtitle: "{ftbquests.chapter.bakery.quest3552185768874442759.subtitle}"
 			tasks: [{
 				id: "0331FBCF8ED9121B"
 				item: "bakery:kitchen_sink"
@@ -83,7 +83,7 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Stir stir stir.."
+			subtitle: "{ftbquests.chapter.bakery.quest215848360352570191.subtitle}"
 			tasks: [{
 				id: "45056CA0F41A3A00"
 				item: "bakery:crafting_bowl"
@@ -101,7 +101,7 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "It's not a furnace.. its a oven"
+			subtitle: "{ftbquests.chapter.bakery.quest2129272258423512774.subtitle}"
 			tasks: [{
 				id: "0C8EA1CAA0126FE3"
 				item: "bakery:brick_stove"
@@ -119,7 +119,7 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Can be put on the oven"
+			subtitle: "{ftbquests.chapter.bakery.quest4550189943281333098.subtitle}"
 			tasks: [{
 				id: "043A6D8343A84DB0"
 				item: {
@@ -136,7 +136,7 @@
 		}
 		{
 			dependencies: ["4EC40446B22CDC56"]
-			description: ["Making big sized sweets wowowo"]
+			description: ["{ftbquests.chapter.bakery.quest3778894451057125354.description1}"]
 			hide_dependency_lines: false
 			id: "3471547B56F467EA"
 			rewards: [{
@@ -156,11 +156,6 @@
 			dependencies: ["4EC40446B22CDC56"]
 			icon: {
 				Count: 1
-				ForgeCaps: {
-					"undermod:capability_item_life_leech": {
-						power: 1
-					}
-				}
 				id: "bakery:bread_knife"
 				tag: {
 					Damage: 0
@@ -172,7 +167,7 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Used to cut food into edible portions: place a food item, then right-click with the knife."
+			subtitle: "{ftbquests.chapter.bakery.quest402383105293440369.subtitle}"
 			tasks: [{
 				id: "558CA8377B88E214"
 				item: {
@@ -184,7 +179,7 @@
 				}
 				type: "item"
 			}]
-			title: "Cutting"
+			title: "{ftbquests.chapter.bakery.quest402383105293440369.title}"
 			x: -0.5d
 			y: -3.5d
 		}
@@ -861,5 +856,5 @@
 			y: 7.5d
 		}
 	]
-	title: "[Let's Do] Bakery"
+	title: "{ftbquests.chapter.bakery.title}"
 }

@@ -90,4 +90,12 @@ StartupEvents.registry("item", e => {
   e.create("dark_metal_sheet")
     .displayName("Dark Metal Sheet")
     .texture("kubejs:item/dark_metal_sheet");
+
+  e.create("corrupted_soul_fragment")  
+    .displayName("§bCorrupted Soul Fragment")
+    .texture("kubejs:item/corrupted_soul_fragment")
+    .tooltip(
+      "Fragments of a great soul."
+    )
+    .rarity("rare");
 });

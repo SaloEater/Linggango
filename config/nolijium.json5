@@ -24,10 +24,10 @@
 	"enableToolTipInfo": false,
 	// Overrides the number of stars rendered.
 	// DEFAULT: `1500`
-	"starCount": 1500,
+	"starCount": 500,
 	// Overrides the scale of stars.
 	// DEFAULT: `0.1`
-	"starScale": 0.25,
+	"starScale": 0.049999997,
 	// Overrides the brightness of stars.
 	// DEFAULT: `0.5`
 	"starBrightness": 0.5,
@@ -127,10 +127,10 @@
 	"disableFontShadows": false,
 	// Disables all toast messages.
 	// DEFAULT: `false`
-	"hideAllToasts": true,
+	"hideAllToasts": false,
 	// Disables toast messages for receiving Advancements.
 	// DEFAULT: `false`
-	"hideAdvancementToasts": true,
+	"hideAdvancementToasts": false,
 	// Disables toast messages for unlocking Recipes.
 	// DEFAULT: `false`
 	"hideRecipeToasts": true,

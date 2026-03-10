@@ -25,6 +25,9 @@ ServerEvents.recipes(e => {
   e.remove({ id: "brutality:heart_of_gold" });
   e.remove({ id: "brutality:self_repair_nexus"})
   e.remove({ id: "brutality:vampire_knives"});
+  e.remove({ id: "brutality:rhongomyniad"});
+  e.remove({ id: "brutality:celestial_starboard"})
+
 
   e.shaped("brutality:royal_guardian_sword", ["ABC", "DEB", "FDA"], {
     A: "minecraft:gold_block",
@@ -64,7 +67,7 @@ ServerEvents.recipes(e => {
   e.shaped("brutality:vampire_knives", ["ABB", "ACB", "DAA"], {
     A: "terramity:chthonic_crystal",
     B: "brutality:diamond_knife",
-    C: "terramity:cthonic_nectar",
+    C: "terramity:chthonic_nectar",
     D: "bloodmagic:activationcrystalweak",
   });
 

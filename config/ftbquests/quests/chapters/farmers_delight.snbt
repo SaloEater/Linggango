@@ -10,7 +10,7 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			hover: ["ftbquests.chapter.farmers_delight.image.hovertext1"]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -31,22 +31,22 @@
 	quests: [
 		{
 			dependencies: ["4A870C4840BCE3F0"]
-			description: ["Cooking on the go. Hold near a heatsource and hold food in your offhand then right-click the Skillet!"]
+			description: ["{ftbquests.chapter.farmers_delight.quest6770555685492141105.description1}"]
 			id: "5DF5D88625C2AC31"
 			rewards: [{
 				id: "424B8D52E22FCFC2"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.farmers_delight.quest6770555685492141105.subtitle}"
 			tasks: [{
 				advancement: "farmersdelight:main/use_skillet"
 				criterion: ""
 				id: "244AF50526DA588F"
-				title: "Craft a &4Skillet"
+				title: "{ftbquests.chapter.farmers_delight.quest6770555685492141105.task.2615171936117479567.title}"
 				type: "advancement"
 			}]
-			title: "Craft a skillet"
+			title: "{ftbquests.chapter.farmers_delight.quest6770555685492141105.title}"
 			x: -4.0d
 			y: 2.0d
 		}
@@ -58,15 +58,15 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Used to cook meals. Click the arrow to see all recipes!"
+			subtitle: "{ftbquests.chapter.farmers_delight.quest5370274585125905392.subtitle}"
 			tasks: [{
 				advancement: "farmersdelight:main/place_cooking_pot"
 				criterion: ""
 				id: "4C20864B9BA1175D"
-				title: "Put down a &5Cooking Pot"
+				title: "{ftbquests.chapter.farmers_delight.quest5370274585125905392.task.5485532005428959069.title}"
 				type: "advancement"
 			}]
-			title: "Use a cooking pot"
+			title: "{ftbquests.chapter.farmers_delight.quest5370274585125905392.title}"
 			x: -5.5d
 			y: 2.0d
 		}
@@ -75,13 +75,7 @@
 			rewards: [
 				{
 					id: "0BFAD02FBA700BF3"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: { }
-						}
-						id: "create_central_kitchen:cooking_guide"
-					}
+					item: "create_central_kitchen:cooking_guide"
 					type: "item"
 				}
 				{
@@ -92,33 +86,33 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "Can cook 6 items"
+			subtitle: "{ftbquests.chapter.farmers_delight.quest9138495215107280659.subtitle}"
 			tasks: [{
 				id: "7BFD74C86980200B"
 				item: "farmersdelight:stove"
-				title: "Craft a &dStove"
+				title: "{ftbquests.chapter.farmers_delight.quest9138495215107280659.task.8934425639885217803.title}"
 				type: "item"
 			}]
-			title: "Craft a stove"
+			title: "{ftbquests.chapter.farmers_delight.quest9138495215107280659.title}"
 			x: -5.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["7ED274FAF6138F13"]
-			description: ["smaller than the conventional pot and is specialized for quick lunches."]
+			description: ["{ftbquests.chapter.farmers_delight.quest2177030196751996144.description1}"]
 			id: "1E365D6DF6B394F0"
 			rewards: [{
 				id: "2FADF626B2B110CC"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.farmers_delight.quest2177030196751996144.subtitle}"
 			tasks: [{
 				id: "626F548BD03ABC55"
 				item: "miners_delight:copper_pot"
 				type: "item"
 			}]
-			title: "Craft a copper pot"
+			title: "{ftbquests.chapter.farmers_delight.quest2177030196751996144.title}"
 			x: -5.5d
 			y: -1.0d
 		}
@@ -127,28 +121,22 @@
 			id: "344D8DBF1BB57620"
 			tasks: [{
 				id: "2B56511E003B8F5E"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: { }
-					}
-					id: "create_central_kitchen:cooking_guide"
-				}
+				item: "create_central_kitchen:cooking_guide"
 				type: "item"
 			}]
-			title: "Obtain a &6Cooking Guide"
+			title: "{ftbquests.chapter.farmers_delight.quest3768824315122120224.title}"
 			x: -4.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["08967471DC2A253D"]
 			id: "4BCD611B86666C7D"
-			subtitle: "Cook a BIG meal!"
+			subtitle: "{ftbquests.chapter.farmers_delight.quest5462128693917150333.subtitle}"
 			tasks: [{
 				advancement: "farmersdelight:main/place_feast"
 				criterion: ""
 				id: "4C5664274BFDE542"
-				title: "Glorious Feast"
+				title: "{ftbquests.chapter.farmers_delight.quest5462128693917150333.task.5500694114821072194.title}"
 				type: "advancement"
 			}]
 			x: 2.0d
@@ -157,12 +145,12 @@
 		{
 			dependencies: ["61157EAD05B7BEF7"]
 			id: "3B2766CE93DCB42E"
-			subtitle: "Sunlight, water and other aspects can affect the process"
+			subtitle: "{ftbquests.chapter.farmers_delight.quest4262488609759474734.subtitle}"
 			tasks: [{
 				advancement: "farmersdelight:main/get_rich_soil"
 				criterion: ""
 				id: "0CD6FC12FD81914C"
-				title: "Obtain Rich Soil"
+				title: "{ftbquests.chapter.farmers_delight.quest4262488609759474734.task.925203931963953484.title}"
 				type: "advancement"
 			}]
 			x: 2.0d
@@ -171,27 +159,27 @@
 		{
 			dependencies: ["1E16EC7519387411"]
 			id: "61157EAD05B7BEF7"
-			subtitle: "To obtain rich soil"
+			subtitle: "{ftbquests.chapter.farmers_delight.quest6995636877780303607.subtitle}"
 			tasks: [{
 				advancement: "farmersdelight:main/place_organic_compost"
 				criterion: ""
 				id: "2798F4271E3AE2EF"
-				title: "Place down Organic Compost"
+				title: "{ftbquests.chapter.farmers_delight.quest6995636877780303607.task.2853298812787286767.title}"
 				type: "advancement"
 			}]
-			title: "Organic compost"
+			title: "{ftbquests.chapter.farmers_delight.quest6995636877780303607.title}"
 			x: 0.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["09CD138931E8FC61"]
 			id: "08967471DC2A253D"
-			subtitle: "Plated, medium-sized meal."
+			subtitle: "{ftbquests.chapter.farmers_delight.quest618810031183897917.subtitle}"
 			tasks: [{
 				advancement: "farmersdelight:main/eat_nourishing_food"
 				criterion: ""
 				id: "5C297CE647762CD4"
-				title: "Cook a Plated Meal"
+				title: "{ftbquests.chapter.farmers_delight.quest618810031183897917.task.6640976454017756372.title}"
 				type: "advancement"
 			}]
 			x: 0.5d
@@ -200,12 +188,12 @@
 		{
 			dependencies: ["1BDAD50E5F4EBC11"]
 			id: "09CD138931E8FC61"
-			subtitle: "Small meal"
+			subtitle: "{ftbquests.chapter.farmers_delight.quest706242196535835745.subtitle}"
 			tasks: [{
 				advancement: "farmersdelight:main/eat_comfort_food"
 				criterion: ""
 				id: "171B4AD67193B6D5"
-				title: "Cook a Bowl Meal"
+				title: "{ftbquests.chapter.farmers_delight.quest706242196535835745.task.1665006772132493013.title}"
 				type: "advancement"
 			}]
 			x: -1.0d
@@ -214,12 +202,12 @@
 		{
 			dependencies: ["73154E99297677A1"]
 			id: "1E16EC7519387411"
-			subtitle: "Cut tall grass with a knife to obtain."
+			subtitle: "{ftbquests.chapter.farmers_delight.quest2168180258303931409.subtitle}"
 			tasks: [{
 				advancement: "farmersdelight:main/harvest_straw"
 				criterion: ""
 				id: "541B44CC472C6CDC"
-				title: "Harvest Grass"
+				title: "{ftbquests.chapter.farmers_delight.quest2168180258303931409.task.6060513367715245276.title}"
 				type: "advancement"
 			}]
 			x: -1.0d
@@ -233,23 +221,23 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Used on cutting board, sometimes duplicates food"
+			subtitle: "{ftbquests.chapter.farmers_delight.quest8292620708605228961.subtitle}"
 			tasks: [{
 				advancement: "farmersdelight:main/craft_knife"
 				criterion: ""
 				id: "354C935E7700A259"
-				title: "Craft a &9Knife"
+				title: "{ftbquests.chapter.farmers_delight.quest8292620708605228961.task.3840606616172929625.title}"
 				type: "advancement"
 			}]
-			title: "Craft a knife"
+			title: "{ftbquests.chapter.farmers_delight.quest8292620708605228961.title}"
 			x: -2.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["73154E99297677A1"]
-			description: ["Use an axe or knife to chop, It depends."]
+			description: ["{ftbquests.chapter.farmers_delight.quest2007150841652231185.description1}"]
 			id: "1BDAD50E5F4EBC11"
-			subtitle: "You can duplicate some things with this aswell."
+			subtitle: "{ftbquests.chapter.farmers_delight.quest2007150841652231185.subtitle}"
 			tasks: [{
 				id: "7B1FEFDBF45AFFFB"
 				item: "farmersdelight:cutting_board"
@@ -261,7 +249,7 @@
 		{
 			dependencies: ["7ED274FAF6138F13"]
 			id: "14A4C06C30ED5CC8"
-			subtitle: "Simple basket with a feature.. ''W'' to ponder."
+			subtitle: "{ftbquests.chapter.farmers_delight.quest1487525347848969416.subtitle}"
 			tasks: [{
 				id: "0F53386F922BA6D6"
 				item: "farmersdelight:basket"
@@ -273,7 +261,7 @@
 		{
 			dependencies: ["7ED274FAF6138F13"]
 			id: "009F3E9ABF8D46F2"
-			subtitle: "&8Hold \"Shift\" To Learn about the item"
+			subtitle: "{ftbquests.chapter.farmers_delight.quest44823355656586994.subtitle}"
 			tasks: [{
 				id: "6B80D3C32A79EB19"
 				item: "enigmaticdelicacy:hungry_charm"
@@ -285,7 +273,7 @@
 		{
 			dependencies: ["5DF5D88625C2AC31"]
 			id: "36739C1D0247B7EB"
-			subtitle: "A violent pan.."
+			subtitle: "{ftbquests.chapter.farmers_delight.quest3923651348776073195.subtitle}"
 			tasks: [{
 				id: "6E89449EF282D260"
 				item: {
@@ -303,7 +291,7 @@
 		{
 			dependencies: ["36739C1D0247B7EB"]
 			id: "5A90614017127E27"
-			subtitle: "Just mashing"
+			subtitle: "{ftbquests.chapter.farmers_delight.quest6525822787952737831.subtitle}"
 			tasks: [{
 				id: "1BF26438FDFAA6E8"
 				item: {
@@ -321,7 +309,7 @@
 		{
 			dependencies: ["5A90614017127E27"]
 			id: "143A661DC95FF26D"
-			subtitle: "Whisk Whisk Whisk Whisk "
+			subtitle: "{ftbquests.chapter.farmers_delight.quest1457589707526369901.subtitle}"
 			tasks: [{
 				id: "05CD22AF269DF59B"
 				item: {
@@ -337,5 +325,5 @@
 			y: 2.0d
 		}
 	]
-	title: "Farmer's Delight"
+	title: "{ftbquests.chapter.farmers_delight.title}"
 }

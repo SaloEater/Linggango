@@ -1,0 +1,17 @@
+{
+  "loot_table": "lootintegrations:chests/village",
+  "max_result_itemcount": 10,
+  "integrated_loot_tables": {
+    "ati_structures:chests/construction": 1,
+    "ati_structures:chests/food_storage": 1,
+    "ati_structures:chests/ingredients": 1,
+    "ati_structures:chests/vegetation": 1,
+    "epic:chests/food": 1,
+    "minecraft:chests/dye": 1,
+    "minecraft:chests/mineral": 1,
+    "minecraft:chests/random": 1,
+    "minecraft:chests/stone": 1,
+    "minecraft:chests/trash": 1,
+    "minecraft:chests/wood": 1
+  }
+}

@@ -259,7 +259,7 @@
 
 ["Ender Golem"]
 	#Ender Golem's block breaking ignore the MobGriefing
-	EndergolemBlockBreaking = true
+	EndergolemBlockBreaking = false
 	#Endergolem's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Endergolem's prevent attacks from far away Range" = 6.0
@@ -268,15 +268,15 @@
 	GolemHealthMultiplier = 4.0
 	#Golem's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	GolemDamageMultiplier = 3.0
+	GolemDamageMultiplier = 3.5
 
 [Ignis]
 	#Ignis's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisHealthMultiplier = 800.0
+	IgnisHealthMultiplier = 400.0
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisDamageMultiplier = 6.0
+	IgnisDamageMultiplier = 7.5
 	#Ignis's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	IgnisNatureHealing = 25.0
@@ -293,7 +293,7 @@
 	#Range: 0 ~ 100
 	IgnisDamageTime = 15
 	#Ignis's cracked block breaking ignore the MobGriefing
-	IgnisBlockBreaking = true
+	IgnisBlockBreaking = false
 
 [revenant]
 	#Revenant's Health Multiplier
@@ -495,7 +495,7 @@
 	ScyllaHealthMultiplier = 17.0
 	#Scylla's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ScyllaDamageMultiplier = 5.0
+	ScyllaDamageMultiplier = 6.0
 	#Scylla's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Scylla's prevent attacks from far away Range" = 10.0
@@ -538,10 +538,10 @@
 [Maledictus]
 	#Maledictus's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MaledictusHealthMultiplier = 200.0
+	MaledictusHealthMultiplier = 100.0
 	#Maledictus's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MaledictusDamageMultiplier = 5.0
+	MaledictusDamageMultiplier = 8.0
 	#Maledictus's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Maledictus's prevent attacks from far away Range" = 12.0
@@ -576,7 +576,7 @@
 	#Range: 0.0 ~ 1000000.0
 	"Maledictus's Phantom Arrow Damage" = 30.0
 	#Maledictus's cracked block breaking ignore the MobGriefing
-	MaledictusBlockBreaking = true
+	MaledictusBlockBreaking = false
 
 [spawning]
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn

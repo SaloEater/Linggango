@@ -1,7 +1,7 @@
 {
 	id: "07446637D8F25464"
 	loot_size: 1
-	order_index: 8
+	order_index: 9
 	rewards: [
 		{ item: "companions:shadow_bell", title: "SECRET" }
 		{ item: "companions:big_bread", title: "SECRET" }
@@ -176,5 +176,5 @@
 			title: "SECRET"
 		}
 	]
-	title: "Medium Risk"
+	title: "{ftbquests.loot_table.523655846730814564.title}"
 }

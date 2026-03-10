@@ -11,7 +11,7 @@ ItemEvents.modification(e => {
 
   e.modify("brutality:royal_guardian_sword", item => {
     let currentDamage = item.attackDamage || 0;
-    item.attackDamage = currentDamage + 1499;
+    item.attackDamage = currentDamage + 299;
   });
 
   e.modify("brutality:darkin_blade", item => {
@@ -26,7 +26,7 @@ ItemEvents.modification(e => {
 
   e.modify("block_factorys_bosses:knight_sword", item => {
     let currentDamage = item.attackDamage || 0;
-    item.attackDamage = currentDamage + 1799;
+    item.attackDamage = currentDamage + 119;
   });
 
   const $UUID = Java.loadClass("java.util.UUID");
@@ -125,7 +125,7 @@ ItemEvents.modification(e => {
 
       item.addAttribute(
         "minecraft:generic.armor",
-        "d8e0e03e-6705-4c0e-8558-4c1729098491", // See note below!
+        "d8e0e03e-6705-4c0e-8558-4c1729098491",
         "Armor",
         25.0,
         "addition"

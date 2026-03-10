@@ -1,7 +1,7 @@
 {
   "modpackMode": false,
   "fullScreen": "BORDERLESS",
-  "fpsDisplayMode": "OFF",
+  "fpsDisplayMode": "SIMPLE",
   "fpsDisplayAlign": "LEFT",
   "fpsDisplayVAlign": "TOP",
   "fpsDisplaySystemMode": "OFF",
@@ -63,7 +63,7 @@
   "tileEntityWhitelist": [
     "waterframes:all"
   ],
-  "borderlessAttachModeF11": "ATTACH",
+  "borderlessAttachModeF11": "OFF",
   "fastLanguageReload": true,
   "enableZoom": true,
   "maxZoom": 100.0

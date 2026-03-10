@@ -18,7 +18,7 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by All Rights Reserved. Do not try to steal without an explicit permission from me."]
+			hover: ["ftbquests.chapter.tameable_beast.image.hovertext1"]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -31,15 +31,15 @@
 	quests: [
 		{
 			description: [
-				"Domestication Innovation adds lot of QoL features to your pets!"
+				"{ftbquests.chapter.tameable_beast.quest4773487705387427202.description1}"
 				""
-				"&eSuch as:"
+				"{ftbquests.chapter.tameable_beast.quest4773487705387427202.description2}"
 				""
-				"&8-Stay, Wander, Protect. Commands for your pet."
+				"{ftbquests.chapter.tameable_beast.quest4773487705387427202.description3}"
 				""
-				"&8-No friendlyfire unless held shift!"
+				"{ftbquests.chapter.tameable_beast.quest4773487705387427202.description4}"
 				""
-				"&8Unlocks questlines&r"
+				"{ftbquests.chapter.tameable_beast.quest4773487705387427202.description5}"
 			]
 			icon: "minecraft:name_tag"
 			id: "423ED5C6EB4FE582"
@@ -50,23 +50,23 @@
 			}]
 			shape: "pentagon"
 			size: 1.3d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.tameable_beast.quest4773487705387427202.subtitle}"
 			tasks: [{
 				id: "5957C96118710CDC"
-				title: "Who uses pets?"
+				title: "{ftbquests.chapter.tameable_beast.quest4773487705387427202.task.6437835611208486108.title}"
 				type: "checkmark"
 			}]
-			title: "Overhauled Pet Taming System"
+			title: "{ftbquests.chapter.tameable_beast.quest4773487705387427202.title}"
 			x: -20.0d
 			y: -6.0d
 		}
 		{
 			description: [
-				"By moving your pet onto one of these, it will automatically set a spawnpoint just like you have :D!"
+				"{ftbquests.chapter.tameable_beast.quest2777996480191296630.description1}"
 				""
-				"The pet will respawn there after the death."
+				"{ftbquests.chapter.tameable_beast.quest2777996480191296630.description2}"
 				""
-				"If your pet doesn't respawn, just wait till dawn."
+				"{ftbquests.chapter.tameable_beast.quest2777996480191296630.description3}"
 			]
 			id: "268D6D148D167476"
 			rewards: [{
@@ -74,36 +74,31 @@
 				type: "xp"
 				xp: 25
 			}]
-			shape: "rsquare"
-			subtitle: "&8[Click to read]"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.tameable_beast.quest2777996480191296630.subtitle}"
 			tasks: [{
 				id: "107F01D45D3A054C"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "itemfilters:tag"
 					tag: {
 						value: "domesticationinnovation:pet_beds"
 					}
 				}
-				title: "Pet Bed"
+				title: "{ftbquests.chapter.tameable_beast.quest2777996480191296630.task.1188670838257878348.title}"
 				type: "item"
 			}]
-			title: "Pet Bed"
+			title: "{ftbquests.chapter.tameable_beast.quest2777996480191296630.title}"
 			x: -20.5d
 			y: -4.5d
 		}
 		{
 			description: [
-				"The Wayward Lantern is a decorative block that has some uses."
+				"{ftbquests.chapter.tameable_beast.quest693170554873595868.description1}"
 				""
-				"If u get teleported away with a dice, your pet might fail to teleport to you."
+				"{ftbquests.chapter.tameable_beast.quest693170554873595868.description2}"
 				""
-				"To prevent this, place wayward lanterns on your house so you know they're always there!"
+				"{ftbquests.chapter.tameable_beast.quest693170554873595868.description3}"
 			]
 			id: "099EA2F2740047DC"
 			rewards: [{
@@ -111,43 +106,30 @@
 				type: "xp"
 				xp: 25
 			}]
-			shape: "rsquare"
-			subtitle: "&8[Click to read]"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.tameable_beast.quest693170554873595868.subtitle}"
 			tasks: [{
 				id: "225BCA46DCD0AA04"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "domesticationinnovation:wayward_lantern"
-				}
+				item: "domesticationinnovation:wayward_lantern"
 				type: "item"
 			}]
 			x: -21.5d
 			y: -3.5d
 		}
 		{
-			description: ["Useful for moving pets around, it works just like a cat playing with toy."]
+			description: ["{ftbquests.chapter.tameable_beast.quest3865794418667899387.description1}"]
 			id: "35A60F8ABB6349FB"
 			rewards: [{
 				id: "729B462CF7DA563C"
 				type: "xp"
 				xp: 25
 			}]
-			shape: "rsquare"
-			subtitle: "&8[Click to read]"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.tameable_beast.quest3865794418667899387.subtitle}"
 			tasks: [{
 				id: "3E29B8B27FD217C7"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "domesticationinnovation:feather_on_a_stick"
 					tag: {
 						Damage: 0
@@ -160,9 +142,9 @@
 		}
 		{
 			description: [
-				"Rotten Apples have a chance to spawn when an apple despawns on the floor."
+				"{ftbquests.chapter.tameable_beast.quest2410149205616600599.description1}"
 				""
-				"Can be fed to a Horse in order to turn it into a Zombie Horse."
+				"{ftbquests.chapter.tameable_beast.quest2410149205616600599.description2}"
 			]
 			id: "217291EED877A617"
 			rewards: [{
@@ -170,19 +152,11 @@
 				type: "xp"
 				xp: 25
 			}]
-			shape: "rsquare"
-			subtitle: "&8[Click to read]"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.tameable_beast.quest2410149205616600599.subtitle}"
 			tasks: [{
 				id: "537399E9AB1AC5FF"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "domesticationinnovation:rotten_apple"
-				}
+				item: "domesticationinnovation:rotten_apple"
 				type: "item"
 			}]
 			x: -19.5d
@@ -190,9 +164,9 @@
 		}
 		{
 			description: [
-				"They can be fed to a Zombie Horse in order to turn it into a Skeleton Horse."
+				"{ftbquests.chapter.tameable_beast.quest2291146798410935647.description1}"
 				""
-				"If fed to a rabbit, it will turn into a maniac killer rabbit."
+				"{ftbquests.chapter.tameable_beast.quest2291146798410935647.description2}"
 			]
 			id: "1FCBC9DFC78EAD5F"
 			rewards: [{
@@ -200,19 +174,11 @@
 				type: "xp"
 				xp: 25
 			}]
-			shape: "rsquare"
-			subtitle: "&8[Click to read]"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.tameable_beast.quest2291146798410935647.subtitle}"
 			tasks: [{
 				id: "59FE60A959059F65"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "domesticationinnovation:sinister_carrot"
-				}
+				item: "domesticationinnovation:sinister_carrot"
 				type: "item"
 			}]
 			x: -19.5d
@@ -220,11 +186,11 @@
 		}
 		{
 			description: [
-				"The &dDeed of Ownership&r is an item that can be purchased from the &cAnimal Tamer&r villager. "
+				"{ftbquests.chapter.tameable_beast.quest2498281994250657916.description1}"
 				""
-				"By &6right clicking&r on a tamed pet that you are the owner of, you bind it to the deed. "
+				"{ftbquests.chapter.tameable_beast.quest2498281994250657916.description2}"
 				""
-				"If you give the deed to any other player, and they use it on the bounded animal, then the ownership of the pet will pass onto them, making it effectively as if they were the ones who tamed the animal."
+				"{ftbquests.chapter.tameable_beast.quest2498281994250657916.description3}"
 			]
 			id: "22ABAE3CC010A07C"
 			rewards: [{
@@ -232,71 +198,57 @@
 				type: "xp"
 				xp: 25
 			}]
-			shape: "rsquare"
-			subtitle: "&8[Click to read]"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.tameable_beast.quest2498281994250657916.subtitle}"
 			tasks: [{
 				id: "0F57CC7E7E1B6B14"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "domesticationinnovation:deed_of_ownership"
-				}
+				item: "domesticationinnovation:deed_of_ownership"
 				type: "item"
 			}]
 			x: -20.5d
 			y: -3.5d
 		}
 		{
-			description: ["When interacted, commands in a area, changing all mobs behaviour."]
+			description: [
+				"{ftbquests.chapter.tameable_beast.quest8295282229994182778.description1}"
+				""
+				"{ftbquests.chapter.tameable_beast.quest8295282229994182778.description2}"
+				""
+				"{ftbquests.chapter.tameable_beast.quest8295282229994182778.description3}"
+				""
+				"{ftbquests.chapter.tameable_beast.quest8295282229994182778.description4}"
+				""
+				"{ftbquests.chapter.tameable_beast.quest8295282229994182778.description5}"
+			]
 			id: "731EC33CE669D87A"
 			rewards: [{
 				id: "50C8B6F64976E783"
 				type: "xp"
 				xp: 25
 			}]
-			shape: "rsquare"
-			subtitle: "&8[Click to read]"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.tameable_beast.quest8295282229994182778.subtitle}"
 			tasks: [{
 				id: "5D9E4A368545216A"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "domesticationinnovation:drum"
-				}
+				item: "domesticationinnovation:drum"
 				type: "item"
 			}]
 			x: -21.5d
 			y: -4.5d
 		}
 		{
-			description: ["Same as a name tag but with a catch, you can &denchant&r it!"]
+			description: ["{ftbquests.chapter.tameable_beast.quest1364809239758431599.description1}"]
 			id: "12F0C6C5C1F8E56F"
 			rewards: [{
 				id: "58DB6C93C09A0DE9"
 				type: "xp"
 				xp: 25
 			}]
-			shape: "rsquare"
-			subtitle: "&8[Click to read]"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.tameable_beast.quest1364809239758431599.subtitle}"
 			tasks: [{
 				id: "5B46DC696AB19548"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "domesticationinnovation:collar_tag"
-				}
+				item: "domesticationinnovation:collar_tag"
 				type: "item"
 			}]
 			x: -18.5d
@@ -304,11 +256,11 @@
 		}
 		{
 			description: [
-				"&ePets can be enchanted by applying enchants to a &dCollar Tag&r &ein either an anvil or an enchanting table.&r"
+				"{ftbquests.chapter.tameable_beast.quest2225487038342897580.description1}"
 				""
-				"These collars can then be placed on a tamed pet of yours by interacting with it. "
+				"{ftbquests.chapter.tameable_beast.quest2225487038342897580.description2}"
 				""
-				"To get the enchanted collar back, you can simply swap it with any other collar, including an unenchanted one. "
+				"{ftbquests.chapter.tameable_beast.quest2225487038342897580.description3}"
 			]
 			icon: "minecraft:enchanting_table"
 			id: "1EE284AB94AA1FAC"
@@ -317,17 +269,17 @@
 				type: "xp"
 				xp: 25
 			}]
-			shape: "hexagon"
+			shape: "pentagon"
 			size: 1.4d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.tameable_beast.quest2225487038342897580.subtitle}"
 			tasks: [{
 				id: "1791BFEE9058A61B"
-				title: "&eEnchanting Your Pets"
+				title: "{ftbquests.chapter.tameable_beast.quest2225487038342897580.task.1698349565840238107.title}"
 				type: "checkmark"
 			}]
 			x: -20.0d
 			y: -2.0d
 		}
 	]
-	title: "Domestication Innovation"
+	title: "{ftbquests.chapter.tameable_beast.title}"
 }

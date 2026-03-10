@@ -10,7 +10,7 @@
 	images: [{
 		dev: true
 		height: 1.0d
-		hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+		hover: ["ftbquests.chapter.candy_cavity.image.hovertext1"]
 		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 		rotation: 0.0d
 		width: 1.0d
@@ -29,41 +29,41 @@
 				xp: 25
 			}]
 			shape: "rsquare"
-			subtitle: "Discover a Licowitch Tower"
+			subtitle: "{ftbquests.chapter.candy_cavity.quest7450929132163670201.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/licowitch_tower"
 				criterion: ""
 				icon: "alexscaves:licoroot_sprout"
 				id: "31E8D19AC0D7C103"
-				title: "The Dark (Chocolate) Tower"
+				title: "{ftbquests.chapter.candy_cavity.quest7450929132163670201.task.3596354765045874947.title}"
 				type: "advancement"
 			}]
-			title: "The Dark (Chocolate) Tower"
+			title: "{ftbquests.chapter.candy_cavity.quest7450929132163670201.title}"
 			x: 1.5d
 			y: 1.7027210884353678d
 		}
 		{
 			dependencies: ["67670491A939A0B9"]
-			description: ["You can obtain Radiant Essence&r from defeating the Licowitch!"]
+			description: ["{ftbquests.chapter.candy_cavity.quest4593343792275817935.description1}"]
 			id: "3FBED5D7ADD885CF"
 			rewards: [{
 				id: "4C2CA33F501FD818"
 				type: "xp"
 				xp: 30
 			}]
-			subtitle: "Obtain Radiant Essence"
+			subtitle: "{ftbquests.chapter.candy_cavity.quest4593343792275817935.subtitle}"
 			tasks: [{
 				id: "303C8584D6525ACB"
 				item: "alexscaves:radiant_essence"
 				type: "item"
 			}]
-			title: "The Secret Ingredient"
+			title: "{ftbquests.chapter.candy_cavity.quest4593343792275817935.title}"
 			x: 2.749999999999993d
 			y: 0.36870748299320155d
 		}
 		{
 			dependencies: ["3FBED5D7ADD885CF"]
-			description: ["A cauldron of &limmense power&r, able to &lconvert one biome into another&r."]
+			description: ["{ftbquests.chapter.candy_cavity.quest8109921991082698071.description1}"]
 			icon: "alexscaves:conversion_crucible"
 			id: "708C3B152A9CE557"
 			rewards: [
@@ -86,18 +86,18 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "Obtain A Conversion Crucible"
+			subtitle: "{ftbquests.chapter.candy_cavity.quest8109921991082698071.subtitle}"
 			tasks: [{
 				id: "3A512E434A2AAE28"
 				item: "alexscaves:conversion_crucible"
 				type: "item"
 			}]
-			title: "Biome Reactors"
+			title: "{ftbquests.chapter.candy_cavity.quest8109921991082698071.title}"
 			x: 3.700000000000003d
 			y: 2.354421768707489d
 		}
 		{
-			description: ["Find the candy cavity caves!"]
+			description: ["{ftbquests.chapter.candy_cavity.quest6716990662947769131.description1}"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -107,15 +107,15 @@
 			}
 			id: "5D378B6B789E0B2B"
 			size: 2.0d
-			subtitle: "Pure Imagination"
+			subtitle: "{ftbquests.chapter.candy_cavity.quest6716990662947769131.subtitle}"
 			tasks: [{
 				biome: "alexscaves:candy_cavity"
 				icon: "alexscaves:candy_cane"
 				id: "1BDAB2091F904235"
-				title: "Visit Candy Cavity"
+				title: "{ftbquests.chapter.candy_cavity.quest6716990662947769131.task.2007112336200974901.title}"
 				type: "biome"
 			}]
-			title: "Candy Cavity!"
+			title: "{ftbquests.chapter.candy_cavity.quest6716990662947769131.title}"
 			x: 0.5d
 			y: 0.0d
 		}
@@ -128,13 +128,13 @@
 				xp: 30
 			}]
 			shape: "circle"
-			subtitle: "Minty Impalement"
+			subtitle: "{ftbquests.chapter.candy_cavity.quest4916810527314108754.subtitle}"
 			tasks: [{
 				id: "521315219F92BF7D"
 				item: "alexscaves:frostmint_spear"
 				type: "item"
 			}]
-			title: "Spear Mint"
+			title: "{ftbquests.chapter.candy_cavity.quest4916810527314108754.title}"
 			x: 2.714285714285708d
 			y: -1.2384353741496525d
 		}
@@ -155,15 +155,15 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Too much candy.."
+			subtitle: "{ftbquests.chapter.candy_cavity.quest9058888234595198555.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/sugar_rush"
 				criterion: ""
 				id: "497E99E2004C1E96"
-				title: "Sugar Rush"
+				title: "{ftbquests.chapter.candy_cavity.quest9058888234595198555.task.5295839407780929174.title}"
 				type: "advancement"
 			}]
-			title: "Sugar Rush Effect"
+			title: "{ftbquests.chapter.candy_cavity.quest9058888234595198555.title}"
 			x: -1.0d
 			y: 0.0d
 		}
@@ -176,22 +176,22 @@
 				xp: 15
 			}]
 			shape: "circle"
-			subtitle: "Oh Little Town"
+			subtitle: "{ftbquests.chapter.candy_cavity.quest3645160486668995086.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/gingerbread_town"
 				criterion: ""
 				icon: "alexscaves:confection_oven"
 				id: "0683036580EFC360"
-				title: "Gingerbread Town"
+				title: "{ftbquests.chapter.candy_cavity.quest3645160486668995086.task.469222520666440544.title}"
 				type: "advancement"
 			}]
-			title: "Discover a Gingerbread Town&r."
+			title: "{ftbquests.chapter.candy_cavity.quest3645160486668995086.title}"
 			x: -2.392857142857146d
 			y: -1.7741496598639372d
 		}
 		{
 			dependencies: ["5D378B6B789E0B2B"]
-			description: ["Obtain Gingerbread Crumbs&r from hurting a gingerbread.."]
+			description: ["{ftbquests.chapter.candy_cavity.quest4328772944785979229.description1}"]
 			id: "3C12E40EF74A375D"
 			rewards: [{
 				id: "109380F91607F7D6"
@@ -199,16 +199,16 @@
 				xp: 20
 			}]
 			shape: "circle"
-			subtitle: "Wow.."
+			subtitle: "{ftbquests.chapter.candy_cavity.quest4328772944785979229.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/gingerbread_crumbs"
 				criterion: ""
 				icon: "alexscaves:gingerbread_crumbs"
 				id: "4E9CDBF9561ADC84"
-				title: "You're a Monster"
+				title: "{ftbquests.chapter.candy_cavity.quest4328772944785979229.task.5664644295263181956.title}"
 				type: "advancement"
 			}]
-			title: "Kill a Gingerbread.."
+			title: "{ftbquests.chapter.candy_cavity.quest4328772944785979229.title}"
 			x: 1.107142857142847d
 			y: -1.809863945578229d
 		}
@@ -222,13 +222,13 @@
 				xp: 5
 			}]
 			shape: "rsquare"
-			subtitle: "Obtain the Ginger Armoury"
+			subtitle: "{ftbquests.chapter.candy_cavity.quest2622420549514525411.subtitle}"
 			tasks: [{
 				id: "7649AA707D6CEFC1"
-				title: "Really"
+				title: "{ftbquests.chapter.candy_cavity.quest2622420549514525411.task.8523531169892724673.title}"
 				type: "checkmark"
 			}]
-			title: "Doesn't really feel protective."
+			title: "{ftbquests.chapter.candy_cavity.quest2622420549514525411.title}"
 			x: -0.5d
 			y: 1.7027210884353678d
 		}
@@ -260,7 +260,7 @@
 				}
 				type: "item"
 			}]
-			title: "&l&dGingerbread Boots"
+			title: "{ftbquests.chapter.candy_cavity.quest7478935941308794853.title}"
 			x: -0.8571428571428612d
 			y: 3.8687074829932016d
 		}
@@ -292,7 +292,7 @@
 				}
 				type: "item"
 			}]
-			title: "&l&dGingerbread Leggings"
+			title: "{ftbquests.chapter.candy_cavity.quest5791683137999951525.title}"
 			x: -1.3571428571428612d
 			y: 2.8687074829932016d
 		}
@@ -324,7 +324,7 @@
 				}
 				type: "item"
 			}]
-			title: "&l&dGingerbread Chestplate"
+			title: "{ftbquests.chapter.candy_cavity.quest1325309975426589112.title}"
 			x: -1.8571428571428612d
 			y: 1.8687074829932016d
 		}
@@ -356,13 +356,13 @@
 				}
 				type: "item"
 			}]
-			title: "&l&dGingerbread Helmet"
+			title: "{ftbquests.chapter.candy_cavity.quest7209241274364220407.title}"
 			x: -2.357142857142861d
 			y: 0.8687074829932016d
 		}
 		{
 			dependencies: ["5D378B6B789E0B2B"]
-			description: ["Use two Candy Cane Hooks&r to quickly latch onto the Gummy Worm&r, controlling the giant beast&r."]
+			description: ["{ftbquests.chapter.candy_cavity.quest3110188592356194711.description1}"]
 			id: "2B299C0BD7DCF997"
 			rewards: [{
 				id: "49B8BEC5847B0299"
@@ -370,7 +370,7 @@
 				xp: 35
 			}]
 			shape: "circle"
-			subtitle: "Power of Dessert"
+			subtitle: "{ftbquests.chapter.candy_cavity.quest3110188592356194711.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/ride_gum_worm"
 				criterion: ""
@@ -382,13 +382,13 @@
 					}
 				}
 				id: "221A96B4BCF21A59"
-				title: "Dessert Power"
+				title: "{ftbquests.chapter.candy_cavity.quest3110188592356194711.task.2457442249692289625.title}"
 				type: "advancement"
 			}]
-			title: "Control The Giant Worm!"
+			title: "{ftbquests.chapter.candy_cavity.quest3110188592356194711.title}"
 			x: -0.6785714285714377d
 			y: -2.0955782312925066d
 		}
 	]
-	title: "Candy Cavity"
+	title: "{ftbquests.chapter.candy_cavity.title}"
 }

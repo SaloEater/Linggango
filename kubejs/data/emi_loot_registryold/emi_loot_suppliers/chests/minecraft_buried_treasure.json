@@ -1,0 +1,15 @@
+{
+  "loot_table_id": "minecraft:chests/buried_treasure",
+  "entries": [
+    {
+      "item": "covenant_of_the_seven:ambrosial_arbor",
+      "weight": 1,
+      "conditions": [
+        {
+          "type": "random_chance",
+          "chance": 0.2
+        }
+      ]
+    }
+  ]
+}

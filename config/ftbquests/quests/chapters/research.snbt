@@ -10,7 +10,7 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			hover: ["ftbquests.chapter.research.image.hovertext1"]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -30,7 +30,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Spelunkery table's are crucial to find caves, u definitely need one!"]
+			description: ["{ftbquests.chapter.research.quest1053347388527471398.description1}"]
 			hide_dependent_lines: true
 			id: "0E9E3DDE7643EB26"
 			rewards: [{
@@ -40,7 +40,7 @@
 			}]
 			shape: "square"
 			size: 2.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.research.quest1053347388527471398.subtitle}"
 			tasks: [{
 				id: "5F5B3D9823310E69"
 				item: "alexscaves:spelunkery_table"
@@ -58,7 +58,7 @@
 				xp: 100
 			}]
 			shape: "gear"
-			subtitle: "Craft A Cave Compendium."
+			subtitle: "{ftbquests.chapter.research.quest8722921084787384577.subtitle}"
 			tasks: [{
 				id: "0A2CA0D386115474"
 				item: "alexscaves:cave_book"
@@ -76,7 +76,7 @@
 				xp: 100
 			}]
 			shape: "gear"
-			subtitle: "Crack The Code By Doing The Puzzle!"
+			subtitle: "{ftbquests.chapter.research.quest4983576270354349094.subtitle}"
 			tasks: [{
 				id: "180003CC328E9983"
 				item: {
@@ -129,19 +129,19 @@
 						]
 					}
 				}
-				title: "Cave Tablets"
+				title: "{ftbquests.chapter.research.quest4983576270354349094.task.1729386432466688387.title}"
 				type: "item"
 			}]
-			title: "Obtain any cave tablet"
+			title: "{ftbquests.chapter.research.quest4983576270354349094.title}"
 			x: -1.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["0E9E3DDE7643EB26"]
 			description: [
-				"In Order to Find Spelunkery Table, You Have to Find Underground Cabins."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Underground Cabins Will Include Spelunkery Table and Cave Tablets Which Will Be Useful Later."
+				"{ftbquests.chapter.research.quest8636554343260459145.description1}"
+				"{ftbquests.chapter.research.quest8636554343260459145.image0}"
+				"{ftbquests.chapter.research.quest8636554343260459145.description2}"
 			]
 			icon: {
 				Count: 1
@@ -153,15 +153,15 @@
 			icon_scale: 1.4d
 			id: "77DB346AB1659089"
 			shape: "pentagon"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.research.quest8636554343260459145.subtitle}"
 			tasks: [{
 				id: "7D99932B5E7CCE72"
-				title: "Where to find?"
+				title: "{ftbquests.chapter.research.quest8636554343260459145.task.9050426740655836786.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: -2.0d
 		}
 	]
-	title: "Alex's Caves"
+	title: "{ftbquests.chapter.research.title}"
 }

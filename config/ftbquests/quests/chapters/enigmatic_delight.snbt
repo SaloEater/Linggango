@@ -18,7 +18,7 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			hover: ["ftbquests.chapter.enigmatic_delight.image.hovertext1"]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			order: 2
 			rotation: 0.0d
@@ -32,9 +32,9 @@
 	quests: [
 		{
 			description: [
-				"Enigmatic Delicacy is an addon for Enigmatic Legacy."
+				"{ftbquests.chapter.enigmatic_delight.quest3518696960513557497.description1}"
 				""
-				"It introduces extremely op meals, and some mechanics."
+				"{ftbquests.chapter.enigmatic_delight.quest3518696960513557497.description2}"
 			]
 			icon: {
 				Count: 1
@@ -47,13 +47,13 @@
 			id: "30D4EC3E23A843F9"
 			shape: "octagon"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.enigmatic_delight.quest3518696960513557497.subtitle}"
 			tasks: [{
 				id: "65A10B84E0AC1F03"
-				title: "Aight"
+				title: "{ftbquests.chapter.enigmatic_delight.quest3518696960513557497.task.7323147134414102275.title}"
 				type: "checkmark"
 			}]
-			title: "Enigmatic Delicacy!"
+			title: "{ftbquests.chapter.enigmatic_delight.quest3518696960513557497.title}"
 			x: -0.3571428571428541d
 			y: -0.1071428571428541d
 		}
@@ -61,7 +61,7 @@
 			dependencies: ["30D4EC3E23A843F9"]
 			id: "5230419DF1B40F3C"
 			shape: "circle"
-			subtitle: "Super stove for delights!"
+			subtitle: "{ftbquests.chapter.enigmatic_delight.quest5922305656612982588.subtitle}"
 			tasks: [{
 				id: "218F991550CB6A0C"
 				item: "enigmaticdelicacy:etherium_stove"
@@ -92,14 +92,14 @@
 					type: "item"
 				}
 			]
-			title: "Etherium Machete and Cutting Board"
+			title: "{ftbquests.chapter.enigmatic_delight.quest8667148962942854541.title}"
 			x: -1.857142857142854d
 			y: 0.8928571428571459d
 		}
 		{
 			dependencies: ["1C45837A21B983C5"]
 			id: "5DFCA35427E91562"
-			subtitle: "can be sliced into.. more.. more ring slots.. too op.."
+			subtitle: "{ftbquests.chapter.enigmatic_delight.quest6772467521500550498.subtitle}"
 			tasks: [{
 				id: "4017B08C7F14DF95"
 				item: "enigmaticdelicacy:astral_fruit_slice"
@@ -110,7 +110,7 @@
 		}
 		{
 			id: "1C45837A21B983C5"
-			subtitle: "+1 ring slot"
+			subtitle: "{ftbquests.chapter.enigmatic_delight.quest2037178967030072261.subtitle}"
 			tasks: [{
 				id: "220C3438FA499F5A"
 				item: "enigmaticlegacy:astral_fruit"
@@ -121,7 +121,7 @@
 		}
 		{
 			id: "77233E2C884E6EAF"
-			subtitle: "Permament speed and luck bonus."
+			subtitle: "{ftbquests.chapter.enigmatic_delight.quest8584773675684621999.subtitle}"
 			tasks: [{
 				id: "1C441C6B4569C45D"
 				item: "enigmaticdelicacy:sticky_pie"
@@ -143,7 +143,7 @@
 		}
 		{
 			id: "09A92709120A3A2A"
-			subtitle: "Extremely Saturating"
+			subtitle: "{ftbquests.chapter.enigmatic_delight.quest696130537316301354.subtitle}"
 			tasks: [{
 				id: "4982E0D606A8A091"
 				item: "enigmaticdelicacy:balanced_stewed_soup"
@@ -154,7 +154,7 @@
 		}
 		{
 			id: "60CCB93F2A43C81E"
-			subtitle: "Grants temporary hunger immunity"
+			subtitle: "{ftbquests.chapter.enigmatic_delight.quest6975153603833219102.subtitle}"
 			tasks: [{
 				id: "1353E18C83438CAB"
 				item: "enigmaticdelicacy:balanced_stewed_soup_block"
@@ -165,7 +165,7 @@
 		}
 		{
 			id: "49EA69C9172B1659"
-			subtitle: "Might get a +1 random curio slot"
+			subtitle: "{ftbquests.chapter.enigmatic_delight.quest5326185821717075545.subtitle}"
 			tasks: [{
 				id: "1E6B3B3446975180"
 				item: "enigmaticdelicacy:divine_fruit_pie"
@@ -176,7 +176,7 @@
 		}
 		{
 			id: "329FDE0F561ECA74"
-			subtitle: "Only divine beings"
+			subtitle: "{ftbquests.chapter.enigmatic_delight.quest3647878380644125300.subtitle}"
 			tasks: [{
 				id: "78E44E9AD3B26EE2"
 				item: "enigmaticdelicacy:divine_fruit_pie_block"
@@ -187,7 +187,7 @@
 		}
 		{
 			id: "14B8843F3961EF68"
-			subtitle: "I don't think u want to drink this"
+			subtitle: "{ftbquests.chapter.enigmatic_delight.quest1493088683553845096.subtitle}"
 			tasks: [{
 				id: "300999BA6EFF9415"
 				item: {
@@ -204,7 +204,7 @@
 		}
 		{
 			id: "3E9F4B0C074ED89E"
-			subtitle: "Incredible buffs"
+			subtitle: "{ftbquests.chapter.enigmatic_delight.quest4512407866682824862.subtitle}"
 			tasks: [{
 				id: "056D14CCBB562F59"
 				item: "enigmaticdelicacy:abyssal_stew"
@@ -215,7 +215,7 @@
 		}
 		{
 			id: "66425D197691A7C6"
-			subtitle: "Permament armor toughness and small regen"
+			subtitle: "{ftbquests.chapter.enigmatic_delight.quest7368554304276375494.subtitle}"
 			tasks: [{
 				id: "1801639559A882D3"
 				item: "enigmaticdelicacy:bloody_custard"
@@ -237,7 +237,7 @@
 		}
 		{
 			id: "7CD42DB68841D5B8"
-			subtitle: "Im faded"
+			subtitle: "{ftbquests.chapter.enigmatic_delight.quest8994864617759036856.subtitle}"
 			tasks: [{
 				id: "579047CCE79CA398"
 				item: "enigmaticdelicacy:enigmatic_cream"
@@ -248,7 +248,7 @@
 		}
 		{
 			id: "7A17CCE830F39213"
-			subtitle: "Transfers effects to surroundings"
+			subtitle: "{ftbquests.chapter.enigmatic_delight.quest8797725694717301267.subtitle}"
 			tasks: [{
 				id: "758DB4418DDF4489"
 				item: "enigmaticdelicacy:purified_dragon_breath"
@@ -259,7 +259,7 @@
 		}
 		{
 			id: "1215C2AD6F95B478"
-			subtitle: "Permament strength and attack speed bonus"
+			subtitle: "{ftbquests.chapter.enigmatic_delight.quest1303161717350839416.subtitle}"
 			tasks: [{
 				id: "7561D17C334B5CCC"
 				item: "enigmaticdelicacy:passion_fried_rice"
@@ -270,7 +270,7 @@
 		}
 		{
 			id: "74CE66BE71CC5BF9"
-			subtitle: "Niche"
+			subtitle: "{ftbquests.chapter.enigmatic_delight.quest8416777721741073401.subtitle}"
 			tasks: [{
 				id: "7D446BDC5DFC3E40"
 				item: "enigmaticdelicacy:ichoroot_soup"
@@ -281,7 +281,7 @@
 		}
 		{
 			id: "53FB474D1B99E018"
-			subtitle: "I think it has mold on it"
+			subtitle: "{ftbquests.chapter.enigmatic_delight.quest6051508920803516440.subtitle}"
 			tasks: [{
 				id: "2D04B23C3AC5DE98"
 				item: "enigmaticdelicacy:enigmatic_fruit"
@@ -292,7 +292,7 @@
 		}
 		{
 			id: "132FE315C920C10E"
-			subtitle: "Tastes like a star"
+			subtitle: "{ftbquests.chapter.enigmatic_delight.quest1382573293334216974.subtitle}"
 			tasks: [{
 				id: "2E05ED3FBBBCA779"
 				item: "enigmaticdelicacy:stuffed_astral_potato"
@@ -303,7 +303,7 @@
 		}
 		{
 			id: "18975B37E8383E3F"
-			subtitle: "Restores itself overtime"
+			subtitle: "{ftbquests.chapter.enigmatic_delight.quest1771985274070908479.subtitle}"
 			tasks: [{
 				id: "784CFD973DA5604B"
 				item: "enigmaticlegacy:cosmic_cake"
@@ -314,7 +314,7 @@
 		}
 		{
 			id: "6013D56C9B3344B1"
-			subtitle: "I wonder what it does"
+			subtitle: "{ftbquests.chapter.enigmatic_delight.quest6923111714635596977.subtitle}"
 			tasks: [{
 				id: "1E64E7B3937753CC"
 				item: "enigmaticlegacy:astral_potato"
@@ -324,5 +324,5 @@
 			y: 2.892857142857146d
 		}
 	]
-	title: "Enigmatic Delight"
+	title: "{ftbquests.chapter.enigmatic_delight.title}"
 }

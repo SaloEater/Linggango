@@ -31,7 +31,7 @@
 	health = 60.0
 	#Damage for Gargoyle
 	#Range: 4.0 ~ 1.7976931348623157E308
-	damage = 6.0
+	damage = 7.0
 	#Attack Knockback for Gargoyle
 	#Range: 0.5 ~ 2.0
 	attack_knockback = 2.0
@@ -42,7 +42,7 @@
 [black_charro]
 	#Health for Black Charro
 	#Range: 300.0 ~ 1.7976931348623157E308
-	health = 350.0
+	health = 450.0
 	#Armor for Black Charro
 	#Range: 0.0 ~ 1.7976931348623157E308
 	armor = 0.0

@@ -73,7 +73,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["Starting The Mod"]
+			hover: ["ftbquests.chapter.irons_spells.image.hovertext1"]
 			image: "ftblibrary:icons/info"
 			rotation: 0.0d
 			width: 1.0d
@@ -82,7 +82,7 @@
 		}
 		{
 			height: 0.7d
-			hover: ["Enhanced Spell books"]
+			hover: ["ftbquests.chapter.irons_spells.image.hovertext2"]
 			image: "fancymenu:textures/warning_framed_24x24.png"
 			rotation: 0.0d
 			width: 0.7d
@@ -114,13 +114,13 @@
 			id: "5FFC7A8048BC650C"
 			shape: "pentagon"
 			size: 1.2d
-			subtitle: "The Holy school is centered around support, healing, and buffing allies."
+			subtitle: "{ftbquests.chapter.irons_spells.quest6916537819128947980.subtitle}"
 			tasks: [{
 				id: "00301155A37773A1"
 				item: "irons_spellbooks:holy_rune"
 				type: "item"
 			}]
-			title: "Holy magic"
+			title: "{ftbquests.chapter.irons_spells.quest6916537819128947980.title}"
 			x: -5.0d
 			y: 8.5d
 		}
@@ -136,13 +136,13 @@
 			id: "6D46B1A605A04BE9"
 			shape: "pentagon"
 			size: 1.2d
-			subtitle: "The Ice school is centered around damage and crowd control."
+			subtitle: "{ftbquests.chapter.irons_spells.quest7874176325120969705.subtitle}"
 			tasks: [{
 				id: "6454F8F463BDE1C5"
 				item: "irons_spellbooks:ice_rune"
 				type: "item"
 			}]
-			title: "Frost magic"
+			title: "{ftbquests.chapter.irons_spells.quest7874176325120969705.title}"
 			x: 1.0d
 			y: 4.5d
 		}
@@ -152,13 +152,13 @@
 			id: "52B98FB81E05F53B"
 			shape: "pentagon"
 			size: 1.2d
-			subtitle: "The Lightning school is centered around concentrated damage."
+			subtitle: "{ftbquests.chapter.irons_spells.quest5960953602742023483.subtitle}"
 			tasks: [{
 				id: "201E923E0CFEE26A"
 				item: "irons_spellbooks:lightning_rune"
 				type: "item"
 			}]
-			title: "Lightning magic"
+			title: "{ftbquests.chapter.irons_spells.quest5960953602742023483.title}"
 			x: -5.0d
 			y: 15.0d
 		}
@@ -168,13 +168,13 @@
 			id: "1C623F82BF0611AE"
 			shape: "pentagon"
 			size: 1.2d
-			subtitle: "The Nature school is focused on applying debuffs to enemies, with elements of damage to finish them off."
+			subtitle: "{ftbquests.chapter.irons_spells.quest2045267011562770862.subtitle}"
 			tasks: [{
 				id: "59956592AB9D5145"
 				item: "irons_spellbooks:nature_rune"
 				type: "item"
 			}]
-			title: "Nature magic"
+			title: "{ftbquests.chapter.irons_spells.quest2045267011562770862.title}"
 			x: 7.0d
 			y: 2.0d
 		}
@@ -184,13 +184,13 @@
 			id: "2084739E817DD197"
 			shape: "pentagon"
 			size: 1.2d
-			subtitle: "The Fire school is centered around damage and damage over time."
+			subtitle: "{ftbquests.chapter.irons_spells.quest2343124830754034071.subtitle}"
 			tasks: [{
 				id: "283801FEE244AD80"
 				item: "irons_spellbooks:fire_rune"
 				type: "item"
 			}]
-			title: "Fire magic"
+			title: "{ftbquests.chapter.irons_spells.quest2343124830754034071.title}"
 			x: 3.0d
 			y: 8.5d
 		}
@@ -200,13 +200,13 @@
 			id: "784BE338677490B5"
 			shape: "pentagon"
 			size: 1.2d
-			subtitle: "The Evocation school is themed around magical trickery and conjuration, covering the broadest range of offensive, defensive, and utility spells."
+			subtitle: "{ftbquests.chapter.irons_spells.quest8668271739198017717.subtitle}"
 			tasks: [{
 				id: "54AA8A1E8C6F8DAB"
 				item: "irons_spellbooks:evocation_rune"
 				type: "item"
 			}]
-			title: "Evocation magic"
+			title: "{ftbquests.chapter.irons_spells.quest8668271739198017717.title}"
 			x: -1.0d
 			y: 8.5d
 		}
@@ -216,13 +216,13 @@
 			id: "54FA294EAFF09CCF"
 			shape: "pentagon"
 			size: 1.2d
-			subtitle: "The Ender school is themed around all things arcane and mystical, with spells that range from damage to utility to mobility."
+			subtitle: "{ftbquests.chapter.irons_spells.quest6123252061299580111.subtitle}"
 			tasks: [{
 				id: "38B371DBBD36DD30"
 				item: "irons_spellbooks:ender_rune"
 				type: "item"
 			}]
-			title: "Ender magic"
+			title: "{ftbquests.chapter.irons_spells.quest6123252061299580111.title}"
 			x: -5.0d
 			y: 2.0d
 		}
@@ -238,21 +238,21 @@
 			id: "52C7C09BB8289628"
 			shape: "pentagon"
 			size: 1.2d
-			subtitle: "BloodThe Blood school is themed around evil; you will find elements of necromancy, wither, and blood magic here, with spells focusing on damage that buffs the caster."
+			subtitle: "{ftbquests.chapter.irons_spells.quest5964948006517642792.subtitle}"
 			tasks: [{
 				id: "5A6D4F758FBEE61D"
 				item: "irons_spellbooks:blood_rune"
 				type: "item"
 			}]
-			title: "Blood magic"
+			title: "{ftbquests.chapter.irons_spells.quest5964948006517642792.title}"
 			x: 7.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"Use Eldritch scrolls to learn eldritch spells"
-				"{image:irons_spellbooks:item/eldritch_manuscript width:32 height:32 align:center}"
+				"{ftbquests.chapter.irons_spells.quest5602462045576268598.description1}"
+				"{ftbquests.chapter.irons_spells.quest5602462045576268598.image0}"
 				""
 				""
 			]
@@ -260,13 +260,13 @@
 			id: "4DBFF18C1E2E8B36"
 			shape: "octagon"
 			size: 1.2d
-			subtitle: "The Eldritch school is not like the others. It is an ancient and powerful way of magic, one that has all but been forgotten"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5602462045576268598.subtitle}"
 			tasks: [{
 				id: "7A57110225575CB8"
 				item: "irons_spellbooks:eldritch_manuscript"
 				type: "item"
 			}]
-			title: "Eldritch magic"
+			title: "{ftbquests.chapter.irons_spells.quest5602462045576268598.title}"
 			x: 1.0d
 			y: 21.5d
 		}
@@ -283,7 +283,7 @@
 			id: "461EF28E672C91B4"
 			invisible: true
 			shape: "square"
-			subtitle: "Shift your vision in between planes, gaining the ability to see creatures through solid material."
+			subtitle: "{ftbquests.chapter.irons_spells.quest5052742525386527156.subtitle}"
 			tasks: [{
 				id: "00A0929D9E3F0A9C"
 				item: {
@@ -306,7 +306,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Planar Sight"
+			title: "{ftbquests.chapter.irons_spells.quest5052742525386527156.title}"
 			x: 0.5d
 			y: 23.5d
 		}
@@ -324,7 +324,7 @@
 			id: "587C0FA60280A1D6"
 			invisible: true
 			shape: "square"
-			subtitle: "Cloak yourself with the shadows of the abyss, granting the ability to evade any attack for a short duration of time."
+			subtitle: "{ftbquests.chapter.irons_spells.quest6375988378130751958.subtitle}"
 			tasks: [{
 				id: "10240F9998974BC1"
 				item: {
@@ -347,7 +347,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Abyssal Shroud"
+			title: "{ftbquests.chapter.irons_spells.quest6375988378130751958.title}"
 			x: 1.5d
 			y: 23.5d
 		}
@@ -364,7 +364,7 @@
 			id: "18FA3B73EB986984"
 			invisible: true
 			shape: "square"
-			subtitle: "Fire rays of pure, devastating energy."
+			subtitle: "{ftbquests.chapter.irons_spells.quest1799816370147846532.subtitle}"
 			tasks: [{
 				id: "6E75D1CEE07BDF45"
 				item: {
@@ -387,7 +387,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Eldritch Blast"
+			title: "{ftbquests.chapter.irons_spells.quest1799816370147846532.title}"
 			x: 1.5d
 			y: 22.5d
 		}
@@ -404,7 +404,7 @@
 			id: "3D55FE37FAD87BD4"
 			invisible: true
 			shape: "square"
-			subtitle: "From where you look, erupt a mass of sculk energy in the form of wailing tentacles, damaging and blinding creatures caught in the chaos."
+			subtitle: "{ftbquests.chapter.irons_spells.quest4419718125719157716.subtitle}"
 			tasks: [{
 				id: "295BD9C3DC7B2583"
 				item: {
@@ -427,7 +427,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Sculk Tentacles"
+			title: "{ftbquests.chapter.irons_spells.quest4419718125719157716.title}"
 			x: 1.5d
 			y: 24.5d
 		}
@@ -444,7 +444,7 @@
 			id: "79EE4E4F348C1C7B"
 			invisible: true
 			shape: "square"
-			subtitle: "Blast forth a sonic boom of immense power, passing through solid material with ease and harming the first creature in its path."
+			subtitle: "{ftbquests.chapter.irons_spells.quest8786046025137396859.subtitle}"
 			tasks: [{
 				id: "0CCBFA729B3D6B6E"
 				item: {
@@ -467,7 +467,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Sonic Boom"
+			title: "{ftbquests.chapter.irons_spells.quest8786046025137396859.title}"
 			x: 0.5d
 			y: 24.5d
 		}
@@ -484,7 +484,7 @@
 			id: "7CE5A368E47F482C"
 			invisible: true
 			shape: "square"
-			subtitle: "Reach out with a spectral force and grip a creature, forcing them towards your gaze. Creatures are susceptible to kinetic damage."
+			subtitle: "{ftbquests.chapter.irons_spells.quest8999779101275277356.subtitle}"
 			tasks: [{
 				id: "279A1F5FF2FC01BC"
 				item: {
@@ -507,7 +507,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Telekinesis"
+			title: "{ftbquests.chapter.irons_spells.quest8999779101275277356.title}"
 			x: 0.5d
 			y: 22.5d
 		}
@@ -532,7 +532,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			subtitle: "Unleash a barrage of blaze fireballs, shooting rapidly but wildly in front of you and igniting any creatures or blocks hit."
+			subtitle: "{ftbquests.chapter.irons_spells.quest7259641934403871146.subtitle}"
 			tasks: [{
 				id: "43498FEF9B118A6F"
 				item: {
@@ -555,7 +555,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Blaze Storm"
+			title: "{ftbquests.chapter.irons_spells.quest7259641934403871146.title}"
 			x: 2.0d
 			y: 9.5d
 		}
@@ -571,7 +571,7 @@
 			icon_scale: 1.4d
 			id: "5FBE30F3D425C434"
 			shape: "square"
-			subtitle: "Quickly launch yourself forward in a haze of fire, searing creatures you pass through while in a blaze."
+			subtitle: "{ftbquests.chapter.irons_spells.quest6899005502972609588.subtitle}"
 			tasks: [{
 				id: "3D2EBEE0861A34AC"
 				item: {
@@ -594,7 +594,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Burning Dash"
+			title: "{ftbquests.chapter.irons_spells.quest6899005502972609588.title}"
 			x: 3.0d
 			y: 9.5d
 		}
@@ -610,7 +610,7 @@
 			icon_scale: 1.4d
 			id: "05042CED9DF40AE5"
 			shape: "square"
-			subtitle: "Spew a cone of fire outwards, igniting creatures and blocks in its path."
+			subtitle: "{ftbquests.chapter.irons_spells.quest361463269165370085.subtitle}"
 			tasks: [{
 				id: "2DA4F47F0174430C"
 				item: {
@@ -633,7 +633,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Fire Breath"
+			title: "{ftbquests.chapter.irons_spells.quest361463269165370085.title}"
 			x: 4.0d
 			y: 9.5d
 		}
@@ -649,7 +649,7 @@
 			icon_scale: 1.4d
 			id: "52722741E16ADD55"
 			shape: "square"
-			subtitle: "Throw a ball of fire, exploding and dealing massive damage on impact."
+			subtitle: "{ftbquests.chapter.irons_spells.quest5940854022363340117.subtitle}"
 			tasks: [{
 				id: "650DD9C544D01393"
 				item: {
@@ -672,7 +672,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Fireball"
+			title: "{ftbquests.chapter.irons_spells.quest5940854022363340117.title}"
 			x: 2.0d
 			y: 10.5d
 		}
@@ -688,7 +688,7 @@
 			icon_scale: 1.4d
 			id: "78A25557C4BF992B"
 			shape: "square"
-			subtitle: "Shoot a small projectile of fire, igniting whatever it hits."
+			subtitle: "{ftbquests.chapter.irons_spells.quest8692604066229885227.subtitle}"
 			tasks: [{
 				id: "485B2531D58EE96E"
 				item: {
@@ -711,7 +711,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Firebolt"
+			title: "{ftbquests.chapter.irons_spells.quest8692604066229885227.title}"
 			x: 3.0d
 			y: 10.5d
 		}
@@ -727,7 +727,7 @@
 			icon_scale: 1.4d
 			id: "394EA19EBE41E6EC"
 			shape: "square"
-			subtitle: "Cast to select targets, which at the end of recasting, will each be under barrage of small fireballs."
+			subtitle: "{ftbquests.chapter.irons_spells.quest4129415611514218220.subtitle}"
 			tasks: [{
 				id: "2A6EF494EDB7EA6B"
 				item: {
@@ -750,7 +750,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Flaming Barrage"
+			title: "{ftbquests.chapter.irons_spells.quest4129415611514218220.title}"
 			x: 4.0d
 			y: 10.5d
 		}
@@ -766,7 +766,7 @@
 			icon_scale: 1.4d
 			id: "5EFDC9F7CE8F828E"
 			shape: "square"
-			subtitle: "Unleash a sweeping melee attack in the form of a wreath of flames. This spell is uninterruptible. The damage scales off of your held weapon's melee damage and enchantments."
+			subtitle: "{ftbquests.chapter.irons_spells.quest6844849074832638606.subtitle}"
 			tasks: [{
 				id: "266979DCF179BFDF"
 				item: {
@@ -789,7 +789,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Flaming Strike"
+			title: "{ftbquests.chapter.irons_spells.quest6844849074832638606.title}"
 			x: 2.0d
 			y: 11.5d
 		}
@@ -805,7 +805,7 @@
 			icon_scale: 1.4d
 			id: "5D067FAC251C86B6"
 			shape: "square"
-			subtitle: "Emanate a surge of fiery magic, igniting and rending creatures in a radius around you. Rended creatures have reduced armor."
+			subtitle: "{ftbquests.chapter.irons_spells.quest6703185472721290934.subtitle}"
 			tasks: [{
 				id: "3A2FC885B9F83064"
 				item: {
@@ -828,7 +828,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Heat Surge"
+			title: "{ftbquests.chapter.irons_spells.quest6703185472721290934.title}"
 			x: 3.0d
 			y: 11.5d
 		}
@@ -844,7 +844,7 @@
 			icon_scale: 1.4d
 			id: "20F3719B40BAF0B6"
 			shape: "square"
-			subtitle: "Launch a bomb made from magma, exploding on impact and leaving a field of fire where it lands."
+			subtitle: "{ftbquests.chapter.irons_spells.quest2374366340174246070.subtitle}"
 			tasks: [{
 				id: "4A249975AA30768C"
 				item: {
@@ -867,7 +867,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Magma Bomb"
+			title: "{ftbquests.chapter.irons_spells.quest2374366340174246070.title}"
 			x: 4.0d
 			y: 11.5d
 		}
@@ -883,7 +883,7 @@
 			icon_scale: 1.4d
 			id: "6DB956CF4D16CB12"
 			shape: "square"
-			subtitle: "Erupt a scorch of fiery magic, damaging creatures in the zone and leaving a field of fire."
+			subtitle: "{ftbquests.chapter.irons_spells.quest7906446069177174802.subtitle}"
 			tasks: [{
 				id: "25B3DCA1DF3CF0FC"
 				item: {
@@ -906,7 +906,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Scorch"
+			title: "{ftbquests.chapter.irons_spells.quest7906446069177174802.title}"
 			x: 2.5d
 			y: 12.5d
 		}
@@ -922,7 +922,7 @@
 			icon_scale: 1.4d
 			id: "66498B8F31BD431F"
 			shape: "square"
-			subtitle: "Recast to place anchor points, which erupts into a wall of fire when the cast finishes, or when the maximum length is reached. This wall blocks projectiles and ignites creatures that pass through it."
+			subtitle: "{ftbquests.chapter.irons_spells.quest7370575712299598623.subtitle}"
 			tasks: [{
 				id: "26978E3BC31EC3A6"
 				item: {
@@ -945,7 +945,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Wall of Fire"
+			title: "{ftbquests.chapter.irons_spells.quest7370575712299598623.title}"
 			x: 3.5d
 			y: 12.5d
 		}
@@ -961,7 +961,7 @@
 			icon_scale: 1.4d
 			id: "34FCD3DCDB805845"
 			shape: "square"
-			subtitle: "Around a targeted creature, create a field of blood needles in every direction, shooting down and healing you for 25% of damage done."
+			subtitle: "{ftbquests.chapter.irons_spells.quest3818159529632225349.subtitle}"
 			tasks: [{
 				id: "53976AC5DBF6F41D"
 				item: {
@@ -984,7 +984,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Acupuncture"
+			title: "{ftbquests.chapter.irons_spells.quest3818159529632225349.title}"
 			x: 6.0d
 			y: 9.5d
 		}
@@ -1000,7 +1000,7 @@
 			icon_scale: 1.4d
 			id: "7C567B724287B19F"
 			shape: "square"
-			subtitle: "Create a ring of needles made from blood and fire them forward, skewering targets and healing you for 25% of damage done."
+			subtitle: "{ftbquests.chapter.irons_spells.quest8959484239372857759.subtitle}"
 			tasks: [{
 				id: "3D221D7110DEDDBB"
 				item: {
@@ -1023,7 +1023,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Blood Needles"
+			title: "{ftbquests.chapter.irons_spells.quest8959484239372857759.title}"
 			x: 7.0d
 			y: 9.5d
 		}
@@ -1039,7 +1039,7 @@
 			icon_scale: 1.4d
 			id: "11CFCB84D544B611"
 			shape: "square"
-			subtitle: "Slash forward to send out a concentrated blade of blood, slicing through creatures and healing for 15% of damage done."
+			subtitle: "{ftbquests.chapter.irons_spells.quest1283468190198052369.subtitle}"
 			tasks: [{
 				id: "27867BDBA9222354"
 				item: {
@@ -1062,7 +1062,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Blood Slash"
+			title: "{ftbquests.chapter.irons_spells.quest1283468190198052369.title}"
 			x: 8.0d
 			y: 9.5d
 		}
@@ -1078,7 +1078,7 @@
 			icon_scale: 1.4d
 			id: "6EE8B66A4F31C91C"
 			shape: "square"
-			subtitle: "Instantaneously teleport to where you are looking, or directly behind any targeted creature. Gain a short duration of true invisibility upon reaching your destination."
+			subtitle: "{ftbquests.chapter.irons_spells.quest7991838106480396572.subtitle}"
 			tasks: [{
 				id: "5E62025CA0C7D9BD"
 				item: {
@@ -1101,7 +1101,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Blood Step"
+			title: "{ftbquests.chapter.irons_spells.quest7991838106480396572.title}"
 			x: 6.0d
 			y: 10.5d
 		}
@@ -1117,7 +1117,7 @@
 			icon_scale: 1.4d
 			id: "04E55B301237F14B"
 			shape: "square"
-			subtitle: "Pull in a nearby creature and attack them with a bite, leeching 15% of damage done as health. If the creature is killed, you temporarily gain additional max HP. Created by the ancient magician known as Yorhavich."
+			subtitle: "{ftbquests.chapter.irons_spells.quest352788407840665931.subtitle}"
 			tasks: [{
 				id: "6ABDD53045061E6A"
 				item: {
@@ -1140,7 +1140,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Devour"
+			title: "{ftbquests.chapter.irons_spells.quest352788407840665931.title}"
 			x: 7.0d
 			y: 10.5d
 		}
@@ -1156,7 +1156,7 @@
 			icon_scale: 1.4d
 			id: "0EFA169E521A73F6"
 			shape: "square"
-			subtitle: "Cast to inflict yourself with Heartstop, an effect that makes you temporarily invulnerable. However, once it wears off, you take 50% of all damage accumulated while under its effects."
+			subtitle: "{ftbquests.chapter.irons_spells.quest1079199929946764278.subtitle}"
 			tasks: [{
 				id: "408F07357E341763"
 				item: {
@@ -1179,7 +1179,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Heartstop"
+			title: "{ftbquests.chapter.irons_spells.quest1079199929946764278.title}"
 			x: 8.0d
 			y: 10.5d
 		}
@@ -1195,7 +1195,7 @@
 			icon_scale: 1.4d
 			id: "2E2C3D02696C2298"
 			shape: "square"
-			subtitle: "Cast to summon undead minions from the earth beneath you. The higher the power, the better equipment they will have."
+			subtitle: "{ftbquests.chapter.irons_spells.quest3327101305287877272.subtitle}"
 			tasks: [{
 				id: "0A20D76542159184"
 				item: {
@@ -1218,7 +1218,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Raise Dead"
+			title: "{ftbquests.chapter.irons_spells.quest3327101305287877272.title}"
 			x: 6.0d
 			y: 11.5d
 		}
@@ -1234,7 +1234,7 @@
 			icon_scale: 1.4d
 			id: "6BB9C0339C46FFBB"
 			shape: "square"
-			subtitle: "Hold to cast a ray of necrotic energy that siphons health from creatures it hits, damaging them and healing you for 100% of damage done."
+			subtitle: "{ftbquests.chapter.irons_spells.quest7762446760647524283.subtitle}"
 			tasks: [{
 				id: "2CF8CCDAD152BA72"
 				item: {
@@ -1257,7 +1257,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Ray Of Siphoning"
+			title: "{ftbquests.chapter.irons_spells.quest7762446760647524283.title}"
 			x: 7.0d
 			y: 11.5d
 		}
@@ -1273,7 +1273,7 @@
 			icon_scale: 1.4d
 			id: "54922EBD779EF184"
 			shape: "square"
-			subtitle: "Target one of your magic summons to cause them to explode, killing them instantly, and dealing large damage in the area around them. The summon's remaining health boosts the damage dealt and radius of explosion."
+			subtitle: "{ftbquests.chapter.irons_spells.quest6093984637076304260.subtitle}"
 			tasks: [{
 				id: "3AF2B37CAA7C14E7"
 				item: {
@@ -1296,7 +1296,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Sacrifice"
+			title: "{ftbquests.chapter.irons_spells.quest6093984637076304260.title}"
 			x: 8.0d
 			y: 11.5d
 		}
@@ -1312,7 +1312,7 @@
 			icon_scale: 1.4d
 			id: "0174D6794BC14B32"
 			shape: "square"
-			subtitle: "Launch a wither skull forward that explodes in a small radius around the impact. The higher the level, the faster the projectile."
+			subtitle: "{ftbquests.chapter.irons_spells.quest104944507786709810.subtitle}"
 			tasks: [{
 				id: "2D80D0BDC95906C9"
 				item: {
@@ -1335,7 +1335,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Wither Skull"
+			title: "{ftbquests.chapter.irons_spells.quest104944507786709810.title}"
 			x: 7.0d
 			y: 12.5d
 		}
@@ -1351,7 +1351,7 @@
 			icon_scale: 1.4d
 			id: "47E6BAC77BA59093"
 			shape: "square"
-			subtitle: "Around a targeted location, create a fissure into the void, manifesting a black hole that will suck in nearby creatures and slowly crush them to death."
+			subtitle: "{ftbquests.chapter.irons_spells.quest5181033787272040595.subtitle}"
 			tasks: [{
 				id: "7B1B830B4055E7C0"
 				item: {
@@ -1374,18 +1374,18 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Black Hole"
+			title: "{ftbquests.chapter.irons_spells.quest5181033787272040595.title}"
 			x: -6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"Interrupt player and mob casting"
-				"Banishes summoned shield , blood slash , creeper head"
-				"Banishes summoned creatures"
-				"Removes root"
-				"Removes mob effects like fortify or evasion"
+				"{ftbquests.chapter.irons_spells.quest743243057493192069.description1}"
+				"{ftbquests.chapter.irons_spells.quest743243057493192069.description2}"
+				"{ftbquests.chapter.irons_spells.quest743243057493192069.description3}"
+				"{ftbquests.chapter.irons_spells.quest743243057493192069.description4}"
+				"{ftbquests.chapter.irons_spells.quest743243057493192069.description5}"
 			]
 			icon: {
 				Count: 1
@@ -1397,7 +1397,7 @@
 			icon_scale: 1.4d
 			id: "0A50879F77A82D85"
 			shape: "square"
-			subtitle: "Stop effects of other magic."
+			subtitle: "{ftbquests.chapter.irons_spells.quest743243057493192069.subtitle}"
 			tasks: [{
 				id: "7F5AC069BE9177AD"
 				item: {
@@ -1420,7 +1420,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Counterspell"
+			title: "{ftbquests.chapter.irons_spells.quest743243057493192069.title}"
 			x: -5.5d
 			y: 6.0d
 		}
@@ -1436,7 +1436,7 @@
 			icon_scale: 1.4d
 			id: "4DC9E88A5EE200B6"
 			shape: "square"
-			subtitle: "Hold to spew a cone of dragon breath forwards. Each time a creature is hit, there is a chance to create a pool of dragon breath at their feet."
+			subtitle: "{ftbquests.chapter.irons_spells.quest5605266892234293430.subtitle}"
 			tasks: [{
 				id: "6184AAC6662345FF"
 				item: {
@@ -1459,7 +1459,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Dragon Breath"
+			title: "{ftbquests.chapter.irons_spells.quest5605266892234293430.title}"
 			x: -4.0d
 			y: 3.0d
 		}
@@ -1475,7 +1475,7 @@
 			icon_scale: 1.4d
 			id: "4EA50CAF62FCD50A"
 			shape: "square"
-			subtitle: "While under the effects of the spell, non-magical attacks will leave an echo of ender energy behind, shortly thereafter exploding with an echo of the original attack's damage."
+			subtitle: "{ftbquests.chapter.irons_spells.quest5666949653535184138.subtitle}"
 			tasks: [{
 				id: "4BEAEF3B5A6E5B63"
 				item: {
@@ -1498,7 +1498,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Echoing Strikes"
+			title: "{ftbquests.chapter.irons_spells.quest5666949653535184138.title}"
 			x: -6.0d
 			y: 4.0d
 		}
@@ -1514,7 +1514,7 @@
 			icon_scale: 1.4d
 			id: "3F51C96AF372AAD1"
 			shape: "square"
-			subtitle: "Cast to imbue yourself with ender energy. Upon being attacked while under its effects, you will immediately teleport within a short radius and avoid taking any damage. Only a finite amount of hits can be dodged before the effect immediately wears off."
+			subtitle: "{ftbquests.chapter.irons_spells.quest4562649358691117777.subtitle}"
 			tasks: [{
 				id: "6DFC393F41F190D5"
 				item: {
@@ -1537,7 +1537,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Evasion"
+			title: "{ftbquests.chapter.irons_spells.quest4562649358691117777.title}"
 			x: -5.0d
 			y: 3.0d
 		}
@@ -1553,7 +1553,7 @@
 			icon_scale: 1.4d
 			id: "46B574404FE263A6"
 			shape: "square"
-			subtitle: "Hold to charge a piercing arrow made of arcane energy. This arrow has no gravity and can travel through blocks."
+			subtitle: "{ftbquests.chapter.irons_spells.quest5095106373006549926.subtitle}"
 			tasks: [{
 				id: "0EDCCC979E802A30"
 				item: {
@@ -1576,7 +1576,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Magic Arrow"
+			title: "{ftbquests.chapter.irons_spells.quest5095106373006549926.title}"
 			x: -4.5d
 			y: 6.0d
 		}
@@ -1592,7 +1592,7 @@
 			icon_scale: 1.4d
 			id: "09A524E6ECDFD5E9"
 			shape: "square"
-			subtitle: "Creates two portals that allows players to travel back and forth between them."
+			subtitle: "{ftbquests.chapter.irons_spells.quest695002291733779945.subtitle}"
 			tasks: [{
 				id: "28A15E441EADBA31"
 				item: {
@@ -1615,7 +1615,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Portal"
+			title: "{ftbquests.chapter.irons_spells.quest695002291733779945.title}"
 			x: -5.0d
 			y: 4.0d
 		}
@@ -1631,7 +1631,7 @@
 			icon_scale: 1.4d
 			id: "2D8B5735A8E735A5"
 			shape: "square"
-			subtitle: "Warps you back to your spawn location, or world spawn if there is none."
+			subtitle: "{ftbquests.chapter.irons_spells.quest3281812641448146341.subtitle}"
 			tasks: [{
 				id: "4BE6CEDE538707BC"
 				item: {
@@ -1654,7 +1654,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Recall"
+			title: "{ftbquests.chapter.irons_spells.quest3281812641448146341.title}"
 			x: -4.0d
 			y: 4.0d
 		}
@@ -1670,7 +1670,7 @@
 			icon_scale: 1.4d
 			id: "50BA6B940B1C9527"
 			shape: "square"
-			subtitle: "Target a single area and continuously rain down arcane comets from above for the duration of the spell."
+			subtitle: "{ftbquests.chapter.irons_spells.quest5817080152288171303.subtitle}"
 			tasks: [{
 				id: "09FA88693A4E8578"
 				item: {
@@ -1693,7 +1693,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Starfall"
+			title: "{ftbquests.chapter.irons_spells.quest5817080152288171303.title}"
 			x: -5.5d
 			y: 7.0d
 		}
@@ -1709,7 +1709,7 @@
 			icon_scale: 1.4d
 			id: "33447D646C027194"
 			shape: "square"
-			subtitle: "Apparate your Ender Chest inventory upon casting."
+			subtitle: "{ftbquests.chapter.irons_spells.quest3694215464612950420.subtitle}"
 			tasks: [{
 				id: "59E985698DF222F6"
 				item: {
@@ -1732,7 +1732,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Summon Ender Chest"
+			title: "{ftbquests.chapter.irons_spells.quest3694215464612950420.title}"
 			x: -5.5d
 			y: 5.0d
 		}
@@ -1748,7 +1748,7 @@
 			icon_scale: 1.4d
 			id: "23D9F676599C974B"
 			shape: "square"
-			subtitle: "Instantaneously teleport to where you are looking, leaving nothing but a cloud of ender energy behind."
+			subtitle: "{ftbquests.chapter.irons_spells.quest2583366849443698507.subtitle}"
 			tasks: [{
 				id: "762CF98391E9C203"
 				item: {
@@ -1771,7 +1771,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Teleport"
+			title: "{ftbquests.chapter.irons_spells.quest2583366849443698507.title}"
 			x: -4.5d
 			y: 5.0d
 		}
@@ -1787,7 +1787,7 @@
 			icon_scale: 1.4d
 			id: "56C07209A8A2139E"
 			shape: "square"
-			subtitle: "Shoot a bolt of concentrated arcane magic. Also a trademark of every wizard."
+			subtitle: "{ftbquests.chapter.irons_spells.quest6251121668599714718.subtitle}"
 			tasks: [{
 				id: "0E233C11B1C1539C"
 				item: {
@@ -1810,7 +1810,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Magic Missile"
+			title: "{ftbquests.chapter.irons_spells.quest6251121668599714718.title}"
 			x: -4.5d
 			y: 7.0d
 		}
@@ -1826,7 +1826,7 @@
 			icon_scale: 1.4d
 			id: "1164BA8F16BF413E"
 			shape: "square"
-			subtitle: "Around a targeted creature or block, summon a rolling wave of magical arrows from the sky."
+			subtitle: "{ftbquests.chapter.irons_spells.quest1253331720040563006.subtitle}"
 			tasks: [{
 				id: "651D94CDABB9AA62"
 				item: {
@@ -1849,7 +1849,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Arrow Volley"
+			title: "{ftbquests.chapter.irons_spells.quest1253331720040563006.title}"
 			x: -2.0d
 			y: 9.5d
 		}
@@ -1865,7 +1865,7 @@
 			icon_scale: 1.4d
 			id: "4571B69D0EC1EFA6"
 			shape: "square"
-			subtitle: "Around a targeted creature or block, conjure a ring of creeper heads that falls to the ground and explodes. Any creature killed by this blast will conjure another, smaller, ring of creeper heads. This can chain multiple times."
+			subtitle: "{ftbquests.chapter.irons_spells.quest5003981446659043238.subtitle}"
 			tasks: [{
 				id: "01E48EA956ECE7B9"
 				item: {
@@ -1888,7 +1888,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Chain Creeper"
+			title: "{ftbquests.chapter.irons_spells.quest5003981446659043238.title}"
 			x: -1.0d
 			y: 9.5d
 		}
@@ -1904,7 +1904,7 @@
 			icon_scale: 1.4d
 			id: "6DB87EC19CF16B24"
 			shape: "square"
-			subtitle: "Conjure a line of evoker fangs in front of you, in classic illager fashion."
+			subtitle: "{ftbquests.chapter.irons_spells.quest7906208515875760932.subtitle}"
 			tasks: [{
 				id: "0E713CAEA04AE8F5"
 				item: {
@@ -1927,7 +1927,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Fang Strike"
+			title: "{ftbquests.chapter.irons_spells.quest7906208515875760932.title}"
 			x: 0.0d
 			y: 9.5d
 		}
@@ -1943,7 +1943,7 @@
 			icon_scale: 1.4d
 			id: "6D084ADFEEA9A0EF"
 			shape: "square"
-			subtitle: "Conjure protective rings of evoker fangs around you, in classic illager fashion."
+			subtitle: "{ftbquests.chapter.irons_spells.quest7856611875590086895.subtitle}"
 			tasks: [{
 				id: "780C138299165EE0"
 				item: {
@@ -1966,7 +1966,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Fang Ward"
+			title: "{ftbquests.chapter.irons_spells.quest7856611875590086895.title}"
 			x: -2.0d
 			y: 10.5d
 		}
@@ -1982,7 +1982,7 @@
 			icon_scale: 1.4d
 			id: "77FDA17C83578D4B"
 			shape: "square"
-			subtitle: "Instantaneously conjure a firework where you look that explodes in a small radius around it."
+			subtitle: "{ftbquests.chapter.irons_spells.quest8646244415772790091.subtitle}"
 			tasks: [{
 				id: "13F8277BC0C58783"
 				item: {
@@ -2005,7 +2005,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Firecracker"
+			title: "{ftbquests.chapter.irons_spells.quest8646244415772790091.title}"
 			x: -1.0d
 			y: 10.5d
 		}
@@ -2021,7 +2021,7 @@
 			icon_scale: 1.4d
 			id: "084796FC4DDE0D4E"
 			shape: "square"
-			subtitle: "Conjure a strong gust of wind, knocking back creatures in a conical shape, causing damage if they impact a wall."
+			subtitle: "{ftbquests.chapter.irons_spells.quest596611486032203086.subtitle}"
 			tasks: [{
 				id: "6171F424F7611D0C"
 				item: {
@@ -2044,7 +2044,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Gust"
+			title: "{ftbquests.chapter.irons_spells.quest596611486032203086.title}"
 			x: 0.0d
 			y: 10.5d
 		}
@@ -2060,7 +2060,7 @@
 			icon_scale: 1.4d
 			id: "1AED69D6D4CF341A"
 			shape: "square"
-			subtitle: "Cast to briefly grant yourself true invisibility, which hides armor and held items, but immediately wears off upon dealing damage. Mobs also lose aggro."
+			subtitle: "{ftbquests.chapter.irons_spells.quest1940323385880818714.subtitle}"
 			tasks: [{
 				id: "5DA146B1D253021D"
 				item: {
@@ -2083,7 +2083,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Invisibility"
+			title: "{ftbquests.chapter.irons_spells.quest1940323385880818714.title}"
 			x: -2.0d
 			y: 11.5d
 		}
@@ -2099,7 +2099,7 @@
 			icon_scale: 1.4d
 			id: "01BD93FD5380A3AC"
 			shape: "square"
-			subtitle: "Lob the head of a creeper forward that explodes in a medium radius around the impact. The higher the level, the faster the projectile."
+			subtitle: "{ftbquests.chapter.irons_spells.quest125419080873190316.subtitle}"
 			tasks: [{
 				id: "654EB277FB1AF0DE"
 				item: {
@@ -2122,7 +2122,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Lob Creeper"
+			title: "{ftbquests.chapter.irons_spells.quest125419080873190316.title}"
 			x: -1.0d
 			y: 11.5d
 		}
@@ -2138,7 +2138,7 @@
 			icon_scale: 1.4d
 			id: "711A9C081DA1E6D3"
 			shape: "square"
-			subtitle: "Conjure a stationary shield of arcane energy where you look that will block projectiles and prevent creatures from passing."
+			subtitle: "{ftbquests.chapter.irons_spells.quest8149998034351154899.subtitle}"
 			tasks: [{
 				id: "78C1AC78D6236377"
 				item: {
@@ -2161,7 +2161,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Shield"
+			title: "{ftbquests.chapter.irons_spells.quest8149998034351154899.title}"
 			x: 0.0d
 			y: 11.5d
 		}
@@ -2177,7 +2177,7 @@
 			icon_scale: 1.4d
 			id: "4A068451F0E7EA88"
 			shape: "square"
-			subtitle: "In a radius around a targeted creature, apply the Slowed effect to enemies, decreasing movement speed, attack speed, mining speed, mana regeneration, and cast time for a duration."
+			subtitle: "{ftbquests.chapter.irons_spells.quest5334096296135879304.subtitle}"
 			tasks: [{
 				id: "0EDDEFB8C59DEC1D"
 				item: {
@@ -2200,7 +2200,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Slow"
+			title: "{ftbquests.chapter.irons_spells.quest5334096296135879304.title}"
 			x: -2.0d
 			y: 12.5d
 		}
@@ -2216,7 +2216,7 @@
 			icon_scale: 1.4d
 			id: "4AECEACACE5CB6C4"
 			shape: "square"
-			subtitle: "Conjure a spectral hammer out from where you look that will mine all connected stone-type blocks in a cube where it hits, leaving only ores and rubble behind."
+			subtitle: "{ftbquests.chapter.irons_spells.quest5398948210076858052.subtitle}"
 			tasks: [{
 				id: "490BE2F22BEEAB50"
 				item: {
@@ -2239,7 +2239,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Spectral Hammer"
+			title: "{ftbquests.chapter.irons_spells.quest5398948210076858052.title}"
 			x: -1.0d
 			y: 12.5d
 		}
@@ -2255,7 +2255,7 @@
 			icon_scale: 1.4d
 			id: "309F3C51764B5E72"
 			shape: "square"
-			subtitle: "Conjure a spectral steed that will follow you around and only let you ride. The horse's speed, health, and jump height scales with spell power."
+			subtitle: "{ftbquests.chapter.irons_spells.quest3503585355692203634.subtitle}"
 			tasks: [{
 				id: "6155F4587C5A293D"
 				item: {
@@ -2278,7 +2278,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Summon Horse"
+			title: "{ftbquests.chapter.irons_spells.quest3503585355692203634.title}"
 			x: 0.0d
 			y: 12.5d
 		}
@@ -2294,7 +2294,7 @@
 			icon_scale: 1.4d
 			id: "20E14F00A7EF9452"
 			shape: "square"
-			subtitle: "Cast to conjure vexes that will follow, protect, and fight for you."
+			subtitle: "{ftbquests.chapter.irons_spells.quest2369261743209682002.subtitle}"
 			tasks: [{
 				id: "1F2B845AC0550889"
 				item: {
@@ -2317,7 +2317,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Summon Vex"
+			title: "{ftbquests.chapter.irons_spells.quest2369261743209682002.title}"
 			x: -1.5d
 			y: 13.5d
 		}
@@ -2333,7 +2333,7 @@
 			icon_scale: 1.4d
 			id: "6C87FAB0249CA091"
 			shape: "square"
-			subtitle: "Wololo!"
+			subtitle: "{ftbquests.chapter.irons_spells.quest7820494912387588241.subtitle}"
 			tasks: [{
 				id: "21CBF10B2B35417F"
 				item: {
@@ -2356,7 +2356,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Wololo"
+			title: "{ftbquests.chapter.irons_spells.quest7820494912387588241.title}"
 			x: -0.5d
 			y: 13.5d
 		}
@@ -2372,7 +2372,7 @@
 			icon_scale: 1.4d
 			id: "30DFF086B00CDBB2"
 			shape: "square"
-			subtitle: "Cast to gain wings made of holy energy, acting as an elytra, for a brief period of time."
+			subtitle: "{ftbquests.chapter.irons_spells.quest3521797894896933810.subtitle}"
 			tasks: [{
 				id: "37DFA46766AE9609"
 				item: {
@@ -2395,7 +2395,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Angel Wing"
+			title: "{ftbquests.chapter.irons_spells.quest3521797894896933810.title}"
 			x: -6.0d
 			y: 9.5d
 		}
@@ -2411,7 +2411,7 @@
 			icon_scale: 1.4d
 			id: "2839D10D16E7F51E"
 			shape: "square"
-			subtitle: "Cast to target any creature, showing a glowing outline. Completing the cast will heal this creature."
+			subtitle: "{ftbquests.chapter.irons_spells.quest2898577689338705182.subtitle}"
 			tasks: [{
 				id: "1FA7F22C691A6834"
 				item: {
@@ -2434,7 +2434,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Blessing Of Life"
+			title: "{ftbquests.chapter.irons_spells.quest2898577689338705182.title}"
 			x: -5.0d
 			y: 9.5d
 		}
@@ -2450,7 +2450,7 @@
 			icon_scale: 1.4d
 			id: "7917F1D8E6176365"
 			shape: "square"
-			subtitle: "With a fervor of holy energy, swing forth your weapon, doing a melee area attack. This spell is uninterruptible. The damage scales off of your held weapon's melee damage and enchantments."
+			subtitle: "{ftbquests.chapter.irons_spells.quest8725708716929147749.subtitle}"
 			tasks: [{
 				id: "466C637941DF69C4"
 				item: {
@@ -2473,7 +2473,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Divine Smite"
+			title: "{ftbquests.chapter.irons_spells.quest8725708716929147749.title}"
 			x: -4.0d
 			y: 9.5d
 		}
@@ -2489,7 +2489,7 @@
 			icon_scale: 1.4d
 			id: "6D4F6397F129EE19"
 			shape: "square"
-			subtitle: "Upon casting, fortify every friendly creature within a radius around you, giving them temporary HP."
+			subtitle: "{ftbquests.chapter.irons_spells.quest7876623777531555353.subtitle}"
 			tasks: [{
 				id: "55464AA9FBC21B88"
 				item: {
@@ -2512,7 +2512,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Fortify"
+			title: "{ftbquests.chapter.irons_spells.quest7876623777531555353.title}"
 			x: -6.0d
 			y: 10.5d
 		}
@@ -2528,7 +2528,7 @@
 			icon_scale: 1.4d
 			id: "1F6B2F0496BF329E"
 			shape: "square"
-			subtitle: "A more powerful but much slower version of heal, this spell will completely heal yourself upon being casted."
+			subtitle: "{ftbquests.chapter.irons_spells.quest2263954934439293598.subtitle}"
 			tasks: [{
 				id: "5EC397908132EB59"
 				item: {
@@ -2551,7 +2551,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Greater Heal"
+			title: "{ftbquests.chapter.irons_spells.quest2263954934439293598.title}"
 			x: -5.0d
 			y: 10.5d
 		}
@@ -2567,7 +2567,7 @@
 			icon_scale: 1.4d
 			id: "2D8B8DA3C9293CCD"
 			shape: "square"
-			subtitle: "Fire a slow bolt of holy energy. Creatures hit will gain the Guided effect, homing nearby projectiles in towards them."
+			subtitle: "{ftbquests.chapter.irons_spells.quest3281872488063646925.subtitle}"
 			tasks: [{
 				id: "1EBECEA527DACFEA"
 				item: {
@@ -2590,7 +2590,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Guiding Bolt"
+			title: "{ftbquests.chapter.irons_spells.quest3281872488063646925.title}"
 			x: -4.0d
 			y: 10.5d
 		}
@@ -2606,7 +2606,7 @@
 			icon_scale: 1.4d
 			id: "42E62E00C6E77055"
 			shape: "square"
-			subtitle: "In a radius around a targeted creature, or yourself if no creature is targeted, apply the Hastened effect, increasing movement speed, attack speed, mining speed, mana regeneration, and cast time reduction for a duration."
+			subtitle: "{ftbquests.chapter.irons_spells.quest4820591032018628693.subtitle}"
 			tasks: [{
 				id: "3FC33E14F699AD0D"
 				item: {
@@ -2629,7 +2629,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Haste"
+			title: "{ftbquests.chapter.irons_spells.quest4820591032018628693.title}"
 			x: -6.0d
 			y: 11.5d
 		}
@@ -2646,7 +2646,7 @@
 			icon_scale: 1.4d
 			id: "4E864208804FBA46"
 			shape: "square"
-			subtitle: "Cast to infuse yourself with holy energy and immediately regain health."
+			subtitle: "{ftbquests.chapter.irons_spells.quest5658282586117487174.subtitle}"
 			tasks: [{
 				id: "0D1D45EF74AD0874"
 				item: {
@@ -2669,7 +2669,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Heal"
+			title: "{ftbquests.chapter.irons_spells.quest5658282586117487174.title}"
 			x: -5.0d
 			y: 11.5d
 		}
@@ -2685,7 +2685,7 @@
 			icon_scale: 1.4d
 			id: "23A1A47894E1CEB8"
 			shape: "square"
-			subtitle: "Around a targeted creature or block, place a stationary circle of holy magic that heals allies within."
+			subtitle: "{ftbquests.chapter.irons_spells.quest2567514100378750648.subtitle}"
 			tasks: [{
 				id: "6B50BA80EBA5AEC9"
 				item: {
@@ -2708,7 +2708,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Healing Circle"
+			title: "{ftbquests.chapter.irons_spells.quest2567514100378750648.title}"
 			x: -4.0d
 			y: 11.5d
 		}
@@ -2724,7 +2724,7 @@
 			icon_scale: 1.4d
 			id: "10CC6BC52C658BDC"
 			shape: "square"
-			subtitle: "Conjure a projectile of holy energy that will float towards nearby targets and deal damage upon impact."
+			subtitle: "{ftbquests.chapter.irons_spells.quest1210460894453402588.subtitle}"
 			tasks: [{
 				id: "6F73E32FAE90C372"
 				item: {
@@ -2747,7 +2747,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Wisp"
+			title: "{ftbquests.chapter.irons_spells.quest1210460894453402588.title}"
 			x: -5.0d
 			y: 12.5d
 		}
@@ -2763,7 +2763,7 @@
 			icon_scale: 1.4d
 			id: "49184739FC23FA4D"
 			shape: "square"
-			subtitle: "Hold to cast out a cone of cold energy, freezing creatures in its path."
+			subtitle: "{ftbquests.chapter.irons_spells.quest5267038078578719309.subtitle}"
 			tasks: [{
 				id: "47CF4B872E1418A0"
 				item: {
@@ -2786,7 +2786,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Cone Of Cold"
+			title: "{ftbquests.chapter.irons_spells.quest5267038078578719309.title}"
 			x: 0.0d
 			y: 6.0d
 		}
@@ -2802,7 +2802,7 @@
 			icon_scale: 1.4d
 			id: "40EA0A65E13F7EAB"
 			shape: "square"
-			subtitle: "Instantaneously teleport to where you are looking, leaving behind a shadow of ice. This shadow will shatter after 3 seconds or upon taking any damage, shooting out icicles in every direction."
+			subtitle: "{ftbquests.chapter.irons_spells.quest4677562595664690859.subtitle}"
 			tasks: [{
 				id: "4430CCF65C614881"
 				item: {
@@ -2825,7 +2825,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Frost Step"
+			title: "{ftbquests.chapter.irons_spells.quest4677562595664690859.title}"
 			x: 1.0d
 			y: 5.5d
 		}
@@ -2841,7 +2841,7 @@
 			icon_scale: 1.4d
 			id: "77EDF548D39AEF96"
 			shape: "square"
-			subtitle: "Cascade a wave of frost magic in a radius around you, afflicting creatures with chilled. Chilled creatures are slowed, and have their incoming freeze time doubled."
+			subtitle: "{ftbquests.chapter.irons_spells.quest8641832953130446742.subtitle}"
 			tasks: [{
 				id: "56DCBCEF7A151B46"
 				item: {
@@ -2864,7 +2864,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Frostwave"
+			title: "{ftbquests.chapter.irons_spells.quest8641832953130446742.title}"
 			x: 2.0d
 			y: 6.0d
 		}
@@ -2880,7 +2880,7 @@
 			icon_scale: 1.4d
 			id: "5BA5CC9E9BA67619"
 			shape: "square"
-			subtitle: "Conjure a giant chunk of ice above a targeted creature or block. After a short delay, it will fall down and explode for area frost damage, doing additional damage to any creatures hit on the way down."
+			subtitle: "{ftbquests.chapter.irons_spells.quest6603909410196977177.subtitle}"
 			tasks: [{
 				id: "71D0DF9CE53A9100"
 				item: {
@@ -2903,7 +2903,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Ice Block"
+			title: "{ftbquests.chapter.irons_spells.quest6603909410196977177.title}"
 			x: 0.0d
 			y: 7.0d
 		}
@@ -2919,7 +2919,7 @@
 			icon_scale: 1.4d
 			id: "4A790C7B4E7C9A44"
 			shape: "square"
-			subtitle: "Fire a piercing bolt of cold energy in the form of an icicle, freezing those it touches."
+			subtitle: "{ftbquests.chapter.irons_spells.quest5366334154725956164.subtitle}"
 			tasks: [{
 				id: "47C54FE5554D4817"
 				item: {
@@ -2942,7 +2942,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Icicle"
+			title: "{ftbquests.chapter.irons_spells.quest5366334154725956164.title}"
 			x: 1.0d
 			y: 6.5d
 		}
@@ -2958,7 +2958,7 @@
 			icon_scale: 1.4d
 			id: "5BF66A8EB5C27D54"
 			shape: "square"
-			subtitle: "Fire a beam of cold energy, dealing low damage but immediately applying freeze to the creature hit."
+			subtitle: "{ftbquests.chapter.irons_spells.quest6626601062889586004.subtitle}"
 			tasks: [{
 				id: "318F6402FA975FA5"
 				item: {
@@ -2981,7 +2981,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Ray Of Frost"
+			title: "{ftbquests.chapter.irons_spells.quest6626601062889586004.title}"
 			x: 2.0d
 			y: 7.0d
 		}
@@ -2997,7 +2997,7 @@
 			icon_scale: 1.4d
 			id: "37DB76DF7EEC9CC1"
 			shape: "square"
-			subtitle: "Cast to summon a polar bear who will follow, protect, and fight for you, as well as providing a mount."
+			subtitle: "{ftbquests.chapter.irons_spells.quest4024941394264890561.subtitle}"
 			tasks: [{
 				id: "5A74AA52F30FFC7A"
 				item: {
@@ -3020,7 +3020,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Summon Polar Bear"
+			title: "{ftbquests.chapter.irons_spells.quest4024941394264890561.title}"
 			x: 1.0d
 			y: 7.5d
 		}
@@ -3036,7 +3036,7 @@
 			icon_scale: 1.4d
 			id: "06C88AAAD05EFFCC"
 			shape: "square"
-			subtitle: "Cast to strike lightning at your feet and ascend quickly into the air, and gain reduced gravity for the next few seconds."
+			subtitle: "{ftbquests.chapter.irons_spells.quest488793025814659020.subtitle}"
 			tasks: [{
 				id: "1068AFD3774C33ED"
 				item: {
@@ -3059,7 +3059,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Ascension"
+			title: "{ftbquests.chapter.irons_spells.quest488793025814659020.title}"
 			x: -5.5d
 			y: 17.0d
 		}
@@ -3075,7 +3075,7 @@
 			icon_scale: 1.4d
 			id: "4DE794DE317DF3B3"
 			shape: "square"
-			subtitle: "Conjure an orb of lightning that slowly moves forward, damaging creatures it phases through and bouncing off blocks."
+			subtitle: "{ftbquests.chapter.irons_spells.quest5613619142574601139.subtitle}"
 			tasks: [{
 				id: "39E0CDA3934FA89D"
 				item: {
@@ -3098,7 +3098,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Ball Lightning"
+			title: "{ftbquests.chapter.irons_spells.quest5613619142574601139.title}"
 			x: -5.5d
 			y: 19.0d
 		}
@@ -3114,7 +3114,7 @@
 			icon_scale: 1.4d
 			id: "46FEC22AA8E22243"
 			shape: "square"
-			subtitle: "Start a chain of lightning from a targeted creature, causing waves of zapping magic to cascade to nearby creatures."
+			subtitle: "{ftbquests.chapter.irons_spells.quest5115739715217269315.subtitle}"
 			tasks: [{
 				id: "7D35BA9F75CEECA0"
 				item: {
@@ -3137,7 +3137,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Chain Lightning"
+			title: "{ftbquests.chapter.irons_spells.quest5115739715217269315.title}"
 			x: -5.0d
 			y: 16.0d
 		}
@@ -3153,7 +3153,7 @@
 			icon_scale: 1.4d
 			id: "1700885208337609"
 			shape: "square"
-			subtitle: "Imbue yourself with the power of lightning, increasing your speed and combat abilities."
+			subtitle: "{ftbquests.chapter.irons_spells.quest1657474548778628617.subtitle}"
 			tasks: [{
 				id: "2194A61DB814A12F"
 				item: {
@@ -3176,7 +3176,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Charge"
+			title: "{ftbquests.chapter.irons_spells.quest1657474548778628617.title}"
 			x: -5.5d
 			y: 18.0d
 		}
@@ -3192,7 +3192,7 @@
 			icon_scale: 1.4d
 			id: "2EEAF9EDC2085858"
 			shape: "square"
-			subtitle: "Hold to manifest a cone of electrical energy, damaging creatures in its path."
+			subtitle: "{ftbquests.chapter.irons_spells.quest3380789269852870744.subtitle}"
 			tasks: [{
 				id: "7AF2F8882594CBAB"
 				item: {
@@ -3215,7 +3215,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Electrocute"
+			title: "{ftbquests.chapter.irons_spells.quest3380789269852870744.title}"
 			x: -4.5d
 			y: 17.0d
 		}
@@ -3231,7 +3231,7 @@
 			icon_scale: 1.4d
 			id: "73DA876C6B35F311"
 			shape: "square"
-			subtitle: "Down from the heavens, summon a bolt of lightning."
+			subtitle: "{ftbquests.chapter.irons_spells.quest8348133759009551121.subtitle}"
 			tasks: [{
 				id: "12D725FE5C9EAAB1"
 				item: {
@@ -3254,7 +3254,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Lightning Bolt"
+			title: "{ftbquests.chapter.irons_spells.quest8348133759009551121.title}"
 			x: -6.0d
 			y: 16.0d
 		}
@@ -3270,7 +3270,7 @@
 			icon_scale: 1.4d
 			id: "3341D5C8BED3A0A3"
 			shape: "square"
-			subtitle: "Hold to charge a spear made of lightning. Release to throw it like a javelin, dealing high damage to the creature it hits."
+			subtitle: "{ftbquests.chapter.irons_spells.quest3693468227592233123.subtitle}"
 			tasks: [{
 				id: "01821866800BAEEC"
 				item: {
@@ -3293,7 +3293,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Lightning Lance"
+			title: "{ftbquests.chapter.irons_spells.quest3693468227592233123.title}"
 			x: -4.5d
 			y: 18.0d
 		}
@@ -3309,7 +3309,7 @@
 			icon_scale: 1.4d
 			id: "58A1874E6C623430"
 			shape: "square"
-			subtitle: "Coalesce a surge of electrical power, and unleash it in a devastating shockwave, blasting exposed creatures."
+			subtitle: "{ftbquests.chapter.irons_spells.quest6386534517483648048.subtitle}"
 			tasks: [{
 				id: "2A63DE9429D43F74"
 				item: {
@@ -3332,7 +3332,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Shockwave"
+			title: "{ftbquests.chapter.irons_spells.quest6386534517483648048.title}"
 			x: -4.5d
 			y: 19.0d
 		}
@@ -3348,7 +3348,7 @@
 			icon_scale: 1.4d
 			id: "79FF384713ABFCD8"
 			shape: "square"
-			subtitle: "Cast to conjure a thunderstorm centered around yourself, which strikes nearby creatures within sight with a small bolt of lightning every 2 seconds for the spell's duration."
+			subtitle: "{ftbquests.chapter.irons_spells.quest8790806875574369496.subtitle}"
 			tasks: [{
 				id: "290FD1F404EB5713"
 				item: {
@@ -3371,7 +3371,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Thunderstorm"
+			title: "{ftbquests.chapter.irons_spells.quest8790806875574369496.title}"
 			x: -4.0d
 			y: 16.0d
 		}
@@ -3387,7 +3387,7 @@
 			icon_scale: 1.4d
 			id: "44BD776617D0E432"
 			shape: "square"
-			subtitle: "Spit an orb of acid, splashing in a radius upon impact and rending creatures hit, melting away and reducing their armor."
+			subtitle: "{ftbquests.chapter.irons_spells.quest4953246445547349042.subtitle}"
 			tasks: [{
 				id: "686221AE0DA19965"
 				item: {
@@ -3410,7 +3410,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Acid Spit"
+			title: "{ftbquests.chapter.irons_spells.quest4953246445547349042.title}"
 			x: 6.0d
 			y: 6.0d
 		}
@@ -3426,7 +3426,7 @@
 			icon_scale: 1.4d
 			id: "381B0A3B808B7004"
 			shape: "square"
-			subtitle: "Target a creature to blight them, reducing their incoming healing and outgoing damage."
+			subtitle: "{ftbquests.chapter.irons_spells.quest4042836341171122180.subtitle}"
 			tasks: [{
 				id: "221BCEA15A050BC4"
 				item: {
@@ -3449,7 +3449,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Blight"
+			title: "{ftbquests.chapter.irons_spells.quest4042836341171122180.title}"
 			x: 7.0d
 			y: 3.0d
 		}
@@ -3465,7 +3465,7 @@
 			icon_scale: 1.4d
 			id: "19882BDEF9DECAE2"
 			shape: "square"
-			subtitle: "Conjure an earthquake around a targeted creature or location, causing tremors to ripple through the ground, damaging and slowing creatures in the area."
+			subtitle: "{ftbquests.chapter.irons_spells.quest1839768684455709410.subtitle}"
 			tasks: [{
 				id: "132808E03952C3AF"
 				item: {
@@ -3488,7 +3488,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Earthquake"
+			title: "{ftbquests.chapter.irons_spells.quest1839768684455709410.title}"
 			x: 8.0d
 			y: 2.0d
 		}
@@ -3504,7 +3504,7 @@
 			icon_scale: 1.4d
 			id: "7F84C23C313E0BF9"
 			shape: "square"
-			subtitle: "Emanate a swarm of violent fireflies, following a targeted creature and dealing aoe damage. If the initial target dies, the last harmed creature will be targeted."
+			subtitle: "{ftbquests.chapter.irons_spells.quest9188682703522630649.subtitle}"
 			tasks: [{
 				id: "673F5D918328B23D"
 				item: {
@@ -3527,7 +3527,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Firefly Swarm"
+			title: "{ftbquests.chapter.irons_spells.quest9188682703522630649.title}"
 			x: 6.0d
 			y: 3.0d
 		}
@@ -3543,7 +3543,7 @@
 			icon_scale: 1.4d
 			id: "6C6CBA36CD3E5257"
 			shape: "square"
-			subtitle: "Turn your stomach into an arcane furnace, turning eaten food into mana for a duration."
+			subtitle: "{ftbquests.chapter.irons_spells.quest7812824198115381847.subtitle}"
 			tasks: [{
 				id: "739CB807E24C8C0E"
 				item: {
@@ -3566,7 +3566,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Gluttony"
+			title: "{ftbquests.chapter.irons_spells.quest7812824198115381847.title}"
 			x: 7.0d
 			y: 4.0d
 		}
@@ -3582,7 +3582,7 @@
 			icon_scale: 1.4d
 			id: "7E0949404FCF6F1C"
 			shape: "square"
-			subtitle: "The great power of oak infuses itself into your skin, granting damage reduction of any incoming damage for a duration."
+			subtitle: "{ftbquests.chapter.irons_spells.quest9081870664135044892.subtitle}"
 			tasks: [{
 				id: "10B2F1AB202DD2DE"
 				item: {
@@ -3605,7 +3605,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Oakskin"
+			title: "{ftbquests.chapter.irons_spells.quest9081870664135044892.title}"
 			x: 8.0d
 			y: 3.0d
 		}
@@ -3621,7 +3621,7 @@
 			icon_scale: 1.4d
 			id: "757AC0052C4D92B3"
 			shape: "square"
-			subtitle: "Charge a powerful arrow, imbued with poison magic, that will release a poisonous cloud upon impact."
+			subtitle: "{ftbquests.chapter.irons_spells.quest8465289578046919347.subtitle}"
 			tasks: [{
 				id: "711A7DFE38B84410"
 				item: {
@@ -3644,7 +3644,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Poison Arrow"
+			title: "{ftbquests.chapter.irons_spells.quest8465289578046919347.title}"
 			x: 6.0d
 			y: 5.0d
 		}
@@ -3660,7 +3660,7 @@
 			icon_scale: 1.4d
 			id: "27816321823042E7"
 			shape: "square"
-			subtitle: "Spew forth a cone of poison, damaging and poisoning creatures in its reach."
+			subtitle: "{ftbquests.chapter.irons_spells.quest2846665435044135655.subtitle}"
 			tasks: [{
 				id: "712623CBFA8566BE"
 				item: {
@@ -3683,7 +3683,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Poison Spray"
+			title: "{ftbquests.chapter.irons_spells.quest2846665435044135655.title}"
 			x: 7.0d
 			y: 5.0d
 		}
@@ -3699,7 +3699,7 @@
 			icon_scale: 1.4d
 			id: "729AEEA9EB61FF37"
 			shape: "square"
-			subtitle: "Around a targeted creature or block, conjure a wave of poisonous magic that splashes down, damaging creatures hit and leaving behind a poisonous cloud."
+			subtitle: "{ftbquests.chapter.irons_spells.quest8258175280303177527.subtitle}"
 			tasks: [{
 				id: "00BD5F35DD09DDFF"
 				item: {
@@ -3722,7 +3722,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Poison Splash"
+			title: "{ftbquests.chapter.irons_spells.quest8258175280303177527.title}"
 			x: 8.0d
 			y: 5.0d
 		}
@@ -3738,7 +3738,7 @@
 			icon_scale: 1.4d
 			id: "6CCB58DC5162F598"
 			shape: "square"
-			subtitle: "Around a targeted creature, sprout magical roots than entangle them and completely prevent non-magical movement."
+			subtitle: "{ftbquests.chapter.irons_spells.quest7839457279649969560.subtitle}"
 			tasks: [{
 				id: "0885A7B7B89B4E3F"
 				item: {
@@ -3761,7 +3761,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Root"
+			title: "{ftbquests.chapter.irons_spells.quest7839457279649969560.title}"
 			x: 6.0d
 			y: 2.0d
 		}
@@ -3777,7 +3777,7 @@
 			icon_scale: 1.4d
 			id: "6F751D658EAB4A5D"
 			shape: "square"
-			subtitle: "Instill yourself with poisonous magic, dealing additional melee, ranged, or spell damage creatures that are poisoned."
+			subtitle: "{ftbquests.chapter.irons_spells.quest8031357832507640413.subtitle}"
 			tasks: [{
 				id: "1AD5D962F40C461E"
 				item: {
@@ -3800,7 +3800,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Aspect of the Spider"
+			title: "{ftbquests.chapter.irons_spells.quest8031357832507640413.title}"
 			x: 7.0d
 			y: 6.0d
 		}
@@ -3816,7 +3816,7 @@
 			icon_scale: 1.4d
 			id: "178CF795805FBF3F"
 			shape: "square"
-			subtitle: "With a magic force, stomp the ground in front of you and send a short tremor forward through the ground, damaging creatures in its path."
+			subtitle: "{ftbquests.chapter.irons_spells.quest1697003381087780671.subtitle}"
 			tasks: [{
 				id: "510C77496647C2DF"
 				item: {
@@ -3839,13 +3839,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Stomp"
+			title: "{ftbquests.chapter.irons_spells.quest1697003381087780671.title}"
 			x: 8.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["26A7D1040CEE5059"]
-			description: ["The scrolls you found can be inscribed to your spell book with this table."]
+			description: ["{ftbquests.chapter.irons_spells.quest6380318672964143799.description1}"]
 			id: "588B720757D1CAB7"
 			rewards: [
 				{
@@ -3860,13 +3860,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "This is where you add your skills to the book!"
+			subtitle: "{ftbquests.chapter.irons_spells.quest6380318672964143799.subtitle}"
 			tasks: [{
 				id: "109354D4CE78942F"
 				item: "irons_spellbooks:inscription_table"
 				type: "item"
 			}]
-			title: "Inscription Table"
+			title: "{ftbquests.chapter.irons_spells.quest6380318672964143799.title}"
 			x: -0.5d
 			y: -3.5d
 		}
@@ -3878,22 +3878,22 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Used to create spells."
+			subtitle: "{ftbquests.chapter.irons_spells.quest8832270385744516479.subtitle}"
 			tasks: [{
 				id: "6A5C6AFA62154A35"
 				item: "irons_spellbooks:scroll_forge"
 				type: "item"
 			}]
-			title: "Scroll Forge"
+			title: "{ftbquests.chapter.irons_spells.quest8832270385744516479.title}"
 			x: 0.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"Using ink and scrolls, you can increase the level of scrolls."
-				"Allows you to improve items with upgrade orbs."
-				"Allows you to increase the capacity of the spell book."
+				"{ftbquests.chapter.irons_spells.quest479381462358976872.description1}"
+				"{ftbquests.chapter.irons_spells.quest479381462358976872.description2}"
+				"{ftbquests.chapter.irons_spells.quest479381462358976872.description3}"
 			]
 			id: "06A71AE66FD06968"
 			rewards: [{
@@ -3901,21 +3901,21 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Used to improve items."
+			subtitle: "{ftbquests.chapter.irons_spells.quest479381462358976872.subtitle}"
 			tasks: [{
 				id: "0E7AEB973767C57D"
 				item: "irons_spellbooks:arcane_anvil"
 				type: "item"
 			}]
-			title: "Arcane Anvil"
+			title: "{ftbquests.chapter.irons_spells.quest479381462358976872.title}"
 			x: 1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"You can spray scrolls on ink here."
-				"You can improve ink here."
+				"{ftbquests.chapter.irons_spells.quest4280149433029724415.description1}"
+				"{ftbquests.chapter.irons_spells.quest4280149433029724415.description2}"
 			]
 			id: "3B66253B6D5388FF"
 			rewards: [{
@@ -3923,21 +3923,21 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Used for working with ink and potions."
+			subtitle: "{ftbquests.chapter.irons_spells.quest4280149433029724415.subtitle}"
 			tasks: [{
 				id: "787F9C309A473676"
 				item: "irons_spellbooks:alchemist_cauldron"
 				type: "item"
 			}]
-			title: "Alchemist Cauldron"
+			title: "{ftbquests.chapter.irons_spells.quest4280149433029724415.title}"
 			x: 2.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"Can be equipped in the left hand."
-				"When equipped, pressing RMB will cast the current spell."
+				"{ftbquests.chapter.irons_spells.quest4291559152957808231.description1}"
+				"{ftbquests.chapter.irons_spells.quest4291559152957808231.description2}"
 			]
 			icon: "irons_spellbooks:artificer_cane"
 			id: "3B8EAE4FDCA05E67"
@@ -3947,7 +3947,7 @@
 				xp: 100
 			}]
 			shape: "octagon"
-			subtitle: "Boosts spells when equipped."
+			subtitle: "{ftbquests.chapter.irons_spells.quest4291559152957808231.subtitle}"
 			tasks: [
 				{
 					id: "59DDEE79C03B5E32"
@@ -3975,17 +3975,17 @@
 					type: "item"
 				}
 			]
-			title: "Magic staffs"
+			title: "{ftbquests.chapter.irons_spells.quest4291559152957808231.title}"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"The quality of the ink affects the power of the scrolls created."
-				"Some scrolls only require high-quality ink."
+				"{ftbquests.chapter.irons_spells.quest6042874524088435925.description1}"
+				"{ftbquests.chapter.irons_spells.quest6042874524088435925.description2}"
 				""
-				"They're also craftable!"
+				"{ftbquests.chapter.irons_spells.quest6042874524088435925.description3}"
 			]
 			icon: "irons_spellbooks:common_ink"
 			id: "53DC9A5CF68C84D5"
@@ -4009,7 +4009,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "Used to create magic scrolls."
+			subtitle: "{ftbquests.chapter.irons_spells.quest6042874524088435925.subtitle}"
 			tasks: [
 				{
 					id: "5E8CACE3FDB8B9C9"
@@ -4037,18 +4037,18 @@
 					type: "item"
 				}
 			]
-			title: "Inks"
+			title: "{ftbquests.chapter.irons_spells.quest6042874524088435925.title}"
 			x: 1.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"One item can be upgraded up to 3 times."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Can be used on any piece of armor."
-				"Can be used on Staffs."
-				"Can be used on Spell Books."
+				"{ftbquests.chapter.irons_spells.quest2910789143608604038.description1}"
+				"{ftbquests.chapter.irons_spells.quest2910789143608604038.image0}"
+				"{ftbquests.chapter.irons_spells.quest2910789143608604038.description2}"
+				"{ftbquests.chapter.irons_spells.quest2910789143608604038.description3}"
+				"{ftbquests.chapter.irons_spells.quest2910789143608604038.description4}"
 			]
 			icon: "irons_spellbooks:upgrade_orb"
 			id: "2865334DD8DAB586"
@@ -4066,7 +4066,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "Used to improve armor."
+			subtitle: "{ftbquests.chapter.irons_spells.quest2910789143608604038.subtitle}"
 			tasks: [
 				{
 					id: "1246CFAA2FF2F8CD"
@@ -4149,13 +4149,13 @@
 					type: "item"
 				}
 			]
-			title: "Upgrade Orbs"
+			title: "{ftbquests.chapter.irons_spells.quest2910789143608604038.title}"
 			x: 3.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["26A7D1040CEE5059"]
-			description: ["To upgrade capacity, combine a &aSpell Book&r and &a Any Spell Slot Improvement&r on the &bArcane Anvil&r."]
+			description: ["{ftbquests.chapter.irons_spells.quest5245541509981719080.description1}"]
 			id: "48CBE8361506CA28"
 			rewards: [
 				{
@@ -4171,7 +4171,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "Improves Spell Book capacity, up to 15 slots!"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5245541509981719080.subtitle}"
 			tasks: [
 				{
 					id: "4D8FDE0B3DDEB22A"
@@ -4189,15 +4189,15 @@
 					type: "item"
 				}
 			]
-			title: "Spell Slot Improvement"
+			title: "{ftbquests.chapter.irons_spells.quest5245541509981719080.title}"
 			x: 2.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"All basic &3Spell Books&r can be crafted from a combination of vanilla and arcane materials."
-				"Each futher tier crafted increases the slot count of the spell book and often comes with extra bonuses, increasing the power and quantity of spells it can contain."
+				"{ftbquests.chapter.irons_spells.quest6207900049319175871.description1}"
+				"{ftbquests.chapter.irons_spells.quest6207900049319175871.description2}"
 			]
 			icon: {
 				Count: 1
@@ -4218,7 +4218,7 @@
 				xp: 100
 			}]
 			shape: "octagon"
-			subtitle: "Can hold multiple spells."
+			subtitle: "{ftbquests.chapter.irons_spells.quest6207900049319175871.subtitle}"
 			tasks: [
 				{
 					id: "2A9DEE646EECF410"
@@ -4317,17 +4317,17 @@
 					type: "item"
 				}
 			]
-			title: "Basic Spell Books"
+			title: "{ftbquests.chapter.irons_spells.quest6207900049319175871.title}"
 			x: -1.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"Can be dropped by Evokers or their more powerful casting cousin, Archevokers."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"The spells in the book are locked, but can be improved."
-				"By combining a Spell Book in the Arcane Anvil with a higher level scroll of the same spell from the Spell Book."
+				"{ftbquests.chapter.irons_spells.quest7317277554511974746.description1}"
+				"{ftbquests.chapter.irons_spells.quest7317277554511974746.image0}"
+				"{ftbquests.chapter.irons_spells.quest7317277554511974746.description2}"
+				"{ftbquests.chapter.irons_spells.quest7317277554511974746.description3}"
 			]
 			id: "658C312ACFA0115A"
 			rewards: [{
@@ -4337,14 +4337,14 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "A book full of foundational illager magicl"
+			subtitle: "{ftbquests.chapter.irons_spells.quest7317277554511974746.subtitle}"
 			tasks: [{
 				id: "6A72554F9681766E"
 				item: {
 					Count: 1
 					id: "irons_spellbooks:evoker_spell_book"
 					tag: {
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [
 								{
 									id: "irons_spellbooks:fang_strike"
@@ -4379,10 +4379,10 @@
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"Can only be acquired by taking it from its undead owner."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"The spells in the book are locked, but can be improved."
-				"By combining a Spell Book in the Arcane Anvil with a higher level scroll of the same spell from the Spell Book."
+				"{ftbquests.chapter.irons_spells.quest659926091990142529.description1}"
+				"{ftbquests.chapter.irons_spells.quest659926091990142529.image0}"
+				"{ftbquests.chapter.irons_spells.quest659926091990142529.description2}"
+				"{ftbquests.chapter.irons_spells.quest659926091990142529.description3}"
 			]
 			id: "09288748C3158E41"
 			rewards: [{
@@ -4392,7 +4392,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "An ancient book holding a host of dark spells."
+			subtitle: "{ftbquests.chapter.irons_spells.quest659926091990142529.subtitle}"
 			tasks: [{
 				id: "1F3C2260973374A8"
 				item: {
@@ -4400,7 +4400,7 @@
 					id: "irons_spellbooks:necronomicon_spell_book"
 					tag: {
 						ISBEnhance: "irons_spellbooks:raise_dead"
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [
 								{
 									id: "irons_spellbooks:blood_slash"
@@ -4441,9 +4441,9 @@
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"They can be looted from equally rotten places all across the Overworld."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"&7What may have once been a more powerful book has since rotted away, leaving but three pages.&r"
+				"{ftbquests.chapter.irons_spells.quest723344638467250689.description1}"
+				"{ftbquests.chapter.irons_spells.quest723344638467250689.image0}"
+				"{ftbquests.chapter.irons_spells.quest723344638467250689.description2}"
 			]
 			id: "0A09D61DC2061A01"
 			rewards: [{
@@ -4453,7 +4453,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "Yet, still more powerful than most Overworld spell books."
+			subtitle: "{ftbquests.chapter.irons_spells.quest723344638467250689.subtitle}"
 			tasks: [{
 				id: "1ECE6E4FB3D33389"
 				item: {
@@ -4475,7 +4475,7 @@
 		}
 		{
 			dependencies: ["26A7D1040CEE5059"]
-			description: ["The trick is killing them and hoping it doesn't turn into ash."]
+			description: ["{ftbquests.chapter.irons_spells.quest572923809787118376.description1}"]
 			id: "07F36F2B65B98328"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -4484,7 +4484,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "Every Blaze, unbeknownst to them, comes with one of these tucked away."
+			subtitle: "{ftbquests.chapter.irons_spells.quest572923809787118376.subtitle}"
 			tasks: [{
 				id: "59E4CFDF81461FD2"
 				item: {
@@ -4506,7 +4506,7 @@
 		}
 		{
 			dependencies: ["26A7D1040CEE5059"]
-			description: ["Building a reputation with the villagers, especially by freeing captives from the Archevoker, will ensure one falls into your hands eventually."]
+			description: ["{ftbquests.chapter.irons_spells.quest3777886999535511942.description1}"]
 			id: "346DC035C0E16986"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -4515,7 +4515,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "A regular book with a little blessing makes a suitable channel for divine magic."
+			subtitle: "{ftbquests.chapter.irons_spells.quest3777886999535511942.subtitle}"
 			tasks: [{
 				id: "24AB49624019F871"
 				item: {
@@ -4537,7 +4537,7 @@
 		}
 		{
 			dependencies: ["26A7D1040CEE5059"]
-			description: ["The book may be blessed anew if a proper remedy were applied."]
+			description: ["{ftbquests.chapter.irons_spells.quest7610113687474307619.description1}"]
 			id: "699C8E14223E8223"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -4546,7 +4546,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "A strong magical energy still persists within the Rotten Spell Book."
+			subtitle: "{ftbquests.chapter.irons_spells.quest7610113687474307619.subtitle}"
 			tasks: [{
 				id: "2701DF896E7BB617"
 				item: {
@@ -4569,12 +4569,12 @@
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"The BASE material, The START of the mod basically."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"After you understand the basics please choose a class and progress with it."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Can be found sparsely in abadoned structures."
-				"Also drops from enemies who wield magic."
+				"{ftbquests.chapter.irons_spells.quest7178727223488266337.description1}"
+				"{ftbquests.chapter.irons_spells.quest7178727223488266337.image0}"
+				"{ftbquests.chapter.irons_spells.quest7178727223488266337.description2}"
+				"{ftbquests.chapter.irons_spells.quest7178727223488266337.image2}"
+				"{ftbquests.chapter.irons_spells.quest7178727223488266337.description3}"
+				"{ftbquests.chapter.irons_spells.quest7178727223488266337.description4}"
 			]
 			id: "639FF6600F71C061"
 			rewards: [
@@ -4591,7 +4591,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "Basic material."
+			subtitle: "{ftbquests.chapter.irons_spells.quest7178727223488266337.subtitle}"
 			tasks: [{
 				id: "157E135E530BD01B"
 				item: "irons_spellbooks:arcane_essence"
@@ -4602,7 +4602,7 @@
 		}
 		{
 			dependencies: ["26A7D1040CEE5059"]
-			description: ["Dropped from Ancient Knights, which can be awakened by breaking armor piles."]
+			description: ["{ftbquests.chapter.irons_spells.quest2646330169351889417.description1}"]
 			id: "24B9A744A69E6209"
 			rewards: [
 				{
@@ -4618,7 +4618,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "Advanced material."
+			subtitle: "{ftbquests.chapter.irons_spells.quest2646330169351889417.subtitle}"
 			tasks: [{
 				id: "3B7D1C96A4A3F100"
 				item: "irons_spellbooks:cinder_essence"
@@ -4637,7 +4637,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "Strengthen Your Aquatic Spells"
+			subtitle: "{ftbquests.chapter.irons_spells.quest3854909019097414152.subtitle}"
 			tasks: [{
 				id: "2FE404F7EBA442B1"
 				item: {
@@ -4667,7 +4667,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "Learn The Power Of Water"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5253352657852483054.subtitle}"
 			tasks: [{
 				id: "6B344D0E4E34749C"
 				item: {
@@ -4675,7 +4675,7 @@
 					id: "traveloptics:codex_of_the_crushing_depths"
 					tag: {
 						ISBEnhance: "traveloptics:vortex_of_the_deep"
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [{
 								id: "traveloptics:aqua_missiles"
 								index: 0
@@ -4703,7 +4703,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "From The End Itself"
+			subtitle: "{ftbquests.chapter.irons_spells.quest8992226730407878450.subtitle}"
 			tasks: [{
 				id: "6FBFED85A8AABF57"
 				item: {
@@ -4711,7 +4711,7 @@
 					id: "traveloptics:archive_of_abyssal_secrets"
 					tag: {
 						ISBEnhance: "traveloptics:cursed_minefield"
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [
 								{
 									id: "traveloptics:shadowed_miasma"
@@ -4747,7 +4747,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "Spellbook Of The Imprisoned"
+			subtitle: "{ftbquests.chapter.irons_spells.quest1106095668677401851.subtitle}"
 			tasks: [{
 				id: "71247EB19614AC36"
 				item: {
@@ -4755,7 +4755,7 @@
 					id: "traveloptics:the_accused_codex"
 					tag: {
 						ISBEnhance: "traveloptics:cursed_blast"
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [{
 								id: "traveloptics:halberd_horizon"
 								index: 0
@@ -4783,7 +4783,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "Spellbook of The Once Greatest"
+			subtitle: "{ftbquests.chapter.irons_spells.quest2848117785556191930.subtitle}"
 			tasks: [{
 				id: "4154A761909FDD1A"
 				item: {
@@ -4791,7 +4791,7 @@
 					id: "traveloptics:chronicles_of_the_firelord"
 					tag: {
 						ISBEnhance: "traveloptics:burning_judgment"
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [
 								{
 									id: "irons_spellbooks:flaming_strike"
@@ -4827,7 +4827,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "Spellbook of Nature.. a crab"
+			subtitle: "{ftbquests.chapter.irons_spells.quest3115125303725630016.subtitle}"
 			tasks: [{
 				id: "580BCBA3E9ADF88B"
 				item: {
@@ -4849,12 +4849,13 @@
 		}
 		{
 			description: [
-				"&eThis Questline itself is highly inspired from &nBeyond The Horizons&r &emodpack, "
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"&n&eNearly all credits of this questline goes to them!"
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Thanks to them for making such beautiful questline."
+				"{ftbquests.chapter.irons_spells.quest2785424709878960217.description1}"
+				"{ftbquests.chapter.irons_spells.quest2785424709878960217.image0}"
+				"{ftbquests.chapter.irons_spells.quest2785424709878960217.description2}"
+				"{ftbquests.chapter.irons_spells.quest2785424709878960217.image2}"
+				"{ftbquests.chapter.irons_spells.quest2785424709878960217.description3}"
 			]
+			disable_toast: true
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4866,16 +4867,7 @@
 			}
 			id: "26A7D1040CEE5059"
 			rewards: [{
-				id: "6D285318575D1DAE"
-				type: "xp"
-				xp: 25
-			}]
-			shape: "pentagon"
-			size: 1.5d
-			subtitle: "Internal wiki"
-			tasks: [{
-				disable_toast: true
-				id: "51ED4047B16EECC7"
+				id: "628C8A7A4AE4F7B8"
 				item: {
 					Count: 1
 					id: "patchouli:guide_book"
@@ -4885,6 +4877,15 @@
 				}
 				type: "item"
 			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.irons_spells.quest2785424709878960217.subtitle}"
+			tasks: [{
+				id: "488E193441A77827"
+				title: "{ftbquests.chapter.irons_spells.quest2785424709878960217.task.5228143929654212647.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest2785424709878960217.title}"
 			x: 1.0d
 			y: -5.0d
 		}
@@ -4913,7 +4914,7 @@
 			icon_scale: 1.4d
 			id: "471B71349DCAACD2"
 			shape: "square"
-			subtitle: "Select The Target, Amplify The Effect By Using The Spell Repeatedly, After The Timer Runs Out, The Target Explodes With Water, Dealing High Damage."
+			subtitle: "{ftbquests.chapter.irons_spells.quest5123813471863614674.subtitle}"
 			tasks: [{
 				id: "71493AD5CDC09418"
 				item: {
@@ -4935,7 +4936,7 @@
 				}
 				type: "item"
 			}]
-			title: "Coral Barrage"
+			title: "{ftbquests.chapter.irons_spells.quest5123813471863614674.title}"
 			x: -2.0d
 			y: 16.0d
 		}
@@ -4951,7 +4952,7 @@
 			icon_scale: 1.4d
 			id: "7FDBEF0B8E381D13"
 			shape: "square"
-			subtitle: "Send A Wave Of Thin Water, Slashing Everything On It's Way."
+			subtitle: "{ftbquests.chapter.irons_spells.quest9213220295626202387.subtitle}"
 			tasks: [{
 				id: "457B700A0856090E"
 				item: {
@@ -4973,7 +4974,7 @@
 				}
 				type: "item"
 			}]
-			title: "Flood Slash"
+			title: "{ftbquests.chapter.irons_spells.quest9213220295626202387.title}"
 			x: -1.0d
 			y: 16.0d
 		}
@@ -4989,7 +4990,7 @@
 			icon_scale: 1.4d
 			id: "7415B75400D20593"
 			shape: "square"
-			subtitle: "Cast A Rain On Your Foe, Inflicting Them With ''Wet'' Effect."
+			subtitle: "{ftbquests.chapter.irons_spells.quest8364793454329464211.subtitle}"
 			tasks: [{
 				id: "2F4D9BB67E0CA613"
 				item: {
@@ -5011,7 +5012,7 @@
 				}
 				type: "item"
 			}]
-			title: "Rainfall"
+			title: "{ftbquests.chapter.irons_spells.quest8364793454329464211.title}"
 			x: 0.0d
 			y: 16.0d
 		}
@@ -5027,7 +5028,7 @@
 			icon_scale: 1.4d
 			id: "5D286DE552DE2DCE"
 			shape: "square"
-			subtitle: "While Underwater, Spawn The Great Hullbreaker As A Companion, Dominating The Ocean."
+			subtitle: "{ftbquests.chapter.irons_spells.quest6712736076300955086.subtitle}"
 			tasks: [{
 				id: "52956555BB4D3A49"
 				item: {
@@ -5049,7 +5050,7 @@
 				}
 				type: "item"
 			}]
-			title: "Echo Of The Abyss"
+			title: "{ftbquests.chapter.irons_spells.quest6712736076300955086.title}"
 			x: -2.0d
 			y: 17.0d
 		}
@@ -5065,7 +5066,7 @@
 			icon_scale: 1.4d
 			id: "23E25223AD0258B7"
 			shape: "square"
-			subtitle: "Gain A Massive Speed Boost Underwater, Propelling You Forward."
+			subtitle: "{ftbquests.chapter.irons_spells.quest2585719449244031159.subtitle}"
 			tasks: [{
 				id: "3A4EF191D4197671"
 				item: {
@@ -5087,7 +5088,7 @@
 				}
 				type: "item"
 			}]
-			title: "Jet Steam"
+			title: "{ftbquests.chapter.irons_spells.quest2585719449244031159.title}"
 			x: -1.0d
 			y: 17.0d
 		}
@@ -5103,7 +5104,7 @@
 			icon_scale: 1.4d
 			id: "48BDB945BADC87E1"
 			shape: "square"
-			subtitle: "Send Tons Of Water Missles Automatically Targetting Your Foes."
+			subtitle: "{ftbquests.chapter.irons_spells.quest5241549250468022241.subtitle}"
 			tasks: [{
 				id: "050B9517729CD690"
 				item: {
@@ -5125,7 +5126,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aqua Missles"
+			title: "{ftbquests.chapter.irons_spells.quest5241549250468022241.title}"
 			x: 0.0d
 			y: 17.0d
 		}
@@ -5141,7 +5142,7 @@
 			icon_scale: 1.4d
 			id: "58E5EFC45AFAD32C"
 			shape: "square"
-			subtitle: "Sends A Big Lump Of Water Twice."
+			subtitle: "{ftbquests.chapter.irons_spells.quest6405789671623414572.subtitle}"
 			tasks: [{
 				id: "18B8684C7B213D1A"
 				item: {
@@ -5163,7 +5164,7 @@
 				}
 				type: "item"
 			}]
-			title: "Hydroshot"
+			title: "{ftbquests.chapter.irons_spells.quest6405789671623414572.title}"
 			x: -2.0d
 			y: 18.0d
 		}
@@ -5179,7 +5180,7 @@
 			icon_scale: 1.4d
 			id: "1258472387ECCBE2"
 			shape: "square"
-			subtitle: "Spray Bubbles Of Water Continuously."
+			subtitle: "{ftbquests.chapter.irons_spells.quest1321884708563110882.subtitle}"
 			tasks: [{
 				id: "7F4EA6A7E671BBCD"
 				item: {
@@ -5201,7 +5202,7 @@
 				}
 				type: "item"
 			}]
-			title: "Bubble Spray"
+			title: "{ftbquests.chapter.irons_spells.quest1321884708563110882.title}"
 			x: -1.0d
 			y: 18.0d
 		}
@@ -5217,7 +5218,7 @@
 			icon_scale: 1.4d
 			id: "0283EA5D31ED0D27"
 			shape: "square"
-			subtitle: "Call A Massive Water Tornado With Huge AoE Effect."
+			subtitle: "{ftbquests.chapter.irons_spells.quest181246096015428903.subtitle}"
 			tasks: [{
 				id: "43026B3FCA2F18AE"
 				item: {
@@ -5239,12 +5240,13 @@
 				}
 				type: "item"
 			}]
-			title: "Vortex Of The Deep"
+			title: "{ftbquests.chapter.irons_spells.quest181246096015428903.title}"
 			x: 0.0d
 			y: 18.0d
 		}
 		{
 			dependencies: ["26A7D1040CEE5059"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -5255,8 +5257,8 @@
 			icon_scale: 1.4d
 			id: "22D8B3B6A5FC9368"
 			shape: "square"
-			subtitle: "Send A Extremely Thin And Blazing Fast Water, Slicing Through The Hardest Material."
-			title: "Tidal Slash"
+			subtitle: "{ftbquests.chapter.irons_spells.quest2510954389309264744.subtitle}"
+			title: "{ftbquests.chapter.irons_spells.quest2510954389309264744.title}"
 			x: -2.0d
 			y: 19.0d
 		}
@@ -5272,7 +5274,7 @@
 			icon_scale: 1.4d
 			id: "39A8D5E04A738EE9"
 			shape: "square"
-			subtitle: "Send 3 Big Waves To The Target, Dealing AoE Damage."
+			subtitle: "{ftbquests.chapter.irons_spells.quest4154805815547760361.subtitle}"
 			tasks: [{
 				id: "15322A3A230DF742"
 				item: {
@@ -5294,7 +5296,7 @@
 				}
 				type: "item"
 			}]
-			title: "Tsunami"
+			title: "{ftbquests.chapter.irons_spells.quest4154805815547760361.title}"
 			x: -1.0d
 			y: 19.0d
 		}
@@ -5310,7 +5312,7 @@
 			icon_scale: 1.4d
 			id: "17CE4647F1A215AA"
 			shape: "square"
-			subtitle: "Apply Yourself With The Floodgate Effect,(idk what it does)"
+			subtitle: "{ftbquests.chapter.irons_spells.quest1715385782885291434.subtitle}"
 			tasks: [{
 				id: "3F9C377B236F4DA6"
 				item: {
@@ -5332,7 +5334,7 @@
 				}
 				type: "item"
 			}]
-			title: "Floodgate"
+			title: "{ftbquests.chapter.irons_spells.quest1715385782885291434.title}"
 			x: 0.0d
 			y: 19.0d
 		}
@@ -5348,7 +5350,7 @@
 			icon_scale: 1.4d
 			id: "47C30081A67E0ADA"
 			shape: "square"
-			subtitle: "Grasp The Enemy With Water, Pulling Them Towards You Then Land A Heavy Punch."
+			subtitle: "{ftbquests.chapter.irons_spells.quest5170977353995520730.subtitle}"
 			tasks: [{
 				id: "549C2C01427B7893"
 				item: {
@@ -5370,7 +5372,7 @@
 				}
 				type: "item"
 			}]
-			title: "Tidal Grasp"
+			title: "{ftbquests.chapter.irons_spells.quest5170977353995520730.title}"
 			x: -1.0d
 			y: 20.0d
 		}
@@ -5379,7 +5381,7 @@
 			id: "7FE30832B14A787D"
 			shape: "pentagon"
 			size: 1.2d
-			subtitle: "The Sound School Focuses On Support and Damage."
+			subtitle: "{ftbquests.chapter.irons_spells.quest9215218276346001533.subtitle}"
 			tasks: [{
 				id: "1C5870F3B6049D51"
 				item: "alshanex_familiars:sound_rune"
@@ -5400,7 +5402,7 @@
 			icon_scale: 1.4d
 			id: "29917D97C1EC18B7"
 			shape: "square"
-			subtitle: "Send Three Note Projectiles Exploding On Impact Dealing Tiny Damage"
+			subtitle: "{ftbquests.chapter.irons_spells.quest2995313317925099703.subtitle}"
 			tasks: [{
 				id: "10FF48383B65D8C7"
 				item: {
@@ -5422,7 +5424,7 @@
 				}
 				type: "item"
 			}]
-			title: "Chord Blast"
+			title: "{ftbquests.chapter.irons_spells.quest2995313317925099703.title}"
 			x: 2.0d
 			y: 16.0d
 		}
@@ -5438,7 +5440,7 @@
 			icon_scale: 1.4d
 			id: "7D15F3B7142ED2F7"
 			shape: "square"
-			subtitle: "Cast a beautiful melody, Finishing It With An Piercing Sound. Dealing Low Damage."
+			subtitle: "{ftbquests.chapter.irons_spells.quest9013378196895093495.subtitle}"
 			tasks: [{
 				id: "5D354A604860BD90"
 				item: {
@@ -5460,7 +5462,7 @@
 				}
 				type: "item"
 			}]
-			title: "Crescendo"
+			title: "{ftbquests.chapter.irons_spells.quest9013378196895093495.title}"
 			x: 3.0d
 			y: 16.0d
 		}
@@ -5476,7 +5478,7 @@
 			icon_scale: 1.4d
 			id: "2ECB85C6E1D49AC1"
 			shape: "square"
-			subtitle: "Select An Area And Explode It With Loud Melodies Sending The Target Flying And Dealing AoE Damage."
+			subtitle: "{ftbquests.chapter.irons_spells.quest3371935835255773889.subtitle}"
 			tasks: [{
 				id: "73587B52F66875CA"
 				item: {
@@ -5498,7 +5500,7 @@
 				}
 				type: "item"
 			}]
-			title: "Grand Finale"
+			title: "{ftbquests.chapter.irons_spells.quest3371935835255773889.title}"
 			x: 4.0d
 			y: 16.0d
 		}
@@ -5514,7 +5516,7 @@
 			icon_scale: 1.4d
 			id: "1694D903417BBC45"
 			shape: "square"
-			subtitle: "Play A Calming Lullaby, Buffing The User And Their Party In A AoE."
+			subtitle: "{ftbquests.chapter.irons_spells.quest1627163973394349125.subtitle}"
 			tasks: [{
 				id: "3A327AD41F6351D2"
 				item: {
@@ -5536,7 +5538,7 @@
 				}
 				type: "item"
 			}]
-			title: "Celestial Chant"
+			title: "{ftbquests.chapter.irons_spells.quest1627163973394349125.title}"
 			x: 2.0d
 			y: 17.0d
 		}
@@ -5552,7 +5554,7 @@
 			icon_scale: 1.4d
 			id: "4C79D6F8D13ED84E"
 			shape: "square"
-			subtitle: "Play A Short Melody, Calling A Bird And Buffing The User Greatly."
+			subtitle: "{ftbquests.chapter.irons_spells.quest5510671983215302734.subtitle}"
 			tasks: [{
 				id: "384927D7FEAC3D77"
 				item: {
@@ -5574,7 +5576,7 @@
 				}
 				type: "item"
 			}]
-			title: "Rhapsody"
+			title: "{ftbquests.chapter.irons_spells.quest5510671983215302734.title}"
 			x: 3.0d
 			y: 17.0d
 		}
@@ -5590,7 +5592,7 @@
 			icon_scale: 1.4d
 			id: "454ABA82D2C0F1CB"
 			shape: "square"
-			subtitle: "Send A Straight Projectile, Effecting The Target With ''Guided'' Effect."
+			subtitle: "{ftbquests.chapter.irons_spells.quest4993008207937991115.subtitle}"
 			tasks: [{
 				id: "4C1A91E987BCE5DE"
 				item: {
@@ -5612,7 +5614,7 @@
 				}
 				type: "item"
 			}]
-			title: "Clef"
+			title: "{ftbquests.chapter.irons_spells.quest4993008207937991115.title}"
 			x: 4.0d
 			y: 17.0d
 		}
@@ -5628,7 +5630,7 @@
 			icon_scale: 1.4d
 			id: "36D7B1A3532A38C2"
 			shape: "square"
-			subtitle: "Go Into A Frenzy State, Sending Melodies Everywhere Inflicting ''Guided'' Effect."
+			subtitle: "{ftbquests.chapter.irons_spells.quest3951822513073961154.subtitle}"
 			tasks: [{
 				id: "4C4247F6D3C4FFEF"
 				item: {
@@ -5650,7 +5652,7 @@
 				}
 				type: "item"
 			}]
-			title: "Sonata"
+			title: "{ftbquests.chapter.irons_spells.quest3951822513073961154.title}"
 			x: 2.5d
 			y: 18.0d
 		}
@@ -5666,7 +5668,7 @@
 			icon_scale: 1.4d
 			id: "0FB2FE15E5C448AE"
 			shape: "square"
-			subtitle: "Start Chanting A Beautiful Lullaby, Making The Enemies Sleepy."
+			subtitle: "{ftbquests.chapter.irons_spells.quest1131245826426030254.subtitle}"
 			tasks: [{
 				id: "62C0DABA4C3B1008"
 				item: {
@@ -5688,7 +5690,7 @@
 				}
 				type: "item"
 			}]
-			title: "Serenade"
+			title: "{ftbquests.chapter.irons_spells.quest1131245826426030254.title}"
 			x: 3.5d
 			y: 18.0d
 		}
@@ -5702,7 +5704,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "Spellbook Of The Stone Pillar"
+			subtitle: "{ftbquests.chapter.irons_spells.quest2685866928390180084.subtitle}"
 			tasks: [{
 				id: "083FF2171146445B"
 				item: {
@@ -5710,7 +5712,7 @@
 					id: "gtbcs_geomancy_plus:codex_of_shattered_horizons"
 					tag: {
 						ISBEnhance: "gtbcs_geomancy_plus:pillar_of_the_resounding_earth"
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [{
 								id: "gtbcs_geomancy_plus:geo_conductor"
 								index: 0
@@ -5738,7 +5740,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "Spellbook Of The Geo Student"
+			subtitle: "{ftbquests.chapter.irons_spells.quest3103889276959326027.subtitle}"
 			tasks: [{
 				id: "7AB49C6384FFBC5F"
 				item: {
@@ -5763,7 +5765,7 @@
 			id: "48FDBB568F3CC566"
 			shape: "pentagon"
 			size: 1.2d
-			subtitle: "Geo rune focuses on crowd control, dealing high damage with entire mop :D"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5259565920283313510.subtitle}"
 			tasks: [{
 				id: "2DF2E66A75EAC2D2"
 				item: "gtbcs_geomancy_plus:geo_rune"
@@ -5784,7 +5786,7 @@
 			icon_scale: 1.4d
 			id: "1E51C1CEC318809D"
 			shape: "square"
-			subtitle: "Send a concentrated beam of light to your way, pierching through the undead."
+			subtitle: "{ftbquests.chapter.irons_spells.quest2184740388031987869.subtitle}"
 			tasks: [{
 				id: "465CA1F99B84F4D2"
 				item: {
@@ -5806,7 +5808,7 @@
 				}
 				type: "item"
 			}]
-			title: "Solar Beam"
+			title: "{ftbquests.chapter.irons_spells.quest2184740388031987869.title}"
 			x: -6.0d
 			y: 12.5d
 		}
@@ -5822,7 +5824,7 @@
 			icon_scale: 1.4d
 			id: "539DF0D4702A77F9"
 			shape: "square"
-			subtitle: "Cast a storm of light around you, creating a defensive walls."
+			subtitle: "{ftbquests.chapter.irons_spells.quest6025236671697156089.subtitle}"
 			tasks: [{
 				id: "19C0FCAF4B45B74A"
 				item: {
@@ -5844,7 +5846,7 @@
 				}
 				type: "item"
 			}]
-			title: "Solar Storm"
+			title: "{ftbquests.chapter.irons_spells.quest6025236671697156089.title}"
 			x: -4.0d
 			y: 12.5d
 		}
@@ -5860,7 +5862,7 @@
 			icon_scale: 1.4d
 			id: "5E6F3BC05F4BF11E"
 			shape: "square"
-			subtitle: "Send fast, small drip stones to the target, piercing through."
+			subtitle: "{ftbquests.chapter.irons_spells.quest6804723259398680862.subtitle}"
 			tasks: [{
 				id: "293522ADAE1A2FD5"
 				item: {
@@ -5882,7 +5884,7 @@
 				}
 				type: "item"
 			}]
-			title: "Dripstone Bolt"
+			title: "{ftbquests.chapter.irons_spells.quest6804723259398680862.title}"
 			x: 6.0d
 			y: 16.0d
 		}
@@ -5898,7 +5900,7 @@
 			icon_scale: 1.4d
 			id: "713BC98027C7527A"
 			shape: "square"
-			subtitle: "Spawn a pillar that continuously slams the ground, dealing AoE damage."
+			subtitle: "{ftbquests.chapter.irons_spells.quest8159336702172156538.subtitle}"
 			tasks: [{
 				id: "4CB4ED8A0613F205"
 				item: {
@@ -5920,7 +5922,7 @@
 				}
 				type: "item"
 			}]
-			title: "Pillar Of The Resounding Earth"
+			title: "{ftbquests.chapter.irons_spells.quest8159336702172156538.title}"
 			x: 7.0d
 			y: 16.0d
 		}
@@ -5936,7 +5938,7 @@
 			icon_scale: 1.4d
 			id: "03E30AA86353E143"
 			shape: "rsquare"
-			subtitle: "Create a healing / Buffing Totem For Your Teammates."
+			subtitle: "{ftbquests.chapter.irons_spells.quest280079320164327747.subtitle}"
 			tasks: [{
 				id: "41D76FDEE83986D1"
 				item: {
@@ -5958,7 +5960,7 @@
 				}
 				type: "item"
 			}]
-			title: "Geo Conductor"
+			title: "{ftbquests.chapter.irons_spells.quest280079320164327747.title}"
 			x: 8.0d
 			y: 16.0d
 		}
@@ -5974,7 +5976,7 @@
 			icon_scale: 1.4d
 			id: "3DFC88D74FA0AF4D"
 			shape: "square"
-			subtitle: "Creates a rock that can be ridden for travelling."
+			subtitle: "{ftbquests.chapter.irons_spells.quest4466595388779966285.subtitle}"
 			tasks: [{
 				id: "5C7CE9E29324C7AC"
 				item: {
@@ -5996,7 +5998,7 @@
 				}
 				type: "item"
 			}]
-			title: "Seismic Surf"
+			title: "{ftbquests.chapter.irons_spells.quest4466595388779966285.title}"
 			x: 6.0d
 			y: 17.0d
 		}
@@ -6012,7 +6014,7 @@
 			icon_scale: 1.4d
 			id: "79E000C7EAE43F45"
 			shape: "square"
-			subtitle: "Create's a gigantic dirt ball crushing your enemy to death."
+			subtitle: "{ftbquests.chapter.irons_spells.quest8782020132011786053.subtitle}"
 			tasks: [{
 				id: "37D2262C7C218FEE"
 				item: {
@@ -6034,7 +6036,7 @@
 				}
 				type: "item"
 			}]
-			title: "Chunker"
+			title: "{ftbquests.chapter.irons_spells.quest8782020132011786053.title}"
 			x: 7.0d
 			y: 17.0d
 		}
@@ -6050,7 +6052,7 @@
 			icon_scale: 1.4d
 			id: "46436CC5A0CC1620"
 			shape: "square"
-			subtitle: "Heavy-Fast-Low mana usage."
+			subtitle: "{ftbquests.chapter.irons_spells.quest5063010002156656160.subtitle}"
 			tasks: [{
 				id: "77642B43999BAFF5"
 				item: {
@@ -6072,7 +6074,7 @@
 				}
 				type: "item"
 			}]
-			title: "Eroding Boulder"
+			title: "{ftbquests.chapter.irons_spells.quest5063010002156656160.title}"
 			x: 8.0d
 			y: 17.0d
 		}
@@ -6088,7 +6090,7 @@
 			icon_scale: 1.4d
 			id: "3D84967C158BD3F9"
 			shape: "square"
-			subtitle: "Every step causes small earth-quakes, shaking the entire area."
+			subtitle: "{ftbquests.chapter.irons_spells.quest4432833392921007097.subtitle}"
 			tasks: [{
 				id: "296F153116B25F7D"
 				item: {
@@ -6110,7 +6112,7 @@
 				}
 				type: "item"
 			}]
-			title: "Tremor Step"
+			title: "{ftbquests.chapter.irons_spells.quest4432833392921007097.title}"
 			x: 6.0d
 			y: 18.0d
 		}
@@ -6126,7 +6128,7 @@
 			icon_scale: 1.4d
 			id: "768CDD15609DD6C6"
 			shape: "square"
-			subtitle: "Summon Fierce sprikes front of you, surprising the enemy and killing them instantly."
+			subtitle: "{ftbquests.chapter.irons_spells.quest8542445677099996870.subtitle}"
 			tasks: [{
 				id: "61BE6C4A062B1DFB"
 				item: {
@@ -6148,7 +6150,7 @@
 				}
 				type: "item"
 			}]
-			title: "Tremor Spike"
+			title: "{ftbquests.chapter.irons_spells.quest8542445677099996870.title}"
 			x: 7.0d
 			y: 18.0d
 		}
@@ -6164,7 +6166,7 @@
 			icon_scale: 1.4d
 			id: "2D78755FA6CDF5A8"
 			shape: "square"
-			subtitle: "Slam the ground, causing a massive earth-quake, leading to land mass to pop out from far away."
+			subtitle: "{ftbquests.chapter.irons_spells.quest3276497782592894376.subtitle}"
 			tasks: [{
 				id: "047DF2573A1A8C17"
 				item: {
@@ -6186,7 +6188,7 @@
 				}
 				type: "item"
 			}]
-			title: "Fissure"
+			title: "{ftbquests.chapter.irons_spells.quest3276497782592894376.title}"
 			x: 8.0d
 			y: 18.0d
 		}
@@ -6202,7 +6204,7 @@
 			icon_scale: 1.4d
 			id: "013F97448EE40168"
 			shape: "square"
-			subtitle: "Summon two bedrock unbreakable walls, closing down on enemy turning them into toast!"
+			subtitle: "{ftbquests.chapter.irons_spells.quest89956838281576808.subtitle}"
 			tasks: [{
 				id: "0F8B8225F0FF99EF"
 				item: {
@@ -6224,7 +6226,7 @@
 				}
 				type: "item"
 			}]
-			title: "Petrivise"
+			title: "{ftbquests.chapter.irons_spells.quest89956838281576808.title}"
 			x: 7.0d
 			y: 19.0d
 		}
@@ -6240,7 +6242,7 @@
 			icon_scale: 1.4d
 			id: "0924DF542D685F69"
 			shape: "square"
-			subtitle: "Summon three giant serpents, slamming their body down on the enemy."
+			subtitle: "{ftbquests.chapter.irons_spells.quest658896998134996841.subtitle}"
 			tasks: [{
 				id: "5D45C6FD1915DFDB"
 				item: {
@@ -6262,7 +6264,7 @@
 				}
 				type: "item"
 			}]
-			title: "Serpentide"
+			title: "{ftbquests.chapter.irons_spells.quest658896998134996841.title}"
 			x: -2.0d
 			y: 20.0d
 		}
@@ -6278,7 +6280,7 @@
 			icon_scale: 1.4d
 			id: "0EA07032EDB1BA0B"
 			shape: "square"
-			subtitle: "Call the power of ocean thunderstorm agains your foes!"
+			subtitle: "{ftbquests.chapter.irons_spells.quest1053965676843219467.subtitle}"
 			tasks: [{
 				id: "6D4452B0C6984774"
 				item: {
@@ -6300,7 +6302,7 @@
 				}
 				type: "item"
 			}]
-			title: "The Howling Of Tempest"
+			title: "{ftbquests.chapter.irons_spells.quest1053965676843219467.title}"
 			x: 0.0d
 			y: 20.0d
 		}
@@ -6308,7 +6310,7 @@
 			dependencies: ["26A7D1040CEE5059"]
 			id: "36CC29620C8341CD"
 			shape: "square"
-			subtitle: "Magnetic Spellbook"
+			subtitle: "{ftbquests.chapter.irons_spells.quest3948576474390544845.subtitle}"
 			tasks: [{
 				id: "41D65477FF887CC3"
 				item: {
@@ -6329,5 +6331,5 @@
 			y: 2.0d
 		}
 	]
-	title: "Iron's Spells"
+	title: "{ftbquests.chapter.irons_spells.title}"
 }

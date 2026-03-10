@@ -1,7 +1,8 @@
 {
 	autofocus_id: "1DF34C60DDABA0B6"
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: "diamond"
+	disable_toast: true
 	filename: "enigmatic_legacy"
 	group: "20D67F7F184680D5"
 	icon: {
@@ -16,7 +17,7 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext1"]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -42,7 +43,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["Books"]
+			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext2"]
 			image: "sgjourney:item/archeologist_notebook"
 			rotation: 0.0d
 			width: 1.0d
@@ -52,7 +53,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["Rings"]
+			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext3"]
 			image: "terramity:item/empty_ring"
 			rotation: 0.0d
 			width: 1.0d
@@ -61,7 +62,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Blasphemies"]
+			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext4"]
 			image: "born_in_chaos_v1:item/shattered_skull"
 			rotation: 0.0d
 			width: 1.0d
@@ -71,7 +72,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["Scrolls"]
+			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext5"]
 			image: "ars_nouveau:item/allow_scroll"
 			rotation: 0.0d
 			width: 1.0d
@@ -80,7 +81,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Foods & Edibles"]
+			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext6"]
 			image: "mynethersdelight:item/blue_tenderloin_steak"
 			rotation: 0.0d
 			width: 1.0d
@@ -90,7 +91,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["Sacraments"]
+			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext7"]
 			image: "kubejs:item/magicvessel"
 			rotation: 0.0d
 			width: 1.0d
@@ -100,7 +101,7 @@
 		{
 			click: "s"
 			height: 1.0d
-			hover: ["Charms"]
+			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext8"]
 			image: "brutality:item/curio/charm/celestial_starboard/celestial_starboard_inventory"
 			rotation: 0.0d
 			width: 1.0d
@@ -110,7 +111,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["Other Stuff"]
+			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext9"]
 			image: "brutality:item/curio/charm/lollipop_of_eternity/lollipop_of_eternity_inventory"
 			rotation: 0.0d
 			width: 1.0d
@@ -120,7 +121,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["Spellstone"]
+			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext10"]
 			image: "enigmaticaddons:item/primeval_cube"
 			rotation: 0.0d
 			width: 1.0d
@@ -146,7 +147,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["Which path do you choose?"]
+			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext11"]
 			image: "quark:textures/emote/custom.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -156,7 +157,7 @@
 		{
 			click: "1"
 			height: 1.0d
-			hover: ["Discipline"]
+			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext12"]
 			image: "hexerei:textures/book/arrow_left.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -166,7 +167,7 @@
 		{
 			click: "2"
 			height: 1.0d
-			hover: ["Suffering?"]
+			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext13"]
 			image: "hexerei:textures/book/arrow_right.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -180,104 +181,106 @@
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
 			description: [
-				"Following this path will also teach you how to get rid of the ring or redeeming yourself."
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description1}"
 				""
-				"Ring of the seven curses is a game-changing accessory that will make the game significantly harder for you."
-				"It brings lot of de-buffs that will make the game miserable.. but this comes with some benefits--"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description2}"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description3}"
 				""
-				"Like:"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description4}"
 				""
-				"- Able to unique accessories who non-ring users cant."
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description5}"
 				""
-				"- Recieving Special loot! (Check the second page to see the possible loots)"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description6}"
 				""
-				"- Gaining more Xp!&r"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description7}"
 				""
-				"&8Go to the next page to read all custom loot drops from mobs."
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description8}"
 				""
 				"{@pagebreak}"
-				"The list of drops you can get from mobs:"
-				"     &8&l-ONLY FROM PLAYER KILLS-"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description9}"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description10}"
 				""
-				"&eShulkers:&r 1 Astral Dust &8(20% Chance)"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description11}"
 				""
-				"&eSkeletons&r and Strays:&r 3-15 Arrow"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description12}"
 				""
-				"&eZombies and Husks:&r 1-3 Slime Ball &8(25% Chance)"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description13}"
 				""
-				"&eSpiders and Cave Spiders:&r 2-12 String"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description14}"
 				""
-				"&eGuardians: 1 Nautilus Shell &r&8(15% Chance)&r, 2-5 Prismarine Crystals"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description15}"
 				""
-				"&eElder Guardians: &r4-16 Prismarine Crystals, 7-28 Prismarine Shard, one of: [1 Heart of the Guardian; 1 Heart of the Sea; 1"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description16}"
 				""
-				"&eEnchanted Golden Apple;&r 1 Ender Eye; 1 Trident (Enchanted with 25-40 levels)]"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description17}"
 				""
-				"&eEndermen:&r 1-2 Ender Eye %8(40% Chance)"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description18}"
 				""
-				"&eBlazes:&r 0-5 Blaze Powder"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description19}"
 				""
-				"&eZombified Piglins:&r 1-3 Gold Ingot &8(40% Chance)&r, 1-7 Glowstone Dust &8(30% Chance)"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description20}"
 				""
-				"&eWitches:&r 1 Ghast Tear &8(30% Chance)&r, 1-3 Phantom Membrane &8(50% Chance)"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description21}"
 				""
-				"&ePillagers and Vindicators:&r 0-4 Emerald"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description22}"
 				""
-				"&eVillagers:&r 2-6 Emerald"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description23}"
 				""
-				"&eCreepers:&r 4-12 Gunpowder"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description24}"
 				""
-				"&ePiglin Brutes:&r 1 Netherite Scrap &8(20% Chance)&r"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description25}"
 				""
-				"&eEvokers:&r 1 Totem of Undying, 5-20 Emerald, 1 Enchanted Golden Apple &8(10% Chance)&r, 1-3 Ender Pearl &8(30% Chance)&r, 2-4 Blaze Rod"
-				"&8(30% Chance)&r, 4-10 Experience Bottle &8(50% Chance)&r"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description26}"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description27}"
 				""
-				"&eWither Skeletons: &r0-3 Blaze Powder, 1 Ghast Tear &8(20% Chance)&r, 1 Netherite Scrap &8(7% Chance)"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description28}"
 				""
-				"&eGhasts:&r 1-4 Phantom Membrane"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description29}"
 				""
-				"&eDrowned:&r 1-3 Lapis Lazuli &8(30% Chance)"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description30}"
 				""
-				"&eVexes:&r 0-2 Glowstone Dust, 1 Phantom Membrane &8(30% Chance)"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description31}"
 				""
-				"&ePiglins:&r 2-4 Gold Ingot &8(50% Chance)"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description32}"
 				""
-				"&eRavagers:&r 3-10 Emerald, 2-7 Leather, 0-4 Diamond &8(50% Chance)"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description33}"
 				""
-				"&eMagma Cubes:&r 1 Blaze Powder &8(50% Chance)"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description34}"
 				""
-				"&eChickens:&r 1 Egg &8(50% Chance)"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description35}"
 				""
-				"&eWithers: &r1-4 Nefarious Essence"
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description36}"
 				""
-				"&eEnder Dragons:&r 1 Heart of the Abyss. Drops only if player spent at least 99.5% of the time in world bearing the ring, and if they aquired less than 4 hearts yet. Unlike other drops, heart spawns at the place of dragon's final disappearance and remains floating in the air. It has proven hard to notice for some players."
+				"{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.description37}"
 			]
+			hide_dependency_lines: false
 			icon: "enigmaticlegacy:cursed_ring"
 			id: "7C1409F2EE726A20"
 			invisible_until_tasks: 1
 			rewards: [{
 				id: "22AE10101A709E4F"
 				table_id: 2501998888776764148L
-				title: "Random Free Food"
+				title: "{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.reward.2498952504586313295.title}"
 				type: "random"
 			}]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.subtitle}"
 			tasks: [{
 				advancement: "enigmaticlegacy:main/cursed_ring"
 				criterion: ""
 				id: "2B84EF38A06D7173"
 				type: "advancement"
 			}]
-			title: "Ring of Seven Curses"
+			title: "{ftbquests.chapter.enigmatic_legacy.quest8940782099224488480.title}"
 			x: 1.0d
 			y: 2.5d
 		}
 		{
-			description: ["Arcane scrolls can help make your build lot more stronger than before! Thus obtaining them is really.. hard."]
+			dependencies: ["1DF34C60DDABA0B6"]
+			description: ["{ftbquests.chapter.enigmatic_legacy.quest7895062509701328754.description1}"]
 			id: "6D90E585D2406F72"
-			subtitle: "Base material for few Arcane Scrolls."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7895062509701328754.subtitle}"
 			tasks: [{
 				id: "6079CB0880B7608F"
 				item: "enigmaticlegacy:thicc_scroll"
@@ -287,9 +290,10 @@
 			y: 9.5d
 		}
 		{
-			description: ["You can also duplicate it!"]
+			dependencies: ["1DF34C60DDABA0B6"]
+			description: ["{ftbquests.chapter.enigmatic_legacy.quest4987482421355465290.description1}"]
 			id: "453718D66065CA4A"
-			subtitle: "Can be Found in Bastions"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4987482421355465290.subtitle}"
 			tasks: [{
 				id: "1C00411329331083"
 				item: "enigmaticlegacy:darkest_scroll"
@@ -299,8 +303,9 @@
 			y: 11.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "4EF80EAF25964BE6"
-			subtitle: "Read The Description"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5690314274595294182.subtitle}"
 			tasks: [{
 				id: "4AEB539432E655DF"
 				item: "enigmaticlegacy:heaven_scroll"
@@ -310,10 +315,13 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["4EF80EAF25964BE6"]
+			dependencies: [
+				"4EF80EAF25964BE6"
+				"1DF34C60DDABA0B6"
+			]
 			id: "071B31311EAC896B"
 			shape: "diamond"
-			subtitle: "Read The Description"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest512057069674465643.subtitle}"
 			tasks: [{
 				id: "7748817D95D587F7"
 				item: "enigmaticlegacy:fabulous_scroll"
@@ -323,9 +331,10 @@
 			y: 11.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "18362E8AD6EE9A8C"
 			shape: "diamond"
-			subtitle: "Read The Description"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest1744633079498971788.subtitle}"
 			tasks: [{
 				id: "5E705F45FEECA425"
 				item: "enigmaticlegacy:escape_scroll"
@@ -335,9 +344,10 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "1CB5C629D6E2424A"
 			shape: "diamond"
-			subtitle: "Read The Description"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2068777486847722058.subtitle}"
 			tasks: [{
 				id: "71FC854EA40D4E32"
 				item: "enigmaticlegacy:xp_scroll"
@@ -348,6 +358,7 @@
 		}
 		{
 			dependencies: ["7C1409F2EE726A20"]
+			hide_dependency_lines: false
 			id: "38D6971551A08950"
 			rewards: [{
 				id: "23C690A75C08DFFC"
@@ -355,7 +366,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			subtitle: "Crafting Material For Tons Of Items"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4095627028959627600.subtitle}"
 			tasks: [{
 				id: "5519F75C71F4D908"
 				item: "enigmaticlegacy:twisted_heart"
@@ -365,11 +376,14 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["453718D66065CA4A"]
+			dependencies: [
+				"453718D66065CA4A"
+				"1DF34C60DDABA0B6"
+			]
 			icon: "enigmaticlegacy:avarice_scroll"
 			id: "3CC6763FA003F3C9"
 			shape: "diamond"
-			subtitle: "Read The Description"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4379317703304016841.subtitle}"
 			tasks: [{
 				id: "30EA6E2D6D4430DF"
 				item: "enigmaticlegacy:avarice_scroll"
@@ -380,6 +394,7 @@
 		}
 		{
 			dependencies: ["38D6971551A08950"]
+			hide_dependency_lines: false
 			id: "79CAB265AED63D74"
 			rewards: [
 				{
@@ -395,7 +410,7 @@
 			]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "Decide."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest8776022973679549812.subtitle}"
 			tasks: [{
 				id: "1CA42B32C204C158"
 				item: "enigmaticlegacy:cursed_stone"
@@ -406,6 +421,7 @@
 		}
 		{
 			dependencies: ["696721016FE9651A"]
+			hide_dependency_lines: false
 			id: "759330FDA1A18091"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -415,7 +431,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "You have changed"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest8472169189910610065.subtitle}"
 			tasks: [{
 				id: "3CDD9773776FA95F"
 				item: "enigmaticaddons:bless_ring"
@@ -426,6 +442,7 @@
 		}
 		{
 			dependencies: ["38D6971551A08950"]
+			hide_dependency_lines: false
 			id: "696721016FE9651A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -434,7 +451,7 @@
 				type: "random"
 			}]
 			shape: "rsquare"
-			subtitle: "Decide."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7595075586639881498.subtitle}"
 			tasks: [{
 				id: "1C3005811F7C185C"
 				item: "enigmaticaddons:bless_stone"
@@ -444,10 +461,13 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["453718D66065CA4A"]
+			dependencies: [
+				"453718D66065CA4A"
+				"1DF34C60DDABA0B6"
+			]
 			id: "0AA1567557149D5C"
 			shape: "diamond"
-			subtitle: "Read The Description"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest765988473601826140.subtitle}"
 			tasks: [{
 				id: "73AF42474FA9063C"
 				item: "enigmaticaddons:night_scroll"
@@ -457,10 +477,13 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["74D03B0A580FBCEA"]
+			dependencies: [
+				"74D03B0A580FBCEA"
+				"1DF34C60DDABA0B6"
+			]
 			id: "684D08CDB9CD24B2"
 			shape: "diamond"
-			subtitle: "Read The Description"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7515673032829772978.subtitle}"
 			tasks: [{
 				id: "765EBB8F36745B1A"
 				item: "enigmaticaddons:violence_scroll"
@@ -470,10 +493,13 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["453718D66065CA4A"]
+			dependencies: [
+				"453718D66065CA4A"
+				"1DF34C60DDABA0B6"
+			]
 			id: "1D5A7FA7C73BA7AB"
 			shape: "diamond"
-			subtitle: "Read The Description"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2115143333582710699.subtitle}"
 			tasks: [{
 				id: "062DDD7A61E9D782"
 				item: "enigmaticaddons:thunder_scroll"
@@ -483,10 +509,13 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["1CB5C629D6E2424A"]
+			dependencies: [
+				"1CB5C629D6E2424A"
+				"1DF34C60DDABA0B6"
+			]
 			id: "172C4ECEC40C15C7"
 			shape: "diamond"
-			subtitle: "Read The Description"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest1669796211806967239.subtitle}"
 			tasks: [{
 				id: "464E4B54D0D2A67B"
 				item: "enigmaticaddons:cursed_xp_scroll"
@@ -496,7 +525,10 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["453718D66065CA4A"]
+			dependencies: [
+				"453718D66065CA4A"
+				"1DF34C60DDABA0B6"
+			]
 			id: "74D03B0A580FBCEA"
 			shape: "diamond"
 			tasks: [{
@@ -508,14 +540,15 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: [
-				"When eaten, you will never ever get hungry again, but your regeneration is altered by %80."
+				"{ftbquests.chapter.enigmatic_legacy.quest2597563238188319094.description1}"
 				""
-				"If &cRing of The Seven Curses&r is present, you won't die from LP exhaustion."
+				"{ftbquests.chapter.enigmatic_legacy.quest2597563238188319094.description2}"
 			]
 			id: "240C6600ADD40176"
 			shape: "rsquare"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2597563238188319094.subtitle}"
 			tasks: [{
 				id: "42E0614D0A79C105"
 				item: "enigmaticlegacy:forbidden_fruit"
@@ -525,9 +558,10 @@
 			y: 10.5d
 		}
 		{
-			description: ["Base +%4 Damage multiplier, traits are multiplied by the amount of curses you have."]
+			dependencies: ["1DF34C60DDABA0B6"]
+			description: ["{ftbquests.chapter.enigmatic_legacy.quest6260585549767363947.description1}"]
 			id: "56E2116333D3CD6B"
-			subtitle: "Grants bearer %85 LP reduction while casting ender spells. Check Description for more"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6260585549767363947.subtitle}"
 			tasks: [{
 				id: "7BEBF554E949CDEA"
 				item: "covenant_of_the_seven:ender_blasphemy"
@@ -537,9 +571,10 @@
 			y: 6.5d
 		}
 		{
-			description: ["Base +%4 Damage multiplier, traits are multiplied by the amount of curses you have."]
+			dependencies: ["1DF34C60DDABA0B6"]
+			description: ["{ftbquests.chapter.enigmatic_legacy.quest8238816514670091124.description1}"]
 			id: "725627F80E885B74"
-			subtitle: "Grants bearer %85 LP reduction while casting holy spells. Check Description for more"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest8238816514670091124.subtitle}"
 			tasks: [{
 				id: "1F03F501E06DEA73"
 				item: "covenant_of_the_seven:holy_blasphemy"
@@ -549,9 +584,10 @@
 			y: 7.0d
 		}
 		{
-			description: ["Base +%4 Damage multiplier, traits are multiplied by the amount of curses you have."]
+			dependencies: ["1DF34C60DDABA0B6"]
+			description: ["{ftbquests.chapter.enigmatic_legacy.quest6143712332853293826.description1}"]
 			id: "5542D9D0E1E83302"
-			subtitle: "Grants bearer %85 LP reduction while casting evocation spells. Check Description for more"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6143712332853293826.subtitle}"
 			tasks: [{
 				id: "657B66207E08D402"
 				item: "covenant_of_the_seven:evocation_blasphemy"
@@ -561,9 +597,10 @@
 			y: 6.5d
 		}
 		{
-			description: ["Base +%4 Damage multiplier, traits are multiplied by the amount of curses you have."]
+			dependencies: ["1DF34C60DDABA0B6"]
+			description: ["{ftbquests.chapter.enigmatic_legacy.quest6808847497448815143.description1}"]
 			id: "5E7DE2B95F3E7A27"
-			subtitle: "Grants bearer %85 LP reduction while casting lightning spells. Check Description for more"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6808847497448815143.subtitle}"
 			tasks: [{
 				id: "0AC0458C001F009F"
 				item: "covenant_of_the_seven:lightning_blasphemy"
@@ -573,9 +610,10 @@
 			y: 5.0d
 		}
 		{
-			description: ["Base +%4 Damage multiplier, traits are multiplied by the amount of curses you have."]
+			dependencies: ["1DF34C60DDABA0B6"]
+			description: ["{ftbquests.chapter.enigmatic_legacy.quest4958269059795143910.description1}"]
 			id: "44CF4F7099E64CE6"
-			subtitle: "Grants bearer %85 LP reduction while casting blood spells. Check Description for more"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4958269059795143910.subtitle}"
 			tasks: [{
 				id: "73B3FBD8804C8D55"
 				item: "covenant_of_the_seven:blood_blasphemy"
@@ -585,9 +623,10 @@
 			y: 5.0d
 		}
 		{
-			description: ["Base +%4 Damage multiplier, traits are multiplied by the amount of curses you have."]
+			dependencies: ["1DF34C60DDABA0B6"]
+			description: ["{ftbquests.chapter.enigmatic_legacy.quest3802582049827241219.description1}"]
 			id: "34C57C3A353ABD03"
-			subtitle: "Grants bearer %85 LP reduction while casting nature spells. Check Description for more"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest3802582049827241219.subtitle}"
 			tasks: [{
 				id: "51CA99BC58E0ED50"
 				item: "covenant_of_the_seven:nature_blasphemy"
@@ -597,9 +636,10 @@
 			y: 6.0d
 		}
 		{
-			description: ["Base +%4 Damage multiplier, traits are multiplied by the amount of curses you have."]
+			dependencies: ["1DF34C60DDABA0B6"]
+			description: ["{ftbquests.chapter.enigmatic_legacy.quest3985163929437791248.description1}"]
 			id: "374E257AC1D6E410"
-			subtitle: "Grants bearer %85 LP reduction while casting Ice spells. Check Description for more"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest3985163929437791248.subtitle}"
 			tasks: [{
 				id: "20D4FDA3EBC93B09"
 				item: "covenant_of_the_seven:ice_blasphemy"
@@ -609,9 +649,10 @@
 			y: 6.0d
 		}
 		{
-			description: ["Base +%4 Damage multiplier, traits are multiplied by the amount of curses you have."]
+			dependencies: ["1DF34C60DDABA0B6"]
+			description: ["{ftbquests.chapter.enigmatic_legacy.quest9162751913135208080.description1}"]
 			id: "7F28A25193747690"
-			subtitle: "Grants bearer %85 LP reduction while casting Fire spells. Check Description for more"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest9162751913135208080.subtitle}"
 			tasks: [{
 				id: "330B5791FE4023D7"
 				item: "covenant_of_the_seven:fire_blasphemy"
@@ -621,9 +662,10 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "7A0EBC52E07C8D0F"
 			shape: "diamond"
-			subtitle: "Crafting Material"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest8795174186440756495.subtitle}"
 			tasks: [{
 				id: "7C48FF4ECF970046"
 				item: "covenant_of_the_seven:dormant_blasphemy"
@@ -634,6 +676,7 @@
 		}
 		{
 			dependencies: ["73B4B9E39A9A5152"]
+			hide_dependency_lines: false
 			id: "559B3D44287481DA"
 			shape: "hexagon"
 			tasks: [{
@@ -645,6 +688,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "594DE634D568F698"
 			shape: "diamond"
 			tasks: [{
@@ -656,8 +700,9 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "3B4E460F4C196406"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4273430127936365574.subtitle}"
 			tasks: [{
 				id: "108DCE2EBCC7F871"
 				item: "covenant_of_the_seven:holy_essence"
@@ -667,8 +712,9 @@
 			y: 18.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "66918E2E73AD841F"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7390844793652085791.subtitle}"
 			tasks: [{
 				id: "61C1D9F98ED77B69"
 				item: "covenant_of_the_seven:exaltation_ring"
@@ -678,7 +724,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["594DE634D568F698"]
+			dependencies: [
+				"594DE634D568F698"
+				"1DF34C60DDABA0B6"
+			]
 			id: "73B63202E26F1DD6"
 			shape: "diamond"
 			tasks: [{
@@ -690,7 +739,9 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "581F2A1C0FD00B9F"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6349840299628432287.subtitle}"
 			tasks: [{
 				id: "651AA491DB41E82F"
 				item: "covenant_of_the_seven:benediction_charm"
@@ -700,7 +751,9 @@
 			y: 16.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "0ED765E7AE95722C"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest1069435482264662572.subtitle}"
 			tasks: [{
 				id: "39D9E01527C3ECF3"
 				item: "covenant_of_the_seven:potioneer_pearl"
@@ -710,9 +763,10 @@
 			y: 16.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "197E8EB199BDFA5A"
 			shape: "rsquare"
-			subtitle: "Read The Description"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest1837062591453461082.subtitle}"
 			tasks: [{
 				id: "5CFE1F728D87A974"
 				item: "covenant_of_the_seven:ambrosial_arbor"
@@ -724,58 +778,62 @@
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
 			description: [
-				"Following this path will also teach you how to get rid of the ring."
+				"{ftbquests.chapter.enigmatic_legacy.quest2717212322828958387.description1}"
 				""
-				"&c&lSeven burdens are borne by the wearer:"
+				"{ftbquests.chapter.enigmatic_legacy.quest2717212322828958387.description2}"
 				""
-				"- Weapons and tools resist your hand when wielded in melee combat."
+				"{ftbquests.chapter.enigmatic_legacy.quest2717212322828958387.description3}"
 				""
-				"- Monsters will shift their target to you, protecting all those nearby."
+				"{ftbquests.chapter.enigmatic_legacy.quest2717212322828958387.description4}"
 				""
-				"- Deal 4% less damage for every point of armor. Deal no damage without full armor."
+				"{ftbquests.chapter.enigmatic_legacy.quest2717212322828958387.description5}"
 				""
-				"- The sacred oath denies you the right to strike innocent animals."
+				"{ftbquests.chapter.enigmatic_legacy.quest2717212322828958387.description6}"
 				""
-				"- When chilled, Femain freezing and never thaw."
+				"{ftbquests.chapter.enigmatic_legacy.quest2717212322828958387.description7}"
 				""
-				"- Halt all movement in the absence of light."
+				"{ftbquests.chapter.enigmatic_legacy.quest2717212322828958387.description8}"
 				""
-				"-Draw upon the world's Natural Energy instead of Mana. Exhaust it, and the world takes the"
-				"toll."
+				"{ftbquests.chapter.enigmatic_legacy.quest2717212322828958387.description9}"
+				"{ftbquests.chapter.enigmatic_legacy.quest2717212322828958387.description10}"
 				""
 				"{@pagebreak}"
 				""
-				"&a&lSeven virtues await the ascended:"
+				"{ftbquests.chapter.enigmatic_legacy.quest2717212322828958387.description11}"
 				""
-				"- +7 Luck"
+				"{ftbquests.chapter.enigmatic_legacy.quest2717212322828958387.description12}"
 				""
-				"- +7 Block Reach"
+				"{ftbquests.chapter.enigmatic_legacy.quest2717212322828958387.description13}"
 				""
-				"- +400% more items from loot chests."
+				"{ftbquests.chapter.enigmatic_legacy.quest2717212322828958387.description14}"
 				""
-				"- Stack the duration of all beneficial potion effects."
+				"{ftbquests.chapter.enigmatic_legacy.quest2717212322828958387.description15}"
 				""
-				"- Obtain unique mob loot to craft and wield divine relics."
+				"{ftbquests.chapter.enigmatic_legacy.quest2717212322828958387.description16}"
 				""
-				"- Invoke Divine Recall and teleport to your spaun point at will."
+				"{ftbquests.chapter.enigmatic_legacy.quest2717212322828958387.description17}"
 				""
-				"- Redirect 60% of ANY spell damage received into the world."
+				"{ftbquests.chapter.enigmatic_legacy.quest2717212322828958387.description18}"
 			]
+			hide_dependency_lines: false
 			id: "25B57A361188BAB3"
 			shape: "gear"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2717212322828958387.subtitle}"
 			tasks: [{
-				id: "7CC32EDF7960CF63"
-				item: "covenant_of_the_seven:virtue_ring"
-				type: "item"
+				advancement: "covenant_of_the_seven:ring_of_the_seven_virtues"
+				criterion: ""
+				id: "36AA33D3E98FA95E"
+				type: "advancement"
 			}]
+			title: "{ftbquests.chapter.enigmatic_legacy.quest2717212322828958387.title}"
 			x: -2.0d
 			y: 2.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "0719EDFC724C0127"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest511701701188387111.subtitle}"
 			tasks: [{
 				id: "53D5F6ACB40CB6C3"
 				item: "covenant_of_the_seven:wind_sacrament"
@@ -785,8 +843,9 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "738870660D263223"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest8325027494803943971.subtitle}"
 			tasks: [{
 				id: "1974EE72855B8C2A"
 				item: "covenant_of_the_seven:geo_sacrament"
@@ -796,8 +855,9 @@
 			y: 11.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "0B28BC1C6577C488"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest804099363633087624.subtitle}"
 			tasks: [{
 				id: "543188BA99D0916E"
 				item: "covenant_of_the_seven:aqua_sacrament"
@@ -807,8 +867,9 @@
 			y: 11.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "2F949E516B2AC544"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest3428539288863294788.subtitle}"
 			tasks: [{
 				id: "2BE54DE39B5FE458"
 				item: "covenant_of_the_seven:eldritch_sacrament"
@@ -818,8 +879,9 @@
 			y: 11.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "69E8EE8A7882D3CA"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7631611847074042826.subtitle}"
 			tasks: [{
 				id: "44FC33E9AB60C2D6"
 				item: "covenant_of_the_seven:ender_sacrament"
@@ -829,8 +891,9 @@
 			y: 11.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "773E1AB3E9B6F735"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest8592334499092035381.subtitle}"
 			tasks: [{
 				id: "28137C653528B763"
 				item: "covenant_of_the_seven:holy_sacrament"
@@ -840,8 +903,9 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "56C1527E1CB5EB67"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6251368459368000359.subtitle}"
 			tasks: [{
 				id: "13D017D178DFE4E9"
 				item: "covenant_of_the_seven:evocation_sacrament"
@@ -851,8 +915,9 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "235D991688DFBE26"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2548361286226263590.subtitle}"
 			tasks: [{
 				id: "4915B9554DF8851A"
 				item: "covenant_of_the_seven:lightning_sacrament"
@@ -862,8 +927,9 @@
 			y: 11.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "5BED52DA71A54D38"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6624041725094874424.subtitle}"
 			tasks: [{
 				id: "2349A50ABAE3E35B"
 				item: "covenant_of_the_seven:blood_sacrament"
@@ -873,8 +939,9 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "33B84060D76DAABA"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest3726799476324412090.subtitle}"
 			tasks: [{
 				id: "1E7CB85631BCF9DC"
 				item: "covenant_of_the_seven:nature_sacrament"
@@ -884,8 +951,9 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "7FC6E9391B087ABF"
-			subtitle: "Read item description by holding \"Shift\" on it.Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest9207302919681505983.subtitle}"
 			tasks: [{
 				id: "3EC969C43A2F019F"
 				item: "covenant_of_the_seven:ice_sacrament"
@@ -895,8 +963,9 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "2505A2A7619191CA"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2667717194067055050.subtitle}"
 			tasks: [{
 				id: "189AFD8778875C65"
 				item: "covenant_of_the_seven:fire_sacrament"
@@ -906,8 +975,9 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "72680109513597DE"
-			subtitle: "Crafting material"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest8243840257430493150.subtitle}"
 			tasks: [{
 				id: "7AAE74F84EFCFE70"
 				item: "covenant_of_the_seven:dormant_sacrament"
@@ -917,9 +987,10 @@
 			y: 9.5d
 		}
 		{
-			description: ["Base +%4 Damage multiplier, traits are multiplied by the amount of curses you have."]
+			dependencies: ["1DF34C60DDABA0B6"]
+			description: ["{ftbquests.chapter.enigmatic_legacy.quest5987190066749931764.description1}"]
 			id: "5316C5A4EB6080F4"
-			subtitle: "Grants bearer %85 LP reduction while casting wind spells. Check Description for more"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5987190066749931764.subtitle}"
 			tasks: [{
 				id: "6C2677A8542A62E0"
 				item: "covenant_of_the_seven:wind_blasphemy"
@@ -929,9 +1000,10 @@
 			y: 6.0d
 		}
 		{
-			description: ["Base +%4 Damage multiplier, traits are multiplied by the amount of curses you have."]
+			dependencies: ["1DF34C60DDABA0B6"]
+			description: ["{ftbquests.chapter.enigmatic_legacy.quest1731013011319098006.description1}"]
 			id: "1805CB2999410A96"
-			subtitle: "Grants bearer %85 LP reduction while casting Geo spells. Check Description for more"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest1731013011319098006.subtitle}"
 			tasks: [{
 				id: "0821166807C6F4A1"
 				item: "covenant_of_the_seven:geo_blasphemy"
@@ -941,9 +1013,10 @@
 			y: 5.5d
 		}
 		{
-			description: ["Base +%4 Damage multiplier, traits are multiplied by the amount of curses you have."]
+			dependencies: ["1DF34C60DDABA0B6"]
+			description: ["{ftbquests.chapter.enigmatic_legacy.quest871138955885447722.description1}"]
 			id: "0C16E843CF8E8A2A"
-			subtitle: "Grants bearer %85 LP reduction while casting aqua spells. Check Description for more"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest871138955885447722.subtitle}"
 			tasks: [{
 				id: "255E118AB10055EB"
 				item: "covenant_of_the_seven:aqua_blasphemy"
@@ -953,9 +1026,10 @@
 			y: 5.5d
 		}
 		{
-			description: ["Base +%4 Damage multiplier, traits are multiplied by the amount of curses you have."]
+			dependencies: ["1DF34C60DDABA0B6"]
+			description: ["{ftbquests.chapter.enigmatic_legacy.quest2474428568038877429.description1}"]
 			id: "2256EFAC2C0928F5"
-			subtitle: "Grants bearer %85 LP reduction while casting Eldritch spells. Check Description for more"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2474428568038877429.subtitle}"
 			tasks: [{
 				id: "7B011F34CA408FBE"
 				item: "covenant_of_the_seven:eldritch_blasphemy"
@@ -965,8 +1039,9 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "222DD8E1BA730F76"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2462863035248873334.subtitle}"
 			tasks: [{
 				id: "20C942128C0FEB5F"
 				item: "covenant_of_the_seven:righteous_mirror"
@@ -976,6 +1051,7 @@
 			y: 15.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "6251E52D66AA014C"
 			tasks: [{
 				id: "1A6485080D4C46F1"
@@ -986,6 +1062,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "0148E8EE617361F9"
 			tasks: [{
 				id: "32E3F3758A3357B0"
@@ -996,8 +1073,9 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "5EF3157D4471721F"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6841835886669296159.subtitle}"
 			tasks: [{
 				id: "2377324EF5171829"
 				item: "covenant_of_the_seven:seraphic_heart"
@@ -1008,6 +1086,7 @@
 		}
 		{
 			dependencies: ["5782089F4989B165"]
+			hide_dependency_lines: false
 			id: "73B4B9E39A9A5152"
 			shape: "rsquare"
 			tasks: [{
@@ -1019,8 +1098,9 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "2F35D1ABDCAD56AA"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest3401855629620237994.subtitle}"
 			tasks: [{
 				id: "7CB46AB0E26B9B2D"
 				item: "covenant_of_the_seven:infinity_spirit"
@@ -1030,9 +1110,10 @@
 			y: 15.5d
 		}
 		{
-			description: ["Combine with any enchanted item in a crafting grid to transfer all curses from item to the tome, &cOnly cursed ring users can use."]
+			dependencies: ["1DF34C60DDABA0B6"]
+			description: ["{ftbquests.chapter.enigmatic_legacy.quest5518439480188532322.description1}"]
 			id: "4C956F782320F662"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5518439480188532322.subtitle}"
 			tasks: [{
 				id: "5E8F93172DC4782A"
 				item: "enigmaticlegacy:curse_transposer"
@@ -1042,14 +1123,15 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: [
-				"Deal more damage to bosses and players, your attacks has extra knockback."
+				"{ftbquests.chapter.enigmatic_legacy.quest5632545422442529067.description1}"
 				""
-				"Each successful hit gives 10 &cLP."
+				"{ftbquests.chapter.enigmatic_legacy.quest5632545422442529067.description2}"
 			]
 			id: "4E2AD2381DF0812B"
 			shape: "diamond"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5632545422442529067.subtitle}"
 			tasks: [{
 				id: "44FF04D36A278240"
 				item: "enigmaticlegacy:the_twist"
@@ -1059,9 +1141,10 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "4661EAA8FBF0B944"
 			shape: "diamond"
-			subtitle: "Reading it will give &d+1 Arcane&r Slot."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5071592666898151748.subtitle}"
 			tasks: [{
 				id: "5CE095BDD9BC4897"
 				item: "enigmaticaddons:void_tome"
@@ -1071,10 +1154,11 @@
 			y: 5.0d
 		}
 		{
-			description: ["Combine with any enchanted item in a crafting grid to transfer all &denchantments&r from item to a tome."]
+			dependencies: ["1DF34C60DDABA0B6"]
+			description: ["{ftbquests.chapter.enigmatic_legacy.quest457242493995357881.description1}"]
 			id: "065873A02ECE96B9"
 			shape: "diamond"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest457242493995357881.subtitle}"
 			tasks: [{
 				id: "3F35AA702175572C"
 				item: "enigmaticlegacy:enchantment_transposer"
@@ -1084,9 +1168,10 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "6289EAE60A0F0184"
 			shape: "diamond"
-			subtitle: "While in your inventory you can't deal damage to animals."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7100464561258430852.subtitle}"
 			tasks: [{
 				id: "00FE6B7B2581C22F"
 				item: "enigmaticaddons:ode_to_living"
@@ -1096,14 +1181,15 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: [
-				"While in your inventory, all damage your pets take within 24 blocks is redirected to you."
+				"{ftbquests.chapter.enigmatic_legacy.quest7776836369701749376.description1}"
 				""
-				"If &eGuide to Animal Companionship&r is present, the damage redirected to you is reduced by %50."
+				"{ftbquests.chapter.enigmatic_legacy.quest7776836369701749376.description2}"
 			]
 			id: "6BECDF798C694280"
 			shape: "diamond"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7776836369701749376.subtitle}"
 			tasks: [{
 				id: "5855592C7CA99842"
 				item: "enigmaticlegacy:hunter_guidebook"
@@ -1113,9 +1199,10 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "4194A6281F3AF5FE"
 			shape: "diamond"
-			subtitle: "Same effects with &eOde to Living beings&r has more things though, read description."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4725584600271353342.subtitle}"
 			tasks: [{
 				id: "0015C35A8A5D41E2"
 				item: "enigmaticlegacy:animal_guidebook"
@@ -1125,14 +1212,15 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: [
-				"Deal more damage to a mob on fire and remove all positive effects from it."
+				"{ftbquests.chapter.enigmatic_legacy.quest6959635537689059557.description1}"
 				""
-				"The holder is immune to fire and has longer i-frames."
+				"{ftbquests.chapter.enigmatic_legacy.quest6959635537689059557.description2}"
 			]
 			id: "609597A5D62420E5"
 			shape: "diamond"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6959635537689059557.subtitle}"
 			tasks: [{
 				id: "7A570560DFCDC247"
 				item: "enigmaticaddons:the_bless"
@@ -1142,8 +1230,9 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "19315EDD1D4773D5"
-			subtitle: "Doubles enchantment levels when combined in crafting table. Can increase limits."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest1815336428579025877.subtitle}"
 			tasks: [{
 				id: "49717AE7378B355B"
 				item: "enigmaticaddons:bless_amplifier"
@@ -1153,17 +1242,18 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: [
-				"If &eEmblem of Bloodstained Valor&r "
+				"{ftbquests.chapter.enigmatic_legacy.quest590531719079209647.description1}"
 				""
-				"or "
+				"{ftbquests.chapter.enigmatic_legacy.quest590531719079209647.description2}"
 				""
-				"&dScroll of a Thousand Curses is equipped.&r "
+				"{ftbquests.chapter.enigmatic_legacy.quest590531719079209647.description3}"
 				""
-				"Your pets receive your buffs from those items."
+				"{ftbquests.chapter.enigmatic_legacy.quest590531719079209647.description4}"
 			]
 			id: "0831FD7840512AAF"
-			subtitle: "While in your inventory +%25 Damage dealt to pets."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest590531719079209647.subtitle}"
 			tasks: [{
 				id: "27E3000DE1BE421C"
 				item: "enigmaticaddons:sanguinary_handbook"
@@ -1173,8 +1263,9 @@
 			y: 6.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "1A587DDB467E7AE0"
-			subtitle: "While in your inventory, damage you receive ignores defense and damage you inflict also ignores defense."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest1898405623670668000.subtitle}"
 			tasks: [{
 				id: "1130C4864AEE8F4D"
 				item: "enigmaticaddons:false_justice"
@@ -1184,9 +1275,10 @@
 			y: 6.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "609C4C39B3D25D8C"
 			shape: "diamond"
-			subtitle: "+1 Armor"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6961522934721699212.subtitle}"
 			tasks: [{
 				id: "5F22421CF73253E9"
 				item: "enigmaticlegacy:iron_ring"
@@ -1196,8 +1288,9 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "31D8D91AF9F289D0"
-			subtitle: "When equipped, Piglins are not hostile to you."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest3591859412713769424.subtitle}"
 			tasks: [{
 				id: "37D6A4F01E503160"
 				item: "enigmaticlegacy:golden_ring"
@@ -1207,8 +1300,9 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "5AA763A72417F48A"
-			subtitle: "Allows you to control a ender chest integrated in your inventory."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6532299354040431754.subtitle}"
 			tasks: [{
 				id: "6FBE617E0CDEDB15"
 				item: "enigmaticlegacy:ender_ring"
@@ -1218,8 +1312,9 @@
 			y: 6.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "1483A802D8EFAEF7"
-			subtitle: "Attracts items within 8 Blocks."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest1478209832890642167.subtitle}"
 			tasks: [{
 				id: "55468ED0903C3792"
 				item: "enigmaticlegacy:magnet_ring"
@@ -1229,8 +1324,9 @@
 			y: 6.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "781B6272347D309E"
-			subtitle: "Instantly collects blocks dropped within 16 blocks. Can be disabled by holding Shift."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest8654619351568953502.subtitle}"
 			tasks: [{
 				id: "5388679080F4FC76"
 				item: "enigmaticlegacy:super_magnet_ring"
@@ -1240,8 +1336,9 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "24D9E56712D86874"
-			subtitle: "Disables mob spawns near you"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2655405686172182644.subtitle}"
 			tasks: [{
 				id: "4441DB6D82E7E2CA"
 				item: "enigmaticlegacy:desolation_ring"
@@ -1251,8 +1348,9 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "1E44EF435BBA4EE0"
-			subtitle: "+1 Fortune Level and some useless traits."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2181131192134946528.subtitle}"
 			tasks: [{
 				id: "6E2D55613391DCA0"
 				item: "enigmaticaddons:avarice_ring"
@@ -1262,14 +1360,15 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: [
-				"&6+5.0 &dArmor"
-				"&6+2.0 &dArmor Toughness"
-				"&6+2 &dFortune Level"
-				"&6+20% &dMining Speed"
+				"{ftbquests.chapter.enigmatic_legacy.quest7777400402992560297.description1}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7777400402992560297.description2}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7777400402992560297.description3}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7777400402992560297.description4}"
 			]
 			id: "6BEEE075C859F8A9"
-			subtitle: "If a damage exceeds %80 of your health, it blocks the incoming damage."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7777400402992560297.subtitle}"
 			tasks: [{
 				id: "0B4613ABBC761A0B"
 				item: "enigmaticaddons:earth_promise"
@@ -1279,9 +1378,10 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "627BD1C191884874"
 			shape: "rsquare"
-			subtitle: "+1 Ring Slot"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7096496267152869492.subtitle}"
 			tasks: [{
 				id: "22A3E55184C3283C"
 				item: "enigmaticlegacy:astral_fruit"
@@ -1291,9 +1391,10 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "32FB6F35534360F8"
 			shape: "rsquare"
-			subtitle: "idk sorry"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest3673652195871645944.subtitle}"
 			tasks: [{
 				id: "72F4743D6482A26A"
 				item: "enigmaticaddons:ichoroot"
@@ -1304,9 +1405,9 @@
 		}
 		{
 			description: [
-				"Enigmatic Legacy is a extremely unique mod adding tons of new stuff to the gameplay."
+				"{ftbquests.chapter.enigmatic_legacy.quest2158152625360183478.description1}"
 				""
-				"This questline will inform you about the items in the mod, the paths you can take and even other addons!"
+				"{ftbquests.chapter.enigmatic_legacy.quest2158152625360183478.description2}"
 			]
 			icon: {
 				Count: 1
@@ -1319,20 +1420,21 @@
 			id: "1DF34C60DDABA0B6"
 			shape: "square"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2158152625360183478.subtitle}"
 			tasks: [{
 				id: "7AC435FF09A6E1C2"
-				title: "woa"
+				title: "{ftbquests.chapter.enigmatic_legacy.quest2158152625360183478.task.8846254937557361090.title}"
 				type: "checkmark"
 			}]
-			title: "Enigmatic Legacy"
+			title: "{ftbquests.chapter.enigmatic_legacy.quest2158152625360183478.title}"
 			x: -0.5d
 			y: 2.5d
 		}
 		{
-			description: ["Combine with any enchanted item in a crafting grid to copy all enchantments from item to the tome."]
+			dependencies: ["1DF34C60DDABA0B6"]
+			description: ["{ftbquests.chapter.enigmatic_legacy.quest6727448651812297001.description1}"]
 			id: "5D5CB2E7BFF3D929"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6727448651812297001.subtitle}"
 			tasks: [{
 				id: "2C27F9FE469FBB01"
 				item: "enigmaticdelicacy:enchantment_duplicator"
@@ -1342,8 +1444,9 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "2855775BA72310E0"
-			subtitle: "Read The Description"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2906360370067345632.subtitle}"
 			tasks: [{
 				id: "3C84236F73E3BF3C"
 				item: "enigmaticdelicacy:fading_scroll"
@@ -1353,7 +1456,10 @@
 			y: 12.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			disable_toast: true
 			id: "63886E154F541FF0"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7172103444391796720.subtitle}"
 			tasks: [{
 				id: "2248F978027998EE"
 				item: {
@@ -1369,7 +1475,10 @@
 			y: 17.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			disable_toast: true
 			id: "6233FEDA1A71FCBF"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7076279652229184703.subtitle}"
 			tasks: [{
 				id: "16F2089824945230"
 				item: {
@@ -1385,7 +1494,10 @@
 			y: 17.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			disable_toast: true
 			id: "43A7B26D6EB18BEF"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4875061304730160111.subtitle}"
 			tasks: [{
 				id: "52597BD5589F71B9"
 				item: {
@@ -1401,7 +1513,10 @@
 			y: 17.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			disable_toast: true
 			id: "18FE872D6A440319"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest1801025530120897305.subtitle}"
 			tasks: [{
 				id: "4970A8FED376B2CC"
 				item: {
@@ -1417,7 +1532,10 @@
 			y: 18.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			disable_toast: true
 			id: "04D80E2755365778"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest349044533217351544.subtitle}"
 			tasks: [{
 				id: "1655707DD4DF50B1"
 				item: {
@@ -1433,7 +1551,10 @@
 			y: 17.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			disable_toast: true
 			id: "05811956FD302521"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest396626103590987041.subtitle}"
 			tasks: [{
 				id: "63BC4D24D122E8B3"
 				item: {
@@ -1449,7 +1570,10 @@
 			y: 16.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			disable_toast: true
 			id: "63A69C14F6727467"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7180598269736809575.subtitle}"
 			tasks: [{
 				id: "65B40E10024023F5"
 				item: {
@@ -1465,35 +1589,33 @@
 			y: 17.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "2DC1C0FAAB255199"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest3297128585057620377.subtitle}"
 			tasks: [{
 				id: "1A72E8AE53590AC0"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:enigmatic_eye"
-					tag: { }
-				}
+				item: "enigmaticlegacy:enigmatic_eye"
 				type: "item"
 			}]
 			x: -6.5d
 			y: 16.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "0E690A6DB91DBCAE"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest1038372655459056814.subtitle}"
 			tasks: [{
 				id: "241FD3CA5F660E75"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:mining_charm"
-					tag: { }
-				}
+				item: "enigmaticlegacy:mining_charm"
 				type: "item"
 			}]
 			x: -6.0d
 			y: 16.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "28656E06CF9CD32D"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2910853709696914221.subtitle}"
 			tasks: [{
 				id: "0C91074AE05431E2"
 				item: "enigmaticlegacy:monster_charm"
@@ -1503,7 +1625,9 @@
 			y: 16.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "09B6409CDDE2D0A9"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest699817834584395945.subtitle}"
 			tasks: [{
 				id: "0AFC17EEA388115C"
 				item: "enigmaticaddons:forger_gem"
@@ -1513,7 +1637,9 @@
 			y: 16.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "55C3757651948AA9"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6179912264717732521.subtitle}"
 			tasks: [{
 				id: "6B859FE33372E1B2"
 				item: "enigmaticaddons:hell_blade_charm"
@@ -1523,7 +1649,9 @@
 			y: 15.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "20987CA8244275BB"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2348764267278398907.subtitle}"
 			tasks: [{
 				id: "7954E0CC03D03F35"
 				item: "enigmaticlegacy:mega_sponge"
@@ -1533,35 +1661,33 @@
 			y: 15.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "5E6801D7411BBA66"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6802689261165066854.subtitle}"
 			tasks: [{
 				id: "1E3385FAFF0EA81D"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:insignia"
-					tag: { }
-				}
+				item: "enigmaticlegacy:insignia"
 				type: "item"
 			}]
 			x: -5.0d
 			y: 15.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "549B3129B6BEB358"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6096520575805469528.subtitle}"
 			tasks: [{
 				id: "1C8ABE53113916BA"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:ascension_amulet"
-					tag: { }
-				}
+				item: "enigmaticlegacy:ascension_amulet"
 				type: "item"
 			}]
 			x: -6.5d
 			y: 17.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "5EDC5F0D31FEF4F7"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6835442844719576311.subtitle}"
 			tasks: [{
 				id: "76A5A4D0E671C5BB"
 				item: "enigmaticlegacy:berserk_charm"
@@ -1571,7 +1697,9 @@
 			y: 18.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "35B03131AB84BE21"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest3868646169312017953.subtitle}"
 			tasks: [{
 				id: "086ADAA9104B4632"
 				item: "enigmaticlegacy:enchanter_pearl"
@@ -1581,7 +1709,9 @@
 			y: 18.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "3FC095DD75A58A36"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4593836398312000054.subtitle}"
 			tasks: [{
 				id: "3E711D7F0DF311D1"
 				item: "enigmaticaddons:scorched_charm"
@@ -1591,21 +1721,21 @@
 			y: 19.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "60AFE6322CC55E93"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6967040251739332243.subtitle}"
 			tasks: [{
 				id: "5C0DC10D856D7A5B"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:eldritch_amulet"
-					tag: { }
-				}
+				item: "enigmaticlegacy:eldritch_amulet"
 				type: "item"
 			}]
 			x: -4.5d
 			y: 18.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "79114D02A5F4E201"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest8723838626962924033.subtitle}"
 			tasks: [{
 				id: "13C4598557065C32"
 				item: "enigmaticdelicacy:weapon_charm"
@@ -1615,7 +1745,9 @@
 			y: 18.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "02475C1717B75E13"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest164201165674208787.subtitle}"
 			tasks: [{
 				id: "3E8CCD76801B754D"
 				item: "enigmaticdelicacy:hungry_charm"
@@ -1625,7 +1757,9 @@
 			y: 17.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "387478A42BF43567"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4068009009929794919.subtitle}"
 			tasks: [{
 				id: "4CDE5B168E3C2CCF"
 				item: "enigmaticdelicacy:gluttony_charm"
@@ -1635,7 +1769,9 @@
 			y: 17.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "5118A09EF5074B8A"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5843597121089391498.subtitle}"
 			tasks: [{
 				id: "3CA8B272CFB1018A"
 				item: "enigmaticdelicacy:curse_crystal_pendant"
@@ -1645,9 +1781,10 @@
 			y: 17.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "0D24F4EE539256CC"
 			shape: "rsquare"
-			subtitle: "Infinite cake!"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest947151126096139980.subtitle}"
 			tasks: [{
 				id: "6D42FB001C02011D"
 				item: "enigmaticlegacy:cosmic_cake"
@@ -1657,8 +1794,9 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "35408CBDA02F0A05"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest3837221628583807493.subtitle}"
 			tasks: [{
 				id: "550B30AD7042137F"
 				item: {
@@ -1674,23 +1812,21 @@
 			y: 16.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "78F852F9952817A0"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest8716808310678362016.subtitle}"
 			tasks: [{
 				id: "2826664017142E55"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:void_stone"
-					tag: { }
-				}
+				item: "enigmaticlegacy:void_stone"
 				type: "item"
 			}]
 			x: 4.0d
 			y: 16.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "03424A7A15507EBD"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest234832018780749501.subtitle}"
 			tasks: [{
 				id: "63383E6F26C59B09"
 				item: "enigmaticlegacy:recall_potion"
@@ -1700,23 +1836,21 @@
 			y: 17.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "203873B984D7F566"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2321732848544380262.subtitle}"
 			tasks: [{
 				id: "7644BE3D888A159B"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:extradimensional_eye"
-					tag: { }
-				}
+				item: "enigmaticlegacy:extradimensional_eye"
 				type: "item"
 			}]
 			x: 5.0d
 			y: 16.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "7D8EE79E04E932A3"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest9047423367307145891.subtitle}"
 			tasks: [{
 				id: "1A5360E4FDC6FB14"
 				item: "enigmaticlegacy:infinimeal"
@@ -1726,8 +1860,9 @@
 			y: 16.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "42A761E574B74D3C"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4802915165747498300.subtitle}"
 			tasks: [{
 				id: "62660DC4F238DC48"
 				item: {
@@ -1743,8 +1878,9 @@
 			y: 16.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "5B91776E989EBB4C"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6598186245965134668.subtitle}"
 			tasks: [{
 				id: "1298154DB9DD93A4"
 				item: {
@@ -1760,8 +1896,9 @@
 			y: 17.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "41818BD20DC4C176"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4720207618751381878.subtitle}"
 			tasks: [{
 				id: "06AB3E2C10150404"
 				item: {
@@ -1777,8 +1914,9 @@
 			y: 17.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "53239CED2D9CC957"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5990804471819323735.subtitle}"
 			tasks: [{
 				id: "4EE0054F29977C76"
 				item: {
@@ -1794,8 +1932,9 @@
 			y: 18.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "76F550C3F4DA2886"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest8571846268326389894.subtitle}"
 			tasks: [{
 				id: "2EDA2B0489BEC109"
 				item: "enigmaticlegacy:unholy_grail"
@@ -1805,8 +1944,9 @@
 			y: 17.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "1BD146576CE0FDEF"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2004460650459364847.subtitle}"
 			tasks: [{
 				id: "11E3F9552B50FE3B"
 				item: "enigmaticlegacy:lore_inscriber"
@@ -1816,8 +1956,9 @@
 			y: 17.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "6855E0D1D14F57B2"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7518162344729335730.subtitle}"
 			tasks: [{
 				id: "312A7D229515E1B2"
 				item: "enigmaticaddons:antique_bag"
@@ -1827,8 +1968,9 @@
 			y: 16.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "7A77A75C1DE40FB4"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest8824706008936091572.subtitle}"
 			tasks: [{
 				id: "397491991D032BC0"
 				item: {
@@ -1844,8 +1986,9 @@
 			y: 17.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "544B33FE3196E35B"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6074005689285927771.subtitle}"
 			tasks: [{
 				id: "521FA85EC7C2F271"
 				item: "enigmaticlegacy:mending_mixture"
@@ -1855,8 +1998,9 @@
 			y: 17.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "35BDB4F583629CCF"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest3872450221172759759.subtitle}"
 			tasks: [{
 				id: "67C864774F5581B8"
 				item: "enigmaticlegacy:ichor_bottle"
@@ -1866,8 +2010,9 @@
 			y: 18.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "58D953EAFE77BB1A"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6402240614040582938.subtitle}"
 			tasks: [{
 				id: "2C55FD4711BE36F0"
 				item: "enigmaticlegacy:soul_compass"
@@ -1877,8 +2022,9 @@
 			y: 18.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "65F5B2791E81AA6D"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7346974600397433453.subtitle}"
 			tasks: [{
 				id: "43D25BF95A328CD3"
 				item: {
@@ -1894,8 +2040,9 @@
 			y: 18.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "642C07B8AC31E455"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7218152792512390229.subtitle}"
 			tasks: [{
 				id: "7962A3B910FC247D"
 				item: {
@@ -1911,8 +2058,9 @@
 			y: 19.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "642242E190E9BFA4"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7215403089567268772.subtitle}"
 			tasks: [{
 				id: "66BE5C39C3BECBA8"
 				item: {
@@ -1928,8 +2076,9 @@
 			y: 17.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "4F2A8781B8A6E7BC"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5704520869236631484.subtitle}"
 			tasks: [{
 				id: "4F90D521CA6FDEAA"
 				item: "enigmaticlegacy:abyssal_heart"
@@ -1939,8 +2088,9 @@
 			y: 17.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "787E1FDD5E126ECE"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest8682412167243394766.subtitle}"
 			tasks: [{
 				id: "3A4D49856E62556E"
 				item: {
@@ -1956,8 +2106,9 @@
 			y: 15.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "393A1814F9362C83"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4123634887170600067.subtitle}"
 			tasks: [{
 				id: "5152956EC23FCA68"
 				item: "enigmaticlegacy:loot_generator"
@@ -1967,8 +2118,9 @@
 			y: 19.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "0179C55C8A291154"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest106333067465527636.subtitle}"
 			tasks: [{
 				id: "31D4F2AEAB6EA16D"
 				item: "enigmaticlegacy:redemption_potion"
@@ -1978,8 +2130,9 @@
 			y: 19.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "4CDE25E68780985F"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5538906263758346335.subtitle}"
 			tasks: [{
 				id: "695B744B4680D5BD"
 				item: {
@@ -1995,8 +2148,9 @@
 			y: 18.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "4E1098110E3352E3"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5625163133605860067.subtitle}"
 			tasks: [{
 				id: "6206947D1EB0C8B1"
 				item: {
@@ -2012,8 +2166,9 @@
 			y: 18.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "20C95703B97AD05D"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2362515153040887901.subtitle}"
 			tasks: [{
 				id: "286BEBCBDEADF0E3"
 				item: "enigmaticaddons:primeval_cube"
@@ -2023,25 +2178,23 @@
 			y: 18.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "524E62112A7D0449"
 			shape: "rsquare"
-			subtitle: "idk sorry"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5930785585160324169.subtitle}"
 			tasks: [{
 				id: "4AA8A4FFBBAA349B"
-				item: {
-					Count: 1
-					id: "enigmaticaddons:astral_potion"
-					tag: { }
-				}
+				item: "enigmaticaddons:astral_potion"
 				type: "item"
 			}]
 			x: -1.5d
 			y: 11.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "64A33C445BE06292"
 			shape: "rsquare"
-			subtitle: "Teleports you to your death point, at the cost of leaving you with half heart."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7251706089293505170.subtitle}"
 			tasks: [{
 				id: "5CC1CE773519F64E"
 				item: "enigmaticlegacy:twisted_potion"
@@ -2051,9 +2204,10 @@
 			y: 12.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "28A668350AE84078"
 			shape: "rsquare"
-			subtitle: "idk sorry"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2929143184676634744.subtitle}"
 			tasks: [{
 				id: "6E42BB23F627B02E"
 				item: "enigmaticlegacy:astral_potato"
@@ -2063,8 +2217,9 @@
 			y: 11.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "6B930A43A2D42DEF"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7751550669245656559.subtitle}"
 			tasks: [{
 				id: "070052177F7BB485"
 				item: "enigmaticdelicacy:cursed_soul_crystal"
@@ -2074,8 +2229,9 @@
 			y: 18.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "7710237C57E438B6"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest8579396307098286262.subtitle}"
 			tasks: [{
 				id: "1B4E0669F6B091C3"
 				item: "enigmaticlegacy:enigmatic_item"
@@ -2085,8 +2241,9 @@
 			y: 15.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "12839E03F37B480A"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest1334083654438832138.subtitle}"
 			tasks: [{
 				id: "7D50169F625EDC2A"
 				item: "enigmaticlegacy:golem_heart"
@@ -2096,8 +2253,9 @@
 			y: 20.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "54453A8DEDCD886B"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6072324053833451627.subtitle}"
 			tasks: [{
 				id: "0DD91BB0319C5E60"
 				item: "enigmaticlegacy:eye_of_nebula"
@@ -2107,8 +2265,9 @@
 			y: 21.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "4C11F417CF8B98B3"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5481430604590061747.subtitle}"
 			tasks: [{
 				id: "474D4725D62CA799"
 				item: "enigmaticlegacy:blazing_core"
@@ -2118,8 +2277,9 @@
 			y: 21.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "6278C62EC4E816EE"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7095639117096556270.subtitle}"
 			tasks: [{
 				id: "7D8CF581C8EE8696"
 				item: "enigmaticlegacy:void_pearl"
@@ -2129,8 +2289,9 @@
 			y: 20.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "26061FA07E309955"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2739912197473868117.subtitle}"
 			tasks: [{
 				id: "37BC4DB61D708662"
 				item: "enigmaticlegacy:ocean_stone"
@@ -2140,8 +2301,9 @@
 			y: 21.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "08B70E3FF0EDDA27"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest627986340829321767.subtitle}"
 			tasks: [{
 				id: "03DB08F7A0B8FDBF"
 				item: "enigmaticlegacy:angel_blessing"
@@ -2151,8 +2313,9 @@
 			y: 21.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "086DC18C20496440"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest607354332346147904.subtitle}"
 			tasks: [{
 				id: "0EE72CA2E9420D3A"
 				item: "enigmaticaddons:forgotten_ice"
@@ -2162,8 +2325,9 @@
 			y: 18.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "243FCE35AD6A9C5F"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2612033038836210783.subtitle}"
 			tasks: [{
 				id: "1156FE59E16EEA79"
 				item: "enigmaticaddons:revival_leaf"
@@ -2173,8 +2337,9 @@
 			y: 16.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "4D379BDFB36EE388"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5564087249729938312.subtitle}"
 			tasks: [{
 				id: "0904698C8145F329"
 				item: "enigmaticaddons:lost_engine"
@@ -2184,8 +2349,9 @@
 			y: 18.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "575F195A181DD2C0"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6295778678829601472.subtitle}"
 			tasks: [{
 				id: "41704B6F7C3EF0CE"
 				item: "enigmaticaddons:illusion_lantern"
@@ -2195,15 +2361,12 @@
 			y: 15.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "2E01BE1E79EACCCB"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest3315139838825123019.subtitle}"
 			tasks: [{
 				id: "1B4CBA92284C5B03"
-				item: {
-					Count: 1
-					id: "enigmaticaddons:etherium_core"
-					tag: { }
-				}
+				item: "enigmaticaddons:etherium_core"
 				type: "item"
 			}]
 			x: 1.0d
@@ -2216,6 +2379,7 @@
 				"08B70E3FF0EDDA27"
 				"26061FA07E309955"
 				"2934409F297FC35B"
+				"1DF34C60DDABA0B6"
 			]
 			id: "5870E7A9BE71686E"
 			tasks: [{
@@ -2233,6 +2397,7 @@
 				"54453A8DEDCD886B"
 				"2E01BE1E79EACCCB"
 				"4C11F417CF8B98B3"
+				"1DF34C60DDABA0B6"
 			]
 			id: "60B08362C4C3943C"
 			tasks: [{
@@ -2244,8 +2409,9 @@
 			y: 19.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "7C7ECBDF10FBAD90"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest8970831666691681680.subtitle}"
 			tasks: [{
 				id: "05EF5CA3839FB37C"
 				item: "enigmaticlegacy:abyssal_heart"
@@ -2255,23 +2421,21 @@
 			y: 20.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "2934409F297FC35B"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2969069106684216155.subtitle}"
 			tasks: [{
 				id: "2FD4BD19BC1E0570"
-				item: {
-					Count: 1
-					id: "enigmaticaddons:etherium_core"
-					tag: { }
-				}
+				item: "enigmaticaddons:etherium_core"
 				type: "item"
 			}]
 			x: -2.0d
 			y: 21.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "2B49E79ABB521180"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest3119278868684476800.subtitle}"
 			tasks: [{
 				id: "122CAF773B05DFA1"
 				item: "enigmaticlegacy:abyssal_heart"
@@ -2287,12 +2451,13 @@
 				"086DC18C20496440"
 				"60B08362C4C3943C"
 				"5870E7A9BE71686E"
+				"1DF34C60DDABA0B6"
 			]
-			description: ["The strongest spellstone, genunienly overpowered! Read it's description by holding \"shift\" on the item."]
+			description: ["{ftbquests.chapter.enigmatic_legacy.quest4976385507627914942.description1}"]
 			id: "450FAC40CF9056BE"
 			shape: "gear"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4976385507627914942.subtitle}"
 			tasks: [{
 				id: "6B8BBD1AB574DC97"
 				item: "enigmaticlegacy:the_cube"
@@ -2303,6 +2468,7 @@
 		}
 		{
 			dependencies: ["25B57A361188BAB3"]
+			hide_dependency_lines: false
 			id: "12A55B549C0DA083"
 			shape: "square"
 			tasks: [{
@@ -2315,20 +2481,149 @@
 		}
 		{
 			dependencies: ["12A55B549C0DA083"]
+			hide_dependency_lines: false
 			id: "5782089F4989B165"
 			shape: "rsquare"
 			tasks: [{
 				id: "20DECD284A73182E"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:earth_heart"
-					tag: { }
-				}
+				item: "enigmaticlegacy:earth_heart"
 				type: "item"
 			}]
 			x: -5.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			id: "14CD90939DDC7470"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest1499013214667306096.subtitle}"
+			tasks: [{
+				id: "7C3AB20CB821525E"
+				item: "covenant_of_the_seven:serendipity_feast"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			id: "0323DE80B83B7249"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest226269050726740553.subtitle}"
+			tasks: [{
+				id: "402C11BF61293B90"
+				item: "covenant_of_the_seven:melodious_harmony"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			id: "0C9D3679760D48F9"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest908942595098233081.subtitle}"
+			tasks: [{
+				id: "0D807C21019439CC"
+				item: "covenant_of_the_seven:annointed_handward"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			id: "424CD132B689387E"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4777423320474269822.subtitle}"
+			tasks: [{
+				id: "1617E519C6EA8762"
+				item: "covenant_of_the_seven:rebirth_egg"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			id: "5FACF4DC370F191D"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6894154356251105565.subtitle}"
+			tasks: [{
+				id: "48E83B33624C6595"
+				item: "covenant_of_the_seven:mnestia_raiment"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			id: "52F9F43E737A777F"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5979078529373599615.subtitle}"
+			tasks: [{
+				id: "5B8B8A7E77AFA806"
+				item: "covenant_of_the_seven:hallowed_steps"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			id: "5D728979987BBA27"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6733595548214606375.subtitle}"
+			tasks: [{
+				id: "25646CB0FC0D4203"
+				item: "covenant_of_the_seven:deliverance_albarest"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			id: "0C34BF60C19E626C"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest879538249530237548.subtitle}"
+			tasks: [{
+				id: "6BEA7311C29D64FD"
+				item: "covenant_of_the_seven:all_seeing_eye"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			id: "0B14F71F5D42F3DA"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest798534748032136154.subtitle}"
+			tasks: [{
+				id: "78B2A822984AAC83"
+				item: "covenant_of_the_seven:broken_mask"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			id: "4323D874A67BB566"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4837948420246975846.subtitle}"
+			tasks: [{
+				id: "2028B69A5CAE30D4"
+				item: "covenant_of_the_seven:inversion"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			id: "7327D16EC0A90842"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest8297831112062339138.subtitle}"
+			tasks: [{
+				id: "44F30F3A721A44BF"
+				item: "covenant_of_the_seven:consecration"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 19.0d
+		}
 	]
-	title: "Enigmatic Legacy"
+	title: "{ftbquests.chapter.enigmatic_legacy.title}"
 }

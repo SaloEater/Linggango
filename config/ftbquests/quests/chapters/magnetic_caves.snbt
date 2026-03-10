@@ -10,7 +10,7 @@
 	images: [{
 		dev: true
 		height: 1.0d
-		hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+		hover: ["ftbquests.chapter.magnetic_caves.image.hovertext1"]
 		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 		rotation: 0.0d
 		width: 1.0d
@@ -21,7 +21,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Find the magnetic caves!"]
+			description: ["{ftbquests.chapter.magnetic_caves.quest3956043423628054331.description1}"]
 			id: "36E6B088A55ECF3B"
 			rewards: [{
 				id: "1D2927CF1FD86C16"
@@ -30,15 +30,15 @@
 			}]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Opposites Attract"
+			subtitle: "{ftbquests.chapter.magnetic_caves.quest3956043423628054331.subtitle}"
 			tasks: [{
 				biome: "alexscaves:magnetic_caves"
 				icon: "alexscaves:scarlet_magnet"
 				id: "73F7FB5CDC7D003E"
-				title: "Find Magnetic Caves"
+				title: "{ftbquests.chapter.magnetic_caves.quest3956043423628054331.task.8356424009863987262.title}"
 				type: "biome"
 			}]
-			title: "&4&lMagnetic &1Caves"
+			title: "{ftbquests.chapter.magnetic_caves.quest3956043423628054331.title}"
 			x: 1.0d
 			y: 0.0d
 		}
@@ -57,7 +57,7 @@
 					xp: 5
 				}
 			]
-			subtitle: "Slay a Boundroid"
+			subtitle: "{ftbquests.chapter.magnetic_caves.quest3004371150365028626.subtitle}"
 			tasks: [{
 				id: "4B1A799AE7939283"
 				item: "alexscaves:heavyweight"
@@ -82,7 +82,7 @@
 					xp: 5
 				}
 			]
-			subtitle: "Collect Both Types of Neodymium"
+			subtitle: "{ftbquests.chapter.magnetic_caves.quest1024886674165525006.subtitle}"
 			tasks: [
 				{
 					id: "335670123CB62560"
@@ -95,7 +95,7 @@
 					type: "item"
 				}
 			]
-			title: "Push and Pull"
+			title: "{ftbquests.chapter.magnetic_caves.quest1024886674165525006.title}"
 			x: -0.5d
 			y: -1.0d
 		}
@@ -107,7 +107,7 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Defeat a Magnetron"
+			subtitle: "{ftbquests.chapter.magnetic_caves.quest6941371071030509862.subtitle}"
 			tasks: [{
 				id: "684F4E767AC3D252"
 				item: "alexscaves:heart_of_iron"
@@ -132,7 +132,7 @@
 					xp: 5
 				}
 			]
-			subtitle: "Make Neodymium Ingots"
+			subtitle: "{ftbquests.chapter.magnetic_caves.quest4936965116918954794.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/neodymium_ingot"
 				criterion: ""
@@ -164,7 +164,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "A Magnetic Defender"
+			subtitle: "{ftbquests.chapter.magnetic_caves.quest4525813584757414498.subtitle}"
 			tasks: [{
 				id: "37095BD234BE798D"
 				item: {
@@ -194,7 +194,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Construct a Magnetic Quarry"
+			subtitle: "{ftbquests.chapter.magnetic_caves.quest6295144428060222253.subtitle}"
 			tasks: [{
 				id: "1D97C919D66990A2"
 				item: "alexscaves:quarry_smasher"
@@ -211,17 +211,17 @@
 				item: "alexscaves:polarity_armor_trim_smithing_template"
 				type: "item"
 			}]
-			subtitle: "Slay a Creature with the Galena Gauntlet from over 20 Blocks Away"
+			subtitle: "{ftbquests.chapter.magnetic_caves.quest6887831776898894696.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/galena_gauntlet_challenge"
 				criterion: ""
 				id: "15B4D03C88461152"
-				title: "Mind Over Magnet"
+				title: "{ftbquests.chapter.magnetic_caves.quest6887831776898894696.task.1564103929007313234.title}"
 				type: "advancement"
 			}]
 			x: -5.5d
 			y: 0.0d
 		}
 	]
-	title: "Magnetic Caves"
+	title: "{ftbquests.chapter.magnetic_caves.title}"
 }

@@ -1,5 +1,5 @@
 {
-  "feature": "terramity:bedrock_black_matter_ore",
+  "feature": "terramity:bedrock_black_matter_ore_feature",
   "placement": [
     {
       "type": "minecraft:count",

@@ -1,0 +1,14 @@
+{
+  "loot_table": "lootintegrations:chests/nether",
+  "max_result_itemcount": 10,
+  "integrated_loot_tables": {
+    "idas:chests/ancient_portal/ancient_portal_nether": 2,
+    "idas:chests/enchantingtower/enchantingtower_top": 1,
+    "idas:chests/enchantingtower/enchantingtower_top_ars": 1,
+    "idas:chests/necromancers_spire/necromancers_spire": 2,
+    "idas:chests/nexus/nexus": 2,
+    "integrated_stronghold:chests/nether_portal": 2,
+    "cataclysm:chests/burning_arena/burning_arena": 2,
+    "cataclysm:chests/soul_black_smith/soul_black_smith": 2
+  }
+}

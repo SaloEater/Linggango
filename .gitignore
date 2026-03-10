@@ -3,6 +3,7 @@
 
 # Pre-commit ESLint hook
 !/.github
+!modlist.html
 
 # Probe JS
 /kubejs/probe

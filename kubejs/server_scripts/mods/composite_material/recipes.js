@@ -24,6 +24,11 @@ ServerEvents.recipes(e => {
   e.remove({ id: "composite_material:obsidian_steel_ingot" });
   e.remove({ id: "composite_material:perkin" });
   e.remove({ id: "composite_material:etherite_ingot" });
+  e.remove({ id: "composite_material:dungeon_steel_totem" });
+  e.remove({ id: "composite_material:dungeon_steel_totem_2" });
+  e.remove({ id: "composite_material:primitive_totem" });
+  e.remove({ id: "composite_material:primitive_totem_1" });
+
 
   e.shaped("composite_material:etherite_boots", ["   ", "ABA", "CDC"], {
     A: "composite_material:perkin",
@@ -54,7 +59,7 @@ ServerEvents.recipes(e => {
   });
 
   e.shaped("composite_material:echoium_boots", ["ABA", "CDC", "EFE"], {
-    A: "legendary_monsters:corrupted_soul",
+    A: "kubejs:corrupted_soul_fragment",
     B: "composite_material:echoium_block",
     C: "composite_material:echoium_ingot",
     D: "deeperdarker:warden_boots",
@@ -62,8 +67,8 @@ ServerEvents.recipes(e => {
     F: "composite_material:allay_steel_boots",
   });
 
-  e.shaped("composite_material:echoium_leggings", ["ABA", "CDC", "EFE"], {
-    A: "legendary_monsters:corrupted_soul",
+  e.shaped("composite_material:echoium_leggings", ["CBC", "ADA", "EFE"], {
+    A: "kubejs:corrupted_soul_fragment",
     B: "composite_material:echoium_block",
     C: "minecraft:reinforced_deepslate",
     D: "deeperdarker:warden_leggings",
@@ -71,19 +76,19 @@ ServerEvents.recipes(e => {
     F: "composite_material:allay_steel_leggings",
   });
 
-  e.shaped("composite_material:echoium_chestplate", ["ABA", "CDC", "EFE"], {
+  e.shaped("composite_material:echoium_chestplate", ["CAC", "BDB", "EFE"], {
     A: "composite_material:echoium_ingot",
-    B: "legendary_monsters:corrupted_soul",
+    B: "kubejs:corrupted_soul_fragment",
     C: "composite_material:echoium_block",
     D: "deeperdarker:warden_chestplate",
     E: "minecraft:reinforced_deepslate",
     F: "composite_material:allay_steel_chestplate",
   });
 
-  e.shaped("composite_material:echoium_helmet", ["ABA", "CDC", "EFE"], {
+  e.shaped("composite_material:echoium_helmet", ["EBE", "CDC", "AFA"], {
     A: "minecraft:reinforced_deepslate",
     B: "composite_material:echoium_block",
-    C: "legendary_monsters:corrupted_soul",
+    C: "kubejs:corrupted_soul_fragment",
     D: "deeperdarker:warden_helmet",
     E: "composite_material:echoium_ingot",
     F: "composite_material:allay_steel_helmet",
@@ -161,35 +166,16 @@ ServerEvents.recipes(e => {
     B: "composite_material:copper_helmet",
   });
 
-  e.shaped("2x composite_material:perkin", ["ABC", "DED", "FAG"], {
+  e.shaped("2x composite_material:perkin", ["DBA", "EGH", "IFC"], {
     A: "minecraft:experience_bottle",
     B: "minecraft:honey_bottle",
     C: "minecraft:dragon_breath",
     D: "farmersdelight:milk_bottle",
-    E: "terramity:chthonic_nectar",
+    E: "irons_spellbooks:lightning_bottle",
     F: "composite_material:strong_will",
     G: "minecraft:blaze_powder",
-  });
-
-  e.shaped("composite_material:etherite_sword_reinforced", ["ABB", "CAB", "DCA"], {
-    A: "composite_material:etherite_block",
-    B: "composite_material:evolutium",
-    C: "minecraft:beacon",
-    D: "composite_material:etherite_sword",
-  });
-
-  e.shaped("composite_material:echoium_sword_reinforced", ["AAB", "CBB", "DCA"], {
-    A: "composite_material:evolutium",
-    B: "minecraft:sculk_shrieker",
-    C: "caverns_and_chasms:echo_block",
-    D: "composite_material:echoium_sword",
-  });
-
-  e.shaped("composite_material:dungeon_sword_reinforced", ["ABC", "ACB", "DAA"], {
-    A: "composite_material:dungeon_steel_block",
-    B: "minecraft:spawner",
-    C: "composite_material:evolutium",
-    D: "composite_material:dungeon_sword",
+    H: "experienceobelisk:daydream_bottle",
+    I: "quark:bottled_cloud",
   });
 
   e.shaped('3x composite_material:etherite_ingot',  ["ABC", "DEF", "GHI"], {

@@ -1,0 +1,9 @@
+{
+  "loot_table": "lootintegrations:chests/water",
+  "max_result_itemcount": 10,
+  "integrated_loot_tables": {
+    "idas:chests/ruins_of_the_deep/ruins_ocean": 2,
+    "idas:chests/sunken_ship/sunken_ship_treasure": 1,
+    "cataclysm:chests/sunken_city/sunken_city_treasure": 2
+  }
+}

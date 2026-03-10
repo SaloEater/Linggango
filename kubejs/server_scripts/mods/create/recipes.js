@@ -128,7 +128,7 @@ ServerEvents.recipes(e => {
 
   e.recipes.create
     .mixing("artifacts:eternal_steak", [
-      "128x minecraft:beef",
+      "120x minecraft:beef",
       "3x minecraft:nether_star",
     ])
     .superheated();
@@ -192,4 +192,10 @@ ServerEvents.recipes(e => {
       "#forge:ingots/steel"
     ])
     .heated();
+
+    e.recipes.create.crushing(
+    [Item.of("minecraft:coal").withChance(0.4)],
+    "create:scorchia"
+  );
+
 });

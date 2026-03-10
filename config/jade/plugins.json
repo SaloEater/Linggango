@@ -160,5 +160,11 @@
     "train_to": true,
     "summon_lifespan": true,
     "trainable": true
+  },
+  "storagedrawers": {
+    "display.stacklimit": true,
+    "main": true,
+    "display.content": true,
+    "display.status": true
   }
 }

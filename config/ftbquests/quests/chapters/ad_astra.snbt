@@ -10,7 +10,7 @@
 	images: [{
 		dev: true
 		height: 1.0d
-		hover: ["ftbquests.chapter.ad_astra.image.hovertext1"]
+		hover: ["Questlines belong to me, and is protected by All Rights Reserved. Do not try to steal without an explicit permission from me."]
 		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 		rotation: 0.0d
 		width: 1.0d
@@ -22,9 +22,9 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.ad_astra.quest5621160632105412430.description1}"
+				"Ad Astra is a space exploration mod that includes other planets and pretty beautiful looking tech systems."
 				""
-				"{ftbquests.chapter.ad_astra.quest5621160632105412430.description2}"
+				"This questline will guide you through the most of the mod!"
 			]
 			icon: {
 				Count: 1
@@ -54,19 +54,19 @@
 			]
 			shape: "rsquare"
 			size: 1.4d
-			subtitle: "{ftbquests.chapter.ad_astra.quest5621160632105412430.subtitle}"
+			subtitle: "In-game Wiki"
 			tasks: [{
 				id: "603223292C61164D"
-				title: "{ftbquests.chapter.ad_astra.quest5621160632105412430.task.6931641436221806157.title}"
+				title: "hi welcome"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.ad_astra.quest5621160632105412430.title}"
+			title: "&dWelcome to Ad Astra!"
 			x: -10.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["4E025FD00E0DA74E"]
-			description: ["{ftbquests.chapter.ad_astra.quest8480653114544231656.description1}"]
+			description: ["Coal generator is the early-way of generating power in Ad Astra."]
 			id: "75B1551343B814E8"
 			rewards: [
 				{
@@ -88,7 +88,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.ad_astra.quest8480653114544231656.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "777510366EEACA34"
 				item: "ad_astra:coal_generator"
@@ -99,7 +99,7 @@
 		}
 		{
 			dependencies: ["75B1551343B814E8"]
-			description: ["{ftbquests.chapter.ad_astra.quest7584038983859521032.description1}"]
+			description: ["Compressor is a extremely useful block, it obviously compressses things into plates! Which will allow us to create crucial things."]
 			id: "693FEB461BA94608"
 			rewards: [
 				{
@@ -121,7 +121,7 @@
 			]
 			shape: "square"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.ad_astra.quest7584038983859521032.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "3B5A996B9E78817C"
 				item: "ad_astra:compressor"
@@ -153,7 +153,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.ad_astra.quest9218946534630542396.subtitle}"
+			subtitle: "Iron plates are used in early-game recipes."
 			tasks: [{
 				id: "172B76A789093708"
 				item: "ad_astra:iron_plate"
@@ -164,7 +164,7 @@
 		}
 		{
 			dependencies: ["7FF0470777F8CC3C"]
-			description: ["{ftbquests.chapter.ad_astra.quest7900217238340654387.description1}"]
+			description: ["Basic furnaces won't be enough, we need to craft something that goes even hotter!"]
 			icon: "ad_astra:etrionic_blast_furnace"
 			id: "6DA335B89BB65533"
 			rewards: [
@@ -183,7 +183,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.ad_astra.quest7900217238340654387.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "076F1C3EDB747CD8"
 				item: "ad_astra:etrionic_blast_furnace"
@@ -213,7 +213,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ad_astra.quest9155654521629998649.subtitle}"
+			subtitle: "Oils can be found around in oceans, use a bucket to get some."
 			tasks: [{
 				id: "6B5B04033ABE241B"
 				item: "ad_astra:oil_bucket"
@@ -243,7 +243,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ad_astra.quest4959240061372217842.subtitle}"
+			subtitle: "Processes oil into powaah!!"
 			tasks: [{
 				id: "0E3EE653E46DC476"
 				item: "ad_astra:fuel_refinery"
@@ -273,7 +273,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ad_astra.quest6817367440466415690.subtitle}"
+			subtitle: "Rocket-Fuel"
 			tasks: [{
 				id: "57EEFDC82A170BCF"
 				item: "ad_astra:fuel_bucket"
@@ -284,7 +284,7 @@
 		}
 		{
 			dependencies: ["693FEB461BA94608"]
-			description: ["{ftbquests.chapter.ad_astra.quest2214214428612391613.description1}"]
+			description: ["Solar panels are renewable energy generation methods, use it if you are running short on coal."]
 			id: "1EBA784A99FC72BD"
 			rewards: [
 				{
@@ -306,7 +306,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.ad_astra.quest2214214428612391613.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "14F64030341BAE8E"
 				item: "ad_astra:solar_panel"
@@ -317,7 +317,7 @@
 		}
 		{
 			dependencies: ["693FEB461BA94608"]
-			description: ["{ftbquests.chapter.ad_astra.quest6340583286304154769.description1}"]
+			description: ["Pumps water into your system, make sure the water source is under the block."]
 			id: "57FE46E7B0F02491"
 			rewards: [
 				{
@@ -338,7 +338,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.ad_astra.quest6340583286304154769.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "45FED6C5089EDC58"
 				item: "ad_astra:water_pump"
@@ -349,7 +349,7 @@
 		}
 		{
 			dependencies: ["5E9C27913050904A"]
-			description: ["{ftbquests.chapter.ad_astra.quest2154117783827953667.description1}"]
+			description: ["Main component for transporting oxygen into our base, and yourself."]
 			icon: "ad_astra:oxygen_loader"
 			id: "1DE4F6B61D6AB803"
 			rewards: [
@@ -367,7 +367,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ad_astra.quest2154117783827953667.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "71FDD99841B83D40"
 				item: "ad_astra:oxygen_loader"
@@ -378,7 +378,7 @@
 		}
 		{
 			dependencies: ["693FEB461BA94608"]
-			description: ["{ftbquests.chapter.ad_astra.quest2538569010427455233.description1}"]
+			description: ["It transfers power."]
 			id: "233ACF10A857E701"
 			rewards: [
 				{
@@ -401,7 +401,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.ad_astra.quest2538569010427455233.subtitle}"
+			subtitle: "Do i need to explain this one?"
 			tasks: [{
 				id: "7512FBC3B432D610"
 				item: "ad_astra:steel_cable"
@@ -412,7 +412,7 @@
 		}
 		{
 			dependencies: ["1DE4F6B61D6AB803"]
-			description: ["{ftbquests.chapter.ad_astra.quest7789978524695569115.description1}"]
+			description: ["When you build a badass base in the space, the oxygen won't just spawn inside it.. Use a oxygen distributer to distribute oxygen in your base!"]
 			id: "6C1B9031F466A2DB"
 			rewards: [
 				{
@@ -429,7 +429,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ad_astra.quest7789978524695569115.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "1A6E2900AF00364A"
 				item: "ad_astra:oxygen_distributor"
@@ -440,7 +440,7 @@
 		}
 		{
 			dependencies: ["1DE4F6B61D6AB803"]
-			description: ["{ftbquests.chapter.ad_astra.quest975678840685843035.description1}"]
+			description: ["Large gas tank can be used on multiple crafting recipes, it is needed for oxygen distributor which is a important block."]
 			id: "0D8A4EBC79F1D25B"
 			rewards: [
 				{
@@ -456,7 +456,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ad_astra.quest975678840685843035.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "1455AD4023A00915"
 				item: "ad_astra:large_gas_tank"
@@ -467,7 +467,7 @@
 		}
 		{
 			dependencies: ["693FEB461BA94608"]
-			description: ["{ftbquests.chapter.ad_astra.quest321032653100213348.description1}"]
+			description: ["Other planets have different gravities, craft this block to stabilize them."]
 			id: "0474897F4156E464"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -476,7 +476,7 @@
 				type: "random"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.ad_astra.quest321032653100213348.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "79B94C4AE5A6BEA7"
 				item: "ad_astra:gravity_normalizer"
@@ -495,7 +495,7 @@
 				type: "random"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.ad_astra.quest3160069846404734521.subtitle}"
+			subtitle: "Stores energy"
 			tasks: [{
 				id: "1FB8A0387FD24ACD"
 				item: "ad_astra:energizer"
@@ -506,7 +506,7 @@
 		}
 		{
 			dependencies: ["693FEB461BA94608"]
-			description: ["{ftbquests.chapter.ad_astra.quest5700411986951703933.description1}"]
+			description: ["Without the suit, you won't survive in the space!"]
 			icon: {
 				Count: 1
 				id: "ad_astra:space_helmet"
@@ -534,7 +534,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.ad_astra.quest5700411986951703933.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "22C343E423ED6258"
@@ -581,7 +581,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ad_astra.quest5700411986951703933.title}"
+			title: "Space Suit"
 			x: -6.5d
 			y: 3.0d
 		}
@@ -601,7 +601,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ad_astra.quest3532025007321441118.subtitle}"
+			subtitle: "A special workbench to craft rockets."
 			tasks: [{
 				id: "6A1EF22785E653B6"
 				item: "ad_astra:nasa_workbench"
@@ -613,9 +613,9 @@
 		{
 			dependencies: ["31044607DB30E35E"]
 			description: [
-				"{ftbquests.chapter.ad_astra.quest2886100959440543397.description1}"
+				"Tier 1 rocket will be the first step of your space journey! it is pretty easy to craft."
 				""
-				"{ftbquests.chapter.ad_astra.quest2886100959440543397.description2}"
+				"If you want to see how it will be crafted in the workbench, go on the &eNasa workbench&r in your &einventory,&r press &e\"U\"&r and you will see the item uses!"
 			]
 			icon: "ad_astra:tier_1_rocket"
 			id: "280D7D88095E1EA5"
@@ -635,7 +635,7 @@
 			]
 			shape: "square"
 			size: 1.1d
-			subtitle: "{ftbquests.chapter.ad_astra.quest2886100959440543397.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "57215434E76D1CEB"
@@ -666,7 +666,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ad_astra.quest2886100959440543397.title}"
+			title: "Tier 1 Rocket"
 			x: -4.0d
 			y: -1.5d
 		}
@@ -689,7 +689,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.ad_astra.quest8260563012486130889.subtitle}"
+			subtitle: "Launch pads are essential to launch a rocket."
 			tasks: [{
 				id: "20018B5948B4D375"
 				item: "ad_astra:launch_pad"
@@ -702,7 +702,7 @@
 			dependencies: ["72A36A4B23F76CC9"]
 			description: [
 				""
-				"{ftbquests.chapter.ad_astra.quest224567582763249181.image0}"
+				"{image:customtextures:textures/moonpic.png width:200 height:100 align:center}"
 			]
 			id: "031DD306D6ABEE1D"
 			rewards: [{
@@ -717,7 +717,7 @@
 				dimension: "ad_astra:moon"
 				icon: "ad_astra:moon_globe"
 				id: "11A1C0549C41A1E8"
-				title: "{ftbquests.chapter.ad_astra.quest224567582763249181.task.1270508039526523368.title}"
+				title: "Land on the Moon!"
 				type: "dimension"
 			}]
 			x: -8.0d
@@ -725,7 +725,7 @@
 		}
 		{
 			dependencies: ["280D7D88095E1EA5"]
-			description: ["{ftbquests.chapter.ad_astra.quest4659979092162865989.description1}"]
+			description: ["Tier 2 Rocket is far more advanced than the first one you crafted, with tier 2 you can go to other planets."]
 			id: "40AB924B711D6B45"
 			rewards: [
 				{
@@ -748,7 +748,7 @@
 			]
 			shape: "pentagon"
 			size: 1.1d
-			subtitle: "{ftbquests.chapter.ad_astra.quest4659979092162865989.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "4B7A2D46A0FBA69C"
 				item: "ad_astra:tier_2_rocket"
@@ -761,7 +761,7 @@
 			dependencies: ["031DD306D6ABEE1D"]
 			description: [
 				""
-				"{ftbquests.chapter.ad_astra.quest4062724754053371216.image0}"
+				"{image:customtextures:textures/moonpic2.png width:200 height:100 align:center}"
 			]
 			id: "3861B2A379899550"
 			rewards: [
@@ -789,7 +789,7 @@
 				dimension: "ad_astra:mars"
 				icon: "ad_astra:mars_globe"
 				id: "1424E543AB3B0E8E"
-				title: "{ftbquests.chapter.ad_astra.quest4062724754053371216.task.1451537058718486158.title}"
+				title: "Land on the Mars!"
 				type: "dimension"
 			}]
 			x: -8.0d
@@ -817,13 +817,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ad_astra.quest2994795887518163444.subtitle}"
+			subtitle: "Key to progressing further in the mod."
 			tasks: [{
 				id: "78259E1F662481C7"
 				item: "ad_astra:ostrum_ingot"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ad_astra.quest2994795887518163444.title}"
+			title: "Ostrum Ingot"
 			x: -6.0d
 			y: -3.5d
 		}
@@ -857,7 +857,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.ad_astra.quest8130775514713932558.subtitle}"
+			subtitle: "Can withstand extreme conditions."
 			tasks: [
 				{
 					id: "16379B28D2EBD19A"
@@ -904,7 +904,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ad_astra.quest8130775514713932558.title}"
+			title: "&8&lForged in Fire&r"
 			x: -6.0d
 			y: -5.0d
 		}
@@ -977,7 +977,7 @@
 			]
 			shape: "hexagon"
 			size: 1.1d
-			subtitle: "{ftbquests.chapter.ad_astra.quest3600316686261057139.subtitle}"
+			subtitle: "Maxed-out"
 			tasks: [{
 				id: "46E098CBD54C0535"
 				item: "ad_astra:tier_4_rocket"
@@ -1011,7 +1011,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.ad_astra.quest1364087334572574393.subtitle}"
+			subtitle: "All-in-One armor."
 			tasks: [
 				{
 					id: "38E1584B840B6E33"
@@ -1068,7 +1068,7 @@
 			]
 			description: [
 				""
-				"{ftbquests.chapter.ad_astra.quest2021003190009600539.image0}"
+				"{image:customtextures:textures/moonpic4.png width:200 height:100 align:center}"
 			]
 			id: "1C0C0BB18E741A1B"
 			rewards: [
@@ -1095,7 +1095,7 @@
 				dimension: "ad_astra:venus"
 				icon: "ad_astra:venus_globe"
 				id: "1074DB6F8AD62F3B"
-				title: "{ftbquests.chapter.ad_astra.quest2021003190009600539.task.1185813874022428475.title}"
+				title: "Land on the venus!"
 				type: "dimension"
 			}]
 			x: -2.5d
@@ -1108,7 +1108,7 @@
 			]
 			description: [
 				""
-				"{ftbquests.chapter.ad_astra.quest1999869509567651493.image0}"
+				"{image:customtextures:textures/moonpic3.png width:200 height:100 align:center}"
 			]
 			id: "1BC0F6B922EA1EA5"
 			rewards: [
@@ -1137,7 +1137,7 @@
 				dimension: "ad_astra:venus"
 				icon: "ad_astra:mercury_globe"
 				id: "215AC7BD954DD618"
-				title: "{ftbquests.chapter.ad_astra.quest1999869509567651493.task.2403452968223233560.title}"
+				title: "Land on the Mercury!"
 				type: "dimension"
 			}]
 			x: -1.5d
@@ -1150,7 +1150,7 @@
 			]
 			description: [
 				""
-				"{ftbquests.chapter.ad_astra.quest71385324918598515.image0}"
+				"{image:customtextures:textures/moonpic5.png width:200 height:100 align:center}"
 			]
 			id: "00FD9C9325F2EB73"
 			min_width: 200
@@ -1179,7 +1179,7 @@
 				dimension: "ad_astra:glacio"
 				icon: "ad_astra:glacio_globe"
 				id: "5536489175AD46AE"
-				title: "{ftbquests.chapter.ad_astra.quest71385324918598515.task.6140174931547997870.title}"
+				title: "Land on Glacio!"
 				type: "dimension"
 			}]
 			x: 2.0d
@@ -1187,7 +1187,7 @@
 		}
 		{
 			dependencies: ["1DE4F6B61D6AB803"]
-			description: ["{ftbquests.chapter.ad_astra.quest9160628431327194661.description1}"]
+			description: ["Oxygen cans can be equipped on curio slot, providing extra oxygen."]
 			icon: "ad_astra_giselle_addon:oxygen_can"
 			id: "7F211705F099EE25"
 			rewards: [
@@ -1204,7 +1204,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ad_astra.quest9160628431327194661.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "18AD41D4B22EC3C4"
@@ -1217,7 +1217,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ad_astra.quest9160628431327194661.title}"
+			title: "Oxygen Cans"
 			x: 5.5d
 			y: -1.5d
 		}
@@ -1231,7 +1231,7 @@
 				table_id: 1689189294310584705L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.ad_astra.quest1181682143435630089.subtitle}"
+			subtitle: "Important for progressing further."
 			tasks: [{
 				id: "1FEABC39D62F10AF"
 				item: { Count: 16, id: "ad_astra:calorite_ingot" }
@@ -1241,5 +1241,5 @@
 			y: -7.0d
 		}
 	]
-	title: "{ftbquests.chapter.ad_astra.title}"
+	title: "Ad Astra"
 }

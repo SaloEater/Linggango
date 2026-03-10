@@ -1,0 +1,12 @@
+
+["Ender Dragon Overhaul Configuration"]
+	#The default HP multiplier for the Ender Dragon (Vanilla = 1.0, Mod Default = 6.0)
+	#Range: 0.1 ~ 1000.0
+	defaultHpMultiplier = 6.0
+	#The default damage multiplier for dragon attacks (Vanilla = 1.0, Mod Default = 6.0)
+	#Range: 0.1 ~ 1000.0
+	defaultDmgMultiplier = 6.0
+	#The default base armor value for the Ender Dragon (Vanilla = 0.0, Mod Default = 30.0)
+	#Range: 0.0 ~ 100.0
+	defaultArmorValue = 30.0
+

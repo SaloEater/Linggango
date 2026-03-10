@@ -1,0 +1,67 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "ShutTheirPrayer",
+      "uniqueId": "84717e8e-4e87-48db-b081-7699b264db0c"
+    },
+    "time": 1768302400212,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/mx1IwP7wht"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ShutTheirPrayer",
+      "uniqueId": "84717e8e-4e87-48db-b081-7699b264db0c"
+    },
+    "time": 1768233454541,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/COINltpSsS"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ShutTheirPrayer",
+      "uniqueId": "84717e8e-4e87-48db-b081-7699b264db0c"
+    },
+    "time": 1767838255641,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ONB78j0hBz"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ShutTheirPrayer",
+      "uniqueId": "84717e8e-4e87-48db-b081-7699b264db0c"
+    },
+    "time": 1767830919602,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/PHaBeDPFza"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ShutTheirPrayer",
+      "uniqueId": "84717e8e-4e87-48db-b081-7699b264db0c"
+    },
+    "time": 1766099814773,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "C:\\Users\\egecr\\curseforge\\minecraft\\Instances\\Linggango (2)\\config\\spark\\heap-2025-12-19_02.16.18.hprof"
+    }
+  }
+]

@@ -16,7 +16,7 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["ftbquests.chapter.artifacts_2.image.hovertext1"]
+			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -124,7 +124,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest7868929908444565917.description1}"]
+			description: ["Grass heals you, saturates you.. and you uhh generate grass! True love"]
 			id: "6D340E0F7349119D"
 			rewards: [{
 				id: "61912D46D2E23DE0"
@@ -132,7 +132,7 @@
 				xp: 100
 			}]
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7868929908444565917.subtitle}"
+			subtitle: "Feet"
 			tasks: [{
 				id: "442AE700B7A10969"
 				item: "artifacts:rooted_boots"
@@ -142,7 +142,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest4761693958840434381.description1}"]
+			description: ["Swimming faster"]
 			id: "4214EF6D51CEBECD"
 			rewards: [{
 				id: "26E262875A562A28"
@@ -150,18 +150,18 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4761693958840434381.subtitle}"
+			subtitle: "Feet"
 			tasks: [{
 				id: "1FDC42769A9017B8"
 				item: "artifacts:flippers"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.artifacts_2.quest4761693958840434381.title}"
+			title: "Flippers"
 			x: 12.0d
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest3909565641041700721.description1}"]
+			description: ["Absolute tank"]
 			hide_details_until_startable: false
 			id: "3641913C9C5CE771"
 			rewards: [{
@@ -170,7 +170,7 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3909565641041700721.subtitle}"
+			subtitle: "Feet"
 			tasks: [{
 				id: "22ED99D0AB9FE76E"
 				item: "artifacts:steadfast_spikes"
@@ -180,7 +180,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest3489566805297935286.description1}"]
+			description: ["U can walk on powdered snow now!"]
 			id: "306D6E8559C733B6"
 			rewards: [{
 				id: "69BC6094233BA06D"
@@ -188,18 +188,18 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3489566805297935286.subtitle}"
+			subtitle: "Feet"
 			tasks: [{
 				id: "542A4CA459B4056B"
 				item: "artifacts:snowshoes"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.artifacts_2.quest3489566805297935286.title}"
+			title: "Snowshoes"
 			x: 10.0d
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest4774479170949711759.description1}"]
+			description: ["Run faster"]
 			id: "42425B827BF5878F"
 			rewards: [{
 				id: "2C2FC58E5E3BA63B"
@@ -207,18 +207,18 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4774479170949711759.subtitle}"
+			subtitle: "Feet"
 			tasks: [{
 				id: "726E1E15B8F540F3"
 				item: "artifacts:running_shoes"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.artifacts_2.quest4774479170949711759.title}"
+			title: "Running shoes"
 			x: 14.0d
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest9070119502743659010.description1}"]
+			description: ["Creepers dont like you"]
 			id: "7DDF89A1D760E202"
 			rewards: [{
 				id: "26B33E87AE9832EE"
@@ -226,18 +226,18 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest9070119502743659010.subtitle}"
+			subtitle: "Feet"
 			tasks: [{
 				id: "2A535B0E210A547E"
 				item: "artifacts:kitty_slippers"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.artifacts_2.quest9070119502743659010.title}"
+			title: "Kitty slippers"
 			x: 11.0d
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest8869081471088103188.description1}"]
+			description: ["No more fall damage!"]
 			id: "7B154E9B88348F14"
 			rewards: [{
 				id: "4CCCCCECB6634974"
@@ -245,18 +245,18 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8869081471088103188.subtitle}"
+			subtitle: "Feet"
 			tasks: [{
 				id: "657F7672D67E97ED"
 				item: "artifacts:bunny_hoppers"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.artifacts_2.quest8869081471088103188.title}"
+			title: "Bunny hoppers"
 			x: 9.0d
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest2941722966772094437.description1}"]
+			description: ["Walking on water.. no no SPRINTING on water.. u cant walk idk"]
 			id: "28D31973CE0F15E5"
 			rewards: [{
 				id: "589D70069B36058E"
@@ -264,7 +264,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2941722966772094437.subtitle}"
+			subtitle: "Feet"
 			tasks: [{
 				id: "311A4788BBFD03BE"
 				item: "artifacts:aqua_dashers"
@@ -274,7 +274,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest336457462937957512.description1}"]
+			description: ["Auto-smelter!111"]
 			id: "04AB5647A8723488"
 			rewards: [{
 				id: "6939B4900EA30366"
@@ -282,7 +282,7 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest336457462937957512.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "2B51E95A1451C76A"
 				item: "artifacts:pickaxe_heater"
@@ -292,14 +292,14 @@
 			y: -17.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest8720108050469592035.description1}"]
+			description: ["U must love food ig.. Eating grands temporary haste boost"]
 			id: "79040C121F439BE3"
 			rewards: [{
 				id: "6E55148AA779882E"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8720108050469592035.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "163CA9B54C155FC5"
 				item: "artifacts:onion_ring"
@@ -309,14 +309,14 @@
 			y: -17.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest1054598043534015678.description1}"]
+			description: ["Yarr"]
 			id: "0EA2AF5545AABCBE"
 			rewards: [{
 				id: "281CED62F1B55E25"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1054598043534015678.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "4AB4F4DA2129AD9D"
 				item: "artifacts:golden_hook"
@@ -326,14 +326,14 @@
 			y: -16.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest734278137342826005.description1}"]
+			description: ["Gives you hp upon hitting an mob"]
 			id: "0A30AE1356A79615"
 			rewards: [{
 				id: "6417510EF9505727"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.artifacts_2.quest734278137342826005.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "18DF290DD7476417"
 				item: "artifacts:vampiric_glove"
@@ -343,7 +343,7 @@
 			y: -17.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest566737908168595710.description1}"]
+			description: ["More knockback, stacks with knockback enchantments :D"]
 			id: "07DD751FF12318FE"
 			rewards: [{
 				id: "37ACD755D628A84E"
@@ -351,7 +351,7 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest566737908168595710.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "6BA7950C8F7EC507"
 				item: "artifacts:pocket_piston"
@@ -361,7 +361,7 @@
 			y: -17.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest3966979914643061304.description1}"]
+			description: ["Fire aspect is in your hands twin"]
 			id: "370D8B36E368BA38"
 			rewards: [{
 				id: "4B0226CE6CECDEFE"
@@ -369,7 +369,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3966979914643061304.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "65F5C3CD4E210CEC"
 				item: "artifacts:fire_gauntlet"
@@ -379,7 +379,7 @@
 			y: -17.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest7612934591806568049.description1}"]
+			description: ["Deal more damage"]
 			id: "69A693AD1AE9F671"
 			rewards: [{
 				id: "067ED4B1A4218CC3"
@@ -387,7 +387,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7612934591806568049.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "037C70C3F533CACE"
 				item: "artifacts:power_glove"
@@ -397,7 +397,7 @@
 			y: -17.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest6022199895164039048.description1}"]
+			description: ["Increases attack speed"]
 			id: "539326E5CDA5AF88"
 			rewards: [{
 				id: "692EC1FADB94E112"
@@ -405,7 +405,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6022199895164039048.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "449C8D00A7CB3B46"
 				item: "artifacts:feral_claws"
@@ -415,14 +415,14 @@
 			y: -17.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest8782064410354426995.description1}"]
+			description: ["Increases your mining speed, makes you able to break stone with bare hands wow.. stronk?"]
 			id: "79E0290D45C6A473"
 			rewards: [{
 				id: "0A5A103AA515177F"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8782064410354426995.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "5D7DDF6B2A314E5C"
 				item: "artifacts:digging_claws"
@@ -432,7 +432,7 @@
 			y: -16.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest2260578612371124331.description1}"]
+			description: ["Enderman Reflexes"]
 			id: "1F5F30455939F06B"
 			rewards: [{
 				id: "18DF0FC3AC2DF028"
@@ -440,7 +440,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2260578612371124331.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "1C872D87C315B53A"
 				item: "artifacts:chorus_totem"
@@ -450,7 +450,7 @@
 			y: -12.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest6119935732971516220.description1}"]
+			description: ["Swimming.. in air?"]
 			id: "54EE611FD3FCB13C"
 			rewards: [{
 				id: "0668517F756C64A0"
@@ -458,7 +458,7 @@
 				xp: 100
 			}]
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6119935732971516220.subtitle}"
+			subtitle: "Belt"
 			tasks: [{
 				id: "1B708CFDE76B7B2B"
 				item: "artifacts:helium_flamingo"
@@ -468,7 +468,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest5349246215657756903.description1}"]
+			description: ["5 More Whole Hearts!"]
 			id: "4A3C5717746218E7"
 			rewards: [{
 				id: "5E9E7464D2379CBE"
@@ -476,7 +476,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5349246215657756903.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "742B4392D1F1FEF0"
 				item: "artifacts:crystal_heart"
@@ -486,7 +486,7 @@
 			y: -11.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest6469577994441779425.description1}"]
+			description: ["Immunity to poison."]
 			id: "59C88EE89D62E8E1"
 			rewards: [{
 				id: "5B78A8BB82B15505"
@@ -494,7 +494,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6469577994441779425.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "0CF578D19BE3CB99"
 				item: "artifacts:antidote_vessel"
@@ -504,7 +504,7 @@
 			y: -11.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest8688679089221444133.description1}"]
+			description: ["Pulls items towards you"]
 			id: "78946398D868A225"
 			rewards: [{
 				id: "52442B093B2FC332"
@@ -512,7 +512,7 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8688679089221444133.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "7E1BC646F453AF6A"
 				item: "artifacts:universal_attractor"
@@ -522,7 +522,7 @@
 			y: -11.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest2417187830501322838.description1}"]
+			description: ["Fire immunity! for abit."]
 			id: "218B9386686DB056"
 			rewards: [{
 				id: "73D29DE2E61E3B0C"
@@ -530,7 +530,7 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2417187830501322838.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "6569DEEED321404D"
 				item: "artifacts:obsidian_skull"
@@ -540,7 +540,7 @@
 			y: -12.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest2435434720845909742.description1}"]
+			description: ["Double Jump! (dont use it with whoopie cushion)"]
 			id: "21CC66F9A1AC4EEE"
 			rewards: [{
 				id: "60D5B52D8AD95B9C"
@@ -548,7 +548,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2435434720845909742.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "6A9AF2E175F62F4B"
 				item: "artifacts:cloud_in_a_bottle"
@@ -558,7 +558,7 @@
 			y: -12.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest8752242945298235067.description1}"]
+			description: ["Water doesnt slow you down while walking now!"]
 			id: "797636965E6B7EBB"
 			rewards: [{
 				id: "5C74D6861395DC9A"
@@ -566,7 +566,7 @@
 				xp: 100
 			}]
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8752242945298235067.subtitle}"
+			subtitle: "Necklace"
 			tasks: [{
 				id: "27C1A00DB331DB80"
 				item: "artifacts:charm_of_sinking"
@@ -576,7 +576,7 @@
 			y: -8.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest8675051397399924484.description1}"]
+			description: ["Become a puffer fish "]
 			id: "7863F94896474F04"
 			rewards: [{
 				id: "23F8F494302D97CA"
@@ -584,7 +584,7 @@
 				xp: 100
 			}]
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8675051397399924484.subtitle}"
+			subtitle: "Necklace"
 			tasks: [{
 				id: "2538F029E588AB6E"
 				item: "artifacts:thorn_pendant"
@@ -594,7 +594,7 @@
 			y: -8.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest959799088349872734.description1}"]
+			description: ["Burn those who touch your beautiful holy skin!"]
 			id: "0D51E42F84D6825E"
 			rewards: [{
 				id: "262C7AD1F33A974C"
@@ -602,7 +602,7 @@
 				xp: 100
 			}]
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest959799088349872734.subtitle}"
+			subtitle: "Necklace"
 			tasks: [{
 				id: "465A3E873E0E6A4B"
 				item: "artifacts:flame_pendant"
@@ -612,7 +612,7 @@
 			y: -8.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest6946452351937694632.description1}"]
+			description: ["Zapp those who touch the almighty zeus!"]
 			id: "6066C19C366C4BA8"
 			rewards: [{
 				id: "554807224A88D467"
@@ -620,7 +620,7 @@
 				xp: 100
 			}]
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6946452351937694632.subtitle}"
+			subtitle: "Necklace"
 			tasks: [{
 				id: "132B5B19BC3AA716"
 				item: "artifacts:shock_pendant"
@@ -630,7 +630,7 @@
 			y: -8.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest5404651779882847479.description1}"]
+			description: ["Sometimes running is an better option than fighting."]
 			id: "4B012E28A2998CF7"
 			rewards: [{
 				id: "26DF29672EBF4B9F"
@@ -638,7 +638,7 @@
 				xp: 100
 			}]
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5404651779882847479.subtitle}"
+			subtitle: "Necklace"
 			tasks: [{
 				id: "261C913F090106E1"
 				item: "artifacts:panic_necklace"
@@ -648,7 +648,7 @@
 			y: -8.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest396090402444103419.description1}"]
+			description: ["Basically, a spam attack wont work on you (a lil)"]
 			id: "057F321F589F4EFB"
 			rewards: [{
 				id: "3672EADF103416CB"
@@ -656,7 +656,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest396090402444103419.subtitle}"
+			subtitle: "Necklace"
 			tasks: [{
 				id: "36CEDAD9B26B3B66"
 				item: "artifacts:cross_necklace"
@@ -666,7 +666,7 @@
 			y: -8.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest215545720769859175.description1}"]
+			description: ["More luck"]
 			id: "02FDC5B0E757CE67"
 			rewards: [{
 				id: "2E29A0555356E8C0"
@@ -674,7 +674,7 @@
 				xp: 100
 			}]
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest215545720769859175.subtitle}"
+			subtitle: "Necklace"
 			tasks: [{
 				id: "158A6A1714053D47"
 				item: "artifacts:lucky_scarf"
@@ -684,7 +684,7 @@
 			y: -8.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest6494140469398048678.description1}"]
+			description: ["Where.. where did you go?!!"]
 			id: "5A1FD25977F58FA6"
 			rewards: [{
 				id: "081536ECA4F65827"
@@ -692,7 +692,7 @@
 				xp: 100
 			}]
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6494140469398048678.subtitle}"
+			subtitle: "Necklace"
 			tasks: [{
 				id: "151DBC7CC834E339"
 				item: "artifacts:scarf_of_invisibility"
@@ -702,7 +702,7 @@
 			y: -8.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest5379256406236407542.description1}"]
+			description: ["The angler hat helps you with fishing."]
 			id: "4AA6F533717726F6"
 			rewards: [{
 				id: "431DDABE89564F9A"
@@ -710,7 +710,7 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5379256406236407542.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "1847A7A00C301AAE"
 				item: "artifacts:anglers_hat"
@@ -720,7 +720,7 @@
 			y: -17.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest3717278168221950717.description1}"]
+			description: ["Kachoow!"]
 			id: "33966CCC8C2F22FD"
 			rewards: [{
 				id: "73B89CFE356617B5"
@@ -728,7 +728,7 @@
 				xp: 100
 			}]
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3717278168221950717.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "13CA21EE39B0684F"
 				item: "artifacts:cowboy_hat"
@@ -738,7 +738,7 @@
 			y: -17.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest5082034174357799448.description1}"]
+			description: ["Higher chance of getting a rare drop from a mob"]
 			id: "46870327E2FE0218"
 			rewards: [{
 				id: "26192A12D7B3AEC9"
@@ -746,7 +746,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5082034174357799448.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "6F4C6462EB0BA6B3"
 				item: "artifacts:superstitious_hat"
@@ -756,7 +756,7 @@
 			y: -17.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest4374337365569038738.description1}"]
+			description: ["The idiot villagers will think you are one of them now-- Leading to lower prices."]
 			id: "3CB4C4A86275E992"
 			rewards: [{
 				id: "4BA07CBBFAA844F5"
@@ -764,7 +764,7 @@
 				xp: 100
 			}]
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4374337365569038738.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "52855659EFD05831"
 				item: "artifacts:villager_hat"
@@ -774,7 +774,7 @@
 			y: -17.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest8447837393281828047.description1}"]
+			description: ["Night-vision"]
 			id: "753CBF59C2D344CF"
 			rewards: [{
 				id: "71A53EE0FA7D71E6"
@@ -782,7 +782,7 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8447837393281828047.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "4D64F4187EB2B9C3"
 				item: "artifacts:night_vision_goggles"
@@ -792,7 +792,7 @@
 			y: -17.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest1619180549964123990.description1}"]
+			description: ["Snorkel gives you a short duration water breathing."]
 			id: "16787C21A3D54F56"
 			rewards: [{
 				id: "6328704B3992C835"
@@ -800,7 +800,7 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1619180549964123990.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "35C8086E1BA9067C"
 				item: "artifacts:snorkel"
@@ -810,7 +810,7 @@
 			y: -17.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest559162952336804625.description1}"]
+			description: ["Same drinking hat.. with more drip"]
 			id: "07C28BBE19980B11"
 			rewards: [{
 				id: "298F0C65E1B66660"
@@ -818,7 +818,7 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest559162952336804625.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "3CCC2F98CF8810DB"
 				item: "artifacts:novelty_drinking_hat"
@@ -828,7 +828,7 @@
 			y: -17.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest3808870754098032702.description1}"]
+			description: ["Eating and drinking is way faster now!"]
 			id: "34DBD3C54563303E"
 			rewards: [{
 				id: "51D4C6ED1E14465D"
@@ -836,7 +836,7 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3808870754098032702.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "4E01FCDDA9D7BD0F"
 				item: "artifacts:plastic_drinking_hat"
@@ -847,9 +847,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.artifacts_2.quest2667701121521426700.description1}"
+				"Fart fart fart fart fart fart fart "
 				""
-				"{ftbquests.chapter.artifacts_2.quest2667701121521426700.description2}"
+				"128 rabbits is intended."
 			]
 			id: "250594093332210C"
 			rewards: [
@@ -866,7 +866,7 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2667701121521426700.subtitle}"
+			subtitle: "Unique"
 			tasks: [{
 				id: "71B7BBB995908B94"
 				item: "artifacts:whoopee_cushion"
@@ -876,7 +876,7 @@
 			y: -16.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest744356429691522768.description1}"]
+			description: ["More saturating"]
 			id: "0A547C3AA20A8ED0"
 			rewards: [{
 				id: "157397CA629B48BA"
@@ -884,18 +884,18 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest744356429691522768.subtitle}"
+			subtitle: "Unique"
 			tasks: [{
 				id: "39140DAF111B8DE8"
 				item: "artifacts:eternal_steak"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.artifacts_2.quest744356429691522768.title}"
+			title: "Everlasting Steak"
 			x: -13.5d
 			y: -17.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest2706810802796814012.description1}"]
+			description: ["Infinite food!"]
 			id: "2590861576E4DEBC"
 			rewards: [{
 				id: "562D81EE6DAB7D7A"
@@ -903,7 +903,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2706810802796814012.subtitle}"
+			subtitle: "Unique"
 			tasks: [{
 				id: "6485E8ADC22B8BC0"
 				item: "artifacts:everlasting_beef"
@@ -913,7 +913,7 @@
 			y: -17.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest7876519108376004280.description1}"]
+			description: ["A glider nor a shield?"]
 			id: "6D4F0465C15406B8"
 			rewards: [{
 				id: "7C808E685A1E67F8"
@@ -921,7 +921,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7876519108376004280.subtitle}"
+			subtitle: "Unique"
 			tasks: [{
 				id: "1F9E719A9493EEA7"
 				item: "artifacts:umbrella"
@@ -932,11 +932,11 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.artifacts_2.quest3248753472762234836.description1}"
+				"Artifacts Will Give You Buffs And Unique Effects. "
 				""
-				"{ftbquests.chapter.artifacts_2.quest3248753472762234836.description2}"
+				"The Most Efficient Way To Find Them Is Killing a Mimic. "
 				""
-				"{ftbquests.chapter.artifacts_2.quest3248753472762234836.description3}"
+				"&e&nArtifacts Are Not Craftable.&r"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -956,19 +956,19 @@
 			}]
 			shape: "square"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3248753472762234836.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				entity: "artifacts:mimic"
 				id: "500998E2DE11C5DF"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.artifacts_2.quest3248753472762234836.title}"
+			title: "Artifacts!"
 			x: 1.7999999999999998d
 			y: -18.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest382282225788944868.description1}"]
+			description: ["Rewinds the time"]
 			id: "054E23A8B01881E4"
 			rewards: [{
 				id: "04FF634F8E87C50E"
@@ -976,7 +976,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest382282225788944868.subtitle}"
+			subtitle: "Unique"
 			tasks: [{
 				id: "019FF37B78DCF1A9"
 				item: {
@@ -1000,7 +1000,7 @@
 			y: -16.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest1786245915167681839.description1}"]
+			description: ["The more damage you take, the scarier this necklace gets."]
 			id: "18CA0532270FED2F"
 			rewards: [{
 				id: "41B4CFE55D1F62CD"
@@ -1008,7 +1008,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1786245915167681839.subtitle}"
+			subtitle: "Necklace"
 			tasks: [{
 				id: "5E21FEDC80E6C561"
 				item: {
@@ -1034,7 +1034,7 @@
 			y: -8.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest1082367382655769379.description1}"]
+			description: ["What do you think it does."]
 			id: "0F0557665FAA9B23"
 			rewards: [{
 				id: "2B273B17D20D5D4D"
@@ -1042,7 +1042,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1082367382655769379.subtitle}"
+			subtitle: "Feet"
 			tasks: [{
 				id: "69FC972DFDC919ED"
 				item: {
@@ -1066,7 +1066,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest8486750350045583395.description1}"]
+			description: ["Walk on water.. yes the name explains itself."]
 			id: "75C6FE7A87E39823"
 			rewards: [{
 				id: "2744820DC33FE9B4"
@@ -1074,7 +1074,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8486750350045583395.subtitle}"
+			subtitle: "Feet"
 			tasks: [{
 				id: "7D39CC47640BF8BD"
 				item: {
@@ -1098,7 +1098,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest2712117741005100915.description1}"]
+			description: ["Turn invisible in dark places."]
 			id: "25A360B74DA4D773"
 			rewards: [{
 				id: "22544F0EBC9700C7"
@@ -1106,7 +1106,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2712117741005100915.subtitle}"
+			subtitle: "Back"
 			tasks: [{
 				id: "35B573701178003F"
 				item: {
@@ -1138,7 +1138,7 @@
 			y: 2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest7033233918604859949.description1}"]
+			description: ["Aquaman :O"]
 			id: "619B10FC3CABDA2D"
 			rewards: [{
 				id: "52220B4CEEBC26D1"
@@ -1146,7 +1146,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7033233918604859949.subtitle}"
+			subtitle: "Belt"
 			tasks: [{
 				id: "27C14C635F561A72"
 				item: {
@@ -1189,7 +1189,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest7215368181825049412.description1}"]
+			description: ["You do not sink in water, whoever touches you gets hurt and u can paralyze"]
 			id: "64222321F9569344"
 			rewards: [{
 				id: "2FC7F4E4B94D8640"
@@ -1197,7 +1197,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7215368181825049412.subtitle}"
+			subtitle: "Necklace"
 			tasks: [{
 				id: "50522C8F67EDFCE5"
 				item: {
@@ -1227,7 +1227,7 @@
 			y: -8.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest2114386585460867031.description1}"]
+			description: ["Increases pets damage"]
 			id: "1D57CF65A03EFFD7"
 			rewards: [{
 				id: "7F2B79CE7F4C5044"
@@ -1235,7 +1235,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2114386585460867031.subtitle}"
+			subtitle: "Belt"
 			tasks: [{
 				id: "51BFD71C2A58C46B"
 				item: {
@@ -1265,7 +1265,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest3120131215302358929.description1}"]
+			description: ["You skate in ice, dealing damage those who dare stand in front of you."]
 			id: "2B4CEECF24B47791"
 			rewards: [{
 				id: "123D824A22F99A40"
@@ -1273,7 +1273,7 @@
 				xp: 100
 			}]
 			shape: "diamondtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3120131215302358929.subtitle}"
+			subtitle: "Feet"
 			tasks: [{
 				id: "01DA687E8FF5C803"
 				item: {
@@ -1304,7 +1304,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest5622224763335156631.description1}"]
+			description: ["Piglins respect you"]
 			hide_until_deps_visible: false
 			id: "4E0627A269FF2397"
 			rewards: [{
@@ -1313,7 +1313,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5622224763335156631.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "3974731AF07A1BAF"
 				item: {
@@ -1337,7 +1337,7 @@
 			y: -16.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest1259727883894108509.description1}"]
+			description: ["Teleport somewhere randomly "]
 			id: "117B73D60929B15D"
 			rewards: [{
 				id: "3F2877BE65289860"
@@ -1345,7 +1345,7 @@
 				xp: 100
 			}]
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1259727883894108509.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "69551036C2DC1A9F"
 				item: {
@@ -1370,7 +1370,7 @@
 			y: -8.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest2674501098370651897.description1}"]
+			description: ["Create portals for fast transport!"]
 			id: "251DBC942FC656F9"
 			rewards: [{
 				id: "27EBA1C336D71F57"
@@ -1378,7 +1378,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2674501098370651897.subtitle}"
+			subtitle: "Unique"
 			tasks: [{
 				id: "142467A847570902"
 				item: {
@@ -1403,7 +1403,7 @@
 			y: -16.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest5174081552077877669.description1}"]
+			description: ["This necklace does.. alot of things i am lazy so yeah"]
 			id: "47CE07C21680F1A5"
 			rewards: [{
 				id: "3F8258269316C5D2"
@@ -1411,7 +1411,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5174081552077877669.subtitle}"
+			subtitle: "Necklace"
 			tasks: [{
 				id: "4EDFFFA896456372"
 				item: {
@@ -1437,9 +1437,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.artifacts_2.quest4294863781349782510.description1}"
+				"Friends with enderman :)"
 				""
-				"{ftbquests.chapter.artifacts_2.quest4294863781349782510.description2}"
+				"Can exchange positions with the other entity"
 			]
 			id: "3B9A6BDA9E0B73EE"
 			rewards: [{
@@ -1448,7 +1448,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4294863781349782510.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "605CDA69B19D606C"
 				item: {
@@ -1472,7 +1472,7 @@
 			y: -17.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest8712308560219814954.description1}"]
+			description: ["Works like a firework."]
 			id: "78E85679C97F3C2A"
 			rewards: [{
 				id: "1C1E959A105CC8AC"
@@ -1480,7 +1480,7 @@
 				xp: 100
 			}]
 			shape: "diamondtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8712308560219814954.subtitle}"
+			subtitle: "Back"
 			tasks: [{
 				id: "0D0330DF135415F9"
 				item: {
@@ -1505,7 +1505,7 @@
 			y: 2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest4239731664491164540.description1}"]
+			description: ["Teleports you to your spawn point"]
 			id: "3AD68D7C5CF8B37C"
 			rewards: [{
 				id: "089B9C6885562C7A"
@@ -1513,7 +1513,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4239731664491164540.subtitle}"
+			subtitle: "Unique"
 			tasks: [{
 				id: "1A120EE553979DF5"
 				item: {
@@ -1538,7 +1538,7 @@
 			y: -16.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest7878991003098193928.description1}"]
+			description: ["Have more knockback durability, deal earthquakes with tall jumps!"]
 			id: "6D57CC92982AA008"
 			rewards: [{
 				id: "0909C446DC2F8832"
@@ -1546,7 +1546,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7878991003098193928.subtitle}"
+			subtitle: "Feet"
 			tasks: [{
 				id: "2006E6478F44BC4C"
 				item: {
@@ -1577,7 +1577,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest4799330220616084727.description1}"]
+			description: ["Fire lifts you up.. wow"]
 			hide_until_deps_visible: false
 			id: "429AA5685F9E6CF7"
 			rewards: [{
@@ -1586,7 +1586,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4799330220616084727.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "33D61D665029AA90"
 				item: {
@@ -1612,7 +1612,7 @@
 			y: -17.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest514167901632171571.description1}"]
+			description: ["If someone hits you, just fart."]
 			id: "0722B0FB7BB18E33"
 			rewards: [{
 				id: "15D3D0199F49F517"
@@ -1620,7 +1620,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest514167901632171571.subtitle}"
+			subtitle: "Unique"
 			tasks: [{
 				id: "4FBEB74ED5668126"
 				item: {
@@ -1645,7 +1645,7 @@
 			y: -16.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest7612037917287613490.description1}"]
+			description: ["Roller skates.. u are overall faster but hard to control."]
 			id: "69A36427CCBB8432"
 			rewards: [{
 				id: "1D4B4ECDACC91F55"
@@ -1653,7 +1653,7 @@
 				xp: 100
 			}]
 			shape: "diamondtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7612037917287613490.subtitle}"
+			subtitle: "Feet"
 			tasks: [{
 				id: "70C269A9BC20A9AA"
 				item: {
@@ -1678,7 +1678,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest8124157437389932228.description1}"]
+			description: ["Increases charm slots, which every the other belts can do too."]
 			id: "70BECE254AF986C4"
 			rewards: [{
 				id: "4EB89743B31D60EF"
@@ -1686,7 +1686,7 @@
 				xp: 100
 			}]
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8124157437389932228.subtitle}"
+			subtitle: "Belt"
 			tasks: [{
 				id: "59F28256C43685F0"
 				item: {
@@ -1710,7 +1710,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest7500035222881012321.description1}"]
+			description: ["Storage your horse lol"]
 			id: "68157A4C5EBD8A61"
 			rewards: [{
 				id: "495B31D842C17758"
@@ -1718,7 +1718,7 @@
 				xp: 100
 			}]
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7500035222881012321.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "606871CA7DFC8CC5"
 				item: {
@@ -1742,7 +1742,7 @@
 			y: -16.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest8171941703065719952.description1}"]
+			description: ["Allows you to make strong solid snowballs."]
 			id: "716891AEA06ED490"
 			rewards: [{
 				id: "0A1D7E8E5DF598A4"
@@ -1750,7 +1750,7 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8171941703065719952.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "5C72085DD653EF16"
 				item: {
@@ -1778,9 +1778,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.artifacts_2.quest4240858212763267332.description1}"
+				"Water makes you faster. "
 				""
-				"{ftbquests.chapter.artifacts_2.quest4240858212763267332.description2}"
+				"Rain gives you speed boost, u swim faster and theres a chance u dont consume air in water."
 			]
 			id: "3ADA8E13528D7104"
 			rewards: [{
@@ -1789,7 +1789,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4240858212763267332.subtitle}"
+			subtitle: "Feet"
 			tasks: [{
 				id: "1B0BFD2768E0BC31"
 				item: {
@@ -1814,7 +1814,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest3628445635489732465.description1}"]
+			description: ["Throw shadow glaives"]
 			id: "325AD414C62E9771"
 			rewards: [{
 				id: "3F56CB183FE1A59C"
@@ -1822,7 +1822,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3628445635489732465.subtitle}"
+			subtitle: "Unique"
 			tasks: [{
 				id: "13E7DCE7450EDA5E"
 				item: {
@@ -1857,7 +1857,7 @@
 			y: -16.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest6482639784315364588.description1}"]
+			description: ["Infinite food but can be infused with potions! (inf potions)"]
 			id: "59F6F6898EEEA4EC"
 			rewards: [{
 				id: "7241727127A5C42D"
@@ -1865,7 +1865,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6482639784315364588.subtitle}"
+			subtitle: "Unique"
 			tasks: [{
 				id: "3CCEB9A07C0557A6"
 				item: {
@@ -1896,14 +1896,14 @@
 			y: -17.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest1883721729840900167.description1}"]
+			description: ["Applies corrosive effect to armors, reducing their effectiveness."]
 			id: "1A2452EED2D9E847"
 			rewards: [{
 				id: "38974BCFCF9D7782"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1883721729840900167.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "2C772AA533C4A067"
 				item: {
@@ -1926,7 +1926,7 @@
 			y: -17.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest1103788190480355123.description1}"]
+			description: ["Your hits deal a percentage amount of your total hp."]
 			id: "0F517182D8DA4F33"
 			rewards: [{
 				id: "3B1DED167478A19F"
@@ -1934,7 +1934,7 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1103788190480355123.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "1E2F1717D52590F4"
 				item: {
@@ -1957,7 +1957,7 @@
 			y: -16.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest2293377424710967393.description1}"]
+			description: ["Increases armor, covers your weak spots. "]
 			id: "1FD3B69DEFCC2061"
 			rewards: [{
 				id: "2714A87884213F30"
@@ -1965,7 +1965,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2293377424710967393.subtitle}"
+			subtitle: "Back"
 			tasks: [{
 				id: "742E4C31A84B6926"
 				item: {
@@ -1995,7 +1995,7 @@
 			y: 2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest7874738907068735312.description1}"]
+			description: ["You are going to reach heaven, keep going."]
 			id: "6D48B15056C79F50"
 			rewards: [{
 				id: "12966F2D3015DC29"
@@ -2003,7 +2003,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7874738907068735312.subtitle}"
+			subtitle: "Necklace"
 			tasks: [{
 				id: "60F1533D9ACF31FA"
 				item: "morerelics:whispering_amulett"
@@ -2013,7 +2013,7 @@
 			y: -8.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest5214471320302701868.description1}"]
+			description: ["You were destined for something greater, you had a greater purpose."]
 			id: "485D8609D21ACD2C"
 			rewards: [{
 				id: "41AA8C1EDB0EEBA4"
@@ -2021,7 +2021,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5214471320302701868.subtitle}"
+			subtitle: "Necklace"
 			tasks: [{
 				id: "0A4C73209E264763"
 				item: "morerelics:slumbering_amulet"
@@ -2031,7 +2031,7 @@
 			y: -8.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest3809349024384618422.description1}"]
+			description: ["Pops a bubble shield that protects you from harm."]
 			id: "34DD86C13FED0FB6"
 			rewards: [{
 				id: "4F63E6326AD8386B"
@@ -2039,7 +2039,7 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3809349024384618422.subtitle}"
+			subtitle: "Necklace"
 			tasks: [{
 				id: "35665C12CFBB767A"
 				item: {
@@ -2062,7 +2062,7 @@
 			y: -8.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest8164018925487758884.description1}"]
+			description: ["Increases healing."]
 			id: "714C6BF539439E24"
 			rewards: [{
 				id: "13D797B9C266AC37"
@@ -2070,7 +2070,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8164018925487758884.subtitle}"
+			subtitle: "Belt, Charm"
 			tasks: [{
 				id: "10491D2E114642FC"
 				item: {
@@ -2093,7 +2093,7 @@
 			y: -12.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest1181092680300817194.description1}"]
+			description: ["Going under a negative, harmful effect makes you really mad."]
 			id: "10641588F824EB2A"
 			rewards: [{
 				id: "1F4CEA9780B6D544"
@@ -2101,7 +2101,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1181092680300817194.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "0DA6045D818D2609"
 				item: {
@@ -2125,9 +2125,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.artifacts_2.quest2274813904436653220.description1}"
+				"Whenever you get hit, this relic rolls a dice, reducing the damage. "
 				""
-				"{ftbquests.chapter.artifacts_2.quest2274813904436653220.description2}"
+				"Basically gambling for your life."
 			]
 			id: "1F91C3319010ECA4"
 			rewards: [{
@@ -2136,7 +2136,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2274813904436653220.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "2B9573083DB04C0B"
 				item: {
@@ -2160,11 +2160,11 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.artifacts_2.quest8438605653552964678.description1}"
+				"Explosions does not harm you, instead they stack to about 4 times."
 				""
-				"{ftbquests.chapter.artifacts_2.quest8438605653552964678.description2}"
+				"Using these stacked explosions can be discharged to deal damage."
 				""
-				"{ftbquests.chapter.artifacts_2.quest8438605653552964678.description3}"
+				"Killing an enemy might cause cyberpsychosis. (David martinez?)"
 			]
 			id: "751BF321DBA0A446"
 			rewards: [{
@@ -2173,7 +2173,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8438605653552964678.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "7AEDDBD74589AD29"
 				item: {
@@ -2211,13 +2211,13 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.artifacts_2.quest5094953169682200676.description1}"
+				"Absorbs some damages, you might go cyberpsychosis. "
 				""
 				""
 				""
 				""
 				""
-				"{ftbquests.chapter.artifacts_2.quest5094953169682200676.description2}"
+				"MAINE.. no more running for me dawg, reapers finally calling my name."
 			]
 			id: "46B4E8E9E2287864"
 			rewards: [{
@@ -2226,7 +2226,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5094953169682200676.subtitle}"
+			subtitle: "Belt"
 			tasks: [{
 				id: "184031C5791287A0"
 				item: {
@@ -2257,7 +2257,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest5641902767248345789.description1}"]
+			description: ["Grants huge amount of speed boost if your hp falls below %20"]
 			id: "4E4C10ACBB218ABD"
 			rewards: [{
 				id: "0511D08C2D12EB34"
@@ -2265,7 +2265,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5641902767248345789.subtitle}"
+			subtitle: "Belt"
 			tasks: [{
 				id: "012E2A5A9A01A479"
 				item: {
@@ -2289,9 +2289,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.artifacts_2.quest8352397423819267793.description1}"
+				"Allows you to see entites. "
 				""
-				"{ftbquests.chapter.artifacts_2.quest8352397423819267793.description2}"
+				"You might go cyberpsychosis."
 			]
 			id: "73E9AD343DA29ED1"
 			rewards: [{
@@ -2300,7 +2300,7 @@
 				xp: 100
 			}]
 			shape: "diamondtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8352397423819267793.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "59556052019FA1B1"
 				item: {
@@ -2332,7 +2332,7 @@
 			y: -17.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest3514264526663780392.description1}"]
+			description: ["Deal more damage to pigs, have more life steal the less hp you got."]
 			id: "30C52CF7B68D0828"
 			rewards: [{
 				id: "79F6D04FDB6A39E6"
@@ -2340,7 +2340,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3514264526663780392.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "531B3B89AF068264"
 				item: {
@@ -2369,7 +2369,7 @@
 			y: -17.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest416734728915797766.description1}"]
+			description: ["Are you sure you want to put this on?"]
 			id: "05C88A072A984706"
 			rewards: [{
 				id: "5C4846E9CAE4A67B"
@@ -2377,7 +2377,7 @@
 				xp: 100
 			}]
 			shape: "diamondtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest416734728915797766.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "40625AC131823E31"
 				item: {
@@ -2400,7 +2400,7 @@
 			y: -17.5d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest1443735636038403410.description1}"]
+			description: ["I won't even explain this one, if u didn't watch jojo's bizarre adventure it's YOUR fault."]
 			id: "14092DE967A44552"
 			rewards: [{
 				id: "36CCC4DCBE2DB687"
@@ -2408,7 +2408,7 @@
 				xp: 100
 			}]
 			shape: "diamondtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1443735636038403410.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "730BB748BD38278F"
 				item: {
@@ -2445,11 +2445,11 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.artifacts_2.quest680123622008225925.description1}"
+				"You have reached Heaven!"
 				""
-				"{ftbquests.chapter.artifacts_2.quest680123622008225925.description2}"
+				"Amplifies your stats, saves you from death and boosts your damage. (stacks with amplified stats)"
 				""
-				"{ftbquests.chapter.artifacts_2.quest680123622008225925.description3}"
+				"jojo.."
 			]
 			id: "097048D4AD270085"
 			rewards: [
@@ -2477,7 +2477,7 @@
 			]
 			shape: "netheritetier"
 			size: 1.6d
-			subtitle: "{ftbquests.chapter.artifacts_2.quest680123622008225925.subtitle}"
+			subtitle: "Special"
 			tasks: [{
 				id: "59E958FFF0E43A87"
 				item: {
@@ -2513,7 +2513,7 @@
 			y: 4.8d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest7388018331974055606.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "668783878F6336B6"
 			rewards: [{
 				id: "74495C11330A9C37"
@@ -2521,7 +2521,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7388018331974055606.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "6456057CE627B9A5"
 				item: "uniqueaccessories:golden_egg_charm"
@@ -2531,7 +2531,7 @@
 			y: -10.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest7758393152684433264.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "6BAB597775941F70"
 			rewards: [{
 				id: "640675DEA31D9D88"
@@ -2539,7 +2539,7 @@
 				xp: 100
 			}]
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7758393152684433264.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "0B4B8446D97B75B8"
 				item: "uniqueaccessories:royal_honeycomb"
@@ -2549,7 +2549,7 @@
 			y: -10.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest1636626378413066207.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "16B677051B5847DF"
 			rewards: [{
 				id: "11C65B6F7CD91A9A"
@@ -2557,7 +2557,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1636626378413066207.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "1CB05DFA83292FDA"
 				item: "uniqueaccessories:soul_gem"
@@ -2567,7 +2567,7 @@
 			y: -10.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest4526363958816644602.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "3ED0E009F1659DFA"
 			rewards: [{
 				id: "7943CC9C633AF0D6"
@@ -2575,7 +2575,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4526363958816644602.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "3F85DD7C58FDE934"
 				item: "uniqueaccessories:devils_eyeball"
@@ -2585,7 +2585,7 @@
 			y: -10.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest6633012966512039965.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "5C0D32265B82981D"
 			rewards: [{
 				id: "7EBC6331AFADFE64"
@@ -2593,7 +2593,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6633012966512039965.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "075CEDCE3617E832"
 				item: "uniqueaccessories:tabi"
@@ -2603,7 +2603,7 @@
 			y: -11.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest7391560225774040816.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "669418DCF92AF6F0"
 			rewards: [{
 				id: "56271CEEAE72E7C5"
@@ -2611,7 +2611,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7391560225774040816.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "77A29EDAAAEA005D"
 				item: "uniqueaccessories:magick_quiver"
@@ -2622,12 +2622,12 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.artifacts_2.quest8277720651877258863.description1}"
+				"Just Shift to see item attributes!"
 				""
 				""
-				"{ftbquests.chapter.artifacts_2.quest8277720651877258863.description2}"
+				"&8My attacks have no effect on you? "
 				""
-				"{ftbquests.chapter.artifacts_2.quest8277720651877258863.description3}"
+				"&8Who decided that."
 			]
 			id: "72E05F135D0F166F"
 			rewards: [{
@@ -2636,7 +2636,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8277720651877258863.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "592A329BD5271F03"
 				item: "uniqueaccessories:sun_stone"
@@ -2646,7 +2646,7 @@
 			y: -10.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest1137654292090819750.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "0FC9C28D154594A6"
 			rewards: [{
 				id: "46A96E31390DAA81"
@@ -2654,7 +2654,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1137654292090819750.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "6B3409F414602B29"
 				item: "uniqueaccessories:moon_stone"
@@ -2664,7 +2664,7 @@
 			y: -10.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest4691298290974320651.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "411AD6F0A8EBE80B"
 			rewards: [{
 				id: "3095661C6CCDA83B"
@@ -2672,7 +2672,7 @@
 				xp: 100
 			}]
 			shape: "diamondtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4691298290974320651.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "3A28B14B09A8CF38"
 				item: "uniqueaccessories:shiny_stone"
@@ -2682,7 +2682,7 @@
 			y: -12.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest6927786303112173926.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "602470F00CD15966"
 			rewards: [{
 				id: "1BC51A1E92DFB74F"
@@ -2690,7 +2690,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6927786303112173926.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "54710BCBFDC9B04E"
 				item: "uniqueaccessories:strong_sticky_slime_ball"
@@ -2700,7 +2700,7 @@
 			y: -12.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest9133005699284700955.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "7EBEF44B757B8F1B"
 			rewards: [{
 				id: "54F1E125FB922532"
@@ -2708,7 +2708,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest9133005699284700955.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "612F78EEF16646EC"
 				item: "uniqueaccessories:starved_wolf_skull"
@@ -2718,7 +2718,7 @@
 			y: -11.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest4568593978857160890.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "3F66E804B0C500BA"
 			rewards: [{
 				id: "2917A10F9BC6E136"
@@ -2726,7 +2726,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4568593978857160890.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "5981487FF392C0DC"
 				item: "uniqueaccessories:withered_heart"
@@ -2736,7 +2736,7 @@
 			y: -11.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest9210257589282214876.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "7FD1687ABB0313DC"
 			rewards: [{
 				id: "05C3F51E5DE2898C"
@@ -2744,7 +2744,7 @@
 				xp: 100
 			}]
 			shape: "diamondtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest9210257589282214876.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "0F6F633BDD0EA624"
 				item: "uniqueaccessories:small_propulsion_device"
@@ -2754,7 +2754,7 @@
 			y: -12.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest576934428607904296.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "0801AECE5BDDFA28"
 			rewards: [{
 				id: "041C41A0D5B9C5A3"
@@ -2762,7 +2762,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest576934428607904296.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "230F2AA8683A93A6"
 				item: "uniqueaccessories:supreme_meat"
@@ -2772,7 +2772,7 @@
 			y: -12.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest7216788954343346144.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "64272F515A990FE0"
 			rewards: [{
 				id: "5E3A758EA674013F"
@@ -2780,7 +2780,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7216788954343346144.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "1ECEA6AE4C17F1B1"
 				item: "uniqueaccessories:amplifier_stone"
@@ -2790,7 +2790,7 @@
 			y: -12.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest4279399329841591495.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "3B637B046B40B4C7"
 			rewards: [{
 				id: "356D5906D70DE186"
@@ -2798,7 +2798,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4279399329841591495.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "536DCF177EA89654"
 				item: "uniqueaccessories:fossil_shark_tooth"
@@ -2808,7 +2808,7 @@
 			y: -12.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest1874038273355232015.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "1A01EBE16AD3330F"
 			rewards: [{
 				id: "5580C27BB25A9D8F"
@@ -2816,7 +2816,7 @@
 				xp: 100
 			}]
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1874038273355232015.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "47C07B65F27FBD3F"
 				item: "uniqueaccessories:sharp_fishing_hook"
@@ -2826,7 +2826,7 @@
 			y: -11.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest1642240442901678764.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "16CA68FB5AEF4AAC"
 			rewards: [{
 				id: "2D50AF89B5C3EF93"
@@ -2834,7 +2834,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1642240442901678764.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "0CACAA8271965AC3"
 				item: "uniqueaccessories:ancient_chisel"
@@ -2844,7 +2844,7 @@
 			y: -11.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest4384164945694257072.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "3CD7AECA30D36FB0"
 			rewards: [{
 				id: "12D5C3CC1CFDEE44"
@@ -2852,7 +2852,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4384164945694257072.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "0580B762A8DF8005"
 				item: "uniqueaccessories:cursed_doll_head"
@@ -2862,7 +2862,7 @@
 			y: -10.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest5881293220436941268.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "519E8D06080E99D4"
 			rewards: [{
 				id: "3D51B6C71868E658"
@@ -2870,7 +2870,7 @@
 				xp: 100
 			}]
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5881293220436941268.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "6CBC41D10AC6267A"
 				item: "uniqueaccessories:snow_golem_doll"
@@ -2880,7 +2880,7 @@
 			y: -10.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest3099722053893196009.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "2B046CC8F4BF88E9"
 			rewards: [{
 				id: "639E459EA64AF557"
@@ -2888,7 +2888,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3099722053893196009.subtitle}"
+			subtitle: "Belt"
 			tasks: [{
 				id: "5139AB6CEB3F1057"
 				item: "uniqueaccessories:championship_belt"
@@ -2898,7 +2898,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest8961809342598607368.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "7C5EBE1D8A5DF208"
 			rewards: [{
 				id: "41244CC44A5020CE"
@@ -2906,7 +2906,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8961809342598607368.subtitle}"
+			subtitle: "Belt"
 			tasks: [{
 				id: "20BF0C9073CB40C1"
 				item: "uniqueaccessories:silver_cat_tail"
@@ -2916,7 +2916,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest6319070688204481882.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "57B1D94FA102E55A"
 			rewards: [{
 				id: "42BD8B3911D0C821"
@@ -2924,7 +2924,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6319070688204481882.subtitle}"
+			subtitle: "Belt"
 			tasks: [{
 				id: "584B40BC5EC51D6F"
 				item: "uniqueaccessories:survival_belt"
@@ -2934,7 +2934,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest4582916087910870066.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "3F99C9E68F59AC32"
 			rewards: [{
 				id: "0318C086CE9B6F00"
@@ -2942,7 +2942,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4582916087910870066.subtitle}"
+			subtitle: "Belt"
 			tasks: [{
 				id: "327E8EC1674DA1C3"
 				item: "uniqueaccessories:black_belt"
@@ -2952,7 +2952,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest4771576541893104827.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "42380B957E2014BB"
 			rewards: [{
 				id: "74606255E0B4FE61"
@@ -2960,7 +2960,7 @@
 				xp: 100
 			}]
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4771576541893104827.subtitle}"
+			subtitle: "Belt"
 			tasks: [{
 				id: "4167EB727CCD9063"
 				item: "uniqueaccessories:tool_belt"
@@ -2970,7 +2970,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest2441478635102834293.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "21E1DFE214028E75"
 			rewards: [{
 				id: "71A1D186E12238EF"
@@ -2978,7 +2978,7 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2441478635102834293.subtitle}"
+			subtitle: "Belt"
 			tasks: [{
 				id: "384C0C8BDCDF31FF"
 				item: "uniqueaccessories:life_jacket_belt"
@@ -2988,7 +2988,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest4649908977737173143.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "4087CB9437EC8897"
 			rewards: [{
 				id: "20DEA33F3FE27DCC"
@@ -2996,7 +2996,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4649908977737173143.subtitle}"
+			subtitle: "Belt"
 			tasks: [{
 				id: "72CD89F949716D58"
 				item: "uniqueaccessories:waist_warmer"
@@ -3006,7 +3006,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest8441353665721873413.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "7525B66F4CCB3405"
 			rewards: [{
 				id: "074DB4532A733A62"
@@ -3014,7 +3014,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8441353665721873413.subtitle}"
+			subtitle: "Feet"
 			tasks: [{
 				id: "3AD466BB730341D5"
 				item: "uniqueaccessories:durable_spring"
@@ -3024,7 +3024,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest3269930115686989214.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "2D61201D89DFFD9E"
 			rewards: [{
 				id: "2F263AC7025449DA"
@@ -3032,7 +3032,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3269930115686989214.subtitle}"
+			subtitle: "Feet"
 			tasks: [{
 				id: "6088211C7B7DC5DF"
 				item: "uniqueaccessories:blade_shoes"
@@ -3042,7 +3042,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest3201950931003107841.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "2C6F9D6836ABEA01"
 			rewards: [{
 				id: "2A2BEF256EACE619"
@@ -3050,7 +3050,7 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3201950931003107841.subtitle}"
+			subtitle: "Feet"
 			tasks: [{
 				id: "1CC4673B25D26FE5"
 				item: "uniqueaccessories:rocket_shoes"
@@ -3060,7 +3060,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest3918339137916555823.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "3660BCAF8906D22F"
 			rewards: [{
 				id: "2D2B6AA1D1F38C0D"
@@ -3068,7 +3068,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3918339137916555823.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "123573CF280D6100"
 				item: "uniqueaccessories:hero_emblem"
@@ -3078,7 +3078,7 @@
 			y: -10.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest4295386270746911070.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "3B9C470E28F5A15E"
 			rewards: [{
 				id: "0D05EA604F02E206"
@@ -3086,7 +3086,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4295386270746911070.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "776C356FFA12F620"
 				item: "uniqueaccessories:burning_soul"
@@ -3096,7 +3096,7 @@
 			y: -10.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest1103271340362680607.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "0F4F9B704D2FC91F"
 			rewards: [{
 				id: "01DE0C756D243549"
@@ -3104,7 +3104,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1103271340362680607.subtitle}"
+			subtitle: "Feet"
 			tasks: [{
 				id: "1545FF231FC9CE6A"
 				item: "uniqueaccessories:anklet_of_fortune"
@@ -3114,7 +3114,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest4546704561101998626.description1}"]
+			description: ["Just Shift to see item attributes!"]
 			id: "3F1923B577220A22"
 			rewards: [{
 				id: "1D38A5DD07DAB2E6"
@@ -3122,7 +3122,7 @@
 				xp: 25
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4546704561101998626.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "7B2BAF72AEA44FAA"
 				item: "uniqueaccessories:all_purpose_seasoning"
@@ -3133,7 +3133,7 @@
 		}
 		{
 			id: "79531888D5A65418"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8742358277635331096.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "4DEE61E9CA8A54B9"
 				item: {
@@ -3177,7 +3177,7 @@
 		}
 		{
 			id: "722C6DE6E8390FEE"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8227071457805012974.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "55404C35C3075E70"
 				item: "morerelics:depleted_spool"
@@ -3187,14 +3187,14 @@
 			y: -12.0d
 		}
 		{
-			description: ["{ftbquests.chapter.artifacts_2.quest1539796883634583850.description1}"]
+			description: ["A weird worm that gives you some changing buffs whenever it feels like it.."]
 			id: "155E751B834AF92A"
 			rewards: [{
 				id: "6FF9E76ABC82E347"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1539796883634583850.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "15BA75876C7DCAC7"
 				item: {
@@ -3219,7 +3219,7 @@
 		}
 		{
 			id: "77F1DC370968C46A"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8642931288839865450.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "00D5BF93BE7A3D0A"
 				item: "armageddon_mod:leather_bracer"
@@ -3230,7 +3230,7 @@
 		}
 		{
 			id: "1CFBBD43ED09BE62"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2088470951653654114.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "33A5708703C37FA8"
 				item: "armageddon_mod:bone_effigy"
@@ -3241,7 +3241,7 @@
 		}
 		{
 			id: "353D8889E347B859"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3836372583394555993.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "3F1EB370C6B6DCE5"
 				item: "armageddon_mod:withered_bone_effigy"
@@ -3252,7 +3252,7 @@
 		}
 		{
 			id: "4B6AF979B3248811"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5434430201467799569.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "45FD38EB172910F3"
 				item: "armageddon_mod:colossal_shield"
@@ -3263,7 +3263,7 @@
 		}
 		{
 			id: "769B5B7D1CA90817"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8546525310775527447.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "1A37D76301F5580A"
 				item: "armageddon_mod:colossal_ward"
@@ -3274,7 +3274,7 @@
 		}
 		{
 			id: "21F0A35ECB48900C"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2445634225194962956.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "60D1E5CA02656FDD"
 				item: "armageddon_mod:voidcall_ward"
@@ -3285,7 +3285,7 @@
 		}
 		{
 			id: "491BB75DDE406B4D"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5268005802928532301.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "6813000750E68544"
 				item: "armageddon_mod:anhk_aegis"
@@ -3296,7 +3296,7 @@
 		}
 		{
 			id: "652838C46E7A3DE8"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7289138413217398248.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "212AEBE6B52D16AA"
 				item: "armageddon_mod:thorned_requital"
@@ -3307,7 +3307,7 @@
 		}
 		{
 			id: "77660AFF5FC17705"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8603576230077363973.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "38E7284188B62014"
 				item: "armageddon_mod:burst_ball"
@@ -3318,7 +3318,7 @@
 		}
 		{
 			id: "1329F702D9B68377"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1380906352380380023.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "33790E8590F65152"
 				item: "armageddon_mod:elvenite_burst_ball"
@@ -3329,7 +3329,7 @@
 		}
 		{
 			id: "2ECD26361153C4D9"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3372393709631161561.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "156A9EDA7B2D76E1"
 				item: "armageddon_mod:gilded_shackles"
@@ -3340,7 +3340,7 @@
 		}
 		{
 			id: "41F7303ADD3D41F0"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4753320961090863600.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "4C27C7214A13594F"
 				item: "armageddon_mod:netherbound_shackles"
@@ -3351,7 +3351,7 @@
 		}
 		{
 			id: "38B9E9CCF84B94A6"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4087555203363738790.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "5D227771E5696418"
 				item: "armageddon_mod:seal_of_cataclysm"
@@ -3362,7 +3362,7 @@
 		}
 		{
 			id: "1CAF3EDDC8035E4E"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2066939876250705486.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "3C76F76077E02EF8"
 				item: "armageddon_mod:arion_heart"
@@ -3373,7 +3373,7 @@
 		}
 		{
 			id: "15B91449819CFF21"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1565304651427675937.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "0619695A630C51B5"
 				item: "armageddon_mod:the_heart"
@@ -3384,7 +3384,7 @@
 		}
 		{
 			id: "715F43CA0D020A2F"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8169322784154061359.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "30DED7968E96B986"
 				item: "armageddon_mod:life_necklace"
@@ -3395,7 +3395,7 @@
 		}
 		{
 			id: "0B55162FF940D48D"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest816583302738662541.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "51731B60D88C0003"
 				item: "armageddon_mod:antique_pendant"
@@ -3406,7 +3406,7 @@
 		}
 		{
 			id: "61DB06DD81EFA27A"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7051237190016148090.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "377C7A4DAA4A5190"
 				item: "armageddon_mod:pendant_of_convergence"
@@ -3417,7 +3417,7 @@
 		}
 		{
 			id: "415AA49B521CCEB4"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4709257347373780660.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "5017EC019BDB9A26"
 				item: "armageddon_mod:fossilized_claw"
@@ -3428,7 +3428,7 @@
 		}
 		{
 			id: "7D05E6BADE16306E"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest9008860319888846958.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "7946EDA6E5BB464A"
 				item: "armageddon_mod:ancient_builders_charm"
@@ -3439,7 +3439,7 @@
 		}
 		{
 			id: "1EA44D546141F22D"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2207974742122689069.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "4C8B009674CD9EA6"
 				item: "armageddon_mod:pocket_compass"
@@ -3450,7 +3450,7 @@
 		}
 		{
 			id: "26D94FD15E0BE1DD"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2799356404032070109.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "79C801062E6FFBBC"
 				item: "armageddon_mod:spelunker_talisman"
@@ -3461,7 +3461,7 @@
 		}
 		{
 			id: "5BF2B1B9F4BE9198"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6625553414048616856.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "5E1F7E8A2523F830"
 				item: "armageddon_mod:elvenite_bell"
@@ -3472,7 +3472,7 @@
 		}
 		{
 			id: "4684C1329E8BD97D"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5081398702733252989.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "11A3123A24B2EDAB"
 				item: "armageddon_mod:poisonous_hand"
@@ -3483,7 +3483,7 @@
 		}
 		{
 			id: "18C41AC1F6AF75EC"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1784580772715263468.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "15B3FB387D682832"
 				item: "armageddon_mod:cinder_hand"
@@ -3494,7 +3494,7 @@
 		}
 		{
 			id: "0D75BEC2E312844D"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest969891039010784333.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "3446817BDD1ACE9B"
 				item: "armageddon_mod:hand_of_the_storms"
@@ -3505,7 +3505,7 @@
 		}
 		{
 			id: "5AE7E41B578D7039"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6550454989117812793.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "05440402EAC847D9"
 				item: "armageddon_mod:hand_of_the_weaks"
@@ -3516,7 +3516,7 @@
 		}
 		{
 			id: "0B07C4F220A5BDE5"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest794820403463044581.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "5879A102B02CC089"
 				item: "armageddon_mod:zoranths_hand"
@@ -3527,7 +3527,7 @@
 		}
 		{
 			id: "675A5736A6E975A6"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7447360826050704806.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "2E655151FC8B093C"
 				item: "armageddon_mod:anathema_gauntlet"
@@ -3538,7 +3538,7 @@
 		}
 		{
 			id: "2A8FCA4890342E2E"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3066892284268391982.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "40A6885B56F95080"
 				item: "armageddon_mod:wither_spine"
@@ -3549,7 +3549,7 @@
 		}
 		{
 			id: "1481B367BA60FE86"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1477659410844155526.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "1E153551616F61CB"
 				item: "armageddon_mod:charm_of_the_sea"
@@ -3560,7 +3560,7 @@
 		}
 		{
 			id: "18DFEB225AC7EC36"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1792409709501213750.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "34F9AE5AF5C15D3D"
 				item: "armageddon_mod:abyssal_charm"
@@ -3571,7 +3571,7 @@
 		}
 		{
 			id: "2897D41339E99958"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2925039662041504088.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "43DF1C4EE0A67E6E"
 				item: "armageddon_mod:cloak_of_the_abyss"
@@ -3582,7 +3582,7 @@
 		}
 		{
 			id: "433D4E88D846336A"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4845115123771519850.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "59BD46B6F46779FA"
 				item: "armageddon_mod:moon_charm"
@@ -3593,7 +3593,7 @@
 		}
 		{
 			id: "41D5F96E9B8360D6"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4743972035955482838.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "487CEBEDD7AAA11B"
 				item: "armageddon_mod:endermen_totem"
@@ -3604,7 +3604,7 @@
 		}
 		{
 			id: "494CE2FD2CD9FED5"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5281846040005836501.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "606D4B7D6D79EA4D"
 				item: "armageddon_mod:piglins_emblem"
@@ -3615,7 +3615,7 @@
 		}
 		{
 			id: "7C0C1B86A9D65A58"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8938549625612556888.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "3388A7657F209F5D"
 				item: "armageddon_mod:sealed_bottle"
@@ -3626,7 +3626,7 @@
 		}
 		{
 			id: "6B6C61E061923FA3"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7740669475880583075.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "3E118924F3D30FDC"
 				item: "armageddon_mod:vampiric_talisman"
@@ -3637,7 +3637,7 @@
 		}
 		{
 			id: "6B85CA34EC48CE70"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7747821062612110960.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "6BEC730E643CE835"
 				item: "armageddon_mod:obsidian_skull"
@@ -3648,7 +3648,7 @@
 		}
 		{
 			id: "28644E9572BE8ABD"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2910537662970366653.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "7C76A2506634FBB5"
 				item: "armageddon_mod:solar_obelisk"
@@ -3659,7 +3659,7 @@
 		}
 		{
 			id: "411968982D637622"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4690895489688892962.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "7F759A3118AC5926"
 				item: "armageddon_mod:glowbug_lantern"
@@ -3670,7 +3670,7 @@
 		}
 		{
 			id: "3E3E2B28CE1FB1E7"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4485069733164462567.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "6B1560A5DFCF6936"
 				item: "armageddon_mod:sandstep_anklet"
@@ -3681,7 +3681,7 @@
 		}
 		{
 			id: "4A04BF85B85221A4"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5333598439757455780.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "3DEB9D52FAB99107"
 				item: "armageddon_mod:frog_leg"
@@ -3692,7 +3692,7 @@
 		}
 		{
 			id: "45B1CD85C10750F9"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5022021033847640313.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "4DA6108107D9F7BB"
 				item: "armageddon_mod:bee_stinger"
@@ -3703,7 +3703,7 @@
 		}
 		{
 			id: "33732FB349C8C621"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3707359365339596321.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "5A87C0476D1905D2"
 				item: "armageddon_mod:necrotoxic_shell"
@@ -3714,7 +3714,7 @@
 		}
 		{
 			id: "0AFD1B10A757F1DE"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest791818867828060638.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "3397C62DE604A459"
 				item: "armageddon_mod:iron_ring"
@@ -3725,7 +3725,7 @@
 		}
 		{
 			id: "74B8ADC4102EF760"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8410663361711109984.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "4FB7478672712305"
 				item: "armageddon_mod:rose_ring"
@@ -3736,7 +3736,7 @@
 		}
 		{
 			id: "21F95F776264FFEB"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2448092838809108459.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "5DA00F8CDAE82775"
 				item: "armageddon_mod:rose_shield"
@@ -3747,7 +3747,7 @@
 		}
 		{
 			id: "4CF23CB387031838"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5544560833008441400.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "48F2B11E62A7E00B"
 				item: {
@@ -3764,7 +3764,7 @@
 		}
 		{
 			id: "76D52785FC61A372"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8562793722933257074.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "14E4260DF4ECEA29"
 				item: "armageddon_mod:prism_of_realms"
@@ -3775,7 +3775,7 @@
 		}
 		{
 			id: "102C35AB8DA43FFD"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1165365414514147325.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "4BEFACED12366847"
 				item: "armageddon_mod:guardians_crystal"
@@ -3786,7 +3786,7 @@
 		}
 		{
 			id: "65471EEE52FC3FF9"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7297835730120491001.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "7B086CA6881B892A"
 				item: "armageddon_mod:protectors_core"
@@ -3797,7 +3797,7 @@
 		}
 		{
 			id: "44A3AFD441AE3F39"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4945990141952802617.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "21EEFE3068E235C2"
 				item: "armageddon_mod:hunter_cloak"
@@ -3808,7 +3808,7 @@
 		}
 		{
 			id: "193F9BB298E836CB"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1819343965852808907.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "443133686E0D587F"
 				item: "armageddon_mod:fisher_hat"
@@ -3819,7 +3819,7 @@
 		}
 		{
 			id: "3E9CE52DF3268E8D"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4511732912234073741.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "5F460B8EBCB3F634"
 				item: "armageddon_mod:vagabonds_hood"
@@ -3830,7 +3830,7 @@
 		}
 		{
 			id: "310C14AC796E5B78"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3534222538583202680.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "685C58E4CE36E0CA"
 				item: "armageddon_mod:blindfold"
@@ -3841,7 +3841,7 @@
 		}
 		{
 			id: "131101AFDBF3049C"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1373881216145753244.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "53599A15D9B694F8"
 				item: "armageddon_mod:sculk_eye_gem"
@@ -3852,7 +3852,7 @@
 		}
 		{
 			id: "4B02E805BCE77853"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5405137614139783251.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "358031429E965D64"
 				item: "armageddon_mod:eye_of_darkness"
@@ -3863,7 +3863,7 @@
 		}
 		{
 			id: "258DEBEB0F1026FD"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2706078345922094845.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "0AE8FBF587FCED54"
 				item: "armageddon_mod:ankh_tablet"
@@ -3874,7 +3874,7 @@
 		}
 		{
 			id: "297171C03B52E2F3"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2986293098366296819.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "60B48B6434962F79"
 				item: {
@@ -3891,7 +3891,7 @@
 		}
 		{
 			id: "7529A401C38BC7D8"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8442459303965345752.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "7592ABD2A0A0F696"
 				item: "armageddon_mod:golden_spoon"
@@ -3902,7 +3902,7 @@
 		}
 		{
 			id: "0B398DD36184DF4E"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest808833547103428430.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "7A8A4979F6A37BD6"
 				item: "armageddon_mod:spoon_of_the_last_repast"
@@ -3913,7 +3913,7 @@
 		}
 		{
 			id: "4CBE638B3E4DA52E"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5529966842154427694.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "0F7E6402A206A1B9"
 				item: "armageddon_mod:gravity_normalizer"
@@ -3924,7 +3924,7 @@
 		}
 		{
 			id: "6932C475715A9B31"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7580337131509947185.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "14CDE09F98BB172E"
 				item: "armageddon_mod:tinkerers_accesory_template"
@@ -3935,7 +3935,7 @@
 		}
 		{
 			id: "35916F5345D71F6C"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3859988759077920620.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "4DF3888D993C0C99"
 				item: {
@@ -3952,7 +3952,7 @@
 		}
 		{
 			id: "6A3A65133EB264D2"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7654541650000241874.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "051E594128E28165"
 				item: {
@@ -3969,7 +3969,7 @@
 		}
 		{
 			id: "1B2506D3BD8EF894"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1955977119650478228.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "0DE917D00DEE623F"
 				item: {
@@ -3986,7 +3986,7 @@
 		}
 		{
 			id: "741037A7F2FAF2C3"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8363245702502609603.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "293837F89E2E47A5"
 				item: {
@@ -4003,7 +4003,7 @@
 		}
 		{
 			id: "5090FFAB5A1421CA"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5805421031096328650.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "4600D0166D4B75C3"
 				item: {
@@ -4020,7 +4020,7 @@
 		}
 		{
 			id: "612C7F18A5987A24"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7002111264488454692.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "0B7F0AF28B3C3E1C"
 				item: {
@@ -4037,7 +4037,7 @@
 		}
 		{
 			id: "30923636D6DA165E"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3499919469581047390.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "22013CA598CEDC14"
 				item: {
@@ -4054,7 +4054,7 @@
 		}
 		{
 			id: "332A65A52CDB081A"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3686871005052733466.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "53C24FA19AC49619"
 				item: {
@@ -4071,7 +4071,7 @@
 		}
 		{
 			id: "411AEB13801B6137"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4691320430845976887.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "18B7476BCED7D89C"
 				item: {
@@ -4088,7 +4088,7 @@
 		}
 		{
 			id: "1BE2085634321612"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2009177550096569874.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "49D711678700CD07"
 				item: {
@@ -4105,7 +4105,7 @@
 		}
 		{
 			id: "20C7941F6E27781F"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2362019392292091935.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "4AD9056EABEFF0D2"
 				item: {
@@ -4122,7 +4122,7 @@
 		}
 		{
 			id: "4421A4E3E04C7C8B"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4909386367438191755.subtitle}"
+			subtitle: "Necklace"
 			tasks: [{
 				id: "1FBB4BC336194BC4"
 				item: {
@@ -4139,7 +4139,7 @@
 		}
 		{
 			id: "766E01B76C2AFF71"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8533760231219068785.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "43116937614CBDCC"
 				item: {
@@ -4156,7 +4156,7 @@
 		}
 		{
 			id: "7903E282C4127E50"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8720062354782584400.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "188F1E77202CB25A"
 				item: {
@@ -4173,7 +4173,7 @@
 		}
 		{
 			id: "7570FAA40CBD97B9"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8462539282324494265.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "39E081A255FDC4E7"
 				item: {
@@ -4190,7 +4190,7 @@
 		}
 		{
 			id: "7D0C34D25B3842CC"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest9010635032539710156.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "28ABEEA0AE635427"
 				item: {
@@ -4207,7 +4207,7 @@
 		}
 		{
 			id: "35D5E58DB5FAD635"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3879259050855814709.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "1C1229E332C158E6"
 				item: {
@@ -4224,7 +4224,7 @@
 		}
 		{
 			id: "1216A7ADCC5F7449"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1303413507070325833.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "69DA3205A6E192F3"
 				item: {
@@ -4241,7 +4241,7 @@
 		}
 		{
 			id: "0724E583FAB2DF1F"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest514788612436582175.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "24ED93E24D538787"
 				item: {
@@ -4258,7 +4258,7 @@
 		}
 		{
 			id: "2966A2382972E6F1"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2983250165276796657.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "126792F2DFF1C79B"
 				item: {
@@ -4275,7 +4275,7 @@
 		}
 		{
 			id: "0B5074BC626DEF14"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest815279885008105236.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "52720355CC01784C"
 				item: {
@@ -4292,7 +4292,7 @@
 		}
 		{
 			id: "60B55B418E775600"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6968576335546897920.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "075933B54C236601"
 				item: {
@@ -4309,7 +4309,7 @@
 		}
 		{
 			id: "07B85EB5037F8FCC"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest556298685521039308.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "1B9D59CEAB409597"
 				item: {
@@ -4326,7 +4326,7 @@
 		}
 		{
 			id: "7ED56228FE6C357C"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest9139318947025007996.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "4147776741CAAD68"
 				item: {
@@ -4343,7 +4343,7 @@
 		}
 		{
 			id: "438DE793AC0E3ED4"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4867801393690197716.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "6397FBD781B38375"
 				item: {
@@ -4360,7 +4360,7 @@
 		}
 		{
 			id: "14F743FA5FC25ADD"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1510750942633548509.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "31D7DEAD27A90058"
 				item: {
@@ -4377,7 +4377,7 @@
 		}
 		{
 			id: "6B1C8B297606B735"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7718196871596259125.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "2BFAF05E32014811"
 				item: {
@@ -4394,7 +4394,7 @@
 		}
 		{
 			id: "743DE318F35CA5FA"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8376100578280646138.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "2553A5C9F761C49F"
 				item: {
@@ -4411,7 +4411,7 @@
 		}
 		{
 			id: "09453D58E4EE8C4C"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest668007571741641804.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "5B39835BFE8A43B4"
 				item: {
@@ -4428,7 +4428,7 @@
 		}
 		{
 			id: "0B31E458CEAEC6A6"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest806676878351845030.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "52562927DB2FA973"
 				item: {
@@ -4445,7 +4445,7 @@
 		}
 		{
 			id: "1E0E4D6C260A516D"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2165753597701804397.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "7FD59638D3244D76"
 				item: {
@@ -4462,7 +4462,7 @@
 		}
 		{
 			id: "73D71078F270C02F"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8347158546004099119.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "248C85B070AEDA75"
 				item: {
@@ -4479,7 +4479,7 @@
 		}
 		{
 			id: "49C69AE279C2E49C"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5316106707653551260.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "384BF11898317899"
 				item: {
@@ -4496,7 +4496,7 @@
 		}
 		{
 			id: "237C65A437EF5CE2"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2557030444427074786.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "029788AB2721E8F1"
 				item: {
@@ -4513,7 +4513,7 @@
 		}
 		{
 			id: "22956F6809EE8ADB"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2492020461453347547.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "52BA22881895E513"
 				item: {
@@ -4530,7 +4530,7 @@
 		}
 		{
 			id: "56ECD8EE11A79184"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6263619698775527812.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "6BC1CC2B87A4AA96"
 				item: {
@@ -4547,7 +4547,7 @@
 		}
 		{
 			id: "27EBE58D827A8B4B"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2876645182948412235.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "05CCD3819477E7F5"
 				item: {
@@ -4564,7 +4564,7 @@
 		}
 		{
 			id: "4466C7DBC39AD0D8"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4928846588897054936.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "0B9422066F708F4B"
 				item: {
@@ -4581,7 +4581,7 @@
 		}
 		{
 			id: "521CDED7ED2E8CC5"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5916849029436574917.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "7C958D382F9CBFF9"
 				item: {
@@ -4598,7 +4598,7 @@
 		}
 		{
 			id: "238019D9978A4F1E"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2558073010687463198.subtitle}"
+			subtitle: "Belt"
 			tasks: [{
 				id: "6FD47DF1577AA73B"
 				item: {
@@ -4615,7 +4615,7 @@
 		}
 		{
 			id: "28972F3AB730DC97"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2924858412228467863.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "09C1BFB1B2E29226"
 				item: {
@@ -4632,7 +4632,7 @@
 		}
 		{
 			id: "39DD11C3A907358F"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4169508362067064207.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "595F3AE60633D320"
 				item: {
@@ -4649,7 +4649,7 @@
 		}
 		{
 			id: "603AD0D7A7B090C9"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6934084200940212425.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "20FE9EF2FF59F0F6"
 				item: {
@@ -4666,7 +4666,7 @@
 		}
 		{
 			id: "2DA0309FCAFA3A1C"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3287681190843791900.subtitle}"
+			subtitle: "Necklace"
 			tasks: [{
 				id: "45EADEFDBF8FD443"
 				item: {
@@ -4683,7 +4683,7 @@
 		}
 		{
 			id: "57710285A3289C61"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6300820126659288161.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "6928DB8DDCBAF369"
 				item: {
@@ -4700,7 +4700,7 @@
 		}
 		{
 			id: "2CC97F201F9E9231"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3227250383933837873.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "78E6E550E0F353D2"
 				item: {
@@ -4717,7 +4717,7 @@
 		}
 		{
 			id: "16EE07E6283480E4"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1652266798389952740.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "7BB45EDC60DB2366"
 				item: {
@@ -4734,7 +4734,7 @@
 		}
 		{
 			id: "7211BB9CD7803581"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8219557077232661889.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "5D5DB221EFEEA16F"
 				item: {
@@ -4751,7 +4751,7 @@
 		}
 		{
 			id: "5628865B8FCF387B"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6208359814143096955.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "6F679421738AFCBF"
 				item: {
@@ -4768,7 +4768,7 @@
 		}
 		{
 			id: "6370B97329009C1E"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7165430911406742558.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "3C54BEDD7AB189D4"
 				item: {
@@ -4785,7 +4785,7 @@
 		}
 		{
 			id: "100CE5EDC7B3444A"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1156552013747799114.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "11740DF5DBC32933"
 				item: {
@@ -4802,7 +4802,7 @@
 		}
 		{
 			id: "136DBD78EED756AC"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1399983386282907308.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "46D7432BA6616490"
 				item: {
@@ -4819,7 +4819,7 @@
 		}
 		{
 			id: "3FF1554A2EA458FE"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4607557670875191550.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "5C0EE52E044142DF"
 				item: {
@@ -4836,7 +4836,7 @@
 		}
 		{
 			id: "7969097FF48A6D3D"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8748534196312108349.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "271B79A98B5F7130"
 				item: {
@@ -4853,7 +4853,7 @@
 		}
 		{
 			id: "79F8C10E41F169B1"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8788986939793566129.subtitle}"
+			subtitle: "Accessory"
 			tasks: [{
 				id: "5BBE40553A7CAED0"
 				item: {
@@ -4870,7 +4870,7 @@
 		}
 		{
 			id: "69D4422DF988968B"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7625792834272532107.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "374F12BB024F5F1F"
 				item: {
@@ -4887,7 +4887,7 @@
 		}
 		{
 			id: "7502261977969ECA"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8431343343213387466.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "6CF30B39634122D0"
 				item: {
@@ -4904,7 +4904,7 @@
 		}
 		{
 			id: "30AAC636C1A9BC3A"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3506833198341012538.subtitle}"
+			subtitle: "Necklace"
 			tasks: [{
 				id: "12D45DEE415512DE"
 				item: {
@@ -4921,7 +4921,7 @@
 		}
 		{
 			id: "2FE5E1AD080ABA5C"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3451412822729865820.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "58C6DC1456F498BF"
 				item: {
@@ -4938,7 +4938,7 @@
 		}
 		{
 			id: "21279A79E0491E0A"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2389047975587945994.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "3B9B3C2AF959F8DC"
 				item: {
@@ -4955,7 +4955,7 @@
 		}
 		{
 			id: "5405BED9C361232A"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6054455116564603690.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "7B6ACF4AD706691C"
 				item: {
@@ -4972,7 +4972,7 @@
 		}
 		{
 			id: "4048842E6B3ACF14"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4632097551652933396.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "55BCBC31629301B7"
 				item: {
@@ -4989,7 +4989,7 @@
 		}
 		{
 			id: "62E8E009471760EB"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7127192740765851883.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "4301E523C9675E14"
 				item: {
@@ -5006,7 +5006,7 @@
 		}
 		{
 			id: "72A04EB039C56C86"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8259688235387939974.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "3874986B3127F8BC"
 				item: {
@@ -5023,7 +5023,7 @@
 		}
 		{
 			id: "000989F5ECB044C6"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2684964121363654.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "6277C7C315C3BE6A"
 				item: {
@@ -5040,7 +5040,7 @@
 		}
 		{
 			id: "3014DBDE5DB4DBBE"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3464635761456110526.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "5676CF5C80CC0B03"
 				item: {
@@ -5057,7 +5057,7 @@
 		}
 		{
 			id: "0481EA421107F772"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest324798217621862258.subtitle}"
+			subtitle: "Belt"
 			tasks: [{
 				id: "3FAA5ED677915F67"
 				item: {
@@ -5074,7 +5074,7 @@
 		}
 		{
 			id: "302ED4ADF76A7DC0"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3471946206394613184.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "2E6579D4A70CBD98"
 				item: {
@@ -5091,7 +5091,7 @@
 		}
 		{
 			id: "298FB77D6A92E1D0"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2994814026511475152.subtitle}"
+			subtitle: "Necklace"
 			tasks: [{
 				id: "3915CE842C93E410"
 				item: {
@@ -5108,7 +5108,7 @@
 		}
 		{
 			id: "0726CFEEDAE73582"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest515327832162252162.subtitle}"
+			subtitle: "Necklace"
 			tasks: [{
 				id: "2F93C9F65B60CF70"
 				item: {
@@ -5125,7 +5125,7 @@
 		}
 		{
 			id: "38C633C1E0072228"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4091014219292942888.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "2E90EA179196D223"
 				item: {
@@ -5142,7 +5142,7 @@
 		}
 		{
 			id: "3DE0E41C7187E27C"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4458814441911739004.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "0C11BB79EA05632A"
 				item: {
@@ -5159,7 +5159,7 @@
 		}
 		{
 			id: "22DB89C642DB7584"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2511752701807392132.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "709521D627301E99"
 				item: {
@@ -5176,7 +5176,7 @@
 		}
 		{
 			id: "19B3AB35C956F0C0"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1852012119278940352.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "008F7D95D5774D6E"
 				item: {
@@ -5193,7 +5193,7 @@
 		}
 		{
 			id: "47832268A4C599AF"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5153000231478335919.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "5B305208D868E6B2"
 				item: {
@@ -5210,7 +5210,7 @@
 		}
 		{
 			id: "2A4BCAD8EF604FD4"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3047752605924085716.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "30FE3603C8D263BC"
 				item: {
@@ -5227,7 +5227,7 @@
 		}
 		{
 			id: "10F141C79FC4D753"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1220829299628889939.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "080F1926B1376583"
 				item: {
@@ -5244,7 +5244,7 @@
 		}
 		{
 			id: "2CF91DEF1F4989BD"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3240654319729084861.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "1DFE570844944363"
 				item: {
@@ -5261,7 +5261,7 @@
 		}
 		{
 			id: "36893EEB72E2643E"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3929741330823144510.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "049864F909857DA4"
 				item: {
@@ -5278,7 +5278,7 @@
 		}
 		{
 			id: "7C1808007DA1F31F"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8941905858344907551.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "06A2096828FDFECB"
 				item: {
@@ -5295,7 +5295,7 @@
 		}
 		{
 			id: "3E2EDF19E1FF0E9F"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4480763981538987679.subtitle}"
+			subtitle: "Belt"
 			tasks: [{
 				id: "5E9842ABCD09E360"
 				item: {
@@ -5312,7 +5312,7 @@
 		}
 		{
 			id: "7650C5A3EF4D8582"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8525531402497525122.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "3154D06982DC85A4"
 				item: {
@@ -5329,7 +5329,7 @@
 		}
 		{
 			id: "2E301BEE9D3501F8"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3328190836280459768.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "25388971683887BF"
 				item: {
@@ -5346,7 +5346,7 @@
 		}
 		{
 			id: "5F0E575C946E8689"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6849508138415982217.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "118923DA7F1B8900"
 				item: {
@@ -5363,7 +5363,7 @@
 		}
 		{
 			id: "73EDFCEA095F12D5"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8353610965951910613.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "2708C9AC3DA1F9C9"
 				item: {
@@ -5380,7 +5380,7 @@
 		}
 		{
 			id: "3E4B3208A0CB6611"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4488736466243642897.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "024070AED1FCC8E0"
 				item: {
@@ -5397,7 +5397,7 @@
 		}
 		{
 			id: "2ABCA7BD7D31B5C8"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3079520677505643976.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "268A1DEE5E6417E2"
 				item: {
@@ -5414,7 +5414,7 @@
 		}
 		{
 			id: "647958FD8FC47179"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7239915722036769145.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "1E6A89674F721D74"
 				item: {
@@ -5431,7 +5431,7 @@
 		}
 		{
 			id: "372A447C31071E43"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3975064921297067587.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "010E4BCC4E464C3C"
 				item: {
@@ -5448,7 +5448,7 @@
 		}
 		{
 			id: "414AB7CBF9CD5482"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4704774847439131778.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "775ABC0BC2C76B08"
 				item: {
@@ -5465,7 +5465,7 @@
 		}
 		{
 			id: "6B9CAFD8A045C1F6"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7754266003361874422.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "0A6CF2B1B8159BE1"
 				item: {
@@ -5482,7 +5482,7 @@
 		}
 		{
 			id: "368607AB72F76E19"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3928836157876956697.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "676A28B99938B1F3"
 				item: {
@@ -5499,7 +5499,7 @@
 		}
 		{
 			id: "47966FF758CDB202"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5158433531336962562.subtitle}"
+			subtitle: "Heart?"
 			tasks: [{
 				id: "2FBD9F163326E914"
 				item: {
@@ -5516,7 +5516,7 @@
 		}
 		{
 			id: "0B0CD64A90061BA9"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest796246849869978537.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "0D4FE361A70AA70A"
 				item: {
@@ -5533,7 +5533,7 @@
 		}
 		{
 			id: "004D86CE70B1178D"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest21821794418759565.subtitle}"
+			subtitle: "Hand"
 			tasks: [{
 				id: "6433C65D409EEFC4"
 				item: {
@@ -5550,7 +5550,7 @@
 		}
 		{
 			id: "068133B13388E8AF"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest468712672390080687.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "478958AE784EBE5C"
 				item: {
@@ -5567,7 +5567,7 @@
 		}
 		{
 			id: "496CD07C28143CD7"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5290832893920427223.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "126CD9B8050C8861"
 				item: {
@@ -5584,7 +5584,7 @@
 		}
 		{
 			id: "1740CE383B0A6687"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1675565802285852295.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "2D86B621606DA7CB"
 				item: {
@@ -5601,7 +5601,7 @@
 		}
 		{
 			id: "39537D823FBDBE6B"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4130783281597496939.subtitle}"
+			subtitle: "Belt"
 			tasks: [{
 				id: "4D789818CA396C4D"
 				item: {
@@ -5618,7 +5618,7 @@
 		}
 		{
 			id: "1B81DAE6C89C6BB5"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1982105995762756533.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "3D0F6FED16DFE7CD"
 				item: {
@@ -5635,7 +5635,7 @@
 		}
 		{
 			id: "028519D1B963BB85"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest181579748527553413.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "30051075997A0004"
 				item: {
@@ -5652,7 +5652,7 @@
 		}
 		{
 			id: "16159178BC65A837"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1591337991088220215.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "2DCB736A97A3CB99"
 				item: {
@@ -5669,7 +5669,7 @@
 		}
 		{
 			id: "43285987E8EA0EE7"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4839216239872708327.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "2DF67A1F738088B7"
 				item: {
@@ -5686,7 +5686,7 @@
 		}
 		{
 			id: "369E757475C9286F"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3935712267421165679.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "1E9F78D519BAE45F"
 				item: {
@@ -5703,7 +5703,7 @@
 		}
 		{
 			id: "5EEB86B9CFFEC4FF"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6839708591708882175.subtitle}"
+			subtitle: "Heart"
 			tasks: [{
 				id: "1ADDECA989B89FE4"
 				item: {
@@ -5720,7 +5720,7 @@
 		}
 		{
 			id: "2AF8796A0CF62F6C"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3096358240208170860.subtitle}"
+			subtitle: "Heart"
 			tasks: [{
 				id: "12DFB4B3613DB004"
 				item: {
@@ -5737,7 +5737,7 @@
 		}
 		{
 			id: "6D915C3943414963"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7895193022768433507.subtitle}"
+			subtitle: "Heart"
 			tasks: [{
 				id: "23AB80C8F5D0B1C3"
 				item: {
@@ -5754,7 +5754,7 @@
 		}
 		{
 			id: "17BDD60ED0DFC367"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1710758792592868199.subtitle}"
+			subtitle: "Heart"
 			tasks: [{
 				id: "7137E116A5945107"
 				item: {
@@ -5771,7 +5771,7 @@
 		}
 		{
 			id: "21413AA91560A37A"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2396260974620353402.subtitle}"
+			subtitle: "Heart"
 			tasks: [{
 				id: "0F37BD9BF665030C"
 				item: {
@@ -5788,7 +5788,7 @@
 		}
 		{
 			id: "405D8AE97F240AE1"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4638015926726560481.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "0BC9E32121340605"
 				item: {
@@ -5805,7 +5805,7 @@
 		}
 		{
 			id: "07E6AA591726680E"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest569329702526150670.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "217F8D32010701EF"
 				item: {
@@ -5822,7 +5822,7 @@
 		}
 		{
 			id: "71D5E4D6484E911B"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8202713905312469275.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "5F945F83F43BEECB"
 				item: {
@@ -5839,7 +5839,7 @@
 		}
 		{
 			id: "366E6DC0C7AF818B"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3922193000237597067.subtitle}"
+			subtitle: "Heart"
 			tasks: [{
 				id: "0BAB45CD65829D75"
 				item: {
@@ -5856,7 +5856,7 @@
 		}
 		{
 			id: "7136AB7D14916562"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8157896328732566882.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "23BA04DFBA280FEC"
 				item: {
@@ -5873,7 +5873,7 @@
 		}
 		{
 			id: "5F7FC864B23A252A"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6881439090457847082.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "3BAF02CC67F7CE86"
 				item: {
@@ -5890,7 +5890,7 @@
 		}
 		{
 			id: "0FE794F5597389B5"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1146048411677723061.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "7588C86FAE523DE7"
 				item: {
@@ -5907,7 +5907,7 @@
 		}
 		{
 			id: "342D4B81AF925BCA"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3759744284292701130.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "101F72516C65B1C9"
 				item: {
@@ -5924,7 +5924,7 @@
 		}
 		{
 			id: "0F1ADDFBD2FEAD12"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1088426333609831698.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "7D6A00DBA55C41C7"
 				item: {
@@ -5941,7 +5941,7 @@
 		}
 		{
 			id: "06D66728FA32DECB"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest492694634937638603.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "448D5B6C5CE38663"
 				item: {
@@ -5958,7 +5958,7 @@
 		}
 		{
 			id: "708501249850FE63"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8107887960836341347.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "74B45F9E7622AA9F"
 				item: {
@@ -5975,7 +5975,7 @@
 		}
 		{
 			id: "532E8F29B3F382C4"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5993885563352220356.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "1F3B7246A15FAE73"
 				item: {
@@ -5992,7 +5992,7 @@
 		}
 		{
 			id: "7728CC7A51E14C59"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8586337515313646681.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "20574EBF68643166"
 				item: {
@@ -6009,7 +6009,7 @@
 		}
 		{
 			id: "25A675E1D56AEC07"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2712985438345948167.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "40A9F0CC146E3B97"
 				item: {
@@ -6026,7 +6026,7 @@
 		}
 		{
 			id: "0E4CCFCBF14CC683"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1030426889594652291.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "3BA6454F6CE05487"
 				item: {
@@ -6043,7 +6043,7 @@
 		}
 		{
 			id: "7A7DF939C5FEE81A"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8826484871246309402.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "5BEAE426F96D1E75"
 				item: {
@@ -6060,7 +6060,7 @@
 		}
 		{
 			id: "79988A31719ED3A8"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8761905020013564840.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "47C8A6F396B08656"
 				item: {
@@ -6077,7 +6077,7 @@
 		}
 		{
 			id: "7A656E1F61F24D1C"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8819576526341295388.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "2DCEF358DDAFE2F5"
 				item: {
@@ -6094,7 +6094,7 @@
 		}
 		{
 			id: "270A0413182811C2"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2813065397302464962.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "26868392AAE72F15"
 				item: {
@@ -6111,7 +6111,7 @@
 		}
 		{
 			id: "650826945D9C6124"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7280111216311951652.subtitle}"
+			subtitle: "Necklace"
 			tasks: [{
 				id: "0F5AB215ECC85AE1"
 				item: {
@@ -6128,7 +6128,7 @@
 		}
 		{
 			id: "2B6941492C75061C"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3128103198719804956.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "3E9FB2A60DF6E9E9"
 				item: {
@@ -6145,7 +6145,7 @@
 		}
 		{
 			id: "0C97557BBDA45406"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest907287839889445894.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "4445849FF6971F89"
 				item: {
@@ -6166,7 +6166,7 @@
 		}
 		{
 			id: "3FD835CD748E16F9"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4600486175898998521.subtitle}"
+			subtitle: "Heart"
 			tasks: [{
 				id: "6D65C22F5088E65F"
 				item: {
@@ -6183,7 +6183,7 @@
 		}
 		{
 			id: "33315097E871CBC4"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3688818183163202500.subtitle}"
+			subtitle: "Heart"
 			tasks: [{
 				id: "132048BF934F9EF0"
 				item: {
@@ -6200,7 +6200,7 @@
 		}
 		{
 			id: "3DC9CAD94D712456"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4452312741288420438.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "6D09443F238A08D5"
 				item: {
@@ -6217,7 +6217,7 @@
 		}
 		{
 			id: "2B454067C6F8A823"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3117969131487930403.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "382494BB35ADA8E0"
 				item: {
@@ -6234,7 +6234,7 @@
 		}
 		{
 			id: "4784978D28D170BC"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5153410506149687484.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "51D865B4135AB90E"
 				item: {
@@ -6251,7 +6251,7 @@
 		}
 		{
 			id: "0859926B73B05B33"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest601673015430765363.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "764541DF47BD3780"
 				item: {
@@ -6268,7 +6268,7 @@
 		}
 		{
 			id: "7955CA965C8D9F89"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8743116998756376457.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "211DF7514FD7D3D1"
 				item: {
@@ -6285,7 +6285,7 @@
 		}
 		{
 			id: "7AD5D95AC273729C"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8851219626499207836.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "08A7DFB80D274AF7"
 				item: {
@@ -6302,7 +6302,7 @@
 		}
 		{
 			id: "7187E2F26DA276FA"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8180756778991122170.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "49569CF29FA0EB31"
 				item: {
@@ -6319,7 +6319,7 @@
 		}
 		{
 			id: "6255409D0B4DDFC0"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7085640631981039552.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "6F10CE64129F2C43"
 				item: {
@@ -6336,7 +6336,7 @@
 		}
 		{
 			id: "168E635A7274F9B1"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1625345755645802929.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "7720B37E0D21E8DA"
 				item: {
@@ -6353,7 +6353,7 @@
 		}
 		{
 			id: "2639DB29B63E1F08"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2754473619311435528.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "0CC014A95B8300FE"
 				item: {
@@ -6370,7 +6370,7 @@
 		}
 		{
 			id: "6079E544870FD4F7"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6951839582309569783.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "091494B20F614061"
 				item: {
@@ -6387,7 +6387,7 @@
 		}
 		{
 			id: "6B448A7AEC47D344"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7729455121029387076.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "1BD832E33538B1C7"
 				item: {
@@ -6404,7 +6404,7 @@
 		}
 		{
 			id: "1EEED7EDC5E18B7E"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2228956281822088062.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "2C4D4D6E3FFEC228"
 				item: {
@@ -6421,7 +6421,7 @@
 		}
 		{
 			id: "57369CC27628EB1B"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6284382689062087451.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "2D5C2997D8C81730"
 				item: {
@@ -6438,7 +6438,7 @@
 		}
 		{
 			id: "26C717370F52E6AE"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2794227619054413486.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "2872F924DEAD887B"
 				item: {
@@ -6455,7 +6455,7 @@
 		}
 		{
 			id: "7A5DE4846BC3992F"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8817454902856096047.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "6632F4C8A03577EF"
 				item: {
@@ -6472,7 +6472,7 @@
 		}
 		{
 			id: "2FD1657CE57CA3A3"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3445646777015640995.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "35577A29957DAC96"
 				item: {
@@ -6489,7 +6489,7 @@
 		}
 		{
 			id: "157E854558748B27"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1548821854745299751.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "0E3A64A120D7C47D"
 				item: {
@@ -6506,7 +6506,7 @@
 		}
 		{
 			id: "2ABC85255C74FA36"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3079482640726030902.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "22CD8DFAC4D367A6"
 				item: {
@@ -6523,7 +6523,7 @@
 		}
 		{
 			id: "74A1319F6AC5522A"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8404052940410933802.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "5F34C82275552846"
 				item: {
@@ -6540,7 +6540,7 @@
 		}
 		{
 			id: "5A2AD4C2092E5103"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6497239342278136067.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "1F043C9B77372176"
 				item: {
@@ -6557,7 +6557,7 @@
 		}
 		{
 			id: "066679BF996BCF66"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest461189875671748454.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "52CC838866DD92E6"
 				item: {
@@ -6574,7 +6574,7 @@
 		}
 		{
 			id: "7681AA4326122517"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8539293573849425175.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "127EBA2845E8A606"
 				item: {
@@ -6591,7 +6591,7 @@
 		}
 		{
 			id: "0BFA9616C4E54F73"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest863167303131680627.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "5913B0757E71CD19"
 				item: {
@@ -6608,7 +6608,7 @@
 		}
 		{
 			id: "5F92B2D06F575B8B"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6886763388493847435.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "51093287AB51A4BD"
 				item: {
@@ -6625,7 +6625,7 @@
 		}
 		{
 			id: "460F78EF9434FC53"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5048386677684632659.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "43495738F7E54D35"
 				item: {
@@ -6642,7 +6642,7 @@
 		}
 		{
 			id: "0341968BCC7CFBD1"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest234634182775339985.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "18B08E7E8651CC4D"
 				item: {
@@ -6659,7 +6659,7 @@
 		}
 		{
 			id: "4B53C6BF6DB6AEF1"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5427900501393321713.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "2899CA9503486AB4"
 				item: {
@@ -6676,7 +6676,7 @@
 		}
 		{
 			id: "7784552CDF1B995B"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8612102038649280859.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "7EA68B98BF892A4A"
 				item: {
@@ -6693,7 +6693,7 @@
 		}
 		{
 			id: "2C822DA258475BC9"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3207176059930237897.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "75B6FB15DCDAF16B"
 				item: {
@@ -6710,7 +6710,7 @@
 		}
 		{
 			id: "0FC56D435C6BDFD0"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1136434617061728208.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "5683F5A77300C4B0"
 				item: {
@@ -6727,7 +6727,7 @@
 		}
 		{
 			id: "0FB3E937D98A50F9"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1131504357482320121.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "3EE5853ADFFD828C"
 				item: {
@@ -6744,7 +6744,7 @@
 		}
 		{
 			id: "7AD4CF5BF6DEFCAA"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8850927161580649642.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "071DD8049F433ABD"
 				item: {
@@ -6761,7 +6761,7 @@
 		}
 		{
 			id: "38791EC06194805C"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4069317549925630044.subtitle}"
+			subtitle: "Anklet"
 			tasks: [{
 				id: "2FB9E0BF4F48356D"
 				item: {
@@ -6778,7 +6778,7 @@
 		}
 		{
 			id: "21739A53F2C2090E"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest2410439910919112974.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "2537FA6B63EC6482"
 				item: {
@@ -6795,7 +6795,7 @@
 		}
 		{
 			id: "3C730B1CD0F30861"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4355837482989979745.subtitle}"
+			subtitle: "Necklace"
 			tasks: [{
 				id: "76E26EA4CCE00555"
 				item: {
@@ -6812,7 +6812,7 @@
 		}
 		{
 			id: "6F3AB88145762DE1"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8014921352214883809.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "09236669E85844CC"
 				item: {
@@ -6829,7 +6829,7 @@
 		}
 		{
 			id: "363F2716842EC020"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3908885979241300000.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "5C840DB314BD0E75"
 				item: {
@@ -6846,7 +6846,7 @@
 		}
 		{
 			id: "62B2C6E3AD406FCA"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7111965442737991626.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "4CF38C1B3AA4FBFA"
 				item: {
@@ -6863,7 +6863,7 @@
 		}
 		{
 			id: "5ABC84B5808DD707"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6538246674115843847.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "48F9F513E0CD11DE"
 				item: {
@@ -6880,7 +6880,7 @@
 		}
 		{
 			id: "14C33AABF234D2F7"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest1496104011394503415.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "1061D7E9853DE4FF"
 				item: {
@@ -6897,7 +6897,7 @@
 		}
 		{
 			id: "2E88716F810322BD"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3353054646297109181.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "38CBDC494B848C80"
 				item: {
@@ -6914,7 +6914,7 @@
 		}
 		{
 			id: "30732AB4B19E58F0"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3491181091704690928.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "7EC273BE2ED5152E"
 				item: {
@@ -6931,7 +6931,7 @@
 		}
 		{
 			id: "6E66CA539A22EB65"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7955268252213635941.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "54D024297E7CFAC3"
 				item: {
@@ -6948,7 +6948,7 @@
 		}
 		{
 			id: "0A15F0AA33773957"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest726751528688761175.subtitle}"
+			subtitle: "Belt"
 			tasks: [{
 				id: "2069FB88425C4E15"
 				item: {
@@ -6965,7 +6965,7 @@
 		}
 		{
 			id: "77652A088831899D"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8603328879294253469.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "2786200DAD95D8D2"
 				item: {
@@ -6982,7 +6982,7 @@
 		}
 		{
 			id: "0AE5C612C1B684BF"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest785251493907694783.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "4F7C6E161C5A200C"
 				item: {
@@ -6999,7 +6999,7 @@
 		}
 		{
 			id: "462D0207D71D79D8"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5056700189303994840.subtitle}"
+			subtitle: "Necklace"
 			tasks: [{
 				id: "02D99B1900ED902B"
 				item: {
@@ -7016,7 +7016,7 @@
 		}
 		{
 			id: "3EC58DF33913E56A"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4523177476537705834.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "365C60376529942E"
 				item: {
@@ -7033,7 +7033,7 @@
 		}
 		{
 			id: "2C2E9EBD346B553E"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest3183656522062976318.subtitle}"
+			subtitle: "Belt"
 			tasks: [{
 				id: "1F03D621154BAD85"
 				item: {
@@ -7050,7 +7050,7 @@
 		}
 		{
 			id: "46556ACF70E1455D"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest5068074394859947357.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "37523FA965FF8C01"
 				item: {
@@ -7067,7 +7067,7 @@
 		}
 		{
 			id: "648895011EC16268"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7244203832668938856.subtitle}"
+			subtitle: "Hands"
 			tasks: [{
 				id: "19B63A7DC63E028F"
 				item: {
@@ -7084,7 +7084,7 @@
 		}
 		{
 			id: "74734AD82ECFEF8B"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8391132823080136587.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "51ED6D7A1216C960"
 				item: {
@@ -7101,7 +7101,7 @@
 		}
 		{
 			id: "69422FBC0D9D7A3D"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest7584677207174117949.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "3F8D978AF782B733"
 				item: {
@@ -7118,7 +7118,7 @@
 		}
 		{
 			id: "710FA6DF8981793E"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8146913729951398206.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "6D53BF9EBA3A5A04"
 				item: {
@@ -7135,7 +7135,7 @@
 		}
 		{
 			id: "5E0CBBA65D7230D5"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest6776997862492483797.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "7B7AEFD996CBC1C0"
 				item: {
@@ -7152,7 +7152,7 @@
 		}
 		{
 			id: "7387C96E5C372D59"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest8324843912048356697.subtitle}"
+			subtitle: "Head"
 			tasks: [{
 				id: "2860115A541AD502"
 				item: {
@@ -7169,7 +7169,7 @@
 		}
 		{
 			id: "44CF2438F46A7205"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest4958221541795590661.subtitle}"
+			subtitle: "Charm"
 			tasks: [{
 				id: "2724818E3276A1E9"
 				item: "uniqueaccessories:still_beating_heart"
@@ -7385,7 +7385,7 @@
 		}
 		{
 			id: "02237C49254B086C"
-			subtitle: "{ftbquests.chapter.artifacts_2.quest154103465860860012.subtitle}"
+			subtitle: "&cbe careful"
 			tasks: [{
 				id: "7E5DF8F09336AD76"
 				item: "enigmaticaddons:lost_engine"
@@ -7395,5 +7395,5 @@
 			y: -8.0d
 		}
 	]
-	title: "{ftbquests.chapter.artifacts_2.title}"
+	title: "Artifacts"
 }

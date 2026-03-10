@@ -42,7 +42,7 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["ftbquests.chapter.deeper_and_darker.image.hovertext1"]
+			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			order: 2
 			rotation: 0.0d
@@ -71,16 +71,16 @@
 			]
 			shape: "netheritetier"
 			size: 1.4d
-			subtitle: "{ftbquests.chapter.deeper_and_darker.quest8294559678334107054.subtitle}"
+			subtitle: "Can be summoned by making sound in the ancient city."
 			tasks: [{
 				entity: "minecraft:warden"
 				icon: "plushie_buddies:plushie_warden"
 				id: "37E411F497C9CD71"
-				title: "{ftbquests.chapter.deeper_and_darker.quest8294559678334107054.task.4027363708992343409.title}"
+				title: "Kill a Warden"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.deeper_and_darker.quest8294559678334107054.title}"
+			title: "Kill the warden"
 			x: -4.5d
 			y: 1.0d
 		}
@@ -94,7 +94,7 @@
 			}]
 			shape: "netheritetier"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.deeper_and_darker.quest4941428650142826644.subtitle}"
+			subtitle: "Unique buffs!"
 			tasks: [
 				{
 					id: "42CA7AAF304767E7"
@@ -141,16 +141,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.deeper_and_darker.quest4941428650142826644.title}"
+			title: "Craft Warden Armor Set"
 			x: -2.6785423087107176d
 			y: 0.9732868139372108d
 		}
 		{
 			dependencies: ["4DC4FC2672B4D1AF"]
 			description: [
-				"{ftbquests.chapter.deeper_and_darker.quest8092064924742859597.description1}"
+				"Before lighting the portal, you must first remove all Sculk Veins!"
 				""
-				"{ftbquests.chapter.deeper_and_darker.quest8092064924742859597.description2}"
+				"Right-click it with the &eHeart of The Deep&r that you got earlier from killing The Warden."
 			]
 			icon_scale: 1.2d
 			id: "704CCA2CEAB23B4D"
@@ -161,15 +161,15 @@
 			}]
 			shape: "octagon"
 			size: 1.4d
-			subtitle: "{ftbquests.chapter.deeper_and_darker.quest8092064924742859597.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				dimension: "deeperdarker:otherside"
 				icon: "minecraft:reinforced_deepslate"
 				id: "474D2D76F2256297"
-				title: "{ftbquests.chapter.deeper_and_darker.quest8092064924742859597.task.5137812738791531159.title}"
+				title: "Enter The Otherside"
 				type: "dimension"
 			}]
-			title: "{ftbquests.chapter.deeper_and_darker.quest8092064924742859597.title}"
+			title: "The Otherside"
 			x: -4.499970880139287d
 			y: 4.616143956794353d
 		}
@@ -195,7 +195,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.deeper_and_darker.quest3901705888285946383.subtitle}"
+			subtitle: "Better than normal one!"
 			tasks: [{
 				id: "7D40DD4D3E42FCC6"
 				item: {
@@ -215,7 +215,7 @@
 			id: "7C18745F2E5B8E64"
 			shape: "square"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.deeper_and_darker.quest8942025012292587108.subtitle}"
+			subtitle: "Shoots wardens sound beam."
 			tasks: [{
 				id: "3A5F7B7473A2021B"
 				item: {
@@ -241,7 +241,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.deeper_and_darker.quest385760556434378423.subtitle}"
+			subtitle: "Better Than Netherite"
 			tasks: [
 				{
 					id: "666C39F58B68B188"
@@ -299,16 +299,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.deeper_and_darker.quest385760556434378423.title}"
+			title: "Craft Warden Toolset"
 			x: -6.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["704CCA2CEAB23B4D"]
 			description: [
-				"{ftbquests.chapter.deeper_and_darker.quest6891353544885292277.description1}"
+				"In order to get resonarium, you have to kill sludges. (blue slimes)"
 				""
-				"{ftbquests.chapter.deeper_and_darker.quest6891353544885292277.description2}"
+				"They drop resonarium with scutes, can be turned into resonarium plate."
 			]
 			id: "5FA3018980844CF5"
 			rewards: [{
@@ -317,7 +317,7 @@
 				item: "deeperdarker:resonarium_plate"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.deeper_and_darker.quest6891353544885292277.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "4F728FE446D269B9"
@@ -376,7 +376,7 @@
 				item: "deeperdarker:resonarium_plate"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.deeper_and_darker.quest311586085137480192.subtitle}"
+			subtitle: "Better Than Diamond"
 			tasks: [
 				{
 					id: "60E023AD771ACC0F"
@@ -440,7 +440,7 @@
 		{
 			dependencies: ["731C3214BB61FDAE"]
 			id: "4DC4FC2672B4D1AF"
-			subtitle: "{ftbquests.chapter.deeper_and_darker.quest5603881078419149231.subtitle}"
+			subtitle: "Key to the deep."
 			tasks: [{
 				id: "5B43242A687B61C7"
 				item: "deeperdarker:heart_of_the_deep"
@@ -450,5 +450,5 @@
 			y: 1.0d
 		}
 	]
-	title: "{ftbquests.chapter.deeper_and_darker.title}"
+	title: "Deep Dark"
 }

@@ -1,0 +1,13 @@
+
+#Armageddon Tooltip Tier Configuration
+[general]
+	#List of tag entries. Format: [tags, label, advancement]
+	#Tags can be comma-separated for multiple tags
+	#Example: ["forge:diamond_tools, forge:diamond_armor, forge:diamond_blocks", "entity.armageddon_mod.eldoraththe_ancient_builder", "armageddon_mod:the_diamond_keeper"]
+	tags = [["forge:bloody_tools, forge:bloody_armor, forge:bloody_blocks", "entity.armageddon_mod.sanghor_lord_of_blood", "armageddon_mod:the_blood_keeper"], ["forge:diamond_tools, forge:diamond_armor, forge:diamond_blocks", "entity.armageddon_mod.eldoraththe_ancient_builder", "armageddon_mod:the_diamond_keeper"], ["forge:elvenite_tools, forge:elvenite_armor, forge:elvenite_blocks", "entity.armageddon_mod.elvenite_paladin", "armageddon_mod:the_elvenite_keeper"], ["forge:emerald_tools, forge:emerald_armor, forge:emerald_blocks", "entity.armageddon_mod.arion_tyrant_of_the_emerald_wrath_soldat", "armageddon_mod:the_emerald_keeper"], ["forge:helionite_tools, forge:helionite_armor, forge:helionite_blocks", "entity.armageddon_mod.zoranth_newborn_of_the_zenith", "armageddon_mod:the_sun_keeper"], ["forge:voiderite_tools, forge:voiderite_armor, forge:voiderite_blocks", "entity.armageddon_mod.vaedricthe_fallen_wanderer", "armageddon_mod:the_voiderite_keeper"], ["forge:iron_tools, forge:iron_armor, forge:iron_blocks", "entity.armageddon_mod.the_iron_colossus", "armageddon_mod:the_iron_keeper"], ["forge:golden_tools, forge:golden_armor, forge:golden_blocks", "entity.armageddon_mod.the_gobelin_lord", "armageddon_mod:the_gold_keeper"], ["forge:netherite_tools, forge:netherite_armor, forge:netherite_blocks", "entity.armageddon_mod.zoranththe_forgotten_one", "armageddon_mod:the_netherite_keeper"]]
+
+[version]
+	#Configuration Version - Do not change this value
+	#Range: > 0
+	config_version = 1
+

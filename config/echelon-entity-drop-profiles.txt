@@ -1,0 +1,9 @@
+# Echelon entity loot-drop profiles
+# Format: entity_id=chance|weights
+# weights: either 6 ints (Common..Mythic) OR a preset: overworld|nether|end|global
+# Wildcards:
+#   *=chance|weights         (global default)
+#   modid:*=chance|weights   (namespace default)
+
+# Example:
+# cataclysm:ignis=0.50|0,0,5,10,5,2

@@ -1,0 +1,110 @@
+{
+  // Items in for example mineshaft chests get modifiers
+  "lootContainerModifier": true,
+  // Chance for loot-container items to receive a modifier when lootContainerModifier is true.
+  // 0.0 = never, 0.5 = 50%, 1.0 = always.
+  "lootContainerModifierChance": 0.1,
+  // Armageddon treasure bags gear can get modifiers
+  "treasureBagDropModifier": true,
+  "treasureBagProfilesFile": "echelon-treasure-bag-profiles.txt",
+  // Equipped items on entities get modifiers
+  "entityItemModifier": false,
+  // If true, entity loot-table drops can receive modifiers based on a whitelist profile file.
+  // This affects loot generated from an entity's loot table (e.g., bosses), not only worn equipment.
+  "entityLootDropModifier": false,
+  // Whitelist profile file (in the config folder) for entity loot-table drop reforging.
+  // Format per line: 'modid:entity=0.50|0,0,5,10,5,2' or 'modid:entity=0.50|overworld' (presets: overworld|nether|end|global).
+  // You can also use '*=...' as a global default and 'modid:*=...' as a namespace wildcard.
+  "entityLootDropProfilesFile": "echelon-entity-drop-profiles.txt",
+  // If true, items dropped from entity equipment slots (dropEquipment path) can be reforged using the entity loot-drop profiles file.
+  // Whitelist behavior: only entities with a matching profile entry (or wildcard entry) will affect equipment drops.
+  "entityEquipmentDropModifier": true,
+  // Tier weights for mob-equipped items/chests when entityItemModifier=true OR lootContainerModifier=true. Higher = more common. These are relative weights, not %.
+  // Set all to 0 to disable weighting and fall back to the old fully-random behavior.
+  "entityTier1Weight": 2000,
+  "entityTier2Weight": 200,
+  "entityTier3Weight": 27,
+  "entityTier4Weight": 9,
+  "entityTier5Weight": 3,
+  "entityTier6Weight": 1,
+  // If true, use dimension-specific tier weights for mob-equipped items and loot container rolls.
+  "useDimensionTierWeights": true,
+  // When useDimensionTierWeights=true and the selected dimension profile has ALL weights set to 0, no modifier is applied (instead of falling back to random).
+  "dimensionTierWeightsZeroMeansNoModifier": true,
+  // Overworld tier weights (1=Common ... 6=Mythic). Set a tier weight to 0 to disable that tier in the Overworld.
+  "overworldTier1Weight": 100,
+  "overworldTier2Weight": 10,
+  "overworldTier3Weight": 1,
+  "overworldTier4Weight": 0,
+  "overworldTier5Weight": 0,
+  "overworldTier6Weight": 0,
+  // Nether tier weights (1=Common ... 6=Mythic).
+  "netherTier1Weight": 10,
+  "netherTier2Weight": 100,
+  "netherTier3Weight": 10,
+  "netherTier4Weight": 1,
+  "netherTier5Weight": 0,
+  "netherTier6Weight": 0,
+  // End tier weights (1=Common ... 6=Mythic).
+  "endTier1Weight": 10,
+  "endTier2Weight": 100,
+  "endTier3Weight": 1000,
+  "endTier4Weight": 100,
+  "endTier5Weight": 10,
+  "endTier6Weight": 1,
+  // Optional overrides for modded dimensions when useDimensionTierWeights=true.
+  // Format: 'modid:dimension=500,125,20,6,3,1' (6 ints = Common..Mythic).
+  // You can also use '*=overworld|nether|end|global' as a wildcard default for any modded dimension.
+  // And you can use 'modid:*=...' to target all dimensions from a given namespace.
+  "moddedDimensionTierWeightOverrides": [],
+  // Crafted items get modifiers
+  "craftingModifier": false,
+  // Merchant items get modifiers
+  "merchantModifier": false,
+  // Decreases the biggest weights by this modifier
+  "reforgeModifier": 0.0,
+  // Modify the biggest weights by this modifier per smithing level
+  "levelzReforgeModifier": 0.0,
+  // Modify the biggest weights by this modifier per luck
+  "luckReforgeModifier": 0.0,
+  // The chance for a reforge to be 'Perfect' (no negative attributes). 0.01 = 1%, 1.0 = 100%
+  "perfectRollChance": 0.02,
+  // If true, items can be reforged even if they are damaged.
+  "allowReforgingDamaged": true,
+  // Enable/disable the entire armor set bonus system
+  "enableArmorSetBonuses": true,
+  // Armor set bonus multiplier for a full 4-piece set. 0.01 = 1%, 1.0 = 100%
+  "armorSetBonusMultiplier": 0.2,
+  // Armor set bonus percent when wearing 4 matching armor pieces AND all 4 are Perfect. 0.01 = 1%, 1.0 = 100%
+  "armorSetPerfectBonusPercent": 1.0,
+  // Tier 1 of Reforging (Limestone)
+  // Qualities here will be able to be reforged onto items while using the Tier 1 reforge material, Limestone by default. Can be changed via the item tag tiered:reforge_tier_1
+  "tier_1_qualities": [
+    "Common"
+  ],
+  // Tier 2 of Reforging (Pyrite)
+  // Qualities here will be able to be reforged onto items while using the Tier 2 reforge material, Pyrite by default. Can be changed via the item tag tiered:reforge_tier_2
+  "tier_2_qualities": [
+    "Uncomon"
+  ],
+  // Tier 3 of Reforging (Galena)
+  // Qualities here will be able to be reforged onto items while using the Tier 3 reforge material, Galena by default. Can be changed via the item tag tiered:reforge_tier_3
+  "tier_3_qualities": [
+    "Rare"
+  ],
+  // Tier 4 of Reforging (Charoite)
+  // Qualities here will be able to be reforged onto items while using the Tier 4 reforge material, Charoite by default. Can be changed via the item tag tiered:reforge_tier_4
+  "tier_4_qualities": [
+    "Epic"
+  ],
+  // Tier 5 of Reforging (Golden Topaz)
+  // Qualities here will be able to be reforged onto items while using the Tier 5 reforge material, Golden Topaz by default. Can be changed via the item tag tiered:reforge_tier_5
+  "tier_5_qualities": [
+    "Legendary"
+  ],
+  // Tier 6 of Reforging (Painite)
+  // Qualities here will be able to be reforged onto items while using the Tier 6 reforge material, Painite by default. Can be changed via the item tag tiered:reforge_tier_6
+  "tier_6_qualities": [
+    "Mythic"
+  ]
+}

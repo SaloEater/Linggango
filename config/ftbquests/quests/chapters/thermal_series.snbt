@@ -18,7 +18,7 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["ftbquests.chapter.thermal_series.image.hovertext1"]
+			hover: ["Questlines belong to me, and is protected by All Rights Reserved. Do not try to steal without an explicit permission from me."]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -31,21 +31,21 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.thermal_series.quest4511385993132668630.description1}"
+				"The Thermal Series is a set of mods that add cool little machines to minecraft."
 				""
-				"{ftbquests.chapter.thermal_series.quest4511385993132668630.description2}"
+				"&8Questline was made by &eSoot (@sootyboy)&r &8in Linggango discord server."
 			]
 			icon: "thermal:wrench"
 			id: "3E9BA9A88D5876D6"
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.thermal_series.quest4511385993132668630.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "31CA1A2AF03E5741"
 				item: "thermal:wrench"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.thermal_series.quest4511385993132668630.title}"
+			title: "Welcome to Thermal Series!"
 			x: 1.0d
 			y: 0.0d
 		}
@@ -58,22 +58,22 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest8677694630025520311.subtitle}"
+			subtitle: "Essential Material"
 			tasks: [{
 				id: "0ED5BAC42D2140B2"
 				item: "thermal:rf_coil"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.thermal_series.quest8677694630025520311.title}"
+			title: "Power Generation"
 			x: -4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3E9BA9A88D5876D6"]
 			description: [
-				"{ftbquests.chapter.thermal_series.quest740243789156005180.description1}"
+				"In the beginning was the Machine Frame, and the Machine Frame was with Thermal Series, and the Machine Frame was Thermal Series."
 				""
-				"{ftbquests.chapter.thermal_series.quest740243789156005180.image0}"
+				"{image:customtextures:textures/yowhat.png width:150 height:100 align:center}"
 			]
 			id: "0A45DFCDE3D5353C"
 			rewards: [{
@@ -84,19 +84,19 @@
 			}]
 			shape: "gear"
 			size: 1.3d
-			subtitle: "{ftbquests.chapter.thermal_series.quest740243789156005180.subtitle}"
+			subtitle: "The Base Material for Machines"
 			tasks: [{
 				id: "6FC0A3679A18FEBA"
 				item: "thermal:machine_frame"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.thermal_series.quest740243789156005180.title}"
+			title: "Machines!"
 			x: 1.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["0A45DFCDE3D5353C"]
-			description: ["{ftbquests.chapter.thermal_series.quest6047031460305104425.description1}"]
+			description: ["Squeezes and deforms items. Can use a manufacturing die to determine the output."]
 			id: "53EB5F131918EE29"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -104,7 +104,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest6047031460305104425.subtitle}"
+			subtitle: "UPS with my manga be like"
 			tasks: [{
 				id: "321E3C5F700FE2C5"
 				item: "thermal:machine_press"
@@ -115,7 +115,7 @@
 		}
 		{
 			dependencies: ["0A45DFCDE3D5353C"]
-			description: ["{ftbquests.chapter.thermal_series.quest8993614869503590512.description1}"]
+			description: ["Smelts things using Redstone Flux."]
 			id: "7CCFBD12D76EC070"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -123,7 +123,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest8993614869503590512.subtitle}"
+			subtitle: "Furnace but good"
 			tasks: [{
 				id: "3D024A032F31852F"
 				item: "thermal:machine_furnace"
@@ -134,7 +134,7 @@
 		}
 		{
 			dependencies: ["0A45DFCDE3D5353C"]
-			description: ["{ftbquests.chapter.thermal_series.quest6831782717473211647.description1}"]
+			description: ["Cuts logs into planks and reprocesses wooden objects."]
 			id: "5ECF5E2F69A4C4FF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -142,7 +142,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest6831782717473211647.subtitle}"
+			subtitle: "Reduce, Reuse and Recycle!"
 			tasks: [{
 				id: "64FD503B9A8849D4"
 				item: "thermal:machine_sawmill"
@@ -153,7 +153,7 @@
 		}
 		{
 			dependencies: ["0A45DFCDE3D5353C"]
-			description: ["{ftbquests.chapter.thermal_series.quest8483555604046799987.description1}"]
+			description: ["Smashes things into more broken things."]
 			id: "75BBA4DFC37BE473"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -161,7 +161,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest8483555604046799987.subtitle}"
+			subtitle: "HULK SMASH!"
 			tasks: [{
 				id: "6FE6C6BE8A1559FC"
 				item: "thermal:machine_pulverizer"
@@ -172,7 +172,7 @@
 		}
 		{
 			dependencies: ["0A45DFCDE3D5353C"]
-			description: ["{ftbquests.chapter.thermal_series.quest2914116906630324141.description1}"]
+			description: ["Smelts metals and things that require high temperatures."]
 			id: "287105E30DA91FAD"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -180,7 +180,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest2914116906630324141.subtitle}"
+			subtitle: "Smelting but Smelt-ier"
 			tasks: [{
 				id: "41DE9CE71CBA178A"
 				item: "thermal:machine_smelter"
@@ -191,7 +191,7 @@
 		}
 		{
 			dependencies: ["0A45DFCDE3D5353C"]
-			description: ["{ftbquests.chapter.thermal_series.quest1433123433853439547.description1}"]
+			description: ["Infuses nutrients and light into plants using Redstone Flux."]
 			id: "13E37A2B8A1F4E3B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -199,7 +199,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest1433123433853439547.subtitle}"
+			subtitle: "Create wood farms? Who?"
 			tasks: [{
 				id: "0439BF2BCA01D138"
 				item: "thermal:machine_insolator"
@@ -210,7 +210,7 @@
 		}
 		{
 			dependencies: ["0A45DFCDE3D5353C"]
-			description: ["{ftbquests.chapter.thermal_series.quest1817219216283686328.description1}"]
+			description: ["Seperates items into their components, some items will procress into a fluid component."]
 			id: "19380F3FC99A55B8"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -218,7 +218,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest1817219216283686328.subtitle}"
+			subtitle: "55% Plasma, 1% Platelets and 45% Red blood cells."
 			tasks: [{
 				id: "61CE5D03AA200F1F"
 				item: "thermal:machine_centrifuge"
@@ -229,7 +229,7 @@
 		}
 		{
 			dependencies: ["0A45DFCDE3D5353C"]
-			description: ["{ftbquests.chapter.thermal_series.quest3641275393564324773.description1}"]
+			description: ["Turns solid materials into fluids, at high heat. Very useful for advanced blocks!"]
 			id: "328868AD9AC5B3A5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -237,7 +237,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest3641275393564324773.subtitle}"
+			subtitle: "Magmatic!"
 			tasks: [{
 				id: "687D08594A7C92F0"
 				item: "thermal:machine_crucible"
@@ -248,7 +248,7 @@
 		}
 		{
 			dependencies: ["0A45DFCDE3D5353C"]
-			description: ["{ftbquests.chapter.thermal_series.quest7747361578460625458.description1}"]
+			description: ["Insert items into the grid to set a crafting recipe. Simply press the confirm button and walk away! (Not all recipes are valid.)"]
 			id: "6B84284EEEA7BA32"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -256,7 +256,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest7747361578460625458.subtitle}"
+			subtitle: "Automated Fabricating"
 			tasks: [{
 				id: "6AE246CECA745776"
 				item: "thermal:machine_crafter"
@@ -267,7 +267,7 @@
 		}
 		{
 			dependencies: ["0A45DFCDE3D5353C"]
-			description: ["{ftbquests.chapter.thermal_series.quest545830564202702365.description1}"]
+			description: ["Grows and reforms crystalline structures. Requires a fluid and at least one item."]
 			id: "07932E0196DA661D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -275,7 +275,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest545830564202702365.subtitle}"
+			subtitle: "Shine on you, Crazy Diamond"
 			tasks: [{
 				id: "15DD627C6454907B"
 				item: "thermal:machine_crystallizer"
@@ -286,7 +286,7 @@
 		}
 		{
 			dependencies: ["0A45DFCDE3D5353C"]
-			description: ["{ftbquests.chapter.thermal_series.quest5298897729624101993.description1}"]
+			description: ["Brews potions and imbues fluids. You might want a few of these in a row."]
 			id: "498977690B5E5469"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -294,7 +294,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest5298897729624101993.subtitle}"
+			subtitle: "Bottles not included"
 			tasks: [{
 				id: "6C069CE8D17D2D1F"
 				item: "thermal:machine_brewer"
@@ -305,7 +305,7 @@
 		}
 		{
 			dependencies: ["0A45DFCDE3D5353C"]
-			description: ["{ftbquests.chapter.thermal_series.quest8690716161362856295.description1}"]
+			description: ["Fills containers with fluids. This is required to consume certain beverages."]
 			id: "789BA04DA9C78967"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -313,7 +313,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest8690716161362856295.subtitle}"
+			subtitle: "Refreshing!"
 			tasks: [{
 				id: "761F2C6399376B9A"
 				item: "thermal:machine_bottler"
@@ -324,7 +324,7 @@
 		}
 		{
 			dependencies: ["0A45DFCDE3D5353C"]
-			description: ["{ftbquests.chapter.thermal_series.quest8335578397069512974.description1}"]
+			description: ["Decomposes solids via high temperatures, very useful in fuel purification."]
 			id: "73ADEC636ABF910E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -332,7 +332,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest8335578397069512974.subtitle}"
+			subtitle: "No touchy."
 			tasks: [{
 				id: "0CD8909D945CCF6F"
 				item: "thermal:machine_pyrolyzer"
@@ -343,7 +343,7 @@
 		}
 		{
 			dependencies: ["0A45DFCDE3D5353C"]
-			description: ["{ftbquests.chapter.thermal_series.quest6075420655573808012.description1}"]
+			description: ["Refines various fluids into other products. Some fluids will leave behind a solid component."]
 			id: "54503AE5B48C338C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -351,7 +351,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest6075420655573808012.subtitle}"
+			subtitle: "Products may or may not be drinkable"
 			tasks: [{
 				id: "0D5EE5046D496803"
 				item: "thermal:machine_refinery"
@@ -362,7 +362,7 @@
 		}
 		{
 			dependencies: ["0A45DFCDE3D5353C"]
-			description: ["{ftbquests.chapter.thermal_series.quest8506115672259606905.description1}"]
+			description: ["Rapidly freezes items and fluids, can use a forming cast with fluids to determine the output."]
 			id: "760BCB22F76AB979"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -370,7 +370,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest8506115672259606905.subtitle}"
+			subtitle: "Brrrr!"
 			tasks: [{
 				id: "7E2CB2734BB77D99"
 				item: "thermal:machine_chiller"
@@ -381,7 +381,7 @@
 		}
 		{
 			dependencies: ["786D5D4A23FC64B7"]
-			description: ["{ftbquests.chapter.thermal_series.quest7408877901090706243.description1}"]
+			description: ["Generates Redstone Flux using solid fuels."]
 			id: "66D19F3276C0D343"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -390,7 +390,7 @@
 				type: "random"
 			}]
 			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.thermal_series.quest7408877901090706243.subtitle}"
+			subtitle: "Coal Age"
 			tasks: [{
 				id: "3BDE0B2C14564C18"
 				item: "thermal:dynamo_stirling"
@@ -401,7 +401,7 @@
 		}
 		{
 			dependencies: ["786D5D4A23FC64B7"]
-			description: ["{ftbquests.chapter.thermal_series.quest4782012412050031062.description1}"]
+			description: ["Generates Redstone Flux using combustible fluids."]
 			id: "425D1EF3DBC041D6"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -410,7 +410,7 @@
 				type: "random"
 			}]
 			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.thermal_series.quest4782012412050031062.subtitle}"
+			subtitle: "Diesel or Gasoline?"
 			tasks: [{
 				id: "634FE9F6E893E098"
 				item: "thermal:dynamo_compression"
@@ -421,7 +421,7 @@
 		}
 		{
 			dependencies: ["786D5D4A23FC64B7"]
-			description: ["{ftbquests.chapter.thermal_series.quest1665845312069723617.description1}"]
+			description: ["Generates Redstone Flux using extremely hot fluids."]
 			id: "171E457C3CAA65E1"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -430,7 +430,7 @@
 				type: "random"
 			}]
 			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.thermal_series.quest1665845312069723617.subtitle}"
+			subtitle: "supahotfire"
 			tasks: [{
 				id: "2C97E388972C6A8D"
 				item: "thermal:dynamo_magmatic"
@@ -441,7 +441,7 @@
 		}
 		{
 			dependencies: ["786D5D4A23FC64B7"]
-			description: ["{ftbquests.chapter.thermal_series.quest4327012443630969658.description1}"]
+			description: ["Generates Redstone Flux using gems."]
 			id: "3C0CA2E45951A33A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -450,7 +450,7 @@
 				type: "random"
 			}]
 			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.thermal_series.quest4327012443630969658.subtitle}"
+			subtitle: "Gems are really just pretty rocks anyways"
 			tasks: [{
 				id: "0A6637C6154F6904"
 				item: "thermal:dynamo_lapidary"
@@ -461,7 +461,7 @@
 		}
 		{
 			dependencies: ["786D5D4A23FC64B7"]
-			description: ["{ftbquests.chapter.thermal_series.quest2089438534934779356.description1}"]
+			description: ["Generates Redstone Flux using economic arbitrage."]
 			id: "1CFF2D46F6CCD5DC"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -470,7 +470,7 @@
 				type: "random"
 			}]
 			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.thermal_series.quest2089438534934779356.subtitle}"
+			subtitle: "Pure Avarice."
 			tasks: [{
 				id: "338C48BB6C5F73D1"
 				item: "thermal:dynamo_numismatic"
@@ -481,7 +481,7 @@
 		}
 		{
 			dependencies: ["786D5D4A23FC64B7"]
-			description: ["{ftbquests.chapter.thermal_series.quest5654376970564990607.description1}"]
+			description: ["Generates Redstone Flux using enchanted items."]
 			id: "4E7861E584ACF68F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -490,7 +490,7 @@
 				type: "random"
 			}]
 			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.thermal_series.quest5654376970564990607.subtitle}"
+			subtitle: "Pay up, you owe us some enchantments."
 			tasks: [{
 				id: "2D109D345C002E45"
 				item: "thermal:dynamo_disenchantment"
@@ -501,7 +501,7 @@
 		}
 		{
 			dependencies: ["786D5D4A23FC64B7"]
-			description: ["{ftbquests.chapter.thermal_series.quest489503175685588747.description1}"]
+			description: ["Generates Redstone Flux using food."]
 			id: "06CB108B772A470B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -510,7 +510,7 @@
 				type: "random"
 			}]
 			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.thermal_series.quest489503175685588747.subtitle}"
+			subtitle: "Oguri Cap"
 			tasks: [{
 				id: "1DBCEE0CE826FF76"
 				item: "thermal:dynamo_gourmand"
@@ -521,7 +521,7 @@
 		}
 		{
 			dependencies: ["3E9BA9A88D5876D6"]
-			description: ["{ftbquests.chapter.thermal_series.quest1845522303720075975.description1}"]
+			description: ["The Redstone Flux Cell and Fluxducts are an easy low cost early game method of power storage and transportation!"]
 			icon: {
 				Count: 1
 				id: "thermal:energy_cell"
@@ -541,7 +541,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest1845522303720075975.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "7C6E4BD9A569BE26"
@@ -571,13 +571,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.thermal_series.quest1845522303720075975.title}"
+			title: "Power Storage \\& Transportation"
 			x: -1.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3E9BA9A88D5876D6"]
-			description: ["{ftbquests.chapter.thermal_series.quest4048053863117650148.description1}"]
+			description: ["The Fluid Cell and fluiducts are an easy low cost early game method of fluid storage and transportation!"]
 			icon: {
 				Count: 1
 				id: "thermal:fluid_cell"
@@ -599,7 +599,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest4048053863117650148.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "4792500678FDE86C"
@@ -626,16 +626,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.thermal_series.quest4048053863117650148.title}"
+			title: "Fluid Storage \\& Transportation"
 			x: 0.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3E9BA9A88D5876D6"]
 			description: [
-				"{ftbquests.chapter.thermal_series.quest4075772928911445975.description1}"
+				"Classic upgrades, makes everything just better."
 				""
-				"{ftbquests.chapter.thermal_series.quest4075772928911445975.description2}"
+				"&8You know, back in my day we didn't have these upgrades, we had Upgrade Kits and they actually changed the machine texture!"
 			]
 			icon: {
 				Count: 1
@@ -646,19 +646,19 @@
 			}
 			icon_scale: 1.45d
 			id: "38900DE26CEB8FD7"
-			subtitle: "{ftbquests.chapter.thermal_series.quest4075772928911445975.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "7F996A75DAAF7722"
-				title: "{ftbquests.chapter.thermal_series.quest4075772928911445975.task.9194497168666228514.title}"
+				title: "Hel yeh"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.thermal_series.quest4075772928911445975.title}"
+			title: "Upgrades!"
 			x: 8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["38900DE26CEB8FD7"]
-			description: ["{ftbquests.chapter.thermal_series.quest4724796447544055337.description1}"]
+			description: ["Improves your machines!"]
 			id: "4191D95603E41629"
 			rewards: [
 				{
@@ -674,7 +674,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.thermal_series.quest4724796447544055337.subtitle}"
+			subtitle: "Harder, Better, Faster, Stronger"
 			tasks: [{
 				id: "208833FA15295C66"
 				item: "thermal:upgrade_augment_1"
@@ -685,7 +685,7 @@
 		}
 		{
 			dependencies: ["4191D95603E41629"]
-			description: ["{ftbquests.chapter.thermal_series.quest4267165810438332295.description1}"]
+			description: ["strengthen or support (an object or substance), especially with additional material."]
 			id: "3B3804B238DE5F87"
 			rewards: [
 				{
@@ -700,7 +700,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.thermal_series.quest4267165810438332295.subtitle}"
+			subtitle: "Improves your machines further!"
 			tasks: [{
 				id: "1D6A5088E56360EE"
 				item: "thermal:upgrade_augment_2"
@@ -726,7 +726,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.thermal_series.quest5870296892174408843.subtitle}"
+			subtitle: "Improves your machines even more further!"
 			tasks: [{
 				id: "67CE3962AA0C9754"
 				item: "thermal:upgrade_augment_3"
@@ -737,7 +737,7 @@
 		}
 		{
 			dependencies: ["38900DE26CEB8FD7"]
-			description: ["{ftbquests.chapter.thermal_series.quest4566476443503944059.description1}"]
+			description: ["Balanced, as all things should be."]
 			id: "3F5F6221923DE17B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -745,7 +745,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest4566476443503944059.subtitle}"
+			subtitle: "More RF and faster RF"
 			tasks: [{
 				id: "5AC14F685DAAF83F"
 				item: "thermal:rf_coil_augment"
@@ -763,7 +763,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest2473114461904789824.subtitle}"
+			subtitle: "More Rf but slower RF"
 			tasks: [{
 				id: "4E47847F2969DF7A"
 				item: "thermal:rf_coil_storage_augment"
@@ -781,7 +781,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest4843622369620356164.subtitle}"
+			subtitle: "Faster RF but less RF"
 			tasks: [{
 				id: "65ED2A83C97C29A8"
 				item: "thermal:rf_coil_xfer_augment"
@@ -799,7 +799,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest8539785330229250698.subtitle}"
+			subtitle: "Increases processing speed at the cost of higher RF usage."
 			tasks: [{
 				id: "1EB1880B54D06127"
 				item: "thermal:machine_speed_augment"
@@ -817,7 +817,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest7921460853602974886.subtitle}"
+			subtitle: "Increases energy efficiency at the cost of processing time"
 			tasks: [{
 				id: "28E9C5F8E9D8F243"
 				item: "thermal:machine_efficiency_augment"
@@ -835,7 +835,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest4049102994212163026.subtitle}"
+			subtitle: "Increases non-primary item output."
 			tasks: [{
 				id: "31C92AA44D538931"
 				item: "thermal:machine_output_augment"
@@ -853,7 +853,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest6778852843142271584.subtitle}"
+			subtitle: "Uses Catalysts less frequently in some machines."
 			tasks: [{
 				id: "2BB4F37939423D3A"
 				item: "thermal:machine_catalyst_augment"
@@ -881,7 +881,7 @@
 		}
 		{
 			dependencies: ["38900DE26CEB8FD7"]
-			description: ["{ftbquests.chapter.thermal_series.quest9180504343949720932.description1}"]
+			description: ["Trash Can but integrated. "]
 			id: "7F67B40F780DBD64"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -889,7 +889,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest9180504343949720932.subtitle}"
+			subtitle: "Destroys excess in case of buildup."
 			tasks: [{
 				id: "1342A247F5110B92"
 				item: "thermal:machine_null_augment"
@@ -907,7 +907,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest3109227526100753690.subtitle}"
+			subtitle: "Increases production speed at the cost of more energy."
 			tasks: [{
 				id: "55C5517DA9605192"
 				item: "thermal:dynamo_output_augment"
@@ -925,7 +925,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest3672483418123237744.subtitle}"
+			subtitle: "Increases fuel efficiency."
 			tasks: [{
 				id: "60A4DB10B93E5D11"
 				item: "thermal:dynamo_fuel_augment"
@@ -936,7 +936,7 @@
 		}
 		{
 			dependencies: ["38900DE26CEB8FD7"]
-			description: ["{ftbquests.chapter.thermal_series.quest6252196715712115569.description1}"]
+			description: ["(Whatever that means)"]
 			id: "56C443C991E27371"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -944,7 +944,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest6252196715712115569.subtitle}"
+			subtitle: "Prevents RF from being lost after coil saturation."
 			tasks: [{
 				id: "1D7BA93BC0967A60"
 				item: "thermal:dynamo_throttle_augment"
@@ -962,7 +962,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest5671848191364306081.subtitle}"
+			subtitle: "Bigger Radius for certain machines."
 			tasks: [{
 				id: "3EF074A3CFA0187B"
 				item: "thermal:area_radius_augment"
@@ -980,7 +980,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest1718979882260183526.subtitle}"
+			subtitle: "Increases the strength of an applied potion."
 			tasks: [{
 				id: "09636055DD6EC8B3"
 				item: "thermal:potion_amplifier_augment"
@@ -998,7 +998,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest5669563169918224680.subtitle}"
+			subtitle: "Extends applied potion duration."
 			tasks: [{
 				id: "515DB1BFADD5B72A"
 				item: "thermal:potion_duration_augment"
@@ -1016,7 +1016,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest5512541551033722272.subtitle}"
+			subtitle: "Inventory Crafting Space"
 			tasks: [{
 				id: "2C0C00D0428D3D0F"
 				item: "thermal:press_packing_2x2_die"
@@ -1034,7 +1034,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest8100286551141702270.subtitle}"
+			subtitle: "Crafting Table Space"
 			tasks: [{
 				id: "76A2537F49F515ED"
 				item: "thermal:press_packing_3x3_die"
@@ -1052,7 +1052,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest3755925542771414957.subtitle}"
+			subtitle: "Un-Crafting"
 			tasks: [{
 				id: "13523CDC0B05E185"
 				item: "thermal:press_unpacking_die"
@@ -1070,7 +1070,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest6918101987485057138.subtitle}"
+			subtitle: "Forms my balls!"
 			tasks: [{
 				id: "4B72E0AE895F66F6"
 				item: "thermal:chiller_ball_cast"
@@ -1088,7 +1088,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest4748356457513925384.subtitle}"
+			subtitle: "Useless for some reason"
 			tasks: [{
 				id: "745DE7FE3A008212"
 				item: "thermal:chiller_ingot_cast"
@@ -1106,7 +1106,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest8247386576619797885.subtitle}"
+			subtitle: "Useless for some reason x2"
 			tasks: [{
 				id: "634ECF34D3726F85"
 				item: "thermal:chiller_rod_cast"
@@ -1124,7 +1124,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest6417337000490340656.subtitle}"
+			subtitle: "Money Money Money Money!"
 			tasks: [{
 				id: "47BD903F98D79588"
 				item: "thermal:press_coin_die"
@@ -1142,7 +1142,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest2338658358515508518.subtitle}"
+			subtitle: "Grinds my gears!"
 			tasks: [{
 				id: "42F7DD5DC3B6B640"
 				item: "thermal:press_gear_die"
@@ -1153,7 +1153,7 @@
 		}
 		{
 			dependencies: ["3E9BA9A88D5876D6"]
-			description: ["{ftbquests.chapter.thermal_series.quest3747152233448427106.description1}"]
+			description: ["These Machines are a little bit more basic than the other ones but they still can be very useful!"]
 			id: "34008F1A62014E62"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1161,19 +1161,19 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest3747152233448427106.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "42E6D209ABCBD9EC"
 				item: "thermal:redstone_servo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.thermal_series.quest3747152233448427106.title}"
+			title: "Crude Machines"
 			x: 6.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["34008F1A62014E62"]
-			description: ["{ftbquests.chapter.thermal_series.quest8502389168471934157.description1}"]
+			description: ["Carefully extracts products from beehives."]
 			id: "75FE8DE6B0E604CD"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1181,7 +1181,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest8502389168471934157.subtitle}"
+			subtitle: "Automated bee cruelty"
 			tasks: [{
 				id: "32E7036FA66966E0"
 				item: "thermal:device_hive_extractor"
@@ -1192,7 +1192,7 @@
 		}
 		{
 			dependencies: ["34008F1A62014E62"]
-			description: ["{ftbquests.chapter.thermal_series.quest6101079693266446040.description1}"]
+			description: ["Extracts fluids from adjacent trees. Use fertlizer to boost production."]
 			id: "54AB63A7F77EE6D8"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1200,7 +1200,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest6101079693266446040.subtitle}"
+			subtitle: "Sappy sap sap"
 			tasks: [{
 				id: "67D9F4607D313D60"
 				item: "thermal:device_tree_extractor"
@@ -1211,7 +1211,7 @@
 		}
 		{
 			dependencies: ["34008F1A62014E62"]
-			description: ["{ftbquests.chapter.thermal_series.quest4344119130534760039.description1}"]
+			description: ["Captures assorted aquatic life. Use bait to boost production and adjust what is caught."]
 			id: "3C4969554580CE67"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1219,7 +1219,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest4344119130534760039.subtitle}"
+			subtitle: "Automated fish cruelty"
 			tasks: [{
 				id: "215216A525A1AF8E"
 				item: "thermal:device_fisher"
@@ -1230,7 +1230,7 @@
 		}
 		{
 			dependencies: ["34008F1A62014E62"]
-			description: ["{ftbquests.chapter.thermal_series.quest6276647705600684049.description1}"]
+			description: ["Produces compost from organic waste in bulk."]
 			id: "571B21D548997011"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1238,7 +1238,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest6276647705600684049.subtitle}"
+			subtitle: "When you no no wanna wait"
 			tasks: [{
 				id: "2CB65F6AFDFCDA4F"
 				item: "thermal:device_composter"
@@ -1249,7 +1249,7 @@
 		}
 		{
 			dependencies: ["34008F1A62014E62"]
-			description: ["{ftbquests.chapter.thermal_series.quest2004813367248623584.description1}"]
+			description: ["Infuses nearby Phyto-Soil with Redstone Flux."]
 			id: "1BD28722B3CF17E0"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1257,7 +1257,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest2004813367248623584.subtitle}"
+			subtitle: "INFUSIONNN!!"
 			tasks: [{
 				id: "63AD64F5D9899709"
 				item: "thermal:device_soil_infuser"
@@ -1268,7 +1268,7 @@
 		}
 		{
 			dependencies: ["34008F1A62014E62"]
-			description: ["{ftbquests.chapter.thermal_series.quest1398373346064056149.description1}"]
+			description: ["Provides copius amounts of water."]
 			id: "136805263B85BF55"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1276,7 +1276,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest1398373346064056149.subtitle}"
+			subtitle: "THE GOAAAAT"
 			tasks: [{
 				id: "3C9294AED13E0804"
 				item: "thermal:device_water_gen"
@@ -1287,7 +1287,7 @@
 		}
 		{
 			dependencies: ["34008F1A62014E62"]
-			description: ["{ftbquests.chapter.thermal_series.quest8400146256580413605.description1}"]
+			description: ["Picks up things from the nearby area."]
 			id: "74935083B4CD88A5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1295,7 +1295,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest8400146256580413605.subtitle}"
+			subtitle: "99.9% chance to not scare your pets"
 			tasks: [{
 				id: "58251D42775B894C"
 				item: "thermal:device_collector"
@@ -1306,7 +1306,7 @@
 		}
 		{
 			dependencies: ["34008F1A62014E62"]
-			description: ["{ftbquests.chapter.thermal_series.quest5982387653317508560.description1}"]
+			description: ["Generates various types of stone."]
 			id: "5305B5DFE8AC3DD0"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1314,7 +1314,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest5982387653317508560.subtitle}"
+			subtitle: "Why wait millions of years for stone to naturally form?"
 			tasks: [{
 				id: "5B5DBA903928B226"
 				item: "thermal:device_rock_gen"
@@ -1325,7 +1325,7 @@
 		}
 		{
 			dependencies: ["34008F1A62014E62"]
-			description: ["{ftbquests.chapter.thermal_series.quest3862560247037746660.description1}"]
+			description: ["Collects experience from nearby blocks which have produced it."]
 			id: "359A9214783ADDE4"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1333,7 +1333,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest3862560247037746660.subtitle}"
+			subtitle: "XP drain but worse"
 			tasks: [{
 				id: "15E04361A4DCB583"
 				item: "thermal:device_xp_condenser"
@@ -1344,7 +1344,7 @@
 		}
 		{
 			dependencies: ["34008F1A62014E62"]
-			description: ["{ftbquests.chapter.thermal_series.quest8894260834836369482.description1}"]
+			description: ["Destroys anything placed inside into it. (fluids included)"]
 			id: "7B6EC31B0017504A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1352,7 +1352,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest8894260834836369482.subtitle}"
+			subtitle: "Finally, Trash Can!"
 			tasks: [{
 				id: "4E551C21F4B5BF56"
 				item: "thermal:device_nullifier"
@@ -1363,7 +1363,7 @@
 		}
 		{
 			dependencies: ["34008F1A62014E62"]
-			description: ["{ftbquests.chapter.thermal_series.quest1455548630678855314.description1}"]
+			description: ["Spreads potions within the nearby area."]
 			id: "143325C48CEB5E92"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1371,7 +1371,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest1455548630678855314.subtitle}"
+			subtitle: "Incensify your potions"
 			tasks: [{
 				id: "3A1704929EBC1014"
 				item: "thermal:device_potion_diffuser"
@@ -1382,7 +1382,7 @@
 		}
 		{
 			dependencies: ["3E9BA9A88D5876D6"]
-			description: ["{ftbquests.chapter.thermal_series.quest6614561865307844696.description1}"]
+			description: ["The Thermal Series also add many cool looking ingots with several uses."]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -1393,19 +1393,19 @@
 			icon_scale: 1.45d
 			id: "5BCBA4F89684F058"
 			shape: "square"
-			subtitle: "{ftbquests.chapter.thermal_series.quest6614561865307844696.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "2F6D051B9169A7DF"
-				title: "{ftbquests.chapter.thermal_series.quest6614561865307844696.task.3417393308205950943.title}"
+				title: "Alright"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.thermal_series.quest6614561865307844696.title}"
+			title: "New ingots!"
 			x: 2.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5BCBA4F89684F058"]
-			description: ["{ftbquests.chapter.thermal_series.quest3769317376516401097.description1}"]
+			description: ["Low cost ingot used in many crafts."]
 			id: "344F4E2EE8F7A7C9"
 			rewards: [{
 				count: 2
@@ -1415,7 +1415,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.thermal_series.quest3769317376516401097.subtitle}"
+			subtitle: "FeNi36"
 			tasks: [{
 				id: "732597F91AD5B270"
 				item: "thermal:invar_ingot"
@@ -1426,7 +1426,7 @@
 		}
 		{
 			dependencies: ["5BCBA4F89684F058"]
-			description: ["{ftbquests.chapter.thermal_series.quest6090436444655580964.description1}"]
+			description: ["Electrum was often referred to as \"white gold\" in ancient times."]
 			id: "548593AD8AC9F724"
 			rewards: [{
 				count: 2
@@ -1436,7 +1436,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.thermal_series.quest6090436444655580964.subtitle}"
+			subtitle: "Electric! (not really)"
 			tasks: [{
 				id: "409EA5AF1213DDE5"
 				item: "thermal:electrum_ingot"
@@ -1447,7 +1447,7 @@
 		}
 		{
 			dependencies: ["5BCBA4F89684F058"]
-			description: ["{ftbquests.chapter.thermal_series.quest5267992548850562408.description1}"]
+			description: ["Alloy made of Lead, Diamond and Ender Pearls. Doesn't sound very healthy to eat does it?"]
 			id: "491BAB4FE9A47568"
 			rewards: [{
 				count: 2
@@ -1457,7 +1457,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.thermal_series.quest5267992548850562408.subtitle}"
+			subtitle: "End themed ingot"
 			tasks: [{
 				id: "79A713DB8E317901"
 				item: "thermal:enderium_ingot"
@@ -1468,7 +1468,7 @@
 		}
 		{
 			dependencies: ["5BCBA4F89684F058"]
-			description: ["{ftbquests.chapter.thermal_series.quest6770321044966874734.description1}"]
+			description: ["Very bright ingot made of Silver, Tin and Glowstone."]
 			id: "5DF5031EA49A1E6E"
 			rewards: [{
 				count: 2
@@ -1478,7 +1478,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.thermal_series.quest6770321044966874734.subtitle}"
+			subtitle: "Oooo glowy!"
 			tasks: [{
 				id: "03148B302CF2588B"
 				item: "thermal:lumium_ingot"
@@ -1489,7 +1489,7 @@
 		}
 		{
 			dependencies: ["5BCBA4F89684F058"]
-			description: ["{ftbquests.chapter.thermal_series.quest4618462909429722834.description1}"]
+			description: ["Alloy made from Redstone, Silver and Copper."]
 			id: "4018138BE4E02ED2"
 			rewards: [{
 				count: 2
@@ -1499,7 +1499,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.thermal_series.quest4618462909429722834.subtitle}"
+			subtitle: "Nether (?) themed ingot"
 			tasks: [{
 				id: "7A2FB19146461D1C"
 				item: "thermal:signalum_ingot"
@@ -1510,7 +1510,7 @@
 		}
 		{
 			dependencies: ["34008F1A62014E62"]
-			description: ["{ftbquests.chapter.thermal_series.quest530228907009160074.description1}"]
+			description: ["Charges items with Redstone Flux."]
 			id: "075BC061B3ECB38A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1518,7 +1518,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest530228907009160074.subtitle}"
+			subtitle: "Charge baby charge!"
 			tasks: [{
 				id: "7E2A7FD7F23AA72F"
 				item: "thermal:charge_bench"
@@ -1529,7 +1529,7 @@
 		}
 		{
 			dependencies: ["34008F1A62014E62"]
-			description: ["{ftbquests.chapter.thermal_series.quest8688122494197305778.description1}"]
+			description: ["Restricts quantity and flow of items."]
 			id: "7892696077B611B2"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1537,7 +1537,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest8688122494197305778.subtitle}"
+			subtitle: "Planned bottleneck"
 			tasks: [{
 				id: "122B3DAB9EDE0ED1"
 				item: "thermal:item_buffer"
@@ -1548,7 +1548,7 @@
 		}
 		{
 			dependencies: ["34008F1A62014E62"]
-			description: ["{ftbquests.chapter.thermal_series.quest687842806138138783.description1}"]
+			description: ["Multipurpose table for augmenting, recharging, and refilling."]
 			id: "098BB563492BF09F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1556,7 +1556,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.thermal_series.quest687842806138138783.subtitle}"
+			subtitle: "Goblin Tinkerer's possesion"
 			tasks: [{
 				id: "2DC32967E0BC8548"
 				item: "thermal:tinker_bench"
@@ -1566,5 +1566,5 @@
 			y: 5.5d
 		}
 	]
-	title: "{ftbquests.chapter.thermal_series.title}"
+	title: "Thermal Series"
 }

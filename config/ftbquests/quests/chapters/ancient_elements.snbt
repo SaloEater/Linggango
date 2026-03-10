@@ -366,7 +366,7 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["ftbquests.chapter.ancient_elements.image.hovertext1"]
+			hover: ["Questlines belong to me, and is protected by All Rights Reserved. Do not try to steal without an explicit permission from me."]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -380,9 +380,9 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.ancient_elements.quest7556624928144160122.description1}"
+				"&eAncient Elements&r is a massive mod that adds over 20 new ores to the game! Not only that, this mod also introduces a large amount of other content to explore and play around with."
 				""
-				"{ftbquests.chapter.ancient_elements.quest7556624928144160122.description2}"
+				"This questline is directly inspired by the mod's in-game journal."
 			]
 			disable_toast: true
 			icon: {
@@ -400,22 +400,22 @@
 			}]
 			shape: "square"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.ancient_elements.quest7556624928144160122.subtitle}"
+			subtitle: "In-game Wiki"
 			tasks: [{
 				id: "2B573EE7242A869D"
-				title: "{ftbquests.chapter.ancient_elements.quest7556624928144160122.task.3123034029069862557.title}"
+				title: "oka"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.ancient_elements.quest7556624928144160122.title}"
+			title: "Miner's Journal"
 			x: -3.3737303756931993d
 			y: -0.4634105084689111d
 		}
 		{
 			dependencies: ["502B861D985BDBC5"]
 			description: [
-				"{ftbquests.chapter.ancient_elements.quest6347540592600544934.description1}"
+				"Every armor piece increases movement speed."
 				""
-				"{ftbquests.chapter.ancient_elements.quest6347540592600544934.description2}"
+				"&6Tin generates from Y= -64 up to Y= 80"
 			]
 			id: "5816FE89CB53F6A6"
 			rewards: [{
@@ -424,7 +424,7 @@
 				item: "ancient_elements:tin_ingot"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ancient_elements.quest6347540592600544934.subtitle}"
+			subtitle: "Slightly Weaker Than Iron"
 			tasks: [{
 				id: "56151F41BD722397"
 				item: "ancient_elements:tin_ingot"
@@ -436,15 +436,15 @@
 		{
 			dependencies: ["49120D0571C66248"]
 			description: [
-				"{ftbquests.chapter.ancient_elements.quest9152063627656775663.description1}"
+				"&eLead&r Armor gives extra damage with every armor piece."
 				""
-				"{ftbquests.chapter.ancient_elements.quest9152063627656775663.description2}"
+				"&eSteel&r Tools gives a critical chance."
 				""
-				"{ftbquests.chapter.ancient_elements.quest9152063627656775663.description3}"
+				"&eSteel&r Armor makes you faster with critical hits."
 				""
-				"{ftbquests.chapter.ancient_elements.quest9152063627656775663.description4}"
+				"&6Lead generates from Y= -64 up to Y= 53"
 				""
-				"{ftbquests.chapter.ancient_elements.quest9152063627656775663.description5}"
+				"&6Steel generates from Y= -64 to -15 in deepslate levels, and Y= 0 to 30 Above."
 			]
 			id: "7F02A961304147EF"
 			rewards: [
@@ -461,7 +461,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ancient_elements.quest9152063627656775663.subtitle}"
+			subtitle: "Slightly Better Than Iron"
 			tasks: [
 				{
 					id: "60BE04FDD1BB32E2"
@@ -474,18 +474,18 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ancient_elements.quest9152063627656775663.title}"
+			title: "Lead and Steel"
 			x: 4.0d
 			y: -10.5d
 		}
 		{
 			dependencies: ["553334E1F00A3E94"]
 			description: [
-				"{ftbquests.chapter.ancient_elements.quest6938577832971026303.description1}"
+				"Armor set gives immunity to &ewither&r"
 				""
-				"{ftbquests.chapter.ancient_elements.quest6938577832971026303.description2}"
+				"Tools inflict &ewither&r"
 				""
-				"{ftbquests.chapter.ancient_elements.quest6938577832971026303.description3}"
+				"&6Nether steel generates in every nether biome from Y= 0 to Y= 64"
 			]
 			id: "604AC7C6E4A33F7F"
 			rewards: [{
@@ -493,7 +493,7 @@
 				item: "ancient_elements:nether_steel_ingot"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ancient_elements.quest6938577832971026303.subtitle}"
+			subtitle: "Harder To Get But Better Than Diamond"
 			tasks: [{
 				id: "5932D96A09EA5331"
 				item: "ancient_elements:nether_steel_ingot"
@@ -512,7 +512,7 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ancient_elements.quest5776858408701123525.subtitle}"
+			subtitle: "Stone Tools, classic"
 			tasks: [{
 				id: "46ED99718ED7EA54"
 				item: "minecraft:cobblestone"
@@ -523,7 +523,7 @@
 		}
 		{
 			dependencies: ["5816FE89CB53F6A6"]
-			description: ["{ftbquests.chapter.ancient_elements.quest7428608309309673065.description1}"]
+			description: ["Can be found underground, not too deep."]
 			id: "6717B7E61BEB0E69"
 			rewards: [{
 				count: 2
@@ -532,7 +532,7 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ancient_elements.quest7428608309309673065.subtitle}"
+			subtitle: "Iron Tools, classic"
 			tasks: [{
 				id: "66EAF51BF0B52B2A"
 				item: "minecraft:iron_ingot"
@@ -550,7 +550,7 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ancient_elements.quest4280296429026392606.subtitle}"
+			subtitle: "Diamond Tools, classic"
 			tasks: [{
 				id: "6E3009F374D66239"
 				item: "minecraft:diamond"
@@ -562,9 +562,9 @@
 		{
 			dependencies: ["3B66AAEC997DBA1E"]
 			description: [
-				"{ftbquests.chapter.ancient_elements.quest4393153568105252329.description1}"
+				"Armor set gives you regen while your hp is under %50."
 				""
-				"{ftbquests.chapter.ancient_elements.quest4393153568105252329.description2}"
+				"&6Palladium only generates at deepslate layer."
 			]
 			id: "3CF79DE4EEA745E9"
 			rewards: [{
@@ -572,7 +572,7 @@
 				item: "ancient_elements:palladium_ingot"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ancient_elements.quest4393153568105252329.subtitle}"
+			subtitle: "Stronger Than Diamond"
 			tasks: [{
 				id: "3CCCC6099C3FDE52"
 				item: "ancient_elements:palladium_ingot"
@@ -584,11 +584,11 @@
 		{
 			dependencies: ["3CF79DE4EEA745E9"]
 			description: [
-				"{ftbquests.chapter.ancient_elements.quest7800837745724876048.description1}"
+				"Armor set gives immunity to &apoison"
 				""
-				"{ftbquests.chapter.ancient_elements.quest7800837745724876048.description2}"
+				"Tools inflict &apoison"
 				""
-				"{ftbquests.chapter.ancient_elements.quest7800837745724876048.description3}"
+				"&6Jungle steel generates in jungle biomes from Y= -40 to Y=60"
 			]
 			id: "6C4224996063E510"
 			rewards: [{
@@ -607,11 +607,11 @@
 		{
 			dependencies: ["6C4224996063E510"]
 			description: [
-				"{ftbquests.chapter.ancient_elements.quest2295578375679536539.description1}"
+				"Armor gives &bwater breathing."
 				""
-				"{ftbquests.chapter.ancient_elements.quest2295578375679536539.description2}"
+				"Tools deal more damage while &bunderwater."
 				""
-				"{ftbquests.chapter.ancient_elements.quest2295578375679536539.description3}"
+				"&6Abyssal Debris generated in frozen, cold and normal oceans."
 			]
 			id: "1FDB885EC4726D9B"
 			rewards: [{
@@ -630,11 +630,11 @@
 		{
 			dependencies: ["1FDB885EC4726D9B"]
 			description: [
-				"{ftbquests.chapter.ancient_elements.quest4274851730188073948.description1}"
+				"Armor gives you speed boost in deserts."
 				""
-				"{ftbquests.chapter.ancient_elements.quest4274851730188073948.description2}"
+				"Tools deal more damage based on target's armor value."
 				""
-				"{ftbquests.chapter.ancient_elements.quest4274851730188073948.description3}"
+				"&6Ancient metal generates in the surface of desert biomes, from Y= 40 up to Y= 70"
 			]
 			id: "3B5352FFDD52FBDC"
 			rewards: [{
@@ -660,7 +660,7 @@
 			}]
 			shape: "square"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ancient_elements.quest2885537073929472698.subtitle}"
+			subtitle: "Netherite Tools, classic"
 			tasks: [{
 				id: "1D9FAC72F35F3554"
 				item: "minecraft:netherite_ingot"
@@ -672,9 +672,9 @@
 		{
 			dependencies: ["280B7CAE35C94ABA"]
 			description: [
-				"{ftbquests.chapter.ancient_elements.quest3716983491037881848.description1}"
+				"Armor gives immunity to levitation effect."
 				""
-				"{ftbquests.chapter.ancient_elements.quest3716983491037881848.description2}"
+				"&6Ender steel generates in end."
 			]
 			id: "339560CAAB4DE5F8"
 			rewards: [{
@@ -682,7 +682,7 @@
 				item: "ancient_elements:ender_steel_ingot"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ancient_elements.quest3716983491037881848.subtitle}"
+			subtitle: "Same Attributes as Netherite"
 			tasks: [{
 				id: "1D43C7C5FDFE59AB"
 				item: "ancient_elements:ender_steel_ingot"
@@ -702,13 +702,13 @@
 			}
 			id: "66F0F070CB6128B6"
 			shape: "rsquare"
-			subtitle: "{ftbquests.chapter.ancient_elements.quest7417692953518352566.subtitle}"
+			subtitle: "Pre-Netherite To Netherite"
 			tasks: [{
 				id: "2B56D84E7BD00063"
-				title: "{ftbquests.chapter.ancient_elements.quest7417692953518352566.task.3122921223224295523.title}"
+				title: "Okay"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.ancient_elements.quest7417692953518352566.title}"
+			title: "Early-Steps"
 			x: -0.5d
 			y: -0.5d
 		}
@@ -724,22 +724,22 @@
 			}
 			id: "4C929600385EBAF2"
 			shape: "rsquare"
-			subtitle: "{ftbquests.chapter.ancient_elements.quest5517637421172177650.subtitle}"
+			subtitle: "Post-Netherite"
 			tasks: [{
 				id: "27B7778E553F3C76"
-				title: "{ftbquests.chapter.ancient_elements.quest5517637421172177650.task.2861887541416508534.title}"
+				title: "okay"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.ancient_elements.quest5517637421172177650.title}"
+			title: "Late-Steps"
 			x: 16.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["4C929600385EBAF2"]
 			description: [
-				"{ftbquests.chapter.ancient_elements.quest2147244816519920414.description1}"
+				"Armor set gives speed boost on ice, slows the attackers down."
 				""
-				"{ftbquests.chapter.ancient_elements.quest2147244816519920414.description2}"
+				"&6Frost ore generates in cold / snowy biomes from Y= -64 to Y=64"
 			]
 			id: "1DCC8BC8B677FB1E"
 			rewards: [{
@@ -747,7 +747,7 @@
 				item: "ancient_elements:frost_ingot"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ancient_elements.quest2147244816519920414.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "4C3690CDE10AC105"
 				item: "ancient_elements:frost_ingot"
@@ -759,9 +759,9 @@
 		{
 			dependencies: ["1DCC8BC8B677FB1E"]
 			description: [
-				"{ftbquests.chapter.ancient_elements.quest308828242670776403.description1}"
+				"Armor set has a chance to drop a meteorite when hit.. (you don't take damage from the meteors)"
 				""
-				"{ftbquests.chapter.ancient_elements.quest308828242670776403.description2}"
+				"&6Meteorite craters can be found in plains / forest like biomes."
 			]
 			id: "04492DA684FFF053"
 			rewards: [{
@@ -769,7 +769,7 @@
 				item: "ancient_elements:meteorite_ingot"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ancient_elements.quest308828242670776403.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "416D9D7299AB0707"
 				item: "ancient_elements:meteorite_ingot"
@@ -781,9 +781,9 @@
 		{
 			dependencies: ["04492DA684FFF053"]
 			description: [
-				"{ftbquests.chapter.ancient_elements.quest2269143537141114616.description1}"
+				"Armor set gives immunity to void."
 				""
-				"{ftbquests.chapter.ancient_elements.quest2269143537141114616.description2}"
+				"&6Void steel only generates underneath end islands."
 			]
 			id: "1F7D9E064BAB66F8"
 			rewards: [{
@@ -791,7 +791,7 @@
 				item: "ancient_elements:void_steel_ingot"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ancient_elements.quest2269143537141114616.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "4818450585F6EAA8"
 				item: "ancient_elements:void_steel_ingot"
@@ -803,9 +803,9 @@
 		{
 			dependencies: ["12A17460C9447784"]
 			description: [
-				"{ftbquests.chapter.ancient_elements.quest6741319165195890433.description1}"
+				"Armor set gives %50 increased jump height and protects from fall damage."
 				""
-				"{ftbquests.chapter.ancient_elements.quest6741319165195890433.description2}"
+				"&6Aetherium only generates above Y= 116 or on flying islands."
 			]
 			id: "5D8DFA104F08AF01"
 			rewards: [{
@@ -813,7 +813,7 @@
 				item: "ancient_elements:aetherium_ingot"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ancient_elements.quest6741319165195890433.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "409BE4F6F42E38F1"
 				item: "ancient_elements:aetherium_ingot"
@@ -825,9 +825,9 @@
 		{
 			dependencies: ["5D8DFA104F08AF01"]
 			description: [
-				"{ftbquests.chapter.ancient_elements.quest2664789760510146156.description1}"
+				"Armor set gives immunity to most de-buffs."
 				""
-				"{ftbquests.chapter.ancient_elements.quest2664789760510146156.description2}"
+				"&6Elementinium doesn't generate. It's combination  of steel clumbs in a mineral compounder."
 			]
 			id: "24FB3C2B244E366C"
 			rewards: [{
@@ -835,7 +835,7 @@
 				item: "ancient_elements:elementinium_ingot"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ancient_elements.quest2664789760510146156.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "1D463D944452DFD1"
 				item: "ancient_elements:elementinium_ingot"
@@ -847,9 +847,9 @@
 		{
 			dependencies: ["24FB3C2B244E366C"]
 			description: [
-				"{ftbquests.chapter.ancient_elements.quest3110999601487453506.description1}"
+				"Armor set and Tools set on fire."
 				""
-				"{ftbquests.chapter.ancient_elements.quest3110999601487453506.description2}"
+				"&6Infernal ore generates in every nether biome except soulsand valley and warped forest. from Y= 40 to Y= 80"
 			]
 			id: "2B2C7DA79F0A9D42"
 			rewards: [{
@@ -857,7 +857,7 @@
 				item: "ancient_elements:infernal_ingot"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ancient_elements.quest3110999601487453506.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "785F811D4F2541D5"
 				item: "ancient_elements:infernal_ingot"
@@ -869,11 +869,11 @@
 		{
 			dependencies: ["2B2C7DA79F0A9D42"]
 			description: [
-				"{ftbquests.chapter.ancient_elements.quest5790932103825232564.description1}"
+				"Armor set gives immunity to fire, hellfire damage. Makes u move faster in lava aswell."
 				""
-				"{ftbquests.chapter.ancient_elements.quest5790932103825232564.description2}"
+				"Tools such as pickaxe can auto-smelt or cause explosions."
 				""
-				"{ftbquests.chapter.ancient_elements.quest5790932103825232564.description3}"
+				"&6Hellstone ore generates in every nether biome from Y= 0 to Y= 40 or rarely in bastion chests."
 			]
 			id: "505D861116E892B4"
 			rewards: [{
@@ -881,7 +881,7 @@
 				item: "ancient_elements:hellstone_ingot"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ancient_elements.quest5790932103825232564.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "6CC97AB9829A8835"
 				item: "ancient_elements:hellstone_ingot"
@@ -893,11 +893,11 @@
 		{
 			dependencies: ["29C9125DD03C84E4"]
 			description: [
-				"{ftbquests.chapter.ancient_elements.quest6676392830868568488.description1}"
+				"Armor set makes you faster in soulsand."
 				""
-				"{ftbquests.chapter.ancient_elements.quest6676392830868568488.description2}"
+				"Tools have some abilities."
 				""
-				"{ftbquests.chapter.ancient_elements.quest6676392830868568488.description3}"
+				"&6Spectrilium only generates in soul sand valleys from Y= 0 to Y= 100 or rarely in bastion chests."
 			]
 			id: "5CA74FE818E2B9A8"
 			rewards: [{
@@ -905,7 +905,7 @@
 				item: "ancient_elements:spectrillium_ingot"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ancient_elements.quest6676392830868568488.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "0ECF49A768EA0C58"
 				item: "ancient_elements:spectrillium_ingot"
@@ -917,9 +917,9 @@
 		{
 			dependencies: ["5CA74FE818E2B9A8"]
 			description: [
-				"{ftbquests.chapter.ancient_elements.quest2623111606246612030.description1}"
+				"Armor set gives permament nightvision with some de-buff immunities."
 				""
-				"{ftbquests.chapter.ancient_elements.quest2623111606246612030.description2}"
+				"&6Endrium can only generate in outer end islands."
 			]
 			id: "24672A1BA8889C3E"
 			rewards: [{
@@ -927,7 +927,7 @@
 				item: "ancient_elements:endrium_ingot"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ancient_elements.quest2623111606246612030.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "0911A9023FF10597"
 				item: "ancient_elements:endrium_ingot"
@@ -939,11 +939,11 @@
 		{
 			dependencies: ["24672A1BA8889C3E"]
 			description: [
-				"{ftbquests.chapter.ancient_elements.quest8105190663539725242.description1}"
+				"Armor set charges up a shockwave ability when taken damage."
 				""
-				"{ftbquests.chapter.ancient_elements.quest8105190663539725242.description2}"
+				"Tools have some abilities aswell."
 				""
-				"{ftbquests.chapter.ancient_elements.quest8105190663539725242.description3}"
+				"&6Celestium can only generate in the end-midlands biome."
 			]
 			id: "707B6BF7211913BA"
 			rewards: [{
@@ -951,7 +951,7 @@
 				item: "ancient_elements:celestium_ingot"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ancient_elements.quest8105190663539725242.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "6BA6AEB54C3CB92A"
 				item: "ancient_elements:celestium_ingot"
@@ -963,11 +963,11 @@
 		{
 			dependencies: ["4E7A045E29F63A02"]
 			description: [
-				"{ftbquests.chapter.ancient_elements.quest5645197026037812346.description1}"
+				"Armor set gives teleportation ability, immunity to cosmic shock."
 				""
-				"{ftbquests.chapter.ancient_elements.quest5645197026037812346.description2}"
+				"Tools have some aswell."
 				""
-				"{ftbquests.chapter.ancient_elements.quest5645197026037812346.description3}"
+				"&6Galactric scrap generates in end-mid and highlands, or rarely in end city loot chests."
 			]
 			id: "4E57C4C920134C7A"
 			rewards: [{
@@ -976,7 +976,7 @@
 				type: "item"
 			}]
 			size: 1.4d
-			subtitle: "{ftbquests.chapter.ancient_elements.quest5645197026037812346.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "1AA88C3007ED2C7F"
 				item: "ancient_elements:galactrium_ingot"
@@ -993,7 +993,7 @@
 				item: "ancient_elements:steel_upgrade_template"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ancient_elements.quest5265285231384355400.subtitle}"
+			subtitle: "Found in Underground Structures."
 			tasks: [{
 				id: "4ECB00D9A7AA4848"
 				item: "ancient_elements:steel_upgrade_template"
@@ -1010,7 +1010,7 @@
 				item: "ancient_elements:infernal_smithing_template"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ancient_elements.quest6139308862035607188.subtitle}"
+			subtitle: "Found in Nether Fortresses"
 			tasks: [{
 				id: "216B5B6693446C66"
 				item: "ancient_elements:infernal_smithing_template"
@@ -1027,7 +1027,7 @@
 				type: "xp"
 				xp: 67
 			}]
-			subtitle: "{ftbquests.chapter.ancient_elements.quest1342482122975508356.subtitle}"
+			subtitle: "Found in Flying Islands or Strongholds"
 			tasks: [{
 				id: "637626CFBDE039E2"
 				item: "ancient_elements:aetherium_smithing_template"
@@ -1044,7 +1044,7 @@
 				item: "ancient_elements:spectral_smithing_template"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ancient_elements.quest3010958020008772836.subtitle}"
+			subtitle: "Found in treasure bastion chests"
 			tasks: [{
 				id: "38D8994022C02184"
 				item: "ancient_elements:spectral_smithing_template"
@@ -1061,7 +1061,7 @@
 				type: "xp"
 				xp: 67
 			}]
-			subtitle: "{ftbquests.chapter.ancient_elements.quest5654837084594518530.subtitle}"
+			subtitle: "Found in End Cities or on End Spires"
 			tasks: [{
 				id: "77407F2A23D85D6A"
 				item: "ancient_elements:galactrium_smithing_template"
@@ -1259,13 +1259,13 @@
 		{
 			dependencies: ["400CB7513ACE8928"]
 			description: [
-				"{ftbquests.chapter.ancient_elements.quest4251329862525784803.description1}"
+				"After a large meteor hit the world, new minerals started to form around the world."
 				""
-				"{ftbquests.chapter.ancient_elements.quest4251329862525784803.description2}"
+				"Some minerals also.. formed this weird guy.."
 				""
-				"{ftbquests.chapter.ancient_elements.quest4251329862525784803.description3}"
+				"Kill him for really strong gear!"
 				""
-				"{ftbquests.chapter.ancient_elements.quest4251329862525784803.image0}"
+				"{image:customtextures:textures/ancientelemental.png width:250 height:100 align:center}"
 			]
 			icon: {
 				Count: 1
@@ -1303,7 +1303,7 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.ancient_elements.quest4251329862525784803.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				entity: "ancient_elements:ancient_elemental"
 				icon: {
@@ -1314,7 +1314,7 @@
 					}
 				}
 				id: "409810B93984F519"
-				title: "{ftbquests.chapter.ancient_elements.quest4251329862525784803.task.4654488602607416601.title}"
+				title: "Kill &cAncient Elemental"
 				type: "kill"
 				value: 1L
 			}]
@@ -1429,5 +1429,5 @@
 			y: -6.5d
 		}
 	]
-	title: "{ftbquests.chapter.ancient_elements.title}"
+	title: "Ancient Elements"
 }

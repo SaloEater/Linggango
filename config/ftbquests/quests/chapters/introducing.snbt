@@ -17,7 +17,7 @@
 			alpha: 155
 			click: "https://www.kinetichosting.com/modpacks/Lingango/order"
 			height: 1.0d
-			hover: ["ftbquests.chapter.introducing.image.hovertext1"]
+			hover: ["Why not catch memories with your friends?"]
 			image: "ftblibrary:icons/friends"
 			rotation: -45.0d
 			width: 1.0d
@@ -35,7 +35,7 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["ftbquests.chapter.introducing.image.hovertext2"]
+			hover: ["Questlines belong to me, and is protected by All Rights Reserved. Do not try to steal without an explicit permission from me."]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -44,7 +44,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["ftbquests.chapter.introducing.image.hovertext3"]
+			hover: ["Like the project? Consider supporting!"]
 			image: "customtextures:textures/patreon.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -54,7 +54,7 @@
 		{
 			click: "https://discord.gg/linggango"
 			height: 1.0d
-			hover: ["ftbquests.chapter.introducing.image.hovertext4"]
+			hover: ["Official Linggango Discord Server!"]
 			image: "customtextures:textures/discord.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -67,13 +67,13 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.introducing.quest1811428208250042031.description1}"
+				"Linggango is a terraria-inspired, content filled modpack. Your journal is here to guide you through all these stuff!"
 				""
-				"{ftbquests.chapter.introducing.quest1811428208250042031.description2}"
+				"This pack includes a unique progression system, thus i suggest checking--"
+				" "
+				"{ \"text\": \"Main Progression Questline\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79097B7E3E4E2782\" } }"
 				""
-				"[\"\",{\"translate\":\"ftbquests.chapter.introducing.quest1811428208250042031.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"79097B7E3E4E2782\"}}]"
-				""
-				"{ftbquests.chapter.introducing.quest1811428208250042031.description4}"
+				"Be aware of &cRing of The Seven Curses&r though, it changes the whole gameplay to become extremely challenging!"
 			]
 			disable_toast: true
 			icon: {
@@ -100,11 +100,11 @@
 			]
 			shape: "octagon"
 			size: 1.65d
-			subtitle: "{ftbquests.chapter.introducing.quest1811428208250042031.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "56B04324579384A6"
-					title: "{ftbquests.chapter.introducing.quest1811428208250042031.task.6246566506530047142.title}"
+					title: "Great"
 					type: "checkmark"
 				}
 				{
@@ -118,22 +118,22 @@
 						}
 					}
 					id: "27BE71E5E81645EC"
-					title: "{ftbquests.chapter.introducing.quest1811428208250042031.task.2863851645309437420.title}"
+					title: "Checking you in.."
 					type: "dimension"
 				}
 			]
-			title: "{ftbquests.chapter.introducing.quest1811428208250042031.title}"
+			title: "Introducing Linggango"
 			x: 0.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
 			description: [
-				"{ftbquests.chapter.introducing.quest5181111178462271752.description1}"
+				"Ring of the seven curses is a game-changing curio. "
 				""
-				"{ftbquests.chapter.introducing.quest5181111178462271752.description2}"
+				"If you wanna know more about it just check here:"
 				""
-				"[\"\",{\"translate\":\"ftbquests.chapter.introducing.quest5181111178462271752.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7C1409F2EE726A20\"}}]"
+				"{ \"text\": \"Ring Of The Seven Curses\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7C1409F2EE726A20\" } }"
 			]
 			disable_toast: true
 			icon_scale: 1.2d
@@ -203,37 +203,37 @@
 			]
 			shape: "pentagon"
 			size: 1.35d
-			subtitle: "{ftbquests.chapter.introducing.quest5181111178462271752.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				advancement: "enigmaticlegacy:main/cursed_ring"
 				criterion: ""
 				id: "66881B564D381E06"
 				type: "advancement"
 			}]
-			title: "{ftbquests.chapter.introducing.quest5181111178462271752.title}"
+			title: "Ring of The Seven Curses"
 			x: -1.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
 			description: [
-				"{ftbquests.chapter.introducing.quest8424780651735610376.description1}"
+				"Some of Keybinds: "
 				""
-				"{ftbquests.chapter.introducing.quest8424780651735610376.description2}"
+				"\"&dN&r\" FTB Ultimine (breaks multiple blocks at once)"
 				""
-				"{ftbquests.chapter.introducing.quest8424780651735610376.description3}"
+				"''&dZ&r'' Zoom"
 				""
-				"{ftbquests.chapter.introducing.quest8424780651735610376.description4}"
+				"\"&dR (on a item)&r\" shows the recipe of that item, very useful!"
 				""
-				"{ftbquests.chapter.introducing.quest8424780651735610376.description5}"
+				"\"&dU (on a item)&r\" shows the uses of that item, very useful aswell!"
 				""
-				"{ftbquests.chapter.introducing.quest8424780651735610376.description6}"
+				"''&dR&r'' Roll (Dodge)"
 				""
-				"{ftbquests.chapter.introducing.quest8424780651735610376.description7}"
+				"''&dM&r'' Map"
 				""
-				"{ftbquests.chapter.introducing.quest8424780651735610376.description8}"
+				"''&dShift+B&r'' Open Backpack"
 				""
-				"{ftbquests.chapter.introducing.quest8424780651735610376.description9}"
+				"''&dF&r\" Cast spell"
 			]
 			icon: {
 				Count: 1
@@ -251,29 +251,29 @@
 			}]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.introducing.quest8424780651735610376.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "1330ACF604376C79"
-				title: "{ftbquests.chapter.introducing.quest8424780651735610376.task.1382795258235415673.title}"
+				title: "Yea yea alr "
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.introducing.quest8424780651735610376.title}"
+			title: "Keybinds"
 			x: 2.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
 			description: [
-				"{ftbquests.chapter.introducing.quest8814774128298875803.description1}"
+				"&dParties&r are useful in multiplayer, it allows you to do quests with your friends! You can find parties tab on right top of your screen while in inventory."
 				""
-				"{ftbquests.chapter.introducing.quest8814774128298875803.description2}"
-				"{ftbquests.chapter.introducing.quest8814774128298875803.image0}"
-				"{ftbquests.chapter.introducing.quest8814774128298875803.description3}"
-				"{ftbquests.chapter.introducing.quest8814774128298875803.image2}"
-				"{ftbquests.chapter.introducing.quest8814774128298875803.description4}"
-				"{ftbquests.chapter.introducing.quest8814774128298875803.image4}"
-				"{ftbquests.chapter.introducing.quest8814774128298875803.description5}"
-				"{ftbquests.chapter.introducing.quest8814774128298875803.image6}"
+				"&e-1.&r Go in inventory, then teams."
+				"{image:customtextures:textures/team1.png width:300 height:150 align:center}"
+				"&e-2.&r Create your party."
+				"{image:customtextures:textures/team2.png width:300 height:140 align:center}"
+				"&e-3.&r Enter your party name and description."
+				"{image:customtextures:textures/team3.png width:300 height:200 align:center}"
+				"&e-4.&r Invite your friends!"
+				"{image:customtextures:textures/team4.png width:300 height:140 align:center}"
 			]
 			icon: {
 				Count: 1
@@ -291,24 +291,24 @@
 			}]
 			shape: "woodtier"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.introducing.quest8814774128298875803.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "0F6C1CB9029FDB70"
-				title: "{ftbquests.chapter.introducing.quest8814774128298875803.task.1111294788992228208.title}"
+				title: "I got no friends.. :c"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.introducing.quest8814774128298875803.title}"
+			title: "Multiplayer: &aParties"
 			x: 1.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
 			description: [
-				"{ftbquests.chapter.introducing.quest4039507492578544684.description1}"
+				"Dodging can be performed by pressing “R”. It grants a short burst of invincibility frames, preventing all damage for a brief moment."
 				""
-				"{ftbquests.chapter.introducing.quest4039507492578544684.description2}"
+				"It has a cooldown — but this can be reduced and enhanced through certain enchantments."
 				""
-				"{ftbquests.chapter.introducing.quest4039507492578544684.image0}"
+				"{image:customtextures:textures/dodge.png width:300 height:100 align:center}"
 			]
 			icon: {
 				Count: 1
@@ -325,22 +325,22 @@
 			}]
 			shape: "goldtier"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.introducing.quest4039507492578544684.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "05E7F702C670C8C6"
-				title: "{ftbquests.chapter.introducing.quest4039507492578544684.task.425580281101076678.title}"
+				title: "I be rollin yay"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.introducing.quest4039507492578544684.title}"
+			title: "Combat: &aDodging Attacks"
 			x: 0.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
 			description: [
-				"{ftbquests.chapter.introducing.quest5307253095096916869.description1}"
+				"Exposure mods allows you to take pictures and more related features!"
 				""
-				"{ftbquests.chapter.introducing.quest5307253095096916869.description2}"
+				"You can take pictures and develop them using the Lightroom."
 			]
 			icon: "exposure:camera"
 			id: "49A726922A581B85"
@@ -388,7 +388,7 @@
 			]
 			shape: "pentagon"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.introducing.quest5307253095096916869.subtitle}"
+			subtitle: "Say, Cheeese!"
 			tasks: [
 				{
 					id: "3EC9CB6DE1AE7ECC"
@@ -401,78 +401,78 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.introducing.quest5307253095096916869.title}"
+			title: "Capturing Moments"
 			x: -1.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
 			description: [
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description1}"
+				"&fFTB Essentials is a useful utility mod that will make your overall gameplay easier and less suffering."
 				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description2}"
+				"&6Here's the command list."
 				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description3}"
+				"&eMisc commands:"
 				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description4}"
+				"-&8/kickme - Kicks yourself from server (in case the bed bug ever returns)-"
 				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description5}"
+				"-&8/trashcan - Opens an inventory where items get deleted when placed in and closed-"
 				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description6}"
+				"-&8/hat - Puts item currently in main hand in helmet slot making it your 'hat'-"
 				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description7}"
-				""
-				"{@pagebreak}"
-				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description8}"
-				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description9}"
-				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description10}"
-				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description11}"
-				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description12}"
-				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description13}"
-				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description14}"
-				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description15}"
+				"-&8/nick <name…> - Changes nickname in chat-"
 				""
 				"{@pagebreak}"
 				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description16}"
+				"&eCheat commands:"
 				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description17}"
+				"-&8/heal - Heals player to full HP and food bar-"
 				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description18}"
+				"-&8/fly - Toggles flight-"
 				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description19}"
+				"-&8/invsee <player> - Allows to view and edit other player inventories-"
 				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description20}"
+				"-&8/nickfor <player> <name…> - Changes nickname for another player in chat-"
 				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description21}"
+				"-&8/mute - Mutes player-"
 				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description22}"
+				"-&8/unmute - Unmutes player-"
 				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description23}"
+				"-&8/teleport_last <player> - Teleports to last known player location-"
 				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description24}"
+				"{@pagebreak}"
 				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description25}"
+				"&eTeleport commands:"
 				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description26}"
+				"-&8/back - Teleports to previous location. Can be used multiple times-"
 				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description27}"
+				"-&8/spawn - Teleports you to spawn-"
 				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description28}"
+				"-&8/rtp - Teleports you to random location in world, tries to find a non-ocean, safe place to land-"
 				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description29}"
+				"-&8/home [name] - Teleports to a home-"
 				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description30}"
+				"-&8/sethome <name> - Sets home-"
 				""
-				"{ftbquests.chapter.introducing.quest8740740790314940969.description31}"
+				"-&8/delhome <name> - Deletes a home-"
+				""
+				"-&8/listhomes [player] - Lists all player homes-"
+				""
+				"-&8/warp <name> - Teleports to a warp-"
+				""
+				"-&8/setwarp <name> - Sets warp-"
+				""
+				"-&8/delwarp <name> - Deletes a warp-"
+				""
+				"-&8/listwarps - Lists all warps-"
+				""
+				"-&8/tpa <player> - Requests teleportation to player-"
+				""
+				"-&8/tpahere <player> - Requests player to teleport to you-"
+				""
+				"-&8/tpaccept <id> - Accepts request (will have a button for it on screen)-"
+				""
+				"-&8/tpadeny <id> - Denies request (will have a button for it on screen)-"
 			]
 			icon: {
 				Count: 1
@@ -489,22 +489,22 @@
 			}]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.introducing.quest8740740790314940969.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "4BD28CA1DC129804"
-				title: "{ftbquests.chapter.introducing.quest8740740790314940969.task.5463583924763662340.title}"
+				title: "Woaw!"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.introducing.quest8740740790314940969.title}"
+			title: "&bFTB&r Essentials"
 			x: -1.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
 			description: [
-				"{ftbquests.chapter.introducing.quest3598036937492569992.description1}"
+				"Explorer's compass is not a ordinary compass. "
 				""
-				"{ftbquests.chapter.introducing.quest3598036937492569992.description2}"
+				"It allows you to literally locate any.. and i mean ANY structure in the game, saving you lotta hours!"
 			]
 			id: "31EECB880BFA9F88"
 			rewards: [{
@@ -514,7 +514,7 @@
 			}]
 			shape: "pentagon"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.introducing.quest3598036937492569992.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "56C9A1C5DB97BEB8"
 				item: {
@@ -542,21 +542,21 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.introducing.quest3598036937492569992.title}"
+			title: "Explorer's Compass"
 			x: 2.0d
 			y: -6.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.introducing.quest3414273055808769620.description1}"
+				"Linggango has tons of tricks that you won't realize in your normal gameplay. "
 				""
-				"{ftbquests.chapter.introducing.quest3414273055808769620.description2}"
+				"This questline is about teaching you QoL tips to make your Lingango experience even better!"
 				""
-				"{ftbquests.chapter.introducing.quest3414273055808769620.description3}"
+				"Wanna know about QoL Blocks? "
 				""
-				"{ftbquests.chapter.introducing.quest3414273055808769620.description4}"
+				"Check: "
 				""
-				"[\"\",{\"translate\":\"ftbquests.chapter.introducing.quest3414273055808769620.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"65B70A8030FC464D\"}}]"
+				"{ \"text\": \"Additions Qustline\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"65B70A8030FC464D\" } }"
 			]
 			icon: {
 				Count: 1
@@ -574,23 +574,23 @@
 			}]
 			shape: "square"
 			size: 1.35d
-			subtitle: "{ftbquests.chapter.introducing.quest3414273055808769620.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "4D148DA3947C52A1"
-				title: "{ftbquests.chapter.introducing.quest3414273055808769620.task.5554219974165025441.title}"
+				title: "Alright, cool!"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.introducing.quest3414273055808769620.title}"
+			title: "Some Tips and Tricks"
 			x: -7.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["2F61EF4131AB4E54"]
 			description: [
-				"{ftbquests.chapter.introducing.quest8231003371061787267.description1}"
+				"Speed up smelting with Bellows!"
 				""
-				"{ftbquests.chapter.introducing.quest8231003371061787267.description2}"
-				"{ftbquests.chapter.introducing.quest8231003371061787267.description3}"
+				"-Place next to a furnace (not on top)"
+				"-Activate with redstone to boost smelting speed"
 			]
 			icon: "supplementaries:bellows"
 			id: "723A65F4CD2E3A83"
@@ -600,24 +600,24 @@
 				xp: 25
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.introducing.quest8231003371061787267.subtitle}"
+			subtitle: "Speed up smelting with furnaces."
 			tasks: [{
 				id: "2EB9F777891C69A1"
-				title: "{ftbquests.chapter.introducing.quest8231003371061787267.task.3366994289209665953.title}"
+				title: "Fanning the Flames"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.introducing.quest8231003371061787267.title}"
+			title: "Bellows"
 			x: -7.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["2F61EF4131AB4E54"]
 			description: [
-				"{ftbquests.chapter.introducing.quest587540093684767409.description1}"
+				"Just throw it into a hole and it will start expanding like crazy!"
 				""
-				"{ftbquests.chapter.introducing.quest587540093684767409.description2}"
+				"There's other variations check jei to see "
 				""
-				"{ftbquests.chapter.introducing.quest587540093684767409.description3}"
+				"@hole_filler_mod"
 			]
 			id: "08275C9A2F615AB1"
 			rewards: [
@@ -632,7 +632,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{ftbquests.chapter.introducing.quest587540093684767409.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "320FF58990BBA41C"
 				item: "hole_filler_mod:throwable_hole_filler"
@@ -643,7 +643,7 @@
 		}
 		{
 			dependencies: ["2F61EF4131AB4E54"]
-			description: ["{ftbquests.chapter.introducing.quest3342872093543889811.description1}"]
+			description: ["You can gain additional wood by placing wooden furniture on top of a chopping board and chopping it with an axe."]
 			icon: "farmersdelight:cutting_board"
 			icon_scale: 1.3d
 			id: "2E644475313FFB93"
@@ -653,7 +653,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.introducing.quest3342872093543889811.subtitle}"
+			subtitle: "Reverse Carpenter"
 			tasks: [
 				{
 					id: "4E4D4668B6AA4E5B"
@@ -672,13 +672,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.introducing.quest3342872093543889811.title}"
+			title: "More Wood With Careful Chopping"
 			x: -5.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["2F61EF4131AB4E54"]
-			description: ["{ftbquests.chapter.introducing.quest8848618763127910526.description1}"]
+			description: ["With enchantment infuser, you can choose the specific enchantment you want on your tool."]
 			hide_dependency_lines: false
 			id: "7ACC9BE21118707E"
 			rewards: [
@@ -695,13 +695,13 @@
 				}
 			]
 			shape: "diamondtier"
-			subtitle: "{ftbquests.chapter.introducing.quest8848618763127910526.subtitle}"
+			subtitle: "No more relying on luck!"
 			tasks: [{
 				id: "5266E2A2CFFCF562"
 				item: "enchantinginfuser:enchanting_infuser"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.introducing.quest8848618763127910526.title}"
+			title: "&dEnchanting Infuser"
 			x: -7.5d
 			y: -2.5d
 		}
@@ -723,19 +723,19 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.introducing.quest6608620868635218414.subtitle}"
+			subtitle: "Well Same Thing But with Repairing!"
 			tasks: [{
 				id: "016AA4135F7202C1"
 				item: "enchantinginfuser:advanced_enchanting_infuser"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.introducing.quest6608620868635218414.title}"
+			title: "&dAdvanced Enchanting Infuser"
 			x: -7.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2F61EF4131AB4E54"]
-			description: ["{ftbquests.chapter.introducing.quest3722821206373414033.description1}"]
+			description: ["Kelps can be used just like a bonemeal."]
 			icon_scale: 1.3d
 			id: "33AA1E29B02DB491"
 			optional: true
@@ -745,19 +745,19 @@
 				item: "minecraft:bone_meal"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.introducing.quest3722821206373414033.subtitle}"
+			subtitle: "Kelps as bonemeals"
 			tasks: [{
 				id: "4D6C70E4C66DF43A"
 				item: "minecraft:kelp"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.introducing.quest3722821206373414033.title}"
+			title: "&aKelp"
 			x: -9.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["2F61EF4131AB4E54"]
-			description: ["{ftbquests.chapter.introducing.quest5018715537845769868.description1}"]
+			description: ["When you do so, the &aVine&r will no longer be able to grow."]
 			icon: {
 				Count: 1
 				id: "minecraft:shears"
@@ -767,12 +767,12 @@
 			}
 			id: "45A60F30FE07D68C"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.introducing.quest5018715537845769868.subtitle}"
+			subtitle: "The tip of a vine can now be right-clicked with Shears."
 			tasks: [{
 				id: "646B18B1F7C13716"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.introducing.quest5018715537845769868.title}"
+			title: "Shear Vine Tips"
 			x: -5.5d
 			y: -4.5d
 		}
@@ -785,13 +785,13 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "{ftbquests.chapter.introducing.quest3095720934013624091.subtitle}"
+			subtitle: "Chains connect blocks together when a piston moves them."
 			tasks: [{
 				id: "51AD270EFE035299"
-				title: "{ftbquests.chapter.introducing.quest3095720934013624091.task.5885403233387762329.title}"
+				title: "OK"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.introducing.quest3095720934013624091.title}"
+			title: "Chains Connect Blocks"
 			x: -5.5d
 			y: -6.5d
 		}
@@ -799,12 +799,12 @@
 			dependencies: ["2F61EF4131AB4E54"]
 			icon: "minecraft:piston"
 			id: "2FF5FB2938BE9E5C"
-			subtitle: "{ftbquests.chapter.introducing.quest3455944443540971100.subtitle}"
+			subtitle: "Pistons are allowed to move Tile Entities (blocks with extra data attached, like Chests or Furnaces)."
 			tasks: [{
 				id: "040EBFEC21FBE3FA"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.introducing.quest3455944443540971100.title}"
+			title: "Pistons Move Tile Entities"
 			x: -8.5d
 			y: -6.5d
 		}
@@ -818,27 +818,27 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.introducing.quest1432456744066120894.subtitle}"
+			subtitle: "Axes can be used in dispensers to strip or scrape blocks."
 			tasks: [{
 				id: "05B8FAED63B712AA"
-				title: "{ftbquests.chapter.introducing.quest1432456744066120894.task.412355263391535786.title}"
+				title: "yeye"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.introducing.quest1432456744066120894.title}"
+			title: "Stripping or scraping blocks by dispenser"
 			x: -5.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2F61EF4131AB4E54"]
-			description: ["{ftbquests.chapter.introducing.quest8642542122664676661.description1}"]
+			description: ["Placed &abooks&r can give enchanting power to an &aEnchanting Table&r. The power given depends on the number and type of &abooks&r used."]
 			icon: "minecraft:book"
 			id: "77F07A4539C74D35"
-			subtitle: "{ftbquests.chapter.introducing.quest8642542122664676661.subtitle}"
+			subtitle: "Enchanted and normal books can be placed and thus have a block form."
 			tasks: [{
 				id: "376CBE042329A4D7"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.introducing.quest8642542122664676661.title}"
+			title: "Placeable Books"
 			x: -9.5d
 			y: -1.5d
 		}
@@ -847,20 +847,20 @@
 			icon: "minecraft:compass"
 			id: "0C463BE958D2D54A"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.introducing.quest884460250228512074.subtitle}"
+			subtitle: "In the Nether, the compass points to the portal through which you entered the Nether."
 			tasks: [{
 				id: "043E5CA99A68CB3C"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.introducing.quest884460250228512074.title}"
+			title: "Nether Portal Compass"
 			x: -9.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["2F61EF4131AB4E54"]
-			description: ["{ftbquests.chapter.introducing.quest940980084146447800.description1}"]
+			description: ["Very useful if you prefer a smaller dragon."]
 			id: "0D0F0866A84425B8"
-			subtitle: "{ftbquests.chapter.introducing.quest940980084146447800.subtitle}"
+			subtitle: "Stops ageing when fed to young animals."
 			tasks: [{
 				id: "41DF3E7ACB6CAE95"
 				item: "minecraft:poisonous_potato"
@@ -873,20 +873,20 @@
 			dependencies: ["2F61EF4131AB4E54"]
 			icon: "minecraft:rotten_flesh"
 			id: "0E9F6656377B2F11"
-			subtitle: "{ftbquests.chapter.introducing.quest1053673358312025873.subtitle}"
+			subtitle: "Feeding rotten flesh to a tamed skeleton horse will slowly convert it into a zombie horse."
 			tasks: [{
 				id: "7EAD7EC8007C427E"
-				title: "{ftbquests.chapter.introducing.quest1053673358312025873.task.9128091417216565886.title}"
+				title: "ye"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.introducing.quest1053673358312025873.title}"
+			title: "Zombie Horse Conversion"
 			x: -9.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["2F61EF4131AB4E54"]
 			id: "6C0DBEBFF21FC785"
-			subtitle: "{ftbquests.chapter.introducing.quest7786089062403655557.subtitle}"
+			subtitle: "Can be used as shears."
 			tasks: [{
 				id: "103E5960F0778725"
 				item: {
@@ -904,10 +904,10 @@
 		{
 			dependencies: ["2F61EF4131AB4E54"]
 			description: [
-				"{ftbquests.chapter.introducing.quest3680297328177894536.description1}"
-				"{ftbquests.chapter.introducing.quest3680297328177894536.description2}"
+				"Breaking grass or crops with a &aHoe&r will now break them in a 3x3 area."
+				"A &aDiamond Hoe&r will break a 5x5 area instead."
 				""
-				"{ftbquests.chapter.introducing.quest3680297328177894536.description3}"
+				"You can add a &3Fortune enchantement&r to a &aHoe&r to get extra drops from grass and crops."
 			]
 			icon: {
 				Count: 1
@@ -922,12 +922,12 @@
 				type: "xp"
 				xp: 67
 			}]
-			subtitle: "{ftbquests.chapter.introducing.quest3680297328177894536.subtitle}"
+			subtitle: "Learn how to use a hoe better."
 			tasks: [{
 				id: "474E60E7BE997636"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.introducing.quest3680297328177894536.title}"
+			title: "Improved Hoes"
 			x: -5.5d
 			y: -5.5d
 		}
@@ -940,7 +940,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.introducing.quest3083330704372984494.subtitle}"
+			subtitle: "Anything can be done from your inventory now!"
 			tasks: [
 				{
 					id: "0D77EC2B697D1A90"
@@ -978,18 +978,18 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.introducing.quest3083330704372984494.title}"
+			title: "... On a Stick!"
 			x: -9.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
 			description: [
-				"{ftbquests.chapter.introducing.quest8404951336653104671.description1}"
+				"Carry along your &eanimals&r, &eplayers&r and &eNPC&r companions with the two seats on this &aCart&r!"
 				""
-				"{ftbquests.chapter.introducing.quest8404951336653104671.description2}"
+				"Press &6R&r for attach/detach &aCart&r."
 				""
-				"{ftbquests.chapter.introducing.quest8404951336653104671.description3}"
+				"You can take a &aCart&r and hitch it even when you're on horseback."
 			]
 			id: "74A462B597A7261F"
 			rewards: [{
@@ -997,7 +997,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "{ftbquests.chapter.introducing.quest8404951336653104671.subtitle}"
+			subtitle: "Take Your Friend With You!"
 			tasks: [{
 				id: "672DA16D6EC8C9C3"
 				item: "astikorcarts:animal_cart"
@@ -1016,7 +1016,7 @@
 				xp: 100
 			}]
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.introducing.quest7365910351080489434.subtitle}"
+			subtitle: "Classic, a Horse."
 			tasks: [{
 				id: "7838003346DB1FA1"
 				item: "minecraft:saddle"
@@ -1028,13 +1028,13 @@
 		{
 			dependencies: ["7652B74B3DA4A030"]
 			description: [
-				"{ftbquests.chapter.introducing.quest3947842609907390344.description1}"
-				"{ftbquests.chapter.introducing.quest3947842609907390344.description2}"
-				"{ftbquests.chapter.introducing.quest3947842609907390344.description3}"
+				"Up to a double chests worth!"
+				"One seat on the back."
+				"&6Shift&r + &6Right-Click&r to access the inventory!"
 				""
-				"{ftbquests.chapter.introducing.quest3947842609907390344.description4}"
+				"Press &6R&r for attach/detach &aCart&r."
 				""
-				"{ftbquests.chapter.introducing.quest3947842609907390344.description5}"
+				"You can take a &aCart&r and hitch it even when you're on horseback."
 			]
 			id: "36C98DEFE8AE5788"
 			rewards: [{
@@ -1042,7 +1042,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "{ftbquests.chapter.introducing.quest3947842609907390344.subtitle}"
+			subtitle: "Bring Your Storage With You!"
 			tasks: [{
 				id: "175E46E0B647565A"
 				item: "astikorcarts:supply_cart"
@@ -1059,7 +1059,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "{ftbquests.chapter.introducing.quest8134495557016213932.subtitle}"
+			subtitle: "A normal rail with faster maximum speed"
 			tasks: [{
 				id: "4687B5BF5D76F7DF"
 				item: "minecraft:rail"
@@ -1077,7 +1077,7 @@
 				xp: 25
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.introducing.quest4707400409465301048.subtitle}"
+			subtitle: "Powered with redstone, faster than a normal rail but can't turn or slope"
 			tasks: [{
 				id: "071E2A89C5112615"
 				item: "minecraft:powered_rail"
@@ -1088,7 +1088,7 @@
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
-			description: ["{ftbquests.chapter.introducing.quest5160948040857755125.description1}"]
+			description: ["Slower, but with two seats. Quite easy to maneuver, with acceptable speed thanks to the engine in the back."]
 			id: "479F5EE637931DF5"
 			rewards: [{
 				id: "1FF4D8CFD5E75FE3"
@@ -1096,7 +1096,7 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.introducing.quest5160948040857755125.subtitle}"
+			subtitle: "Calm and safe"
 			tasks: [{
 				id: "5223FA949EC2745C"
 				item: "immersive_aircraft:airship"
@@ -1107,7 +1107,7 @@
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
-			description: ["{ftbquests.chapter.introducing.quest6195512787289885129.description1}"]
+			description: ["An advanced version of the airship, it can carry a large number of items."]
 			id: "55FAE20E07CDC9C9"
 			rewards: [{
 				id: "79C3600ACC8A6EA1"
@@ -1115,7 +1115,7 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.introducing.quest6195512787289885129.subtitle}"
+			subtitle: "Safe and calm and BIG"
 			tasks: [{
 				id: "783C5BB6D0A35A5F"
 				item: "immersive_aircraft:cargo_airship"
@@ -1126,7 +1126,7 @@
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
-			description: ["{ftbquests.chapter.introducing.quest173189396698417751.description1}"]
+			description: ["Sturdy, has 3 seats, and a bunch of weapon options"]
 			id: "02674AD6B512CA57"
 			rewards: [{
 				id: "24EF32F471BF24A5"
@@ -1134,7 +1134,7 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.introducing.quest173189396698417751.subtitle}"
+			subtitle: "Safe and Harmful"
 			tasks: [{
 				id: "1BB3FF3DB83BA907"
 				item: "immersive_aircraft:warship"
@@ -1145,7 +1145,7 @@
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
-			description: ["{ftbquests.chapter.introducing.quest7411322313866559620.description1}"]
+			description: ["A masterwork of engineering! Four propellers strapped on a bunch of bamboos. It's quite handy for building."]
 			id: "66DA4E60A9F14084"
 			rewards: [{
 				id: "26B82124D6F7189F"
@@ -1153,7 +1153,7 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.introducing.quest7411322313866559620.subtitle}"
+			subtitle: "Building is way easier!"
 			tasks: [{
 				id: "165B3FA6A3CC1CDF"
 				item: "immersive_aircraft:quadrocopter"
@@ -1164,7 +1164,7 @@
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
-			description: ["{ftbquests.chapter.introducing.quest4207554607503534860.description1}"]
+			description: ["Fast, one seat, medium difficulty. Make sure you have somewhere flat to take off and land on!"]
 			id: "3A643C9F794E6B0C"
 			rewards: [{
 				id: "02CF47F95D93964C"
@@ -1172,13 +1172,13 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.introducing.quest4207554607503534860.subtitle}"
+			subtitle: "Classic plane."
 			tasks: [{
 				id: "28CC36B4CF226782"
 				item: "immersive_aircraft:biplane"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.introducing.quest4207554607503534860.title}"
+			title: "Biplane"
 			x: -1.5d
 			y: 2.0d
 		}
@@ -1191,7 +1191,7 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.introducing.quest1920885689651966763.subtitle}"
+			subtitle: "Enchaned biplane"
 			tasks: [{
 				id: "25E8EF1EE23DACB2"
 				item: "man_of_many_planes:scarlet_biplane"
@@ -1209,7 +1209,7 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.introducing.quest7119076936532887370.subtitle}"
+			subtitle: "Easy to make, not that good."
 			tasks: [{
 				id: "60F69D9897A589B1"
 				item: "man_of_many_planes:economy_plane"
@@ -1221,9 +1221,9 @@
 		{
 			dependencies: ["7652B74B3DA4A030"]
 			description: [
-				"{ftbquests.chapter.introducing.quest1606283878798158170.description1}"
+				"Elytra allows you to float in the sky!"
 				""
-				"{ftbquests.chapter.introducing.quest1606283878798158170.description2}"
+				"With fireworks and some artifacts you can also get a huge speed boost."
 			]
 			icon_scale: 1.3d
 			id: "164AAAAD6433695A"
@@ -1233,7 +1233,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.introducing.quest1606283878798158170.subtitle}"
+			subtitle: "Classic"
 			tasks: [{
 				id: "3196A1C9052406E5"
 				item: {
@@ -1245,13 +1245,13 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.introducing.quest1606283878798158170.title}"
+			title: "Elytra"
 			x: -1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
-			description: ["{ftbquests.chapter.introducing.quest5885881807333592987.description1}"]
+			description: ["Human-powered primitive dual seater. Trusty and easy to maneuver, yet not the fastest. Needs a good initial push to get the rotor spinning."]
 			id: "51AEDA51AC0D8F9B"
 			rewards: [{
 				id: "4C99F1C790626CAF"
@@ -1259,7 +1259,7 @@
 				xp: 100
 			}]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.introducing.quest5885881807333592987.subtitle}"
+			subtitle: "Not the brightest.."
 			tasks: [{
 				id: "07EA7B8F8DAF0E36"
 				item: "immersive_aircraft:gyrodyne"
@@ -1269,7 +1269,7 @@
 			y: 1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.introducing.quest8526078578350399536.description1}"]
+			description: ["Travel methods for land and sea. There's also wagons that i didn't mention.. take a look in EMI"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -1286,24 +1286,24 @@
 			}]
 			shape: "square"
 			size: 1.35d
-			subtitle: "{ftbquests.chapter.introducing.quest8526078578350399536.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "6D0559BF8949654A"
-				title: "{ftbquests.chapter.introducing.quest8526078578350399536.task.7855783804194612554.title}"
+				title: "Okay!"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.introducing.quest8526078578350399536.title}"
+			title: "Traveling"
 			x: 0.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
 			description: [
-				"{ftbquests.chapter.introducing.quest6618226445654838552.description1}"
+				"Put a shovel or a hoe and witness the magic!"
 				""
-				"{ftbquests.chapter.introducing.quest6618226445654838552.description2}"
+				"Press &6R&r for attach/detach &aCart&r."
 				""
-				"{ftbquests.chapter.introducing.quest6618226445654838552.description3}"
+				"You can take a &aCart&r and hitch it even when you're on horseback."
 			]
 			id: "5BD8A9E3305A4D18"
 			rewards: [{
@@ -1311,7 +1311,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "{ftbquests.chapter.introducing.quest6618226445654838552.subtitle}"
+			subtitle: "For other purposes"
 			tasks: [{
 				id: "32B563BCFB4B6F94"
 				item: "astikorcarts:plow"
@@ -1323,9 +1323,9 @@
 		{
 			dependencies: ["7A545E5DF48EDB9B"]
 			description: [
-				"{ftbquests.chapter.introducing.quest3463535120927656071.description1}"
+				"Terramity's &cBlood Contracts&r disables friendly fire between you and your friend so you don't hit eachother."
 				""
-				"{ftbquests.chapter.introducing.quest3463535120927656071.description2}"
+				"I'll only give one cuz why not."
 			]
 			icon: {
 				Count: 1
@@ -1342,56 +1342,56 @@
 			}]
 			shape: "heart"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.introducing.quest3463535120927656071.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "74D1BD4A3C2D5C59"
-				title: "{ftbquests.chapter.introducing.quest3463535120927656071.task.8417717305067002969.title}"
+				title: "useful"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.introducing.quest3463535120927656071.title}"
+			title: "Multiplayer: &cBlood Contracts"
 			x: 1.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["380F36A98AAC4C2C"]
 			description: [
-				"{ftbquests.chapter.introducing.quest2466501739674296327.description1}"
-				"{ftbquests.chapter.introducing.quest2466501739674296327.description2}"
+				"Reforging your items can make you even stronger and it's not even complex! "
+				"&8It can provide you nearly every single buff.&r"
 				""
-				"{ftbquests.chapter.introducing.quest2466501739674296327.description3}"
-				"{ftbquests.chapter.introducing.quest2466501739674296327.description4}"
-				"{ftbquests.chapter.introducing.quest2466501739674296327.image0}"
-				"{ftbquests.chapter.introducing.quest2466501739674296327.description5}"
-				"{ftbquests.chapter.introducing.quest2466501739674296327.description6}"
-				"{ftbquests.chapter.introducing.quest2466501739674296327.image2}"
-				"{ftbquests.chapter.introducing.quest2466501739674296327.description7}"
+				"Here's a small tutorial:"
+				"&n1- Craft an Anvil."
+				"{image:customtextures:textures/anvilcrafting.png width:100 height:50 align:center}"
+				"&8did u really needed this recipe picture"
+				"&n2- Right-click it and Click on the \"Reforge Gear\" tab."
+				"{image:customtextures:textures/reforgingtab.png width:150 height:150 align:center}"
+				"&n3- Requires 3 item inputs: "
 				""
-				"{ftbquests.chapter.introducing.quest2466501739674296327.description8}"
+				"&6- Item you want to reforge (swords, bows and armors)"
 				""
-				"{ftbquests.chapter.introducing.quest2466501739674296327.description9}"
+				"&6- Item repair material. (if none works, use iron)"
 				""
-				"{ftbquests.chapter.introducing.quest2466501739674296327.description10}"
+				"&6- Any of the materials listed below, associated with each tier."
 				""
-				"{ftbquests.chapter.introducing.quest2466501739674296327.description11}"
-				"{ftbquests.chapter.introducing.quest2466501739674296327.description12}"
-				"{ftbquests.chapter.introducing.quest2466501739674296327.description13}"
-				"{ftbquests.chapter.introducing.quest2466501739674296327.description14}"
-				"{ftbquests.chapter.introducing.quest2466501739674296327.description15}"
-				"{ftbquests.chapter.introducing.quest2466501739674296327.description16}"
-				"{ftbquests.chapter.introducing.quest2466501739674296327.description17}"
+				"&nMaterial list:"
+				"&aTier 1 / Common - Limestone Chunk"
+				"&eTier 2 / Uncommon - Pyrite"
+				"&bTier 3 / Rare - Galena"
+				"&dTier 4 / Epic - Charoite"
+				"&6Tier 5 / Legendary - Crown Topaz"
+				"&cTier 6 / Mythic - Painite"
 				""
-				"{ftbquests.chapter.introducing.quest2466501739674296327.description18}"
+				"&n4-&r &b&n\"Perfect\"&r &nitem possibility"
 				""
-				"{ftbquests.chapter.introducing.quest2466501739674296327.description19}"
+				"Perfect reforging removes every downside and adds a badass item border."
 				""
-				"{ftbquests.chapter.introducing.quest2466501739674296327.description20}"
+				"Has %1.0 chance of happening."
 				""
-				"{ftbquests.chapter.introducing.quest2466501739674296327.description21}"
+				"&n5- Cleansing stone"
 				""
-				"{ftbquests.chapter.introducing.quest2466501739674296327.description22}"
+				"This item allows you to cleanse the effects of the reforging."
 				""
 				""
-				"{ftbquests.chapter.introducing.quest2466501739674296327.description23}"
+				"&8Thanks to &e@d0ugdimad0me&r &8in our discord server for making this custom system :)"
 			]
 			icon: {
 				Count: 1
@@ -1410,16 +1410,16 @@
 			shape: "heart"
 			tasks: [{
 				id: "231D6EE5154A937D"
-				title: "{ftbquests.chapter.introducing.quest2466501739674296327.task.2530300495835861885.title}"
+				title: "So cool"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.introducing.quest2466501739674296327.title}"
+			title: "Combat: &dTier System"
 			x: 0.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
-			description: ["{ftbquests.chapter.introducing.quest193225843504085881.description1}"]
+			description: ["They're &coutdated&r as of now."]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -1430,10 +1430,10 @@
 			id: "02AE79E1837C7B79"
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "{ftbquests.chapter.introducing.quest193225843504085881.subtitle}"
+			subtitle: "Check to access tierlists."
 			tasks: [{
 				id: "2E0B9419F8D6AB20"
-				title: "{ftbquests.chapter.introducing.quest193225843504085881.task.3317908389758413600.title}"
+				title: "Official Tierlist"
 				type: "checkmark"
 			}]
 			x: 0.5d
@@ -1442,7 +1442,7 @@
 		{
 			dependencies: ["2F61EF4131AB4E54"]
 			id: "534A420393A4DAA5"
-			subtitle: "{ftbquests.chapter.introducing.quest6001682036553996965.subtitle}"
+			subtitle: "Stores enchantments"
 			tasks: [{
 				id: "3599915B2831FA18"
 				item: "enchlibathome:library"
@@ -1454,7 +1454,7 @@
 		{
 			dependencies: ["2F61EF4131AB4E54"]
 			id: "50187D3AC2858393"
-			subtitle: "{ftbquests.chapter.introducing.quest5771500613800395667.subtitle}"
+			subtitle: "Stores enchantments but better"
 			tasks: [{
 				id: "2C0D9633ACC47A61"
 				item: "enchlibathome:ender_library"
@@ -1478,7 +1478,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.introducing.quest1870722471316271545.subtitle}"
+			subtitle: "Decorate your base!"
 			tasks: [
 				{
 					id: "2D7E162E00FB4060"
@@ -1511,20 +1511,20 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.introducing.quest1870722471316271545.title}"
+			title: "Beautiful Wind Chimes"
 			x: 10.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["1E486494B5164856"]
-			description: ["{ftbquests.chapter.introducing.quest1625008748964788872.description1}"]
+			description: ["Pigsteel can be found in nether!"]
 			id: "168D30D8F6F2BA88"
 			rewards: [{
 				id: "0F5594EDB026B38B"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.introducing.quest1625008748964788872.subtitle}"
+			subtitle: "Decorative Enhancements"
 			tasks: [
 				{
 					id: "5F334AC23E98FBA4"
@@ -1552,33 +1552,33 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.introducing.quest1625008748964788872.title}"
+			title: "Pigsteel Blocks"
 			x: 7.5d
 			y: -3.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.introducing.quest2182104609317079126.description1}"
+				"Making building easier with tools and tricks!"
 				""
-				"{ftbquests.chapter.introducing.quest2182104609317079126.description2}"
+				"For more building blocks use JEI search."
 				""
-				"{ftbquests.chapter.introducing.quest2182104609317079126.description3}"
+				"&6@maacaw&r"
 				""
-				"{ftbquests.chapter.introducing.quest2182104609317079126.description4}"
+				"&6@arts_and_crafts&r (more blocks)"
 				""
-				"{ftbquests.chapter.introducing.quest2182104609317079126.description5}"
+				"&6@beautify&r (decoration)"
 				""
-				"{ftbquests.chapter.introducing.quest2182104609317079126.description6}"
+				"&6@redeco&r (furnitures)"
 				""
-				"{ftbquests.chapter.introducing.quest2182104609317079126.description7}"
+				"&6@hearth_and_home&r (blocks and more)"
 				""
-				"{ftbquests.chapter.introducing.quest2182104609317079126.description8}"
+				"&6@infinitybuttons&r (blocks just for your secret bunker or etc)"
 				""
-				"{ftbquests.chapter.introducing.quest2182104609317079126.description9}"
+				"&6@justoutdoorstuffs&r (outdoor blocks)"
 				""
-				"{ftbquests.chapter.introducing.quest2182104609317079126.description10}"
+				"&6@bbb&r (even more blocks)"
 				""
-				"{ftbquests.chapter.introducing.quest2182104609317079126.description11}"
+				"&6@somemoreblocks&r "
 			]
 			icon: {
 				Count: 1
@@ -1596,13 +1596,13 @@
 			}]
 			shape: "square"
 			size: 1.35d
-			subtitle: "{ftbquests.chapter.introducing.quest2182104609317079126.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "244498A643A3C0FE"
-				title: "{ftbquests.chapter.introducing.quest2182104609317079126.task.2613381523648528638.title}"
+				title: "Alright!"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.introducing.quest2182104609317079126.title}"
+			title: "Building"
 			x: 8.5d
 			y: -4.5d
 		}
@@ -1620,7 +1620,7 @@
 		}
 		{
 			dependencies: ["1E486494B5164856"]
-			description: ["{ftbquests.chapter.introducing.quest7697334583766835591.description1}"]
+			description: ["Right-clicking with the shrinking device while looking at a compact block will put you in them, allowing you to build somewhere isolated!"]
 			icon: "compactmachines:personal_shrinking_device"
 			icon_scale: 1.2d
 			id: "6AD26D058EC06187"
@@ -1638,7 +1638,7 @@
 				}
 			]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.introducing.quest7697334583766835591.subtitle}"
+			subtitle: "Allows you to enter compact machines"
 			tasks: [
 				{
 					id: "3E37F0CDF8DAE64B"
@@ -1696,11 +1696,11 @@
 		{
 			dependencies: ["1E486494B5164856"]
 			description: [
-				"{ftbquests.chapter.introducing.quest5716338223153532098.description1}"
+				"With global marketplace (free btw) you can find nearly any idea without adding new mods! "
 				""
-				"{ftbquests.chapter.introducing.quest5716338223153532098.description2}"
+				"You can also design your very own furniture if u are not satisfied with public marketplace!"
 				""
-				"{ftbquests.chapter.introducing.quest5716338223153532098.description3}"
+				"In order to craft those furnitures you will need \"crafting material\" to build them."
 			]
 			hide_text_until_complete: false
 			id: "4F548353D70DCCC2"
@@ -1719,13 +1719,13 @@
 			]
 			shape: "heart"
 			size: 1.3d
-			subtitle: "{ftbquests.chapter.introducing.quest5716338223153532098.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "3A4AC011F563FDB7"
 				item: "immersive_furniture:artisans_workstation"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.introducing.quest5716338223153532098.title}"
+			title: "The Greatest Furniture Mod!"
 			x: 8.5d
 			y: -2.5d
 		}
@@ -1733,7 +1733,7 @@
 			dependencies: ["1E486494B5164856"]
 			id: "09064FBADD382415"
 			shape: "circle"
-			subtitle: "{ftbquests.chapter.introducing.quest650294860195570709.subtitle}"
+			subtitle: "Places 9 blocks at once"
 			tasks: [{
 				id: "40DE490551457796"
 				item: {
@@ -1753,7 +1753,7 @@
 			dependencies: ["09064FBADD382415"]
 			id: "17B86EC69507C90C"
 			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.introducing.quest1709237857769998604.subtitle}"
+			subtitle: "Places 27 blocks at once"
 			tasks: [{
 				id: "2C7F7DD870784BFB"
 				item: {
@@ -1773,7 +1773,7 @@
 			dependencies: ["17B86EC69507C90C"]
 			id: "6F2EEED9173AE2BF"
 			shape: "octagon"
-			subtitle: "{ftbquests.chapter.introducing.quest8011603403303740095.subtitle}"
+			subtitle: "Places 128 blocks at once"
 			tasks: [{
 				id: "3BCBA94345836425"
 				item: {
@@ -1793,7 +1793,7 @@
 			dependencies: ["6F2EEED9173AE2BF"]
 			id: "01EBF2288D43D333"
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.introducing.quest138470469547578163.subtitle}"
+			subtitle: "Places 1024 blocks at once"
 			tasks: [{
 				id: "0792BBCF9A0306A7"
 				item: {
@@ -1811,7 +1811,7 @@
 		{
 			dependencies: ["2B2818B92F01C51F"]
 			id: "6F0F41043EF524B9"
-			subtitle: "{ftbquests.chapter.introducing.quest8002686549352588473.subtitle}"
+			subtitle: "Disables all monster spawns in a 64 block area."
 			tasks: [{
 				id: "4EB6B52B8B6CEB28"
 				item: "magnumtorch:diamond_magnum_torch"
@@ -1823,7 +1823,7 @@
 		{
 			dependencies: ["1E486494B5164856"]
 			id: "2B2818B92F01C51F"
-			subtitle: "{ftbquests.chapter.introducing.quest3109762726335989023.subtitle}"
+			subtitle: "Disables all non-hostile mob spawns in a 64 block area."
 			tasks: [{
 				id: "687C439FFF1A23C2"
 				item: "magnumtorch:amethyst_magnum_torch"
@@ -1835,7 +1835,7 @@
 		{
 			dependencies: ["6F0F41043EF524B9"]
 			id: "2BB0B2C04615B432"
-			subtitle: "{ftbquests.chapter.introducing.quest3148212678411269170.subtitle}"
+			subtitle: "Disables all creature spawns in a 128 block area."
 			tasks: [{
 				id: "7B8E7F5575A9373F"
 				item: "magnumtorch:emerald_magnum_torch"
@@ -1847,9 +1847,9 @@
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
 			description: [
-				"{ftbquests.chapter.introducing.quest5491927561521955176.description1}"
+				"Nature's compass is not a ordinary compass. "
 				""
-				"{ftbquests.chapter.introducing.quest5491927561521955176.description2}"
+				"It allows you to locate any biome without having to use OP commands!"
 			]
 			id: "4C373F050CB18168"
 			rewards: [{
@@ -1857,7 +1857,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "{ftbquests.chapter.introducing.quest5491927561521955176.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "150A313D2D0FB590"
 				item: "naturescompass:naturescompass"
@@ -1869,11 +1869,11 @@
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
 			description: [
-				"{ftbquests.chapter.introducing.quest597527246612068040.description1}"
+				"Ring Of The Seven Virtues is also a game-changing curio."
 				""
-				"{ftbquests.chapter.introducing.quest597527246612068040.description2}"
+				"For more information please check:"
 				""
-				"[\"\",{\"translate\":\"ftbquests.chapter.introducing.quest597527246612068040.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"25B57A361188BAB3\"}}]"
+				"{ \"text\": \"Ring Of The Seven Virtues\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"25B57A361188BAB3\" } }"
 			]
 			disable_toast: true
 			id: "084AD7DD6DEDF6C8"
@@ -1964,26 +1964,26 @@
 			]
 			shape: "pentagon"
 			size: 1.35d
-			subtitle: "{ftbquests.chapter.introducing.quest597527246612068040.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				advancement: "covenant_of_the_seven:ring_of_the_seven_virtues"
 				criterion: ""
 				id: "25199E86A2B59B13"
 				type: "advancement"
 			}]
-			title: "{ftbquests.chapter.introducing.quest597527246612068040.title}"
+			title: "Ring of The Seven Virtues"
 			x: 2.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
 			description: [
-				"{ftbquests.chapter.introducing.quest6170146049825918548.description1}"
+				"Amulets provide you unique buffs at cost of nothing!"
 				""
-				"{ftbquests.chapter.introducing.quest6170146049825918548.description2}"
+				"They're given to you at the start of the world making them nice for early-game."
 			]
 			id: "55A0C32438274E54"
-			subtitle: "{ftbquests.chapter.introducing.quest6170146049825918548.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "333118994581CFBE"
 				item: {
@@ -2043,17 +2043,17 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.introducing.quest6170146049825918548.task.3688756616368345022.title}"
+				title: "Any Amulet"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.introducing.quest6170146049825918548.title}"
+			title: "Amulets"
 			x: -1.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["2F61EF4131AB4E54"]
 			id: "53AA0EB5E3A3D65B"
-			subtitle: "{ftbquests.chapter.introducing.quest6028647225559864923.subtitle}"
+			subtitle: "Stuns enemies when used."
 			tasks: [{
 				id: "42A90F15FF959C41"
 				item: "crypticfoes:monstrous_horn"
@@ -2065,7 +2065,7 @@
 		{
 			dependencies: ["2F61EF4131AB4E54"]
 			id: "6AC7CC703636030F"
-			subtitle: "{ftbquests.chapter.introducing.quest7694343270703694607.subtitle}"
+			subtitle: "Stuns enemies in a area when powered with redstone."
 			tasks: [{
 				id: "22C3FAD64C8ADB11"
 				item: "crypticfoes:screamer"
@@ -2077,21 +2077,21 @@
 		{
 			dependencies: ["2F61EF4131AB4E54"]
 			description: [
-				"{ftbquests.chapter.introducing.quest6283001636012439823.description1}"
+				"Essences has a lot of uses in this pack, but this one is the cutest one :D!"
 				""
-				"{ftbquests.chapter.introducing.quest6283001636012439823.description2}"
+				"If you use the \"Great Essence\" on a &eCat&r or &eWolf&r they will transform into a more.. useful creature."
 				""
-				"{ftbquests.chapter.introducing.quest6283001636012439823.description3}"
+				"Here's the pictures:"
 				""
-				"{ftbquests.chapter.introducing.quest6283001636012439823.image0}"
-				"{ftbquests.chapter.introducing.quest6283001636012439823.description4}"
-				"{ftbquests.chapter.introducing.quest6283001636012439823.image2}"
-				"{ftbquests.chapter.introducing.quest6283001636012439823.description5}"
-				"{ftbquests.chapter.introducing.quest6283001636012439823.image4}"
-				"{ftbquests.chapter.introducing.quest6283001636012439823.description6}"
+				"{image:customtextures:textures/catnoob.png width:250 height:100 align:center}"
+				"After using the great essence on them-"
+				"{image:customtextures:textures/catpro.png width:250 height:100 align:center}"
+				"After dropping some items to them-"
+				"{image:customtextures:textures/cathacker.png width:250 height:100 align:center}"
+				"They're gaming now."
 			]
 			id: "5731B4B2FDB8390F"
-			subtitle: "{ftbquests.chapter.introducing.quest6283001636012439823.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "72E9888B7EBA591C"
 				item: "knightlib:great_essence"
@@ -2112,15 +2112,15 @@
 				type: "command"
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.introducing.quest8653011082985104514.subtitle}"
+			subtitle: "background stuff"
 			tasks: [{
 				elapsedTime: 5L
 				gameTime: "game"
 				id: "1C500F8A4BA14B7E"
-				title: "{ftbquests.chapter.introducing.quest8653011082985104514.task.2040147717847599998.title}"
+				title: "INVCLEANER"
 				type: "questsadditions:time"
 			}]
-			title: "{ftbquests.chapter.introducing.quest8653011082985104514.title}"
+			title: "inventory cleaner"
 			x: 0.0d
 			y: 202.0d
 		}
@@ -2158,17 +2158,17 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.introducing.quest7297085068040416043.subtitle}"
+			subtitle: "background stuff"
 			tasks: [{
 				elapsedTime: 10L
 				gameTime: "game"
 				id: "63D26F1794A569FE"
 				type: "questsadditions:time"
 			}]
-			title: "{ftbquests.chapter.introducing.quest7297085068040416043.title}"
+			title: "item giver"
 			x: 1.0d
 			y: 202.0d
 		}
 	]
-	title: "{ftbquests.chapter.introducing.title}"
+	title: "Getting Started"
 }

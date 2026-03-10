@@ -10,7 +10,7 @@
 	images: [{
 		dev: true
 		height: 1.0d
-		hover: ["ftbquests.chapter.forlorn_caves.image.hovertext1"]
+		hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
 		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 		rotation: 0.0d
 		width: 1.0d
@@ -21,7 +21,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{ftbquests.chapter.forlorn_caves.quest4901368286980029899.description1}"]
+			description: ["Find the forlorn caves!"]
 			id: "4405287D0ACF3DCB"
 			rewards: [{
 				id: "27D42CAE4150BA2A"
@@ -30,21 +30,21 @@
 			}]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.forlorn_caves.quest4901368286980029899.subtitle}"
+			subtitle: "Forlornliest Day of My Life"
 			tasks: [{
 				biome: "alexscaves:forlorn_hollows"
 				icon: "alexscaves:pure_darkness"
 				id: "487F88185A0107D6"
-				title: "{ftbquests.chapter.forlorn_caves.quest4901368286980029899.task.5224043730943674326.title}"
+				title: "Find Forlorn Hollows"
 				type: "biome"
 			}]
-			title: "{ftbquests.chapter.forlorn_caves.quest4901368286980029899.title}"
+			title: "&8&lForlorn Hollows"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4405287D0ACF3DCB"]
-			description: ["{ftbquests.chapter.forlorn_caves.quest1483466129556441589.description1}"]
+			description: ["Craft a Burrowing Arrow&r, which can break up to 5 blocks&r when fired by a bow&r."]
 			id: "14965495C88909F5"
 			rewards: [
 				{
@@ -59,7 +59,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.forlorn_caves.quest1483466129556441589.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "56FFFF72D2ED4B4A"
 				item: "alexscaves:burrowing_arrow"
@@ -70,16 +70,16 @@
 		}
 		{
 			dependencies: ["4405287D0ACF3DCB"]
-			description: ["{ftbquests.chapter.forlorn_caves.quest642042902263316237.description1}"]
+			description: ["Discover the Underzealots&r, mole-like servants&r of a dark master&r."]
 			id: "08E8FE9E2FF73F0D"
 			shape: "square"
-			subtitle: "{ftbquests.chapter.forlorn_caves.quest642042902263316237.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/discover_underzealot"
 				criterion: ""
 				icon: "alexscaves:occult_gem"
 				id: "344415AB5E2D6ADF"
-				title: "{ftbquests.chapter.forlorn_caves.quest642042902263316237.task.3766159014152202975.title}"
+				title: "The Underzealots"
 				type: "advancement"
 			}]
 			x: -2.5d
@@ -87,7 +87,7 @@
 		}
 		{
 			dependencies: ["08E8FE9E2FF73F0D"]
-			description: ["{ftbquests.chapter.forlorn_caves.quest7118298926032098766.description1}"]
+			description: ["Witness the Underzealots&r sacrificing a creature to their profane god&r, and it turn into something unholy..."]
 			icon: {
 				Count: 1
 				id: "alexscaves:desolate_dagger"
@@ -97,13 +97,13 @@
 			}
 			id: "62C94728AB3015CE"
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.forlorn_caves.quest7118298926032098766.subtitle}"
+			subtitle: "Witness an Underzealot's Sacrifice"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/underzealot_sacrifice"
 				criterion: ""
 				icon: "alexscaves:pure_darkness"
 				id: "2907F15677B5A9A4"
-				title: "{ftbquests.chapter.forlorn_caves.quest7118298926032098766.task.2956597034069895588.title}"
+				title: "The Black Parade"
 				type: "advancement"
 			}]
 			x: -4.357142857142854d
@@ -135,17 +135,17 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.forlorn_caves.quest7668552471278885611.title}"
+			title: "&l&7The Cloak of Darkness"
 			x: -1.2857142857142918d
 			y: 3.107142857142854d
 		}
 		{
 			dependencies: ["4405287D0ACF3DCB"]
-			description: ["{ftbquests.chapter.forlorn_caves.quest5091991793425433165.description1}"]
+			description: ["Craft a Hood and Cloak of Darkness&r that, when combined, will allow you to temporarily become Darkness Incarnate&r."]
 			icon: "alexscaves:dark_tatters"
 			id: "46AA638EBE53C24D"
 			shape: "rsquare"
-			subtitle: "{ftbquests.chapter.forlorn_caves.quest5091991793425433165.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "371C9C4F3D76C28E"
 				item: "alexscaves:pure_darkness"
@@ -180,13 +180,13 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.forlorn_caves.quest115052283060471804.title}"
+			title: "&7&lThe Hood of Darkness"
 			x: 1.5357142857142847d
 			y: 2.357142857142861d
 		}
 		{
 			dependencies: ["14965495C88909F5"]
-			description: ["{ftbquests.chapter.forlorn_caves.quest1600013158530205793.description1}"]
+			description: ["The Totem of Possession&r can temporarily control&r a monster of your choice."]
 			id: "1634637D8E24C861"
 			rewards: [
 				{
@@ -201,7 +201,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.forlorn_caves.quest1600013158530205793.subtitle}"
+			subtitle: "You are under my control now!"
 			tasks: [{
 				id: "44A61FCB0CCFC135"
 				item: {
@@ -218,10 +218,10 @@
 		}
 		{
 			dependencies: ["1634637D8E24C861"]
-			description: ["{ftbquests.chapter.forlorn_caves.quest4804275194396217409.description1}"]
+			description: ["Dreadbow is a extremely powerful bow that can shoot tons of arrows at once!"]
 			id: "42AC36D5CD351041"
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.forlorn_caves.quest4804275194396217409.subtitle}"
+			subtitle: "Blot Out the Sun"
 			tasks: [{
 				id: "7AD496BEED7C7FA9"
 				item: {
@@ -233,10 +233,10 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.forlorn_caves.quest4804275194396217409.title}"
+			title: "&l&7Dreadbow"
 			x: 5.107142857142854d
 			y: -0.5d
 		}
 	]
-	title: "{ftbquests.chapter.forlorn_caves.title}"
+	title: "Forlorn Hollows"
 }

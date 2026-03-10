@@ -10,7 +10,7 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["ftbquests.chapter.industrial.image.hovertext1"]
+			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -32,9 +32,9 @@
 		{
 			dependencies: ["33532408B21A5378"]
 			description: [
-				"{ftbquests.chapter.industrial.quest1063418213395355078.description1}"
-				"{ftbquests.chapter.industrial.quest1063418213395355078.image0}"
-				"{ftbquests.chapter.industrial.quest1063418213395355078.description2}"
+				"Fluid extractor collects latex, one of the most important thing in industrial foregoing) from trees."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Acacia logs gives the most!"
 			]
 			id: "0EC2053B191C55C6"
 			rewards: [{
@@ -42,7 +42,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.industrial.quest1063418213395355078.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "3CEAE2B50AD7C5ED"
 				item: "industrialforegoing:fluid_extractor"
@@ -53,9 +53,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.industrial.quest7953759026426707078.description1}"
+				"Welcome to Industrial Foregoing!"
 				""
-				"{ftbquests.chapter.industrial.quest7953759026426707078.description2}"
+				"Questline &ninspired&r by ATM9 (cuz idk the mod well)"
 			]
 			id: "6E616DB197387C86"
 			rewards: [
@@ -83,13 +83,13 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.industrial.quest7953759026426707078.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "62D9743FABC21813"
 				item: "industrialforegoing:machine_frame_pity"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.industrial.quest7953759026426707078.title}"
+			title: "&fWelcome to Industrial Foregoing"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -118,7 +118,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.industrial.quest8066032519326493677.subtitle}"
+			subtitle: "Processes latex into rubber"
 			tasks: [{
 				id: "163B2434699EEF1A"
 				item: "industrialforegoing:latex_processing_unit"
@@ -156,7 +156,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.industrial.quest3719396189763459467.title}"
+			title: "Item and Fluid Transport"
 			x: -1.5d
 			y: -1.5d
 		}
@@ -215,7 +215,7 @@
 		}
 		{
 			dependencies: ["6FF04DD735346BED"]
-			description: ["{ftbquests.chapter.industrial.quest1056627562181374943.description1}"]
+			description: ["When smelted gives plastic."]
 			id: "0EA9E52B67B533DF"
 			rewards: [
 				{
@@ -230,7 +230,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.industrial.quest1056627562181374943.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "578EB2E46656AC16"
 				item: "industrialforegoing:dryrubber"
@@ -248,14 +248,14 @@
 				item: "industrialforegoing:plastic"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.industrial.quest7569705869243874627.subtitle}"
+			subtitle: "A plastic"
 			tasks: [{
 				id: "77579FFDFEA734EB"
 				item: "industrialforegoing:plastic"
-				title: "{ftbquests.chapter.industrial.quest7569705869243874627.task.8599517926735164651.title}"
+				title: "A plastic!"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.industrial.quest7569705869243874627.title}"
+			title: "Main Crafting Material!"
 			x: -1.5d
 			y: 5.5d
 		}
@@ -267,7 +267,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.industrial.quest1602132493867540871.subtitle}"
+			subtitle: "Very common here"
 			tasks: [
 				{
 					id: "53836C0727B39DCF"
@@ -280,7 +280,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.industrial.quest1602132493867540871.title}"
+			title: "Black Hole Storage?!"
 			x: -3.5d
 			y: 5.5d
 		}
@@ -303,9 +303,9 @@
 		{
 			dependencies: ["690CFF61CE787D43"]
 			description: [
-				"{ftbquests.chapter.industrial.quest1739458739109595435.description1}"
-				"{ftbquests.chapter.industrial.quest1739458739109595435.image0}"
-				"{ftbquests.chapter.industrial.quest1739458739109595435.description2}"
+				"Passive mobs give more pink slime"
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"hostile mobs gives more meat"
 			]
 			id: "1823CC81D613892B"
 			rewards: [{
@@ -313,7 +313,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.industrial.quest1739458739109595435.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "4CEA3179A4BE3336"
 				item: "industrialforegoing:mob_slaughter_factory"
@@ -381,7 +381,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.industrial.quest1046602822957313089.title}"
+			title: "Pink Slime And Liquid Meat"
 			x: -2.0d
 			y: 9.0d
 		}
@@ -423,7 +423,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.industrial.quest3469839115549380205.title}"
+			title: "Conveyor Insertion and Extraction Upgrade"
 			x: -1.0d
 			y: 7.5d
 		}
@@ -464,7 +464,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.industrial.quest434955897526730850.title}"
+			title: "Conveyor Upgrades"
 			x: 0.0d
 			y: 7.5d
 		}
@@ -488,13 +488,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.industrial.quest4790768957888999885.title}"
+			title: "Fluids"
 			x: -3.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["690CFF61CE787D43"]
-			description: ["{ftbquests.chapter.industrial.quest3229061798715666071.description1}"]
+			description: ["Automating block placing / breaking, especially useful with latex farm!"]
 			id: "2CCFEE98FE3B2E97"
 			optional: true
 			rewards: [{
@@ -502,7 +502,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.industrial.quest3229061798715666071.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "796061CC713A9A91"
@@ -515,7 +515,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.industrial.quest3229061798715666071.title}"
+			title: "Blocks"
 			x: -1.5d
 			y: 4.0d
 		}
@@ -544,7 +544,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.industrial.quest5213755383242239943.title}"
+			title: "Animals"
 			x: -3.5d
 			y: 4.5d
 		}
@@ -569,7 +569,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.industrial.quest7782253244679438391.title}"
+			title: "Plants"
 			x: -0.5d
 			y: 4.0d
 		}
@@ -582,7 +582,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.industrial.quest6056080904508155093.subtitle}"
+			subtitle: "Nature friendly?"
 			tasks: [
 				{
 					id: "6DBD9D66E78E0D58"
@@ -595,7 +595,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.industrial.quest6056080904508155093.title}"
+			title: "Bio Power!"
 			x: 0.5d
 			y: 4.5d
 		}
@@ -619,7 +619,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.industrial.quest4496570158754662976.title}"
+			title: "Composter And Recreator"
 			x: -2.5d
 			y: 4.0d
 		}
@@ -628,14 +628,14 @@
 				"690CFF61CE787D43"
 				"1823CC81D613892B"
 			]
-			description: ["{ftbquests.chapter.industrial.quest5491687940315459762.description1}"]
+			description: ["Vile ahh mod"]
 			id: "4C366515E3CCB0B2"
 			rewards: [{
 				id: "056EA0BF55EF4434"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.industrial.quest5491687940315459762.subtitle}"
+			subtitle: "Meat through tube.."
 			tasks: [{
 				id: "381C116FAD6B2236"
 				item: "industrialforegoing:meat_feeder"
@@ -792,7 +792,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.industrial.quest828169581528548514.title}"
+			title: "Black Hole Storage"
 			x: 3.0d
 			y: 12.5d
 		}
@@ -847,14 +847,14 @@
 		}
 		{
 			dependencies: ["0E8647B8EB4AAC41"]
-			description: ["{ftbquests.chapter.industrial.quest4648281899769969220.description1}"]
+			description: ["Made in dissolution chamber"]
 			id: "408203C29BAABA44"
 			rewards: [{
 				id: "2638272F9CC5DC85"
 				item: "industrialforegoing:pink_slime_ingot"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.industrial.quest4648281899769969220.subtitle}"
+			subtitle: "Can be used in washing factory"
 			tasks: [{
 				id: "2B1369FBDB43CED5"
 				item: "industrialforegoing:pink_slime_ingot"
@@ -905,7 +905,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.industrial.quest4723809692969343457.title}"
+			title: "Laser Drills"
 			x: 9.0d
 			y: 9.0d
 		}
@@ -977,7 +977,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.industrial.quest2114604733098068207.title}"
+			title: "Advanced Blackhole Storage"
 			x: 9.0d
 			y: 7.5d
 		}
@@ -1333,7 +1333,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			subtitle: "{ftbquests.chapter.industrial.quest4749139333253610661.subtitle}"
+			subtitle: "Empovering The user!"
 			tasks: [
 				{
 					id: "6D1A2543E374542A"
@@ -1426,7 +1426,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.industrial.quest4749139333253610661.title}"
+			title: "Infinity Tools"
 			x: -5.0d
 			y: 9.0d
 		}
@@ -1550,9 +1550,9 @@
 				"7DC044EFFDC208D7"
 			]
 			description: [
-				"{ftbquests.chapter.industrial.quest1128968939634088175.description1}"
+				"Mycelial reactor is a massive power generating block in the Industrial foregoing."
 				""
-				"{ftbquests.chapter.industrial.quest1128968939634088175.description2}"
+				"Though, it's a hassle to make."
 			]
 			hide_dependency_lines: true
 			id: "0FAAE744E156D8EF"
@@ -1563,13 +1563,13 @@
 				xp: 100
 			}]
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.industrial.quest1128968939634088175.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "123E6E4C158772F2"
 				item: "industrialforegoing:mycelial_reactor"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.industrial.quest1128968939634088175.title}"
+			title: "Super Power Source!"
 			x: 6.5d
 			y: 4.5d
 		}
@@ -1580,9 +1580,9 @@
 			]
 			dependency_requirement: "one_started"
 			description: [
-				"{ftbquests.chapter.industrial.quest4375115420784578304.description1}"
-				"{ftbquests.chapter.industrial.quest4375115420784578304.image0}"
-				"{ftbquests.chapter.industrial.quest4375115420784578304.description2}"
+				"Ether gas is made from drilling a withers butt using a fluid drill with purple lens!"
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"But how?! U may ask well don't worry, Craft a statis chamber to freeze the wither, then u can proceed!"
 			]
 			icon: {
 				Count: 1
@@ -1599,16 +1599,16 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.industrial.quest4375115420784578304.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "335D80E83360A7DB"
-				title: "{ftbquests.chapter.industrial.quest4375115420784578304.task.3701256203551156187.title}"
+				title: "Oh my god :c.. alright.."
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.industrial.quest4375115420784578304.title}"
+			title: "Ether Gas"
 			x: 9.0d
 			y: 11.5d
 		}
 	]
-	title: "{ftbquests.chapter.industrial.title}"
+	title: "Industrial Foregoing"
 }

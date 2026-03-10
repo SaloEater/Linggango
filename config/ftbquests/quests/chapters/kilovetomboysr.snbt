@@ -126,7 +126,7 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["ftbquests.chapter.kilovetomboysr.image.hovertext1"]
+			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			order: 2
 			rotation: 0.0d
@@ -150,7 +150,7 @@
 			icon_scale: 1.5d
 			id: "0D94E02715E74F99"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest978653477522067353.subtitle}"
+			subtitle: "Each strike draws you in deeper, makes you slowly lose it."
 			tasks: [{
 				id: "7EAB472665C3FBE3"
 				item: {
@@ -177,7 +177,7 @@
 			icon_scale: 1.5d
 			id: "4BFD6C3409511222"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest5475651692702798370.subtitle}"
+			subtitle: "Each cut leaves a venom burning under the skin deeply."
 			tasks: [{
 				id: "08EE67A0515EAB5B"
 				item: {
@@ -207,7 +207,7 @@
 			icon_scale: 1.5d
 			id: "7234C8C15A34BEEA"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest8229423151880388330.subtitle}"
+			subtitle: "Every strike carves deeper, flooding wounds with poison that eats muscle and bone."
 			tasks: [{
 				id: "5A98C421129E32F6"
 				item: {
@@ -237,7 +237,7 @@
 			icon_scale: 1.5d
 			id: "71161551B9BDC76E"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest8148724016526247790.subtitle}"
+			subtitle: "Wounds burn from within"
 			tasks: [{
 				id: "2CECF9542AC77860"
 				item: {
@@ -267,7 +267,7 @@
 			icon_scale: 1.5d
 			id: "70A53D4527A0AC62"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest8116961270632066146.subtitle}"
+			subtitle: "The peak of corruption, devastation given form."
 			tasks: [{
 				id: "606374A923B36A86"
 				item: {
@@ -294,7 +294,7 @@
 			icon_scale: 1.5d
 			id: "71252E3A290B4439"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest8152973527755736121.subtitle}"
+			subtitle: "Each swing sears with fire, burning enemies on contact."
 			tasks: [{
 				id: "71BF59812EFF4665"
 				item: {
@@ -324,7 +324,7 @@
 			icon_scale: 1.5d
 			id: "0DB7F1007E89A3BB"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest988523627656356795.subtitle}"
+			subtitle: "Burns with dark fire that devours both flesh and soul."
 			tasks: [{
 				id: "60D0F4D28866E551"
 				item: {
@@ -354,7 +354,7 @@
 			icon_scale: 1.5d
 			id: "2D5D554F1FC2110E"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3268862702864437518.subtitle}"
+			subtitle: "But the burn now feels warm, almost comforting, like a vow embraced."
 			tasks: [{
 				id: "3FA23E06FAEA15BD"
 				item: {
@@ -384,7 +384,7 @@
 			icon_scale: 1.5d
 			id: "614A815D1C166137"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest7010558006858768695.subtitle}"
+			subtitle: "You are not holding a sword that burns you anymore."
 			tasks: [{
 				id: "140384E22EE504D9"
 				item: {
@@ -411,7 +411,7 @@
 			icon_scale: 1.5d
 			id: "3679047E4E198911"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3925173490752784657.subtitle}"
+			subtitle: "&k&l&cMEOWMEOWMEOWMEOWILOVECATS&r"
 			tasks: [{
 				id: "0E1D0FD752A352A5"
 				item: {
@@ -438,7 +438,7 @@
 			icon_scale: 1.5d
 			id: "4E2EEF7EFFC1D7D1"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest5633703512622880721.subtitle}"
+			subtitle: "Long and jagged."
 			tasks: [{
 				id: "086D0EB92F9453F7"
 				item: {
@@ -465,7 +465,7 @@
 			icon_scale: 1.5d
 			id: "747886A6E6AA53C7"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest8392605956997534663.subtitle}"
+			subtitle: "The weapon thrives on betrayal."
 			tasks: [{
 				id: "04A51220226C1922"
 				item: {
@@ -492,7 +492,7 @@
 			icon_scale: 1.5d
 			id: "5DB58CFF1D5E1500"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest6752458243649180928.subtitle}"
+			subtitle: "Leaving scorched corpses and terror."
 			tasks: [{
 				id: "2465A65CC848317A"
 				item: {
@@ -519,7 +519,7 @@
 			icon_scale: 1.5d
 			id: "2CBC0596965F65D3"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3223457577616500179.subtitle}"
+			subtitle: "The harder it hurts you, the deadlier you become."
 			tasks: [{
 				id: "13BC1A2C80262086"
 				item: {
@@ -546,7 +546,7 @@
 			icon_scale: 1.2d
 			id: "781F862F4161A7F0"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest8655784546347886576.subtitle}"
+			subtitle: "Where light can't reach."
 			tasks: [{
 				id: "6B7CF2D6E98998E4"
 				item: {
@@ -573,7 +573,7 @@
 			icon_scale: 1.2d
 			id: "1259106DE450DD03"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest1322106029777935619.subtitle}"
+			subtitle: "It's a real knife"
 			tasks: [{
 				id: "11CE14D9410F5C1C"
 				item: {
@@ -599,7 +599,7 @@
 			}
 			id: "2B861D38FB7C46D4"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3136226321084729044.subtitle}"
+			subtitle: "why is this here"
 			tasks: [{
 				id: "7CB299E6E75788F2"
 				item: {
@@ -626,7 +626,7 @@
 			icon_scale: 1.5d
 			id: "7D4FD0BD78F6179B"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest9029665290097923995.subtitle}"
+			subtitle: "Luck and lethality."
 			tasks: [{
 				id: "21092E0B639FBD2D"
 				item: {
@@ -653,7 +653,7 @@
 			icon_scale: 1.5d
 			id: "59C60FA63B60635A"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest6468875121399456602.subtitle}"
+			subtitle: "Every hit is a gamble."
 			tasks: [{
 				id: "18A1B2E697A9D697"
 				item: {
@@ -670,7 +670,7 @@
 		}
 		{
 			dependencies: ["2B69C369F7D0B25C"]
-			description: ["{ftbquests.chapter.kilovetomboysr.quest3800485824133949478.description1}"]
+			description: ["Only craftable through a hephaestus forge."]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -684,7 +684,7 @@
 			min_width: 500
 			shape: "none"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3800485824133949478.subtitle}"
+			subtitle: "&0&lDark-Side"
 			tasks: [{
 				id: "045B115D604E0B9A"
 				item: {
@@ -711,7 +711,7 @@
 			icon_scale: 1.5d
 			id: "65FEE070A6F998F7"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest7349558416357562615.subtitle}"
+			subtitle: "Built for a single warrior to cleave through armies"
 			tasks: [{
 				id: "54F08A942D4AD796"
 				item: {
@@ -738,7 +738,7 @@
 			icon_scale: 1.5d
 			id: "7890349A10B01114"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest8687501517507268884.subtitle}"
+			subtitle: "&8meow"
 			tasks: [{
 				id: "641563654B90FAC2"
 				item: {
@@ -765,7 +765,7 @@
 			icon_scale: 1.5d
 			id: "704E71AD888B523E"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest8092530570565472830.subtitle}"
+			subtitle: "This is a blunt, filthy promise: throw it, feel the skin tear as you pull it back."
 			tasks: [{
 				id: "4890A897B7E8DEEF"
 				item: {
@@ -794,7 +794,7 @@
 			id: "6EB580601CB06CAE"
 			shape: "none"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest7977423465243241646.subtitle}"
+			subtitle: "&e&lBright-Side"
 			tasks: [{
 				id: "6F7E5F28457FA90E"
 				item: {
@@ -813,7 +813,7 @@
 			dependencies: ["2B69C369F7D0B25C"]
 			id: "5200FF3FD8E93CA0"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest5909003360797277344.subtitle}"
+			subtitle: "A Knife"
 			tasks: [{
 				id: "413093382BA7F710"
 				item: {
@@ -841,7 +841,7 @@
 			icon_scale: 2.0d
 			id: "759B047763E511D9"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest8474372034651296217.subtitle}"
+			subtitle: "Instant Frostbite on a freshly wound."
 			tasks: [{
 				id: "688DBB1189B5F1AC"
 				item: {
@@ -868,7 +868,7 @@
 			icon_scale: 2.0d
 			id: "7183193022F7944C"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest8179409042770728012.subtitle}"
+			subtitle: "Who Decided That?"
 			tasks: [{
 				id: "66B602AC3681272A"
 				item: {
@@ -895,7 +895,7 @@
 			icon_scale: 2.0d
 			id: "06C47BEF7CDD5F6E"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest487650928185139054.subtitle}"
+			subtitle: "Rips through throats with silence."
 			tasks: [{
 				id: "7D1F6BDBFF4661C9"
 				item: {
@@ -922,7 +922,7 @@
 			icon_scale: 2.0d
 			id: "6D1BD29B2FD77FC8"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest7862109138469748680.subtitle}"
+			subtitle: "Immense unbearable feeling of blood."
 			tasks: [{
 				id: "4216468BDD2332DB"
 				item: {
@@ -949,7 +949,7 @@
 			icon_scale: 2.0d
 			id: "4F7F77866139D3EB"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest5728428670079063019.subtitle}"
+			subtitle: "Bru what are u doing here"
 			tasks: [{
 				id: "799CDBA966A615E2"
 				item: {
@@ -976,7 +976,7 @@
 			icon_scale: 1.5d
 			id: "3D0947A8675C23AC"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest4398125299718169516.subtitle}"
+			subtitle: "Space and gravity merged into one."
 			tasks: [{
 				id: "48E58AB1B9C1CCB4"
 				item: {
@@ -1008,7 +1008,7 @@
 			icon_scale: 2.0d
 			id: "57A8805535468893"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest6316439580841511059.subtitle}"
+			subtitle: "Where concept of being can't reach."
 			tasks: [{
 				id: "4126ECF63FA1FFA9"
 				item: {
@@ -1027,7 +1027,7 @@
 			dependencies: ["2B69C369F7D0B25C"]
 			id: "367262EC3D2FB8A5"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3923306992171464869.subtitle}"
+			subtitle: "ouch"
 			tasks: [{
 				id: "4F39B77DB2CD577E"
 				item: {
@@ -1072,7 +1072,7 @@
 			icon_scale: 2.0d
 			id: "048CCFC55D416DE7"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest327865319471279591.subtitle}"
+			subtitle: "Powered by suns very core itself."
 			tasks: [{
 				id: "0B9127A81DB07BD4"
 				item: {
@@ -1092,7 +1092,7 @@
 			dependencies: ["2B69C369F7D0B25C"]
 			id: "7A149B26A765873D"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest8796826562480932669.subtitle}"
+			subtitle: "7 7 7 !!!!"
 			tasks: [{
 				id: "63931E4E9FF83C77"
 				item: {
@@ -1111,7 +1111,7 @@
 			dependencies: ["2B69C369F7D0B25C"]
 			id: "2217081F3ABF9265"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest2456441051976536677.subtitle}"
+			subtitle: "Formed itself together after the big bang explosion. Some say it talks too."
 			tasks: [{
 				id: "3C9D37C604132FEE"
 				item: {
@@ -1130,7 +1130,7 @@
 			dependencies: ["2B69C369F7D0B25C"]
 			id: "4BDE4EB2B5AAB121"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest5466893527133368609.subtitle}"
+			subtitle: "Manipulate Gravity itself."
 			tasks: [{
 				id: "589EB0D6ECB7C1D4"
 				item: {
@@ -1153,7 +1153,7 @@
 			dependencies: ["2B69C369F7D0B25C"]
 			id: "3C0A7905C44B0EB4"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest4326403457717833396.subtitle}"
+			subtitle: "Kaboom!"
 			tasks: [{
 				id: "263BA566C799881C"
 				item: {
@@ -1179,7 +1179,7 @@
 			}
 			id: "4376F20CE571B8D1"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest4861338984995993809.subtitle}"
+			subtitle: "A loyal spear, forged in the most noble place in nether."
 			tasks: [{
 				id: "49B33EC6A16E24A5"
 				item: {
@@ -1202,7 +1202,7 @@
 			dependencies: ["2B69C369F7D0B25C"]
 			id: "4D8CFBE614148155"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest5588118203257880917.subtitle}"
+			subtitle: "Zeus!"
 			tasks: [{
 				id: "41EA38CE03FF08B5"
 				item: {
@@ -1231,7 +1231,7 @@
 			dependencies: ["2B69C369F7D0B25C"]
 			id: "6BCE1CB1C178CC01"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest7768177957041392641.subtitle}"
+			subtitle: "Covered in flesh of at least 50 different creatures."
 			tasks: [{
 				id: "5F693974C50E7809"
 				item: "brutality:depth_crusher"
@@ -1244,7 +1244,7 @@
 			dependencies: ["2B69C369F7D0B25C"]
 			id: "2360941E59454374"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest2549200247159341940.subtitle}"
+			subtitle: "Backstabber"
 			tasks: [{
 				id: "381E795388198D56"
 				item: {
@@ -1311,7 +1311,7 @@
 			icon_scale: 2.0d
 			id: "2595B836FB1A2EE6"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest2708273297213763302.subtitle}"
+			subtitle: "Melon melon melon"
 			tasks: [{
 				id: "1B62422A6BF88889"
 				item: {
@@ -1330,7 +1330,7 @@
 			dependencies: ["2B69C369F7D0B25C"]
 			id: "772DBF3AB29C360B"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest8587730323290994187.subtitle}"
+			subtitle: "Appel appel appel"
 			tasks: [{
 				id: "30DD988D3CAF2B3C"
 				item: {
@@ -1349,7 +1349,7 @@
 			dependencies: ["2B69C369F7D0B25C"]
 			id: "0527B87442915A41"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest371468303753894465.subtitle}"
+			subtitle: "Very useful"
 			tasks: [{
 				id: "77AD4BF2449C93D2"
 				item: {
@@ -1368,7 +1368,7 @@
 			dependencies: ["2B69C369F7D0B25C"]
 			id: "2F516986EF0C5AED"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3409622421153274605.subtitle}"
+			subtitle: "Sturdiest and biggest bamboo ever.."
 			tasks: [{
 				id: "307C2F0370997E6A"
 				item: {
@@ -1396,5 +1396,5 @@
 			y: -1.5d
 		}
 	]
-	title: "{ftbquests.chapter.kilovetomboysr.title}"
+	title: "&cLethality \\& Brutality"
 }

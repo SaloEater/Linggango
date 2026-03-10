@@ -1,0 +1,25 @@
+
+#Client settings for Velocity Blur
+[client]
+	#Enable chromatic aberration
+	chromaticAberrationEnabled = true
+	#Chromatic aberration strength
+	#Range: 0.0 ~ 10.0
+	chromaticAberrationStrength = 1.0
+	#Enable screen distortion
+	distortionEnabled = true
+	#Screen distortion strength
+	#Range: 0.0 ~ 10.0
+	distortionStrength = 1.0
+	#Enable vignette effect
+	vignetteEnabled = true
+	#Vignette strength
+	#Range: 0.0 ~ 10.0
+	vignetteStrength = 1.0
+	#Apply effect to HUD (also applies to hand when enabled)
+	applyToHud = false
+	#Apply effect to player's hand/world items
+	applyToHand = true
+	#Enable speed HUD at top-right
+	speedHudEnabled = false
+

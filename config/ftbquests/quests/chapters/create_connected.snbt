@@ -9,7 +9,7 @@
 	images: [{
 		dev: true
 		height: 1.0d
-		hover: ["ftbquests.chapter.create_connected.image.hovertext1"]
+		hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
 		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 		rotation: 0.0d
 		width: 1.0d
@@ -22,9 +22,9 @@
 		{
 			dependencies: ["1742597D48E37800"]
 			description: [
-				"{ftbquests.chapter.create_connected.quest8547019945418443218.description1}"
+				"Create Connected enhances Create with smarter, more versatile components."
 				""
-				"{ftbquests.chapter.create_connected.quest8547019945418443218.description2}"
+				"Use Fan Catalysts for easier fan processing, specialized clutches and gearboxes to reverse motion, and built-in cogwheels for more efficient machine connections."
 			]
 			icon: "create_connected:brass_gearbox"
 			id: "769D1D5B36D849D2"
@@ -35,24 +35,24 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.create_connected.quest8547019945418443218.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "1029399E7909E005"
-				title: "{ftbquests.chapter.create_connected.quest8547019945418443218.task.1164525331450290181.title}"
+				title: "OKA!"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.create_connected.quest8547019945418443218.title}"
+			title: "&6Welcome To Create Connected"
 			x: 0.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["769D1D5B36D849D2"]
 			description: [
-				"{ftbquests.chapter.create_connected.quest6729560588855925467.description1}"
-				"{ftbquests.chapter.create_connected.quest6729560588855925467.image0}"
-				"{ftbquests.chapter.create_connected.quest6729560588855925467.description2}"
-				"{ftbquests.chapter.create_connected.quest6729560588855925467.image2}"
-				"{ftbquests.chapter.create_connected.quest6729560588855925467.description3}"
+				"Every upgrade starts somewhere. The Empty Fan Catalyst is the uncharged core-full of potential."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"You’ll need it to make all the specialized catalysts that transform your fans into focused processing tools."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"To make one of the catalysts below, simply right click the empty catalyst with the proper item in your hand!"
 			]
 			hide_dependency_lines: true
 			id: "5D6433B36939DADB"
@@ -69,26 +69,26 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.create_connected.quest6729560588855925467.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "7B84A39925AA3295"
 				item: "create_connected:empty_fan_catalyst"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.create_connected.quest6729560588855925467.title}"
+			title: "Better Fan Processing"
 			x: 0.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["5D6433B36939DADB"]
 			description: [
-				"{ftbquests.chapter.create_connected.quest501658514695105262.description1}"
-				"{ftbquests.chapter.create_connected.quest501658514695105262.image0}"
-				"{ftbquests.chapter.create_connected.quest501658514695105262.description2}"
-				"{ftbquests.chapter.create_connected.quest501658514695105262.image2}"
-				"{ftbquests.chapter.create_connected.quest501658514695105262.description3}"
-				"{ftbquests.chapter.create_connected.quest501658514695105262.image4}"
-				"{ftbquests.chapter.create_connected.quest501658514695105262.description4}"
+				"               Lava and Water"
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Two forces, with one goal: better processing. "
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Blasting Catalysts perform blasting encased fan recipes, while Washing Catalysts perform washing encased fan recipes. "
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Master them both to expand your automation capabilities."
 			]
 			icon: "create_connected:fan_blasting_catalyst"
 			id: "06F63FC2DEF3AAEE"
@@ -105,7 +105,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.create_connected.quest501658514695105262.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "1C2081D3711B570D"
@@ -118,16 +118,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create_connected.quest501658514695105262.title}"
+			title: "Blasting/Washing"
 			x: -1.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["5D6433B36939DADB"]
 			description: [
-				"{ftbquests.chapter.create_connected.quest3045492323179160704.description1}"
-				"{ftbquests.chapter.create_connected.quest3045492323179160704.image0}"
-				"{ftbquests.chapter.create_connected.quest3045492323179160704.description2}"
+				"Haunting and Smoking Catalysts channel the Nether’s power-soul fire for spectral conversions, and burning embers for smoke and cooking."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Made from soul sand and netherrack, these catalysts let you tame a darker side of processing."
 			]
 			icon: "create_connected:fan_smoking_catalyst"
 			id: "2A43C321D945E480"
@@ -144,7 +144,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.create_connected.quest3045492323179160704.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "35CE17A383CEDC7F"
@@ -157,16 +157,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create_connected.quest3045492323179160704.title}"
+			title: "Smoking/Haunting"
 			x: 0.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["5D6433B36939DADB"]
 			description: [
-				"{ftbquests.chapter.create_connected.quest8306376319787223519.description1}"
-				"{ftbquests.chapter.create_connected.quest8306376319787223519.image0}"
-				"{ftbquests.chapter.create_connected.quest8306376319787223519.description2}"
+				"Born from dreams and shaped by extremes-Seething and Freezing Catalysts bring even higher (and lower) temperatures to fan automation. "
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"To view the recipes they can perform, check the uses of the Industrial Fan-which must be used to make these catalysts function. "
 			]
 			icon: "create_connected:fan_seething_catalyst"
 			id: "73462D40F7A249DF"
@@ -183,7 +183,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.create_connected.quest8306376319787223519.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "69F5D2A2A00BEE90"
@@ -196,16 +196,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create_connected.quest8306376319787223519.title}"
+			title: "Seething/Freezing"
 			x: 1.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["769D1D5B36D849D2"]
 			description: [
-				"{ftbquests.chapter.create_connected.quest878916054948631598.description1}"
+				"Inventory Access Port: connects to a single inventory, allowing direct item insertion or extraction — perfect for compact setups."
 				""
-				"{ftbquests.chapter.create_connected.quest878916054948631598.description2}"
+				"Inventory Bridge: links two inventories as one, letting you move items in or out of both using pipes or funnels."
 			]
 			hide_dependency_lines: true
 			icon: "create_connected:inventory_access_port"
@@ -223,7 +223,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.create_connected.quest878916054948631598.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					count: 4L
@@ -237,13 +237,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create_connected.quest878916054948631598.title}"
+			title: "An Inventory Expansion"
 			x: 2.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["769D1D5B36D849D2"]
-			description: ["{ftbquests.chapter.create_connected.quest7154285528861291814.description1}"]
+			description: ["Check the Ponder for the Sequenced Pulse Generator to learn more about its advanced redstone logic."]
 			hide_dependency_lines: true
 			icon: "create_connected:linked_transmitter"
 			id: "634920C8917EB526"
@@ -260,7 +260,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.create_connected.quest7154285528861291814.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "0A97D02EF1449295"
@@ -278,13 +278,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create_connected.quest7154285528861291814.title}"
+			title: "Redstone++"
 			x: -2.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["769D1D5B36D849D2"]
-			description: ["{ftbquests.chapter.create_connected.quest3605120687953202493.description1}"]
+			description: ["The Item Silo functions like a regular Item Vault but stacks items vertically instead of spreading out. Ideal for compact or tall storage builds."]
 			hide_dependency_lines: true
 			id: "3207F62A39DCCD3D"
 			rewards: [
@@ -300,19 +300,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.create_connected.quest3605120687953202493.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "01C6770A77C91813"
 				item: "create_connected:item_silo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.create_connected.quest3605120687953202493.title}"
+			title: "Item Vault, but Better"
 			x: 0.0d
 			y: -11.0d
 		}
 		{
 			dependencies: ["769D1D5B36D849D2"]
-			description: ["{ftbquests.chapter.create_connected.quest3319922592365539258.description1}"]
+			description: ["The Fluid Vessel holds the same amount as a regular tank but in a horizontal layout, ideal for low, wide builds or storage under machines."]
 			hide_dependency_lines: true
 			id: "2E12BC020FBDEFBA"
 			rewards: [
@@ -328,24 +328,24 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.create_connected.quest3319922592365539258.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "5A350F9D1F3AFF69"
 				item: "create_connected:fluid_vessel"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.create_connected.quest3319922592365539258.title}"
+			title: "A Tank on Its Side"
 			x: -1.0d
 			y: -11.0d
 		}
 		{
 			dependencies: ["769D1D5B36D849D2"]
 			description: [
-				"{ftbquests.chapter.create_connected.quest7210686282823383393.description1}"
+				"The Shear Pin acts like a regular shaft but breaks instantly if the connected network is overstressed, serving as a failsafe for important components."
 				""
-				"{ftbquests.chapter.create_connected.quest7210686282823383393.description2}"
+				"The Overstress Clutch disengages automatically with a delay whenever the system becomes overstressed."
 				""
-				"{ftbquests.chapter.create_connected.quest7210686282823383393.description3}"
+				"The Brake works oppositely: when powered by redstone, it injects massive stress into the system, crashing it instantly."
 			]
 			hide_dependency_lines: true
 			icon: "create_connected:overstress_clutch"
@@ -363,7 +363,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.create_connected.quest7210686282823383393.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "672DEA2E4C84F4FF"
@@ -381,18 +381,18 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create_connected.quest7210686282823383393.title}"
+			title: "Controlling The Contraps"
 			x: -2.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["769D1D5B36D849D2"]
 			description: [
-				"{ftbquests.chapter.create_connected.quest603516181457010150.description1}"
+				"These clutches engage only under certain conditions, making them ideal for automation based on speed or rotation direction."
 				""
-				"{ftbquests.chapter.create_connected.quest603516181457010150.description2}"
+				"Centrifugal Clutch: engages only when input RPM exceeds a set threshold, delaying connection until the system speeds up."
 				""
-				"{ftbquests.chapter.create_connected.quest603516181457010150.description3}"
+				"Freewheel Clutch: connects only when spinning in the correct direction, letting you control motion based on rotational flow."
 			]
 			hide_dependency_lines: true
 			icon: "create_connected:centrifugal_clutch"
@@ -411,7 +411,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.create_connected.quest603516181457010150.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "1C00FC20746B6FB0"
@@ -424,16 +424,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create_connected.quest603516181457010150.title}"
+			title: "Other Clutches"
 			x: -2.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["769D1D5B36D849D2"]
 			description: [
-				"{ftbquests.chapter.create_connected.quest1718321524542587055.description1}"
-				"{ftbquests.chapter.create_connected.quest1718321524542587055.image0}"
-				"{ftbquests.chapter.create_connected.quest1718321524542587055.description2}"
+				"The Inverted Clutch does the exact opposite of a normal clutch."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"The Inverted Gearshift reverses the input rotation when unpowered and passes it through unchanged when powered, basically opposite of a normal gearshift."
 			]
 			hide_dependency_lines: true
 			icon: "create_connected:inverted_clutch"
@@ -451,7 +451,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.create_connected.quest1718321524542587055.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "23F90604630D2538"
@@ -464,7 +464,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create_connected.quest1718321524542587055.title}"
+			title: "Reverse Engineering"
 			x: 2.0d
 			y: -7.0d
 		}
@@ -503,13 +503,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create_connected.quest1852890831385519458.title}"
+			title: "Cogs in Motion"
 			x: 2.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["769D1D5B36D849D2"]
-			description: ["{ftbquests.chapter.create_connected.quest3488628857041082491.description1}"]
+			description: ["Check the ponders, i really can't explain them..."]
 			hide_dependency_lines: true
 			icon: "create_connected:parallel_gearbox"
 			id: "306A1976411C587B"
@@ -526,7 +526,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.create_connected.quest3488628857041082491.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "5C16857179279112"
@@ -549,13 +549,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create_connected.quest3488628857041082491.title}"
+			title: "Geared Logic"
 			x: 1.0d
 			y: -11.0d
 		}
 		{
 			dependencies: ["769D1D5B36D849D2"]
-			description: ["{ftbquests.chapter.create_connected.quest7672250761660520012.description1}"]
+			description: ["The Kinetic Bridge lets you transfer Stress Units (SU) from one network to a completely separate Stress Network."]
 			hide_dependency_lines: true
 			id: "6A794F6B1C7ED64C"
 			rewards: [
@@ -571,7 +571,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.create_connected.quest7672250761660520012.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "7AFDEAF617087162"
 				item: "create_connected:kinetic_bridge"
@@ -582,7 +582,7 @@
 		}
 		{
 			dependencies: ["769D1D5B36D849D2"]
-			description: ["{ftbquests.chapter.create_connected.quest481859129530936063.description1}"]
+			description: ["Charges up with rotational power, then later can be used as a battery!"]
 			hide_dependency_lines: true
 			id: "06AFE85347786AFF"
 			rewards: [
@@ -598,16 +598,16 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.create_connected.quest481859129530936063.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "0EE30858E6288681"
 				item: "create_connected:kinetic_battery"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.create_connected.quest481859129530936063.title}"
+			title: "The Kinetic Battery"
 			x: 2.5d
 			y: -8.0d
 		}
 	]
-	title: "{ftbquests.chapter.create_connected.title}"
+	title: "Create: Connected"
 }

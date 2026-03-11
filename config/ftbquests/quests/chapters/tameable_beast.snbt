@@ -31,69 +31,6 @@
 	quests: [
 		{
 			description: [
-				"Domestication Innovation adds lot of QoL features to your pets!"
-				""
-				"&eSuch as:"
-				""
-				"&8-Stay, Wander, Protect. Commands for your pet."
-				""
-				"&8-No friendlyfire unless held shift!"
-				""
-				"&8Unlocks questlines&r"
-			]
-			icon: "minecraft:name_tag"
-			id: "423ED5C6EB4FE582"
-			rewards: [{
-				id: "4BCEDF9E3CDC349C"
-				type: "xp"
-				xp: 25
-			}]
-			shape: "pentagon"
-			size: 1.3d
-			subtitle: "&8[Click to read]"
-			tasks: [{
-				id: "5957C96118710CDC"
-				title: "Who uses pets?"
-				type: "checkmark"
-			}]
-			title: "Overhauled Pet Taming System"
-			x: -20.0d
-			y: -6.0d
-		}
-		{
-			description: [
-				"By moving your pet onto one of these, it will automatically set a spawnpoint just like you have :D!"
-				""
-				"The pet will respawn there after the death."
-				""
-				"If your pet doesn't respawn, just wait till dawn."
-			]
-			id: "268D6D148D167476"
-			rewards: [{
-				id: "25340D2ECE579ED5"
-				type: "xp"
-				xp: 25
-			}]
-			shape: "square"
-			subtitle: "&8[Click to read]"
-			tasks: [{
-				id: "107F01D45D3A054C"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "domesticationinnovation:pet_beds"
-					}
-				}
-				title: "Pet Bed"
-				type: "item"
-			}]
-			title: "Pet Bed"
-			x: -20.5d
-			y: -4.5d
-		}
-		{
-			description: [
 				"The Wayward Lantern is a decorative block that has some uses."
 				""
 				"If u get teleported away with a dice, your pet might fail to teleport to you."
@@ -209,34 +146,6 @@
 			y: -3.5d
 		}
 		{
-			description: [
-				"When interacted, commands in a area, changing all mobs behaviour."
-				""
-				"&8Example:"
-				""
-				"&8You use the drum, all mobs "
-				""
-				"&8You use the drum again, all mobs follow you."
-				""
-				"&8You use the drum one more time, all mobs wander around."
-			]
-			id: "731EC33CE669D87A"
-			rewards: [{
-				id: "50C8B6F64976E783"
-				type: "xp"
-				xp: 25
-			}]
-			shape: "square"
-			subtitle: "&8[Click to read]"
-			tasks: [{
-				id: "5D9E4A368545216A"
-				item: "domesticationinnovation:drum"
-				type: "item"
-			}]
-			x: -21.5d
-			y: -4.5d
-		}
-		{
 			description: ["Same as a name tag but with a catch, you can &denchant&r it!"]
 			id: "12F0C6C5C1F8E56F"
 			rewards: [{
@@ -279,6 +188,142 @@
 			}]
 			x: -20.0d
 			y: -2.0d
+		}
+		{
+			description: [
+				"Domestication Innovation adds lot of QoL features to your pets!"
+				""
+				"&eSuch as:"
+				""
+				"&8-Stay, Wander, Protect. Commands for your pet."
+				""
+				"&8-No friendlyfire unless held shift!"
+				""
+				"&8Unlocks questlines&r"
+			]
+			icon: "minecraft:name_tag"
+			id: "6A4E1EA8B46659A8"
+			shape: "octagon"
+			size: 1.3d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "2C0B55EA6BBEE077"
+				title: "Who uses pets?"
+				type: "checkmark"
+			}]
+			title: "Overhauled Pet Taming"
+			x: -20.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"When interacted, commands in a area, changing all mobs behaviour."
+				""
+				"&8Example:"
+				""
+				"&8You use the drum, all mobs "
+				""
+				"&8You use the drum again, all mobs follow you."
+				""
+				"&8You use the drum one more time, all mobs wander around."
+			]
+			id: "23738E8C6C959B8A"
+			shape: "square"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "37501B26E358491D"
+				item: "domesticationinnovation:drum"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"By moving your pet onto one of these, it will automatically set a spawnpoint just like you have :D!"
+				""
+				"The pet will respawn there after the death."
+				""
+				"If your pet doesn't respawn, just wait till dawn."
+			]
+			id: "2A4DD955ED284680"
+			shape: "square"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "382DCAE265062749"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_orange"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_magenta"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_light_blue"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_yellow"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_lime"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_pink"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_gray"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_light_gray"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_cyan"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_purple"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_blue"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_brown"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_green"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_red"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_black"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Pet Beds"
+			x: -20.5d
+			y: -4.5d
 		}
 	]
 	title: "Domestication Innovation"

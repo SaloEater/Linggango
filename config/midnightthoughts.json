@@ -1,0 +1,114 @@
+{
+  "sleepOverlay": {
+    "minSlideDisplayTimeMs": 2500,
+    "maxSlideDisplayTimeMs": 4000,
+    "fadeInDurationMs": 300,
+    "fadeOutDurationMs": 300,
+    "overlayOpacity": 0.4,
+    "textOpacity": 1.0,
+    "imageOpacity": 0.6,
+    "specialSlideChance": 0.05,
+    "enableOverlay": true,
+    "enableImage": true
+  },
+  "wellRested": {
+    "levels": {
+      "level5": {
+        "durationMinutes": 15,
+        "healthBonus": 2.0,
+        "luckBonus": 0.25,
+        "exhaustionReduction": 0.025,
+        "instantHeal": 4.0
+      },
+      "level4": {
+        "durationMinutes": 10,
+        "healthBonus": 2.0,
+        "luckBonus": 0.25,
+        "exhaustionReduction": 0.02,
+        "instantHeal": 4.0
+      },
+      "level1": {
+        "durationMinutes": 3,
+        "healthBonus": 2.0,
+        "luckBonus": 0.25,
+        "exhaustionReduction": 0.005,
+        "instantHeal": 2.0
+      },
+      "level3": {
+        "durationMinutes": 7,
+        "healthBonus": 2.0,
+        "luckBonus": 0.25,
+        "exhaustionReduction": 0.015,
+        "instantHeal": 4.0
+      },
+      "level2": {
+        "durationMinutes": 5,
+        "healthBonus": 2.0,
+        "luckBonus": 0.25,
+        "exhaustionReduction": 0.01,
+        "instantHeal": 2.0
+      }
+    }
+  },
+  "achievements": {
+    "requirements": {
+      "combo_master": {
+        "mobsMin": 20,
+        "blocksMin": 200,
+        "distanceMin": 1000000
+      },
+      "marathoner": {
+        "distanceMin": 3000000
+      },
+      "demolition_maniac": {
+        "blocksMin": 1000,
+        "jumpsMin": 200
+      },
+      "juggernaut": {
+        "mobsMin": 50,
+        "deathsMax": 1
+      },
+      "explorer": {
+        "blocksMin": 100,
+        "distanceMin": 1500000
+      },
+      "flawless": {
+        "deaths": 0,
+        "mobsMin": 10,
+        "blocksMin": 50
+      },
+      "iron_will": {
+        "deaths": 0,
+        "blocksMin": 200,
+        "distanceMin": 2000000
+      },
+      "pacifist": {
+        "mobsMax": 0,
+        "distanceMin": 500000
+      },
+      "hyperactive": {
+        "jumpsMin": 500
+      },
+      "survivor": {
+        "mobsMin": 10,
+        "deathsMax": 1
+      }
+    }
+  },
+  "mvp": {
+    "enabled": true,
+    "minScoreRequired": 10,
+    "pointsPerDistance100": 2,
+    "pointsPerBlock": 3,
+    "pointsPerMob": 15,
+    "pointsPerJump10": 1,
+    "penaltyPerDeath": 30
+  },
+  "comfort": {
+    "enabled": true,
+    "scanRadius": 5
+  },
+  "ui": {
+    "theme": "magic"
+  }
+}

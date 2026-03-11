@@ -1,0 +1,130 @@
+
+[progression]
+
+	[progression.enhanced_power]
+
+		[progression.enhanced_power.from_power_v]
+			#Exact catalyst item id.
+			catalyst = "minecraft:netherite_ingot"
+			#Exact catalyst count consumed by anvil.
+			#Range: 1 ~ 64
+			count = 1
+			#XP level cost applied by anvil.
+			#Range: 0 ~ 100
+			xp_levels = 30
+
+		[progression.enhanced_power.1_to_2]
+			#Exact catalyst item id.
+			catalyst = "minecraft:echo_shard"
+			#Exact catalyst count consumed by anvil.
+			#Range: 1 ~ 64
+			count = 1
+			#XP level cost applied by anvil.
+			#Range: 0 ~ 100
+			xp_levels = 35
+
+		[progression.enhanced_power.2_to_3]
+			#Exact catalyst item id.
+			catalyst = "minecraft:conduit"
+			#Exact catalyst count consumed by anvil.
+			#Range: 1 ~ 64
+			count = 1
+			#XP level cost applied by anvil.
+			#Range: 0 ~ 100
+			xp_levels = 40
+
+		[progression.enhanced_power.3_to_4]
+			#Exact catalyst item id.
+			catalyst = "minecraft:dragon_breath"
+			#Exact catalyst count consumed by anvil.
+			#Range: 1 ~ 64
+			count = 1
+			#XP level cost applied by anvil.
+			#Range: 0 ~ 100
+			xp_levels = 45
+
+		[progression.enhanced_power.4_to_5]
+			#Exact catalyst item id.
+			catalyst = "minecraft:dragon_head"
+			#Exact catalyst count consumed by anvil.
+			#Range: 1 ~ 64
+			count = 1
+			#XP level cost applied by anvil.
+			#Range: 0 ~ 100
+			xp_levels = 50
+
+	[progression.enhanced_fast_draw]
+
+		[progression.enhanced_fast_draw.from_fast_draw_v]
+			#Exact catalyst item id.
+			catalyst = "minecraft:ghast_tear"
+			#Exact catalyst count consumed by anvil.
+			#Range: 1 ~ 64
+			count = 1
+			#XP level cost applied by anvil.
+			#Range: 0 ~ 100
+			xp_levels = 20
+
+		[progression.enhanced_fast_draw.1_to_2]
+			#Exact catalyst item id.
+			catalyst = "minecraft:wither_skeleton_skull"
+			#Exact catalyst count consumed by anvil.
+			#Range: 1 ~ 64
+			count = 1
+			#XP level cost applied by anvil.
+			#Range: 0 ~ 100
+			xp_levels = 25
+
+		[progression.enhanced_fast_draw.2_to_3]
+			#Exact catalyst item id.
+			catalyst = "minecraft:totem_of_undying"
+			#Exact catalyst count consumed by anvil.
+			#Range: 1 ~ 64
+			count = 1
+			#XP level cost applied by anvil.
+			#Range: 0 ~ 100
+			xp_levels = 30
+
+		[progression.enhanced_fast_draw.3_to_4]
+			#Exact catalyst item id.
+			catalyst = "minecraft:shulker_shell"
+			#Exact catalyst count consumed by anvil.
+			#Range: 1 ~ 64
+			count = 1
+			#XP level cost applied by anvil.
+			#Range: 0 ~ 100
+			xp_levels = 35
+
+		[progression.enhanced_fast_draw.4_to_5]
+			#Exact catalyst item id.
+			catalyst = "minecraft:nether_star"
+			#Exact catalyst count consumed by anvil.
+			#Range: 1 ~ 64
+			count = 1
+			#XP level cost applied by anvil.
+			#Range: 0 ~ 100
+			xp_levels = 40
+
+[tuning]
+
+	[tuning.enhanced_power]
+		#Base projectile damage multiplier at Enhanced Power I.
+		#Range: 0.0 ~ 100.0
+		base_multiplier = 2.0
+		#Additional projectile damage multiplier applied per Enhanced Power level above I.
+		#Range: 0.0 ~ 100.0
+		multiplier_per_level_step = 0.25
+
+	[tuning.fast_draw]
+		#Additional draw-speed bonus applied per Fast Draw level.
+		#Range: 0.0 ~ 100.0
+		bonus_per_level = 0.05
+
+	[tuning.enhanced_fast_draw]
+		#Base draw-speed bonus at Enhanced Fast Draw I.
+		#Range: 0.0 ~ 100.0
+		base_bonus = 0.3
+		#Additional draw-speed bonus applied per Enhanced Fast Draw level above I.
+		#Range: 0.0 ~ 100.0
+		bonus_per_level_step = 0.05
+

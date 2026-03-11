@@ -1,9 +1,0 @@
-{
-  "loot_table": "lootintegrations:chests/hard",
-  "max_result_itemcount": 6,
-  "integrated_loot_tables": {
-    "mes:mega_ship_barrel": 1,
-    "mes:mega_ship_crate": 1,
-    "mes:mega_ship_treasure": 3
-  }
-}

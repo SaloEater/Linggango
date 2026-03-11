@@ -3,7 +3,7 @@ ServerEvents.recipes(e => {
   e.remove({ id: "enchantinginfuser:advanced_enchanting_infuser" });
 
   e.shaped("enchantinginfuser:enchanting_infuser", [" A ", "BCB", "CDC"], {
-    A: "armageddon_mod:wither_spine",
+    A: "forbidden_arcanus:dark_nether_star",
     B: "minecraft:amethyst_shard",
     C: "minecraft:crying_obsidian",
     D: "minecraft:enchanting_table",

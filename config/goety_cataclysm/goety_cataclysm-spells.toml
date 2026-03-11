@@ -95,6 +95,17 @@
 		#Extinct Flame's Fireballs default explosion radius, Default: 1.0
 		#Range: 0.0 ~ 1.7976931348623157E308
 		extinctFlameRadius = 1.0
+		#How much base damage regular Extinct Flame Fireballs deals, Default: 6.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		extinctFlameDamage = 6.0
+		#How much base damage Extinct Flame Soul Fireballs deals, Default: 8.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		extinctFlameSoulDamage = 8.0
+		#How much base damage Extinct Flame Abyss Fireballs deals, Default: 10.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		extinctFlameAbyssDamage = 10.0
+		#Whether Extinct Flame Spell can set fires, Default: false
+		extinctFlameGriefing = false
 
 	[Spells."Kyría Spell"]
 		#Kyría Spell Cost, Default: 64
@@ -446,4 +457,18 @@
 		#Total number of Wadjets an individual player can have, Default: 2
 		#Range: > 0
 		wadjetLimit = 2
+
+	[Spells."Earth Shake Spell"]
+		#Earth Shake Spell Cost, Default: 48
+		#Range: > 0
+		earthShakeCost = 48
+		#Time to cast Earth Shake Spell, Default: 100
+		#Range: 0 ~ 72000
+		earthShakeTime = 16
+		#Earth Shake Spell Cooldown, Default: 160
+		#Range: > 0
+		earthShakeCoolDown = 160
+		#Earth Shake Spell Damage, Default: 8.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		earthShakeDamage = 8.0
 

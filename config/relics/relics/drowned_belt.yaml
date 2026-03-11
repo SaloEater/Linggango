@@ -6,7 +6,7 @@ abilitiesData:
             # Relic level at which the ability becomes unlocked
             requiredLevel: 0
             # Number of leveling points needed to increase the ability level
-            requiredPoints: 4
+            requiredPoints: 2
             stats:
                 charm:
                     # Maximum base value of the stat. A random value within this range is assigned when the relic is first created

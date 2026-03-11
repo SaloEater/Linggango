@@ -84,7 +84,6 @@
 					xp: 100
 				}
 			]
-			shape: "square"
 			size: 1.5d
 			subtitle: "Can cook 6 items"
 			tasks: [{

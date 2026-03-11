@@ -5,7 +5,7 @@ autoSuggestions:true
 chatColors:true
 chatLinks:true
 chatLinksPrompt:true
-enableVsync:false
+enableVsync:true
 entityShadows:false
 forceUnicodeFont:false
 discrete_mouse_scroll:false
@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"fast"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","fabric","generated/fragmentum_layer","netherexp:jne_emissive","netherexp:jne_retextures","resources/MCA_resourcepack-V3.1.1.zip","file/Farcr\u0027s Re-Crafted V2.24.zip","file/§6Armors Enhanced§8.zip","file/FreshAnimations_v1.10.3.zip","file/SubtleFontTweaks-v2.0.zip","file/good_lookin_ground.zip","file/CoffeeGUI_1.20.1_NOSHADERS_release_v2.0.1.zip","file/Fire_Rekindled.zip","file/Fancy Crops v1.3.zip","file/GoetyRevelation art style.zip","file/Iteratively Engineered 1.5.zip","file/ModdedCoffeeGUI_Release_v1.0.3.zip","file/Powah_Pyxal-ated_0.2.2.zip","file/Simply Swords Reforged v1.zip","file/A Better GUI 2 - FTB.zip","file/AETexturesBackport1.20-1.1.zip","file/Ars Nouveau Refresh 1.0.zip","file/BB\u0027sBOMDTweaks0.5.zip","file/Better SB Upgrades.zip","file/Cataclysm Reimagined v1.3.2 for Forge.zip","file/Cataclysmic_tunes_V8(Maledictus_update).zip","file/Create New Age Retexture 0.2.1.zip","file/CreateSophisticatedBackpacks.zip","file/Exposure-CreateCompatibility.zip","file/Torrezx-Diversity_items.zip","file/Traveloptics_Reimagined_v1.01.zip","file/boss-refreshed-v2-1.19-1.21.zip","file/sweety_items_20.zip","file/waystones_1.20.1_update4.zip","file/cuter_mmonsters.zip","file/Re-Simple-Storage.zip","rubinated_nether/better_netherite_template","file/LinggangoTextures.zip"]
-incompatibleResourcePacks:["file/good_lookin_ground.zip","file/Fire_Rekindled.zip","file/Simply Swords Reforged v1.zip","file/A Better GUI 2 - FTB.zip","file/Cataclysmic_tunes_V8(Maledictus_update).zip","file/CreateSophisticatedBackpacks.zip","file/cuter_mmonsters.zip","file/Re-Simple-Storage.zip"]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","fabric","netherexp:jne_emissive","netherexp:jne_retextures","file/Farcr\u0027s Re-Crafted V2.24.zip","file/§6Armors Enhanced§8.zip","file/cuter_mmonsters.zip","file/Ars Nouveau Refresh 1.0.zip","file/Better SB Upgrades.zip","file/CoffeeGUI_1.20.1_NOSHADERS_release_v2.0.1.zip","file/Create New Age Retexture 0.2.1.zip","file/CreateSophisticatedBackpacks.zip","file/Exposure-CreateCompatibility.zip","file/GoetyRevelation art style.zip","file/Iteratively Engineered 1.5.zip","file/Powah_Pyxal-ated_0.2.2.zip","file/boss-refreshed-v2-1.19-1.21.zip","file/Simply Swords Reforged v1.zip","file/A Better GUI 2 - FTB.zip","rubinated_nether/better_netherite_template","file/ModdedCoffeeGUI_Release_v1.0.3.zip","file/Cataclysmic_tunes_V8(Maledictus_update).zip","file/Fancy Crops v1.3.zip","file/good_lookin_ground.zip","file/AETexturesBackport1.20-1.1.zip","file/Re-Simple-Storage.zip","unique_nether_wood","generated/fragmentum_layer","file/BB\u0027sBOMDTweaks0.5.zip","file/Cataclysm Reimagined v1.3.2 for Forge.zip","file/Torrezx-Diversity_items.zip","file/sweety_items_20.zip","file/waystones_1.20.1_update4.zip","file/Traveloptics_Reimagined_v1.01.zip","file/LinggangoTextures.zip","file/FreshAnimations_v1.10.3.zip","file/Fire_Rekindled.zip","resources/MCA_resourcepack-V3.1.1.zip","file/SubtleFontTweaks-v2.0.zip"]
+incompatibleResourcePacks:["file/cuter_mmonsters.zip","file/CreateSophisticatedBackpacks.zip","file/Simply Swords Reforged v1.zip","file/A Better GUI 2 - FTB.zip","file/Cataclysmic_tunes_V8(Maledictus_update).zip","file/good_lookin_ground.zip","file/Re-Simple-Storage.zip","file/Fire_Rekindled.zip"]
 lastServer:
 lang:en_us
 soundDevice:""

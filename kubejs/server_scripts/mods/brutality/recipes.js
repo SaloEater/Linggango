@@ -26,7 +26,8 @@ ServerEvents.recipes(e => {
   e.remove({ id: "brutality:self_repair_nexus"})
   e.remove({ id: "brutality:vampire_knives"});
   e.remove({ id: "brutality:rhongomyniad"});
-  e.remove({ id: "brutality:celestial_starboard"})
+  e.remove({ id: "brutality:celestial_starboard"});
+  e.remove({ id: "brutality:sundered_clock"});
 
 
   e.shaped("brutality:royal_guardian_sword", ["ABC", "DEB", "FDA"], {
@@ -69,6 +70,14 @@ ServerEvents.recipes(e => {
     B: "brutality:diamond_knife",
     C: "terramity:chthonic_nectar",
     D: "bloodmagic:activationcrystalweak",
+  });
+
+  e.shaped("brutality:sundered_clock", ["ABA", "CDC", "CEC"], {
+    A: "terramity:hellspec_alloy",
+    B: "lethality:hellspec_bafs",
+    C: "minecraft:lapis_block",
+    D: "brutality:shattered_clock",
+    E: "terramity:icebrand",
   });
 
 });

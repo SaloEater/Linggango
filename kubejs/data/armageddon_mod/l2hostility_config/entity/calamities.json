@@ -1,0 +1,54 @@
+{
+  "list": [
+    {
+      "attackScale": 1.4,
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 170,
+        "min": 170,
+        "scale": 0.0,
+        "suppression": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "armageddon_mod:the_chaos",
+        "armageddon_mod:the_discord",
+        "armageddon_mod:the_famine"
+      ],
+      "healthScale": 1.7,
+      "items": [],
+      "maxLevel": 15,
+      "maxTraitCount": -1,
+      "minSpawnLevel": 0,
+      "specialConditions": [],
+      "traits": [
+        {
+          "cap": false,
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:cursed"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:reflect"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:teleport"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:counter_strike"
+        }
+      ]
+    }
+  ]
+}

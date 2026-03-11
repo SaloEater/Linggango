@@ -166,7 +166,7 @@
 	melodiousHarmonyPotioneerPearlInteraction = 2
 	#List of effects ignored by the Potioneer's Pearl and the Ring of the Seven Virtues for duration modification.
 	#Format: ["modid:effectid", "modid:effectid"]
-	potioneerExcludedEffects = ["minecraft:slow_falling", "terramity:divine_flight", "terramity:mortal_flight", "ars_nouveau:flight", "bloodmagic:flight", "irons_spellbooks:heartstop", "irons_spellbooks:abyssal_shroud", "relics:vanishing"]
+	potioneerExcludedEffects = ["minecraft:slow_falling", "terramity:divine_flight", "terramity:mortal_flight", "ars_nouveau:flight", "bloodmagic:flight", "irons_spellbooks:heartstop", "irons_spellbooks:abyssal_shroud", "relics:vanishing", "minecraft:health_boost", "irons_spellbooks:heartstop"]
 	#Whether the Essence of Raging Life is available for use by all instead of being locked behind the Ring of the Seven Virtues
 	#Default: false
 	globalInfinimeal = false

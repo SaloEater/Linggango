@@ -1,7 +1,7 @@
 # Don't change this! Version used to track needed updates.
 version = 0
 enableParticleCulling = true
-particleRenderDistance = 3
+particleRenderDistance = 5
 particleCullingBlocklist = [  ]
 cullParticlesInUnloadedChunks = true
 allowUsingBlendedRenderType = true
@@ -10,9 +10,9 @@ glowingLavaDrops = true
 fluidDropsEvaporate = true
 fluidDropsEvaporationVolume = 0.25
 dropLandInFluidRipples = true
-dropLandSoundVolume = 1.2026144
+dropLandSoundVolume = 1.0
 lavaSparkSmoke = true
-sparksScale = 1.1960784
+sparksScale = 1.0
 poppingHearts = true
 poppingBubbles = true
 poppingBubblesVolume = 0.2
@@ -33,4 +33,4 @@ fireOverlayAlphaWithFireResistance = 0.4
 mobSkullShaders = true
 nightVisionFading = true
 nightVisionFadingTime = 100
-enableEasterEggs = false
+enableEasterEggs = true

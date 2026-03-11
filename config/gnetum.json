@@ -5,8 +5,12 @@
   "showHudFps": {
     "value": "ON"
   },
+  "downscale": {
+    "value": "OFF"
+  },
   "numberOfPasses": 3,
   "maxFps": 60,
+  "screenMaxFps": 20,
   "mapVanillaElements": {
     "goety:static_overlay": {
       "enabled": {
@@ -110,6 +114,12 @@
       },
       "pass": 1
     },
+    "irons_spellbooks:screen_tooltip": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
     "dungeonsdelight:voracity_overlay": {
       "enabled": {
         "value": "AUTO"
@@ -133,6 +143,12 @@
         "value": "AUTO"
       },
       "pass": 2
+    },
+    "fdlib:shattered_screen": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
     },
     "minecraft:scoreboard": {
       "enabled": {
@@ -242,7 +258,31 @@
       },
       "pass": 2
     },
+    "twilightforest:quest_ram_indicator": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "fdbosses:chesed_item_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
     "framedblocks:one_way_window": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "l2complements:range_digging": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "starcatcher:tournament": {
       "enabled": {
         "value": "AUTO"
       },
@@ -260,7 +300,19 @@
       },
       "pass": 1
     },
+    "yungscavebiomes:buffeted": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
     "refurbished_furniture:cutting_board_helper": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "l2hostility:l2hostility": {
       "enabled": {
         "value": "AUTO"
       },
@@ -296,6 +348,12 @@
       },
       "pass": 1
     },
+    "l2itemselector:tool_select": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
     "minecraft:jump_bar": {
       "enabled": {
         "value": "AUTO"
@@ -327,6 +385,12 @@
       "pass": 3
     },
     "patchouli:multiblock_progress": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "moregolems:blowgun_charge": {
       "enabled": {
         "value": "AUTO"
       },
@@ -434,11 +498,11 @@
       },
       "pass": 1
     },
-    "irons_spellbooks:mana_overlay": {
+    "fdbosses:geburah_sin_overlay": {
       "enabled": {
         "value": "AUTO"
       },
-      "pass": 2
+      "pass": 1
     },
     "fdlib:screen_effect": {
       "enabled": {
@@ -447,6 +511,12 @@
       "pass": 3
     },
     "framedblocks:prism_offset": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "alshanex_familiars:monocle_overlay": {
       "enabled": {
         "value": "AUTO"
       },
@@ -769,6 +839,12 @@
       "pass": 3
     },
     "fdlib": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "ending_library": {
       "enabled": {
         "value": "AUTO"
       },

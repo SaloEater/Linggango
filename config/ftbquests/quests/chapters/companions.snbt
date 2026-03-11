@@ -51,7 +51,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			shape: "rsquare"
+			shape: "square"
 			size: 1.4d
 			subtitle: "&8[Click to read]"
 			tasks: [{
@@ -435,13 +435,7 @@
 				{
 					checkItem: true
 					entity: "companions:teddy"
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "ftbchunks:textures/faces/alexsmobs/grizzly_bear.png"
-						}
-					}
+					icon: "simplehats:teddy_bear"
 					id: "2640E03DEB717A97"
 					item: "companions:needle"
 					nbt: { }

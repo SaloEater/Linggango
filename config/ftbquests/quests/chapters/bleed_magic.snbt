@@ -172,7 +172,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			shape: "rsquare"
+			shape: "circle"
 			subtitle: "Holds 1K LP"
 			tasks: [{
 				id: "776EB52F2F5971D0"
@@ -300,7 +300,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			shape: "rsquare"
+			shape: "circle"
 			size: 1.0d
 			subtitle: "Holds 25K LP"
 			tasks: [{
@@ -721,6 +721,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "circle"
 			size: 1.0d
 			subtitle: "Holds 150K LP"
 			tasks: [{
@@ -1047,6 +1048,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "circle"
 			size: 1.0d
 			subtitle: "Holds 1M LP"
 			tasks: [{

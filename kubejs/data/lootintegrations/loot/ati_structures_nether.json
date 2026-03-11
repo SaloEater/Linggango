@@ -1,8 +1,0 @@
-{
-  "loot_table": "lootintegrations:chests/nether",
-  "max_result_itemcount": 10,
-  "integrated_loot_tables": {
-    "ati_structures:chests/minerals": 1,
-    "epic:chests/scary": 2
-  }
-}

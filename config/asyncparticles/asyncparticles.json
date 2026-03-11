@@ -17,7 +17,7 @@
     "syncParticleClasses": []
   },
   "rendering": {
-    "particleRenderingMode": "DELAYED",
+    "particleRenderingMode": "SYNCHRONOUSLY",
     "particleCulling": "AABB",
     "cullWeathers": true,
     "failPerSecLimit": 20,

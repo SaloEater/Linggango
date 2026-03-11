@@ -1,0 +1,73 @@
+{
+  "list":  [
+    {
+  "attackScale": 0.4,
+  "blacklist": [],
+  "difficulty": {
+    "apply_chance": 1.0,
+    "base": 45,
+    "min": 90,
+    "scale": 0.0,
+    "suppression": 0.0,
+    "trait_chance": 1.0,
+    "variation": 0.0
+  },
+  "entities": [
+    "armageddon_mod:arion_tyrantofthe_emerald_wrath_ravager"
+  ],
+  "healthScale": 0.7,
+  "items": [
+    {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "terramity:stygian_safety_talisman",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm"
+        }
+  ],
+  "maxLevel": 0,
+  "maxTraitCount": -1,
+  "minSpawnLevel": 90,
+  "specialConditions": [],
+  "traits": [
+    {
+      "cap": false,
+      "free": 0,
+      "min": 1,
+      "trait": "l2hostility:slowness"
+    },
+    {
+      "cap": false,
+      "free": 2,
+      "min": 2,
+      "trait": "l2hostility:moonwalk"
+    },
+    {
+      "cap": false,
+      "free": 0,
+      "min": 1,
+      "trait": "l2hostility:weakness"
+    },
+     {
+      "cap": false,
+      "free": 0,
+      "min": 1,
+      "trait": "l2hostility:speedy"
+    },
+    {
+      "cap": false,
+      "free": 0,
+      "min": 1,
+      "trait": "l2hostility:tank"
+    }
+  ]
+}
+  ]
+}

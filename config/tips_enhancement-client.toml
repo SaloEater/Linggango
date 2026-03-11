@@ -1,0 +1,40 @@
+
+[Toggles]
+	#Enable tips on the pause screen
+	enablePauseTips = true
+	#Enable tips on the inventory screen
+	enableInventoryTips = true
+	#Enable tips on the level loading screen
+	enableLoadingTips = true
+	#Enable tips on the Curios inventory screen
+	enableCuriosTips = true
+
+[Tips]
+	#List of tips to display.
+	#Use the native Minecraft section symbol '§' for color codes (e.g., §6 for Gold, §c for Red).
+	#Example format: ["§6TIP: §fFirst tip", "§bTIP: §fSecond tip"]
+	tipsList = ["The pack isnt hard\nyour just bad!", "Prefer a ranged/spell playstyle?\nUse &e&lRing Of The Seven Virtues.&r", "Get an &d&lAscension Hard Candy&r\nto get a permanent second curio slot.", "Finished the &lMain Progression?&r\nHave a look at the &lBosses&r questline!", "Set up a base and &lautomate&r,\nthis is not just an &lAdventure RPG modpack!&r", "Before you ask a question in &9&lDiscord,&r\nmake sure you are in the &e&l#➤❓-questions&r channel.", "Struggling with storage?\nUse &d&lApplied Energistics 2!&r", "&e&lSophisticated Storage&r is a fantastic mod\ncapable of solving all your storage issues.", "Explore structures\nto discover useful curios.", "Remember to wear belts to increase\nthe amount of charms you can equip.", "Feel like magic is too weak?\nEat a &d&lMana Shard.&r", "Read guide books.", "Learn &lGoety.&r", "&e&lAxolotl Cream&r is a powerful item when combined\nwith regeneration items like goldens apples and potions.", "Yes &l&dArs Nouveau&r has the single best spell,\nNo I'm not telling you it.", "If you equip &c&lRing of The Seven Curses,&r\nyou will have to use &c&lLP&r as mana.", "You can do a lot of passive automation with &lArs.&r", "Don't forget to &d&lEnchant&r and &6&lreforge&r your gear\nif you damage feels like its falling off!", "It is not recommended to go outside during the night\nwith the &c&lRing Of The Seven Curses.&r", "If you are stuck or looking for fellow gamers\njoin us on &9&lDiscord&r", "No &d&lApotheosis&r here, looks like you can\nmake fun RPG style packs without it.", "If your reading this, no tips where written by the pack dev,\njust his loyal slaves. (Lies)", "If you are struggling with the wither\ntry fighting him in a &e&lCompact Cube&r instead.", "Use &e&l/back&r to get back to your death point!", "Do not eat &c&lAmbrosial Arbor,&r\nno matter how tempting it is.", "If you saw a tip about eating &c&lAmbrosial Arbor,&r ignore it.\nHow bad could some tasty looking food be.", "Use &e&l/sethome&r to be able to warp back\nto your base whenever you want!", "You can &lchunkload&r your base which prevents\nmost mobs from griefing you place of home.", "&lChunky sheep&r never existed.", "If you are struggling to beat a boss look at your &lcurios&r,\ndo they work together? Or is your build a &cmess?", "If you feel like you are stuck and can't progress,\nplease check out the questlines.", "The guidebooks aren't just there for decoration.\nPlease try read them to understand how a mod works.", "Whenever you have any questions,\nhead to discord and ask in &e&l#➤❓-questions&r!", "Got any ideas for the pack?\nHead to &e&l#➤💡-suggestions&r!", "Transportation feels like a hassle?\nBuild a &e&lPlane!&r", "Try to sleep on nether for specific buffs!", "&eThanks for playing btw!", "&lGoety&r is a really cool mod that no one uses!", "Make sure to &a&lRoll (R)&r to avoid damage.", "Are you lagging?\nMake sure you allocated enough &e&lRAM!&r", "If you want to change your class back,\nuse &e&l/classenhancement&r &8(REQUIRES OP)&r", "Not satisfied with the difficulty you've chosen?\nUse &e&l/difficultyenhancement!&r", "Use a &e&lMaster Torch&r\nto disable &c&lhostile&r mob spawns!", "Looking for a specific biome?\nTry crafting a &e&lNature's Compass.&r", "Dying a lot?\nMaybe try dodging instead of face-tanking.", "&d&lMekanism Cardboard Box&r allows you to break spawners\nand use them later!", "Combine different &d&lArs Nouveau&r glyphs\nto create completely unique spells.", "&b&lFree Runners&r from Mekanism\ncompletely negate all fall damage!", "Put a &e&lMagnet Upgrade&r in your backpack\nto instantly vacuum up mob loot.", "You can pick up &e&lSophisticated Storage&r blocks\nwithout emptying them first!", "Combine &d&lArs Nouveau's&r Leap and Glide glyphs\nfor incredibly fast travel.", "Chat with &lUs&r in the &7&lDiscord&r Server!", "Definitely try out &l&eReforging Your Gear&r", "&lDid you know?&r\nV6.5 is the biggest update yet!", "&eCheck out my other projects as well!"]
+
+[GUI]
+	#Hex color code for the left accent line (e.g. DAA520 for gold). Do not include #.
+	accentColor = "FFFFFF"
+	#Hex color code for the background box (e.g. 111111 for dark grey). Do not include #.
+	backgroundColor = "111111"
+	#How fast tips cycle to the next one (in seconds).
+	#Range: 1 ~ 300
+	cycleSpeed = 10
+
+[Positions]
+	#Distance (in pixels) from the bottom of the screen for the Pause menu tip.
+	#Range: 0 ~ 1000
+	pauseTipYOffset = 160
+	#Distance (in pixels) from the bottom of the screen for the Inventory tip.
+	#Range: 0 ~ 1000
+	inventoryTipYOffset = 350
+	#Distance (in pixels) from the bottom of the screen for the Loading screen tip.
+	#Range: 0 ~ 1000
+	loadingTipYOffset = 45
+	#Distance (in pixels) from the bottom of the screen for the Curios tip.
+	#Range: 0 ~ 1000
+	curiosTipYOffset = 350
+

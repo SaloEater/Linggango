@@ -333,3 +333,30 @@
 			#Range: 1.0 ~ 1.7976931348623157E308
 			netheriteMonstrosityDamage = 25.0
 
+		[Attributes."Summoned Mobs"."Zombie Amethyst Crab Servant"]
+			#How much Max Health Zombie Amethyst Crab Servants have, Default: 200.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombieAmethystCrabHealth = 200.0
+			#How much natural Armor Zombie Amethyst Crab Servants have, Default: 10.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			zombieAmethystCrabArmor = 10.0
+			#How much damage Zombie Amethyst Crab Servants melee attack deals, Default: 13.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombieAmethystCrabDamage = 13.0
+
+	[Attributes.General]
+
+		[Attributes.General.Necromancer]
+			#How much Max Health Draugr Necromancers have, Default: 50.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			draugrNecromancerHealth = 50.0
+			#How much natural Armor Draugr Necromancers have, Default: 5.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			draugrNecromancerArmor = 5.0
+			#How much following/detection range Draugr Necromancers have, Default: 16.0
+			#Range: 1.0 ~ 2048.0
+			draugrNecromancerFollowRange = 16.0
+			#How much damage Draugr Necromancers deals, Default: 5.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			draugrNecromancerDamage = 5.0
+

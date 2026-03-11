@@ -1,0 +1,21 @@
+
+[echelon]
+
+	[echelon.client]
+		#Show the Reforge tab in the anvil.
+		showReforgingTab = true
+		#Move Reforge tab left/right.
+		#Range: > -2147483648
+		xIconPosition = 0
+		#Move Reforge tab up/down.
+		#Range: > -2147483648
+		yIconPosition = 0
+		#Enable Echelon tooltip style.
+		tieredTooltip = true
+		#Show plates on item names.
+		showPlatesOnName = false
+		#Center item names in tooltips.
+		centerName = true
+		#Reserve space so JEI/EMI does not overlap Echelon panels.
+		jeiReserveExtraAreas = true
+

@@ -99,7 +99,7 @@
 				random_bonus: 1
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "octagon"
 			subtitle: "One of The Starting Materials"
 			tasks: [{
 				id: "5CF6EF97284F59E4"

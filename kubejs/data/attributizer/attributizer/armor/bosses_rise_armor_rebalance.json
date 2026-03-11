@@ -1,0 +1,47 @@
+ {"block_factorys_bosses:dragon_bones_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 1,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "block_factorys_bosses:dragon_bones_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 2,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "block_factorys_bosses:dragon_bones_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 1,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "block_factorys_bosses:dragon_skull": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 1,
+      "operation": "ADDITION"
+    }
+  ]
+}

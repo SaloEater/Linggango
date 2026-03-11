@@ -3300,7 +3300,7 @@
 		]
 		icon: "forbidden_arcanus:hephaestus_forge"
 		id: "209B0A806926A037"
-		shape: "rsquare"
+		shape: "square"
 		size: 2.0d
 		subtitle: "&8[Click to read]"
 		tasks: [{

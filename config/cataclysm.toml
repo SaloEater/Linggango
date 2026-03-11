@@ -46,7 +46,7 @@
 	VoidForgeCooldown = 120
 	#The Incinerator's Cooldown
 	#Range: 0 ~ 1000000
-	TheIncineratorCooldown = 150
+	TheIncineratorCooldown = 75
 	#Wither Assault Shoulder Weapon's Missile Cooldown
 	#Range: 0 ~ 1000000
 	WASWMissileCooldown = 40
@@ -273,7 +273,7 @@
 [Ignis]
 	#Ignis's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisHealthMultiplier = 400.0
+	IgnisHealthMultiplier = 200.0
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	IgnisDamageMultiplier = 7.5
@@ -416,7 +416,7 @@
 ["Ancient Remnant"]
 	#Ancient Remnant's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AncientRemnantHealthMultiplier = 65.0
+	AncientRemnantHealthMultiplier = 35.0
 	#Ancient Remnant's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	AncientRemnantDamageMultiplier = 3.5
@@ -492,7 +492,7 @@
 [Scylla]
 	#Scylla's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ScyllaHealthMultiplier = 17.0
+	ScyllaHealthMultiplier = 7.0
 	#Scylla's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	ScyllaDamageMultiplier = 6.0
@@ -538,7 +538,7 @@
 [Maledictus]
 	#Maledictus's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MaledictusHealthMultiplier = 100.0
+	MaledictusHealthMultiplier = 75.0
 	#Maledictus's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	MaledictusDamageMultiplier = 8.0

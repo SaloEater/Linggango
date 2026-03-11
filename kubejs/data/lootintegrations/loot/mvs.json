@@ -1,7 +1,0 @@
-{
-  "loot_table": "lootintegrations:chests/water",
-  "max_result_itemcount": 6,
-  "integrated_loot_tables": {
-    "mtr:ocean_temple_treasure": 2
-  }
-}

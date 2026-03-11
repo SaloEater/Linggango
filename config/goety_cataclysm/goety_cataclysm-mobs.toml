@@ -30,3 +30,16 @@
 		#Whether Netherite Monstrosity, owned by players, breaks blocks if mob griefing is enabled, Default: false
 		netheriteMonstrosityGriefing = false
 
+[Spawning]
+
+	[Spawning."Draugr Necromancer"]
+		#Spawn Weight for Draugr Necromancer, Default: 5
+		#Range: > 0
+		draugrNecromancerSpawnWeight = 5
+		#Spawn minimum group count for Draugr Necromancer, Default: 1
+		#Range: > 1
+		draugrNecromancerSpawnMinCount = 1
+		#Spawn maximum group count for Draugr Necromancer, must be equal or higher than min count, Default: 1
+		#Range: > 1
+		draugrNecromancerSpawnMaxCount = 1
+

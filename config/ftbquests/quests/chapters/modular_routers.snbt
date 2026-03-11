@@ -52,7 +52,7 @@
 				}
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			size: 1.4d
 			subtitle: "In-Game Guide"
 			tasks: [{

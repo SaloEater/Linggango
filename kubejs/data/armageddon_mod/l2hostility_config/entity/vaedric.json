@@ -1,0 +1,58 @@
+{
+  "list": [
+    {
+      "attackScale": 1.2,
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 150,
+        "min": 150,
+        "scale": 0.0,
+        "suppression": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "armageddon_mod:vaedricthe_fallen_wanderer"
+      ],
+      "healthScale": 1.5,
+      "items": [],
+      "maxLevel": 15,
+      "maxTraitCount": -1,
+      "minSpawnLevel": 0,
+      "specialConditions": [],
+      "traits": [
+        {
+          "cap": false,
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:protected"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:tank"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:levitator"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:dispel"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:repelling"
+        }
+      ]
+    }
+  ]
+}

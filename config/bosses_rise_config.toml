@@ -5,7 +5,7 @@ Warning = ["All number values need to include decimals !", "Use 10.0 instead of 
 	"Sandworm Health" = 1000.0
 	"Yeti Health" = 4000.0
 	"Dragon Health" = 10000.0
-	"Knight Health" = 78000.0
+	"Knight Health" = 20000.0
 
 ["Boss Armor"]
 	#Max Armor : 30

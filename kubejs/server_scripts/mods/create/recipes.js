@@ -42,8 +42,6 @@ ServerEvents.recipes(e => {
     "#minecraft:logs"
   );
 
-
-
   e.recipes.create
     .mixing("composite_material:obsidian_steel_ingot", [
       "2x minecraft:obsidian",
@@ -52,16 +50,11 @@ ServerEvents.recipes(e => {
     ])
     .heated();
 
-
-
-
   e.recipes.create.pressing("kubejs:dark_metal_sheet", [
     "born_in_chaos_v1:dark_metal_ingot",
   ]);
 
 
-
-  
 
   e.recipes.create
     .compacting("born_in_chaos_v1:armor_plate_from_dark_metal", [
@@ -91,7 +84,7 @@ ServerEvents.recipes(e => {
 
   e.recipes.create
     .mixing("artifacts:eternal_steak", [
-      "120x minecraft:beef",
+      "128x minecraft:beef",
       "3x minecraft:nether_star",
     ])
     .superheated();
@@ -110,13 +103,13 @@ ServerEvents.recipes(e => {
     ["ABBC", "DEFD", "DEFD", "GHHI"],
     {
       A: "armageddon_mod:frog_leg",
-      B: "ancient_elements:smelly_repellent",
+      B: "brutality:extra_virgin_olive_oil_charm",
       C: "armageddon_mod:glowbug_lantern",
-      D: "ancient_elements:elementinium_ingot",
+      D: "brutality:extra_virgin_olive_oil_charm",
       E: "experienceobelisk:experience_jelly",
       F: "minecraft:slime_block",
       G: "armageddon_mod:arion_heart",
-      H: "ancient_elements:jungle_steel_ingot",
+      H: "brutality:extra_virgin_olive_oil_charm",
       I: "armageddon_mod:poisonous_hand",
     }
   );
@@ -155,10 +148,4 @@ ServerEvents.recipes(e => {
       "#forge:ingots/steel"
     ])
     .heated();
-
-    e.recipes.create.crushing(
-    [Item.of("minecraft:coal").withChance(0.4)],
-    "create:scorchia"
-  );
-
 });

@@ -1,0 +1,274 @@
+{
+	autofocus_id: "0AE43D3AF9EEC733"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "bumblebee_zone"
+	group: "52FA8429D8BF5933"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "the_bumblezone:item/stingless_bee_helmet_1"
+		}
+	}
+	id: "234EFD4C2FC9959D"
+	images: [{
+		height: 2.5d
+		image: "customtextures:textures/bumblezone.png"
+		rotation: 0.0d
+		width: 7.0d
+		x: -0.5d
+		y: -1.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Entering the bumblezone is very easy, just throw a ender pearl into a bee nest! (beehive also works)"
+				""
+				"You can use pistons to push mobs into the dimension as well."
+				""
+				"Leaving the dimension is fairly easy too, you either gotta mine down to Y-0 or climb up to Y-256."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "the_bumblezone:item/bumble_bee_chestplate_1"
+				}
+			}
+			id: "0AE43D3AF9EEC733"
+			rewards: [{
+				id: "7FEFB05EA71CA03C"
+				type: "xp"
+				xp: 15
+			}]
+			size: 1.5d
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				id: "34A7EDD7E4CE7870"
+				title: "Enter The Dimension"
+				type: "dimension"
+			}]
+			title: "Enter &eThe Bumblezone"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0AE43D3AF9EEC733"]
+			icon: "the_bumblezone:honeycomb_brood_block"
+			id: "4B3A381B973C9D5D"
+			rewards: [{
+				count: 2
+				id: "4BEE485E36F8F2BF"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "the_bumblezone:bumbling_beepartments"
+				icon: "the_bumblezone:honeycomb_brood_block"
+				id: "11DD6A2163F9665E"
+				title: "Visit Bumbling Beepartments"
+				type: "biome"
+			}]
+			title: "Visit Bumbling Beepartments"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0AE43D3AF9EEC733"]
+			icon: "the_bumblezone:glistering_honey_crystal"
+			id: "33289E518D427D8D"
+			rewards: [{
+				count: 2
+				id: "7DAC87F1AA800C66"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "the_bumblezone:crystal_canyon"
+				icon: "the_bumblezone:glistering_honey_crystal"
+				id: "2809724E8CE5BA99"
+				title: "Visit Crystal Canyon"
+				type: "biome"
+			}]
+			title: "Visit Crystal Canyon"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0AE43D3AF9EEC733"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:block/cherry_sapling"
+				}
+			}
+			id: "24EE81E2BBCB6588"
+			rewards: [{
+				count: 2
+				id: "05374B085AB2A6A7"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "the_bumblezone:floral_meadow"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "minecraft:block/cherry_sapling"
+					}
+				}
+				id: "0A6FE328EABC42A2"
+				title: "Visit Floral Meadow"
+				type: "biome"
+			}]
+			title: "Visit Floral Meadow"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0AE43D3AF9EEC733"]
+			icon: "minecraft:honeycomb_block"
+			id: "7D1C18768C6B77CA"
+			rewards: [{
+				count: 2
+				id: "3BE4BA88F6CB6B3F"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "the_bumblezone:hive_pillar"
+				icon: "minecraft:honeycomb_block"
+				id: "6C90BA3B3A7E6AAE"
+				title: "Visit Hive Pillar"
+				type: "biome"
+			}]
+			title: "Visit Hive Pillar"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0AE43D3AF9EEC733"]
+			icon: "minecraft:honey_block"
+			id: "4ED792E8B15D3BFE"
+			rewards: [{
+				count: 2
+				id: "4FA2A95BD09B900B"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "the_bumblezone:hive_wall"
+				icon: "minecraft:honey_block"
+				id: "44508471896D7E10"
+				title: "Visit Hive Wall"
+				type: "biome"
+			}]
+			title: "Visit Hive Wall"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0AE43D3AF9EEC733"]
+			icon: "the_bumblezone:ancient_wax_diamond"
+			id: "71F615C861805D40"
+			rewards: [{
+				count: 2
+				id: "10D3B81FE06B96C8"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "the_bumblezone:howling_constructs"
+				icon: "the_bumblezone:ancient_wax_diamond"
+				id: "697C65862EA1FD99"
+				title: "Visit Howling Constructs"
+				type: "biome"
+			}]
+			title: "Visit Howling Constructs"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0AE43D3AF9EEC733"]
+			icon: "the_bumblezone:pile_of_pollen"
+			id: "6FC100081BA16794"
+			rewards: [{
+				count: 2
+				id: "455C8FA259520472"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "the_bumblezone:pollinated_fields"
+				icon: "the_bumblezone:pile_of_pollen"
+				id: "249CB9279759E679"
+				title: "Visit Pollinated Fields"
+				type: "biome"
+			}]
+			title: "Visit Pollinated Fields"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0AE43D3AF9EEC733"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "the_bumblezone:block/sticky_honey_residue"
+				}
+			}
+			id: "21C46AA673D0F37A"
+			rewards: [{
+				count: 2
+				id: "20F2B80D5DAFE1B0"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "the_bumblezone:pollinated_pillar"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "the_bumblezone:block/sticky_honey_residue"
+					}
+				}
+				id: "4BB64E39902769D8"
+				title: "Visit Pollinated Pillar"
+				type: "biome"
+			}]
+			title: "Visit Pollinated Pillar"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0AE43D3AF9EEC733"]
+			icon: "the_bumblezone:sugar_water_bucket"
+			id: "69B52278756D6625"
+			rewards: [{
+				count: 2
+				id: "1AD71B12CAC7FFC0"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "the_bumblezone:sugar_water_floor"
+				icon: "minecraft:water_bucket"
+				id: "787CD12EF692D0B0"
+				title: "Visit Sugar Water Pool"
+				type: "biome"
+			}]
+			title: "Visit Sugar Water Pool"
+			x: 3.5d
+			y: 3.0d
+		}
+	]
+	subtitle: ["If you have apiophobia skip this mod."]
+	title: "Bumblebee Zone"
+}

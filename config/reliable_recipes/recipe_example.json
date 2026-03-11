@@ -1,0 +1,9 @@
+[
+  {
+    "action": "replace_input",
+    "target": "l2complements:hardened",
+    "replacement": [
+      "minecraft:stick"
+    ]
+  }
+]

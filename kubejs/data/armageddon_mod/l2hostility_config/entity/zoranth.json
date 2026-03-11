@@ -1,0 +1,130 @@
+{
+   "list": [
+     {
+      "asMaster": {
+        "maxTotalCount": 6,
+        "minions": [
+          {
+            "type": "minecraft:blaze",
+            "cooldown": 400,
+            "copyLevel": false,
+            "copyTrait": true,
+            "discardOnUnlink": true,
+            "linkDistance": 20.0,
+            "maxCount": 2,
+            "maxHealthPercentage": 0.05,
+            "minLevel": 20,
+            "protectMaster": true,
+            "spawnRange": 14
+          },
+          {
+            "type": "minecraft:wither_skeleton",
+            "cooldown": 420,
+            "copyLevel": false,
+            "copyTrait": true,
+            "discardOnUnlink": true,
+            "linkDistance": 20.0,
+            "maxCount": 2,
+            "maxHealthPercentage": 0.1,
+            "minLevel": 20,
+            "protectMaster": true,
+            "spawnRange": 14
+          },
+          {
+            "type": "minecraft:skeleton",
+            "cooldown": 400,
+            "copyLevel": false,
+            "copyTrait": true,
+            "discardOnUnlink": true,
+            "linkDistance": 20.0,
+            "maxCount": 2,
+            "maxHealthPercentage": 0.05,
+            "minLevel": 20,
+            "protectMaster": true,
+            "spawnRange": 14
+          }
+        ],
+        "spawnInterval": 220
+      },
+  "attackScale": 0.02,
+  "blacklist": [],
+  "difficulty": {
+    "apply_chance": 1.0,
+    "base": 75,
+    "min": 150,
+    "scale": 0.0,
+    "suppression": 0.0,
+    "trait_chance": 1.0,
+    "variation": 0.0
+  },
+  "entities": [
+    "armageddon_mod:zoranththe_forgotten_one"
+  ],
+  "healthScale": 0.5,
+  "items": [
+     {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "terramity:stygian_safety_talisman",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm"
+        }
+  ],
+  "maxLevel": 0,
+  "maxTraitCount": -1,
+  "minSpawnLevel": 150,
+  "specialConditions": [],
+  "traits": [
+     {
+         "cap": false,
+          "free": 1,
+          "min": 0,
+          "trait": "l2hostility:master"
+     },
+    {
+      "cap": false,
+      "free": 0,
+      "min": 2,
+      "trait": "l2hostility:wither"
+    },
+    {
+      "cap": false,
+      "free": 0,
+      "min": 2,
+      "trait": "l2hostility:regenerate"
+    },
+    {
+      "cap": false,
+      "free": 0,
+      "min": 1,
+      "trait": "l2hostility:fiery"
+    },
+      {
+      "cap": false,
+      "free": 1,
+      "min": 1,
+      "trait": "l2hostility:blindness"
+    },
+    {
+      "cap": false,
+      "free": 0,
+      "min": 1,
+      "trait": "l2hostility:cursed"
+    },
+    {
+      "cap": false,
+      "free": 1,
+      "min": 1,
+      "trait": "l2hostility:soul_burner"
+    }
+  ]
+}
+   ]
+  }

@@ -1819,7 +1819,7 @@
 				item: "goety:empty_focus"
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			size: 1.2d
 			subtitle: "&8[Click to read]"
 			tasks: [{
@@ -2000,7 +2000,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			shape: "rsquare"
+			shape: "circle"
 			size: 1.2d
 			subtitle: "Can be placed on spawners, insert an emerald to imbue it with soul energy."
 			tasks: [

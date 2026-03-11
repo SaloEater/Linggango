@@ -21,8 +21,8 @@
 			order: -5
 			rotation: 0.0d
 			width: 2.0d
-			x: 6.0d
-			y: 5.98d
+			x: 8.0d
+			y: 6.0d
 		}
 		{
 			dev: true
@@ -594,9 +594,9 @@
 			]
 			icon: {
 				Count: 1
-				id: "block_factorys_bosses:sandworm_dart"
+				id: "ftbquests:custom_icon"
 				tag: {
-					Damage: 0
+					Icon: "block_factorys_bosses:item/worm"
 				}
 			}
 			id: "31B7B9A079B5467E"
@@ -625,7 +625,7 @@
 					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
-						Icon: "block_factorys_bosses:item/sandworm_dart"
+						Icon: "block_factorys_bosses:item/worm"
 					}
 				}
 				id: "1E32004EEF57EFF8"
@@ -1533,6 +1533,7 @@
 				"{image:customtextures:textures/underworldknight.png width:200 height:100 align:center}"
 				""
 				"{image:customtextures:textures/underworldout.png width:250 height:100 align:center}"
+				"&8is knight even aware of the greater things?"
 			]
 			icon: {
 				Count: 1
@@ -1545,15 +1546,10 @@
 			min_required_tasks: 1
 			rewards: [
 				{
-					exclude_from_claim_all: true
 					id: "72BA1FD22A50FBED"
 					table_id: 8699295573854160387L
+					title: "&4&lGlorious"
 					type: "random"
-				}
-				{
-					id: "754BA3A44FC8A127"
-					item: "fintastic:shunji_music_disc"
-					type: "item"
 				}
 				{
 					id: "4F69F2AEED67B3DA"
@@ -1614,7 +1610,7 @@
 			]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "Nether / Underworld Arena"
+			subtitle: "Nether"
 			tasks: [{
 				entity: "block_factorys_bosses:underworld_knight"
 				icon: {
@@ -1630,8 +1626,8 @@
 				value: 1L
 			}]
 			title: "Fight &b&lUnderworld Knight"
-			x: 6.0d
-			y: 5.98d
+			x: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7BE325F21B79E110"]
@@ -1833,7 +1829,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["418B954780DD19CB"]
+			dependencies: ["296D1FA3027A3819"]
 			description: [
 				"&cThe Leviathan&r, will remind you of subnautica."
 				""
@@ -1870,7 +1866,7 @@
 				value: 1L
 			}]
 			title: "Kill&c The Leviathan"
-			x: 14.0d
+			x: 16.0d
 			y: 2.0d
 		}
 		{
@@ -1909,7 +1905,7 @@
 				value: 1L
 			}]
 			title: "Challenge &6&lIgnis"
-			x: 8.0d
+			x: 10.0d
 			y: 6.0d
 		}
 		{
@@ -1951,11 +1947,11 @@
 				value: 1L
 			}]
 			title: "Kill&b &bMaledictus"
-			x: 12.0d
+			x: 18.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["6A721B304A70A1B8"]
+			dependencies: ["50EDD2850C47C4DF"]
 			description: [
 				"&cThe Nightwarden&r once owned the literal ender dragon, now rests inside a citadel, trying to get rid of his sins."
 				""
@@ -1985,7 +1981,7 @@
 				value: 1L
 			}]
 			title: "Kill&d The Nightwarden"
-			x: 12.0d
+			x: 14.0d
 			y: 6.0d
 		}
 		{
@@ -2254,6 +2250,18 @@
 					table_id: 4807020933408434136L
 					type: "loot"
 				}
+				{
+					id: "0FB0E075D192DB4B"
+					table_id: 8699295573854160387L
+					title: "&4&lGlorious"
+					type: "random"
+				}
+				{
+					id: "56AC915B9C696BA1"
+					table_id: 8699295573854160387L
+					title: "&4&lGlorious"
+					type: "random"
+				}
 			]
 			shape: "none"
 			size: 1.5d
@@ -2454,18 +2462,12 @@
 			subtitle: "End / Throw the orb to the void."
 			tasks: [
 				{
-					entity: "goety:doppelganger"
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "darkdoppelganger:item/doppelganger_ring"
-						}
-					}
-					id: "301E39957ABB13B4"
+					advancement: "darkdoppelganger:kill"
+					criterion: ""
+					icon: "darkdoppelganger:doppelganger_ring"
+					id: "176AF4E4DA16380C"
 					title: "Defeat &d&lDoppelgänger"
-					type: "kill"
-					value: 1L
+					type: "advancement"
 				}
 				{
 					id: "353A50410A272C1C"
@@ -2474,7 +2476,7 @@
 				}
 			]
 			title: "Kill &cThe Doppelgänger"
-			x: 10.0d
+			x: 12.0d
 			y: 6.0d
 		}
 		{
@@ -2520,8 +2522,8 @@
 				type: "checkmark"
 			}]
 			title: "Kill &9The Immortal"
-			x: 13.0d
-			y: 5.0d
+			x: 18.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["043BBC5B6DC56FEE"]
@@ -2563,7 +2565,7 @@
 				type: "questsadditions:time"
 			}]
 			title: "Ongoing Ritual"
-			x: 14.0d
+			x: 20.0d
 			y: 6.0d
 		}
 		{
@@ -2716,9 +2718,10 @@
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "customtextures:textures/apostle_hat.png"
+					Icon: "goetydelight:textures/mob_effect/the_pale_messenger.png"
 				}
 			}
+			icon_scale: 1.2d
 			id: "3186C6AC85757E55"
 			min_width: 300
 			rewards: [
@@ -2786,7 +2789,7 @@
 		{
 			dependencies: ["124B15AB9053C786"]
 			description: [
-				"&cShadow Wizards&r experiments on people consistently, go liberate the nether!"
+				"&cShadow Wizards&r experiments on people consistently, go bring democracy to the nether!"
 				""
 				"Using an &6Occult Fabric&r on the &6Offering Pedestal&r to spawn them."
 				""
@@ -2815,7 +2818,7 @@
 					type: "item"
 				}
 			]
-			shape: "hexagon"
+			shape: "gear"
 			size: 1.2d
 			subtitle: "Nether / Chthonic Cathedral"
 			tasks: [{
@@ -2857,9 +2860,9 @@
 			}
 			id: "5C3E27D95D3656C6"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "2F9B27A1B2B15ECE"
 				table_id: 8699295573854160387L
+				title: "&4&lGlorious"
 				type: "random"
 			}]
 			shape: "hexagon"
@@ -2887,8 +2890,91 @@
 				}
 			]
 			title: "Kill &cEcho of Tyros, First Flamebearer"
-			x: 14.0d
+			x: 16.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["5C3E27D95D3656C6"]
+			description: [
+				"&aThe Obliterator&r has been built by an alien life-form. It has only one purpose and it is to destroy the &cnether.&r"
+				""
+				"Well, actually they're still working on it, so before it's actually done. Go destroy it!"
+				""
+				"{\"extra\":[{\"text\":\"Use \"},{\"color\":\"green\",\"text\":\"Eye of Annihilation\"},{\"text\":\" to locate it!\"}],\"text\":\"\"}"
+				""
+				"{image:customtextures:textures/space_station1.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/space_station3.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/space_station4.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/space_station2.png width:250 height:100 align:center}"
+			]
+			icon: "legendary_monsters:eye_of_annihilation"
+			id: "50EDD2850C47C4DF"
+			rewards: [{
+				id: "36ACF4315BDFE75B"
+				table_id: 8699295573854160387L
+				title: "&4&lGlorious"
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 1.2d
+			subtitle: "End / Space Station"
+			tasks: [
+				{
+					advancement: "legendary_monsters:defeat_the_obliterator"
+					criterion: ""
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "legendary_monsters:item/annihilator_helmet"
+						}
+					}
+					id: "0926524B52D7DDB4"
+					title: "Defeat &a&lThe Obliterator"
+					type: "advancement"
+				}
+				{
+					id: "167E7B02BD3A1EC3"
+					item: "legendary_monsters:eye_of_annihilation"
+					type: "item"
+				}
+			]
+			title: "Kill &aThe Obliterator"
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["418B954780DD19CB"]
+			description: [
+				"&6Geburah&r is a judging mechanism made by some pyschopath. &eIt weighs the sins of you, acts by it.&r Considering how much bad things you've probably done.. good luck with"
+				"this boss!"
+				""
+				"&aUsing ranged can give you advantage in this boss fight."
+				""
+				"{image:customtextures:textures/geburah_gaming3.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/geburah_gaming.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/geburah_gaming2.png width:250 height:100 align:center}"
+			]
+			id: "296D1FA3027A3819"
+			rewards: [{
+				id: "643581CA165C949A"
+				table_id: 8699295573854160387L
+				title: "&4&lGlorious"
+				type: "random"
+			}]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "End / Geburah Arena"
+			tasks: [{
+				advancement: "fdbosses:qliphoth_awakening/geburah"
+				criterion: ""
+				id: "56071BF946033231"
+				title: "Defeat Geburah"
+				type: "advancement"
+			}]
+			title: "Kill &6Geburah"
+			x: 14.0d
+			y: 2.0d
 		}
 	]
 	title: "Bosses"

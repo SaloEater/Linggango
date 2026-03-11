@@ -9,5 +9,6 @@ ItemEvents.tooltip(event => {
   event.add(['lethality:bladecrest_oathsword', ], '§eUpgradeable sword.')
   event.add(['lethality:forbidden_oathblade', ], '§eUpgradeable sword.')
   event.add(['lethality:exalted_oathblade', ], '§eUpgradeable sword.')
+  event.add(['enigmaticaddons:bless_ring', ], '§b§lDo not equip it with Ring Of The Seven Curses at the same time.' )
  })
 

@@ -12,7 +12,7 @@ glowstoneDustEmittingBlocks = [
 ]
 netherOnlyGlowstoneBlockDust = false
 beehivesHaveSleepingZs = true
-torchflowerSmoke = "UPDATED"
+torchflowerSmoke = "DEFAULT"
 torchflowerFlames = true
 dragonEggParticles = true
 replaceEndPortalSmoke = true
@@ -98,7 +98,7 @@ furnaceSparks = true
 fireSparks = true
 campfireSparks = true
 torchSparks = true
-lanternSparksDensity = 6
+lanternSparksDensity = 5
 lavaSparksDisplayType = "ON"
 lavaSparksDensity = 1.0
 brewingStandSparks = true

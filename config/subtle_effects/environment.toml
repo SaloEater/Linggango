@@ -3,7 +3,7 @@ version = 0
 biomeColorRain = true
 
 [biomes]
-biomeParticlesRadius = 26
+biomeParticlesRadius = 32
 mushroomSporeBiomes = [
     "minecraft:mushroom_fields"
 ]
@@ -12,11 +12,11 @@ pollenBiomes = [
     "minecraft:flower_forest",
     "minecraft:sunflower_plains"
 ]
-pollenDensity = 57
+pollenDensity = 50
 sculkDustBiomes = [
     "minecraft:deep_dark"
 ]
-sculkDustDensity = 19
+sculkDustDensity = 5
 
 [geysers]
 useUpdatedSmoke = false
@@ -81,10 +81,10 @@ spawnableBlocks = [
     "minecraft:pink_petals",
     "minecraft:flowering_azalea"
 ]
-defaultDensity = 4
+defaultDensity = 3
 ignoredSeasons = "DEFAULT"
 fireflyType = "ORIGINAL"
-fireflySoundVolume = 1.2026144
+fireflySoundVolume = 1.0
 onlyAllowInHabitatBiomes = false
 habitatBiomes = [
     "minecraft:swamp",

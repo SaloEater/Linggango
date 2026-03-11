@@ -80,5 +80,6 @@ LootJS.modifiers((event) => {
     event.addBlockLootModifier("minecraft:wither")
         .randomChance(0.5)
         .addLoot("minecraft:nether_star");
+        
 
 });

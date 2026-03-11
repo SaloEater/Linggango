@@ -29,4 +29,12 @@ ServerEvents.recipes(e => {
     C: "terramity:fairy_dust",
   });
 
+  e.shaped("terramity:chronoseraph_clock", ["ABA", "CDC", "CEC"], {
+    A: "armageddon_mod:helionite_ingot",
+    B: "armageddon_mod:solar_obelisk",
+    C: "terramity:opaline_moonstone",
+    D: "brutality:clock_of_frozen_time",
+    E: "goety:night_beacon",
+  });
+
 });

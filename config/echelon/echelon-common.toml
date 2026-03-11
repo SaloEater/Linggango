@@ -1,0 +1,99 @@
+
+[echelon]
+
+	[echelon.core]
+		#Turn armor set bonuses on or off.
+		enableArmorSetBonuses = true
+		#Full set bonus. 0.20 means 20%.
+		#Range: 0.0 ~ 10.0
+		armorSetBonusMultiplier = 0.2
+		#Perfect full set bonus. 1.0 means 100%.
+		#Range: 0.0 ~ 10.0
+		armorSetPerfectBonusPercent = 1.0
+		#Chance for a perfect reforge. 0.02 means 2%.
+		#Range: 0.0 ~ 1.0
+		perfectRollChance = 0.02
+		#Allow reforging damaged items.
+		allowReforgingDamaged = true
+
+	[echelon.loot_sources]
+		#Give reforges to chest loot.
+		lootContainerModifier = true
+		#Chest loot reforge chance.
+		#Range: 0.0 ~ 1.0
+		lootContainerModifierChance = 0.1
+		#Give reforges to treasure bag gear.
+		treasureBagDropModifier = true
+		#Treasure bag profile file path.
+		treasureBagProfilesFile = "echelon/echelon-treasure-bag-profiles.txt"
+		#Add reforge materials to chest loot.
+		reforgeMaterialLootModifier = true
+		#Reforge material chance in chest loot.
+		#Range: 0.0 ~ 1.0
+		reforgeMaterialLootChance = 0.1
+		#Reforge material profile file path.
+		reforgeMaterialLootProfilesFile = "echelon/echelon-reforge-material-profiles.txt"
+		#Give reforges to gear mobs spawn wearing.
+		entityItemModifier = false
+		#Give reforges to items from mob loot tables.
+		entityLootDropModifier = false
+		#Mob loot profile file path.
+		entityLootDropProfilesFile = "echelon/echelon-entity-drop-profiles.txt"
+		#Give reforges to gear dropped from mob equipment slots.
+		entityEquipmentDropModifier = true
+
+	[echelon.tier_weights]
+		#Global tier weights [Common,Uncommon,Rare,Epic,Legendary,Mythic].
+		entityTierWeights = [2000, 200, 27, 9, 3, 1]
+
+	[echelon.dimension_weights]
+		#Use dimension-specific weights from the profile file.
+		useDimensionTierWeights = true
+		#If all six weights are 0, skip adding a modifier.
+		dimensionTierWeightsZeroMeansNoModifier = true
+		#Dimension weight profile file path.
+		dimensionTierProfilesFile = "echelon/echelon-dimension-tier-profiles.txt"
+
+	[echelon.other_sources]
+		#Give reforges to crafted items.
+		craftingModifier = false
+		#Give reforges to villager trades.
+		merchantModifier = false
+		#Bonus weight change from reforging.
+		#Range: 0.0 ~ 10.0
+		reforgeModifier = 0.0
+		#Extra reforge bonus per smithing level.
+		#Range: 0.0 ~ 10.0
+		levelzReforgeModifier = 0.0
+		#Extra reforge bonus per luck point.
+		#Range: 0.0 ~ 10.0
+		luckReforgeModifier = 0.0
+
+	[echelon.salvage]
+		#Highest salvage tier. 6=Mythic, 10=Mythic+4.
+		#Range: 1 ~ 10
+		salvageMaxTier = 10
+		#Salvage chance to get nothing.
+		#Range: 0.0 ~ 1.0
+		salvageChanceNone = 0.05
+		#Salvage chance for one tier lower.
+		#Range: 0.0 ~ 1.0
+		salvageChanceLower = 0.1
+		#Salvage chance for one tier higher.
+		#Range: 0.0 ~ 1.0
+		salvageChanceHigher = 0.1
+
+	[echelon.quality_names]
+		#Names used for common reforges.
+		tier1Qualities = ["Common"]
+		#Names used for uncommon reforges.
+		tier2Qualities = ["Uncomon"]
+		#Names used for rare reforges.
+		tier3Qualities = ["Rare"]
+		#Names used for epic reforges.
+		tier4Qualities = ["Epic"]
+		#Names used for legendary reforges.
+		tier5Qualities = ["Legendary"]
+		#Names used for mythic reforges.
+		tier6Qualities = ["Mythic"]
+

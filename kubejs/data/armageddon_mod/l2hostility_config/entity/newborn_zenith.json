@@ -1,0 +1,94 @@
+{
+  "list": [
+    {
+      "attackScale": 2.5,
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 250,
+        "min": 250,
+        "scale": 0.0,
+        "suppression": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "armageddon_mod:zoranth_newborn_of_the_zenith"
+      ],
+      "healthScale": 3.0,
+      "items": [],
+      "maxLevel": 300,
+      "maxTraitCount": 10,
+      "minSpawnLevel": 300,
+      "specialConditions": [],
+      "traits": [
+        {
+          "cap": false,
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:reprint"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:killer_aura"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:ragnarok"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 2,
+          "trait": "l2hostility:undying"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 2,
+          "trait": "l2hostility:teleport"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 2,
+          "trait": "l2hostility:corrosion"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 2,
+          "trait": "l2hostility:erosion"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 2,
+          "trait": "l2hostility:drain"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 2,
+          "trait": "l2hostility:counter_strike"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 2,
+          "trait": "l2hostility:cursed"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 2,
+          "trait": "l2hostility:reflect"
+        }
+      ]
+    }
+  ]
+}

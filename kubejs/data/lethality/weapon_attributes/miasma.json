@@ -15,7 +15,11 @@
         "swing_sound": {
           "id": "simplyswords:dark_sword_attack_with_blood_01",
           "pitch": 0.7
-        }
+      },
+        "spell": "irons_spellbooks:blood_slash",
+        "level": 4,
+        "target": "TARGET",
+        "trigger": "on_attack"
       },
       {
         "hitbox": "HORIZONTAL_PLANE",
@@ -26,7 +30,11 @@
         "swing_sound": {
           "id": "simplyswords:dark_sword_attack_with_blood_03",
           "pitch": 0.9
-        }
+           },
+        "spell": "irons_spellbooks:blood_slash",
+        "level": 4,
+        "target": "TARGET",
+        "trigger": "on_attack"
       }
     ]
   }

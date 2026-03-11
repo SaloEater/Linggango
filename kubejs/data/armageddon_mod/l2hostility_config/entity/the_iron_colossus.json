@@ -1,0 +1,87 @@
+{
+  "list": [
+    {
+  "attackScale": 0.3,
+  "blacklist": [],
+  "difficulty": {
+    "apply_chance": 1.0,
+    "base": 25,
+    "min": 50,
+    "scale": 0.0,
+    "suppression": 0.0,
+    "trait_chance": 1.0,
+    "variation": 0.0
+  },
+  "entities": [
+    "armageddon_mod:the_iron_colossus"
+  ],
+  "healthScale": 0.8,
+  "items": [
+     {
+          "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "armageddon_mod:iron_colossus_arm",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "equipment/mainhand"
+        },
+         {
+          "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "terramity:stygian_safety_talisman",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm"
+        }
+  ],
+  "maxLevel": 0,
+  "maxTraitCount": -1,
+  "minSpawnLevel": 50,
+  "specialConditions": [],
+  "traits": [
+    {
+      "cap": false,
+      "free": 2,
+      "min": 1,
+      "trait": "l2hostility:nausea"
+    },
+    {
+      "cap": false,
+      "free": 0,
+      "min": 1,
+      "trait": "l2hostility:gravity"
+    },
+    {
+      "cap": false,
+      "free": 2,
+      "min": 1,
+      "trait": "l2hostility:speedy"
+    },
+    {
+      "cap": false,
+      "free": 1,
+      "min": 1,
+      "trait": "l2hostility:slowness"
+    },
+    {
+      "cap": false,
+      "free": 1,
+      "min": 1,
+      "trait": "l2hostility:weakness"
+    }
+  ]
+}
+  ]
+}

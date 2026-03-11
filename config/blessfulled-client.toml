@@ -23,9 +23,9 @@
 	#A list of onomatopoeia expressions for melee hit popups.
 	"Melee Expressions" = ["Nice!", "Pow!", "Good Job!", "Ouchies!", "Wham!", "Thwack!", "Bonkk!", "Smack!", "Boom!", "Bam!", "Boop!", "Sliced that bum!", "Bloody!"]
 	#A list of onomatopoeia expressions for critical melee hit popups.
-	"Critical Melee Expressions" = ["GRAAH!", "LETHAL!", "KABOOM!", "SMACKED YO ASS!", "SMASH!", "ERASED!", "DEVASTATED!", "ANNIHILATE!", "DECIMATE!", "DESTROYED!", "OOF!", "GOODBYE!", "SQUISH!", "VITAL!", "EXACT!", "EAT SHIT!", "TRASH!", "SKILL ISSUE!", "GET REKT!", "BYE BITCH!", "PATHETIC!", "JESUS!", "CLEAN CUT!", "FOLDED!", "SIT DOWN DOG!", "WASTED!", "DIE!", "ERASED FROM THE VERY EXISTENCE ITSELF!", "U FUCKING AWESOME!", "BUILT-DIFFERENT!"]
+	"Critical Melee Expressions" = ["GRAAH!", "LETHAL!", "KABOOM!", "SMACKED!", "SMASH!", "ERASED!", "DEVASTATED!", "ANNIHILATE!", "DECIMATE!", "DESTROYED!", "OOF!", "GOODBYE!", "SQUISH!", "VITAL!", "EXACT!", "TRASH!", "SKILL ISSUE!", "GET REKT!", "PATHETIC!", "JESUS!", "CLEAN CUT!", "FOLDED!", "SIT DOWN DOG!", "WASTED!", "DIE!", "ERASED FROM THE VERY EXISTENCE ITSELF!", "BUILT-DIFFERENT!"]
 	#A list of onomatopoeia expressions for critical arrow effect popups.
-	"Critical Arrow Expressions" = ["HOLY SHIT!", "SPLIT-OPEN-HEAD!", "H-H-HEADSHOT!", "PIERCED THAT EMPTY ASS BRAIN!", "SNIPED EZ!", "AIMBOT?", "BRAIN SURGERY!", "LOBOTOMIZED!", "MIND BLOWN!", "SOCIAL DISTANCING!", "WHERE U AT?", "DODGE THIS!", "SLEEP TIGHT!", "MIND-BLOWING!", "HOW'D U DO THAT?!", "U COOKING!", "WOAH!", "BEST SHOT EVER? no.", "NATURAL TALENT!"]
+	"Critical Arrow Expressions" = ["HOLY SHIT!", "SPLIT-OPEN-HEAD!", "H-H-HEADSHOT!", "SNIPED EZ!", "AIMBOT?", "BRAIN SURGERY!", "LOBOTOMIZED!", "MIND BLOWN!", "SOCIAL DISTANCING!", "WHERE U AT?", "DODGE THIS!", "SLEEP TIGHT!", "MIND-BLOWING!", "HOW'D U DO THAT?!", "U COOKING!", "WOAH!", "BEST SHOT EVER? no.", "NATURAL TALENT!"]
 
 ["Hurt Overlay Configuration"]
 	#Configure the conditions to enable the entity white hurt overlay.

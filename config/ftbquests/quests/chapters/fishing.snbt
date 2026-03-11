@@ -146,7 +146,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			shape: "rsquare"
+			shape: "diamond"
 			size: 1.5d
 			subtitle: "&8[Click to read]"
 			tasks: [{

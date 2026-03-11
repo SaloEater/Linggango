@@ -944,7 +944,7 @@
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "minecraft:textures/gui/info_icon.png"
+					Icon: "jei:textures/jei/atlas/gui/icons/info.png"
 				}
 			}
 			icon_scale: 1.4d
@@ -954,7 +954,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			shape: "square"
+			shape: "circle"
 			size: 1.5d
 			subtitle: "&8[Click to read]"
 			tasks: [{
@@ -4445,7 +4445,7 @@
 		}
 		{
 			id: "1E0E4D6C260A516D"
-			subtitle: "Charm"
+			subtitle: "Charm / Needs Calculator"
 			tasks: [{
 				id: "7FD59638D3244D76"
 				item: {
@@ -4462,7 +4462,7 @@
 		}
 		{
 			id: "73D71078F270C02F"
-			subtitle: "Charm"
+			subtitle: "Charm / Needs Calculator"
 			tasks: [{
 				id: "248C85B070AEDA75"
 				item: {
@@ -4479,7 +4479,7 @@
 		}
 		{
 			id: "49C69AE279C2E49C"
-			subtitle: "Charm"
+			subtitle: "Charm / Needs Calculator"
 			tasks: [{
 				id: "384BF11898317899"
 				item: {
@@ -4496,7 +4496,7 @@
 		}
 		{
 			id: "237C65A437EF5CE2"
-			subtitle: "Charm"
+			subtitle: "Charm / Needs Calculator"
 			tasks: [{
 				id: "029788AB2721E8F1"
 				item: {
@@ -4513,7 +4513,7 @@
 		}
 		{
 			id: "22956F6809EE8ADB"
-			subtitle: "Charm"
+			subtitle: "Charm / Needs Calculator"
 			tasks: [{
 				id: "52BA22881895E513"
 				item: {
@@ -4530,7 +4530,7 @@
 		}
 		{
 			id: "56ECD8EE11A79184"
-			subtitle: "Charm"
+			subtitle: "Charm / Needs Calculator"
 			tasks: [{
 				id: "6BC1CC2B87A4AA96"
 				item: {
@@ -4547,7 +4547,7 @@
 		}
 		{
 			id: "27EBE58D827A8B4B"
-			subtitle: "Charm"
+			subtitle: "Charm / Needs Calculator"
 			tasks: [{
 				id: "05CCD3819477E7F5"
 				item: {
@@ -4564,7 +4564,7 @@
 		}
 		{
 			id: "4466C7DBC39AD0D8"
-			subtitle: "Charm"
+			subtitle: "Charm / Needs Calculator"
 			tasks: [{
 				id: "0B9422066F708F4B"
 				item: {
@@ -4581,7 +4581,7 @@
 		}
 		{
 			id: "521CDED7ED2E8CC5"
-			subtitle: "Charm"
+			subtitle: "Charm / Needs Calculator"
 			tasks: [{
 				id: "7C958D382F9CBFF9"
 				item: {

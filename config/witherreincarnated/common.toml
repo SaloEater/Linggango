@@ -1,16 +1,16 @@
 
 ["WITHER: STATS"]
-	"Health (default: 600.0)" = 2500.0
-	"Movement Speed (default: 0.0675)" = 0.0875
-	"Wither Skull Damage (default: 16.0)" = 26.0
-	"Wither Skull Explosion Damage (default: 12.0)" = 22.0
+	"Health (default: 600.0)" = 1000.0
+	"Movement Speed (default: 0.0675)" = 0.0575
+	"Wither Skull Damage (default: 16.0)" = 20.0
+	"Wither Skull Explosion Damage (default: 12.0)" = 20.0
 	"Wither Skull Explosion Size (default: 2.0)" = 4.0
-	"Dangerous Wither Skull Damage (default: 22.0)" = 54.0
+	"Dangerous Wither Skull Damage (default: 22.0)" = 20.0
 	"Dangerous Wither Skull Explosion Damage (default: 18.0)" = 18.0
 	"Dangerous Wither Skull Explosion Size (default: 5.0)" = 5.0
-	"Dangerous Wither Skull Deflected Damage (default: 30.0)" = 60.0
-	"Laser Damage (default: 3.0)" = 8.0
-	"Charge Damage (default: 30.0)" = 100.0
+	"Dangerous Wither Skull Deflected Damage (default: 30.0)" = 20.0
+	"Laser Damage (default: 3.0)" = 6.0
+	"Charge Damage (default: 30.0)" = 25.0
 	"Charge Disable Shield Time (in ticks, default: 400)" = 400
 
 ["WITHER: AI"]
@@ -25,7 +25,7 @@
 	"Max Laser Length (default: 128)" = 128
 	"Disable Barrage Attack (default: false)" = false
 	"Min Barrage Cooldown (in ticks, default: 1200)" = 1200
-	"Max Barrage Cooldown (in ticks, default: 3600)" = 1500
+	"Max Barrage Cooldown (in ticks, default: 3600)" = 3600
 
 ["WITHER: OTHER"]
 	"Changes Time (default: true)" = true

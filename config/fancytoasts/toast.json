@@ -1,5 +1,5 @@
 {
-  "textureId": "fancytoasts:textures/toast/terracraft.png",
+  "textureId": "fancytoasts:textures/toast/landspaper.png",
   "animationId": "fancytoasts:animations/toast/standard",
   "soundIds": {
     "TASK": "minecraft:entity.allay.ambient_with_item",
